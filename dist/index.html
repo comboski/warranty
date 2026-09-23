@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combo Ski | Garanční prohlídka</title>
+  <meta name="description" content="Interaktivní kontrola správného nasazení, bezpečné jízdy a péče o Combo Ski.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23101826'/%3E%3Cpath d='M7 21c6 3 13 3 19-1' fill='none' stroke='%23ffcc33' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M9 10h11l4 8H8z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="prototype-note" data-i18n="prototype">Prototyp · údaje se zatím nikam neodesílají</div>
+
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Combo Ski">
+        <img src="assets/logo-combo-ski.svg" alt="Combo Ski">
+      </a>
+      <div class="language-menu-wrap">
+        <button class="language-shortcut" id="languageShortcut" type="button" aria-label="Změnit jazyk" aria-haspopup="true" aria-expanded="false"><span aria-hidden="true">🇨🇿</span> CS <span class="language-chevron" aria-hidden="true">▾</span></button>
+        <div class="language-menu hidden" id="languageMenu" role="menu" aria-label="Změnit jazyk">
+          <button type="button" role="menuitem" data-switch-lang="cs"><span aria-hidden="true">🇨🇿</span> Čeština</button>
+          <button type="button" role="menuitem" data-switch-lang="en"><span aria-hidden="true">🇬🇧</span> English</button>
+          <button type="button" role="menuitem" disabled><span aria-hidden="true">🇩🇪</span> Deutsch <small>Připravujeme</small></button>
+          <button type="button" role="menuitem" disabled><span aria-hidden="true">🇵🇱</span> Polski <small>Připravujeme</small></button>
+          <button type="button" role="menuitem" disabled><span aria-hidden="true">🇸🇰</span> Slovenčina <small>Připravujeme</small></button>
+          <button type="button" role="menuitem" disabled><span aria-hidden="true">🇫🇷</span> Français <small>Připravujeme</small></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="language-screen" id="languageScreen" aria-labelledby="languageTitle">
+      <div class="warranty-intro">
+        <p class="eyebrow" data-i18n="welcomeEyebrow">GARANČNÍ PROHLÍDKA COMBO SKI</p>
+        <h1 id="languageTitle" data-i18n="welcomeTitle">Než vyrazíte na sníh</h1>
+        <p class="lead" data-i18n="welcomeLead"><strong>Dokončete tohoto krátkého průvodce pro splnění pravidel záruky.</strong> Ukážeme vám správné nastavení, bezpečné používání a péči o Combo Ski.</p>
+        <div class="warranty-message">
+          <span class="warranty-message-icon" aria-hidden="true">!</span>
+          <p data-i18n="welcomeRequired"><strong>Průvodce je potřeba dokončit.</strong><br>Na konci zadáte e-mail a zaznamenáme splnění garanční prohlídky.</p>
+        </div>
+        <div class="warranty-reward">
+          <span class="warranty-years">3</span>
+          <p data-i18n="welcomeReward"><strong>Můžete získat 3 roky záruky</strong><br><small>Po dokončení průvodce můžete získat třetí rok záruky.</small></p>
+        </div>
+      </div>
+      <div class="language-picker">
+        <div class="language-picker-heading">
+          <h2 data-i18n="chooseLanguage">Vyberte jazyk</h2>
+          <span data-i18n="durationNote">Zabere přibližně 4 minuty</span>
+        </div>
+        <div class="language-grid" aria-label="Výběr jazyka">
+          <button class="language-card language-card-selected" type="button" data-lang="cs" aria-pressed="true"><span class="flag" aria-hidden="true">🇨🇿</span><span class="language-name">Čeština</span><small>Vybráno</small></button>
+          <button class="language-card" type="button" data-lang="en" aria-pressed="false"><span class="flag" aria-hidden="true">🇬🇧</span><span class="language-name">English</span><small>Select</small></button>
+          <button class="language-card language-card-soon" type="button" disabled><span class="flag" aria-hidden="true">🇩🇪</span><span class="language-name">Deutsch</span><small>Připravujeme</small></button>
+          <button class="language-card language-card-soon" type="button" disabled><span class="flag" aria-hidden="true">🇵🇱</span><span class="language-name">Polski</span><small>Připravujeme</small></button>
+          <button class="language-card language-card-soon" type="button" disabled><span class="flag" aria-hidden="true">🇸🇰</span><span class="language-name">Slovenčina</span><small>Připravujeme</small></button>
+          <button class="language-card language-card-soon" type="button" disabled><span class="flag" aria-hidden="true">🇫🇷</span><span class="language-name">Français</span><small>Připravujeme</small></button>
+        </div>
+        <button class="button button-primary language-start" id="startButton" type="button" data-i18n="startGuide">Začít garanční prohlídku</button>
+      </div>
+    </section>
+
+    <section class="course hidden" id="course" aria-live="polite">
+      <div class="progress-wrap">
+        <div class="progress-meta"><span id="progressLabel">Krok 1 z 6</span><span id="progressPercent">17 %</span></div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+
+      <article class="lesson-card" id="lessonCard">
+        <div class="lesson-index" id="lessonIndex">01</div>
+        <p class="eyebrow" id="lessonEyebrow">BEZPEČNÝ START</p>
+        <h1 id="lessonTitle"></h1>
+        <p class="lesson-intro" id="lessonIntro"></p>
+        <div class="lesson-media-layout">
+          <div class="video-panel" id="videoPanel" role="region" aria-label="Video k této kapitole">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="video-copy"><b id="videoTitle">Video k této části</b><small id="videoNote">Obsah videa doplníme z dodaného materiálu</small></span>
+            <span class="video-time">00:30</span>
+          </div>
+          <ul class="lesson-points" id="lessonPoints"></ul>
+        </div>
+        <section class="quiz" id="quiz" aria-labelledby="quizTitle">
+          <div class="quiz-heading"><h2 id="quizTitle">Kontrolní otázky</h2><span id="quizCount">3 otázky</span></div>
+          <div id="quizQuestions"></div>
+          <p class="feedback" id="feedback" role="status"></p>
+        </section>
+      </article>
+
+      <div class="lesson-actions">
+        <button class="button button-ghost" id="backButton" type="button">Zpět</button>
+        <button class="button button-primary" id="continueButton" type="button">Zkontrolovat odpověď</button>
+      </div>
+    </section>
+
+    <section class="registration hidden" id="registration" aria-labelledby="registrationTitle">
+      <div class="completion-badge" aria-hidden="true">✓</div>
+      <p class="eyebrow" data-i18n="completeEyebrow">PROHLÍDKA DOKONČENA</p>
+      <h1 id="registrationTitle" data-i18n="completeTitle">Znáte základy bezpečného používání</h1>
+      <p class="lead" data-i18n="completeLead">Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci a potvrzení registrace.</p>
+
+      <form id="registrationForm" novalidate>
+        <div class="form-grid">
+          <label class="field"><span>E-mail <b aria-label="povinné">*</b></span><input id="email" name="email" type="email" autocomplete="email" required placeholder="vas@email.cz"></label>
+          <label class="field"><span data-i18n="orderLabel">Číslo objednávky <em>dobrovolné</em></span><input id="orderNumber" name="orderNumber" type="text" autocomplete="off" placeholder="např. 202600123"></label>
+        </div>
+
+        <fieldset class="warranty-choice">
+          <legend data-i18n="chooseRegistration">Vyberte typ registrace</legend>
+          <label class="choice-card">
+            <input type="radio" name="warranty" value="standard">
+            <span><strong data-i18n="standardTitle">Standardní registrace</strong><small data-i18n="standardText">Bez odběru newsletteru. Vaše zákonná práva tím nejsou dotčena.</small></span>
+          </label>
+          <label class="choice-card choice-featured">
+            <input type="radio" name="warranty" value="extended">
+            <span class="choice-copy"><strong data-i18n="extendedTitle">3letá obchodní záruka</strong><small data-i18n="extendedText">Přihlásíte se k newsletteru a získáte třetí rok záruky.</small></span>
+            <span class="year-badge">3 ROKY</span>
+          </label>
+        </fieldset>
+
+        <div class="extended-consents hidden" id="extendedConsents">
+          <label class="check-row"><input type="checkbox" id="newsletterConsent"><span data-i18n="newsletterConsent">Přihlašuji se k odběru novinek, praktických tipů a nabídek Combo Ski. Souhlas mohu kdykoliv odvolat.</span></label>
+          <label class="check-row"><input type="checkbox" id="warrantyTerms"><span data-i18n="termsConsent">Seznámil/a jsem se s podmínkami tříleté obchodní záruky.</span></label>
+        </div>
+
+        <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Toto je prototyp; odkazy na finální podmínky a ochranu osobních údajů budou doplněny před spuštěním.</p>
+        <p class="form-error" id="formError" role="alert"></p>
+        <button class="button button-primary button-full" type="submit" data-i18n="submit">Dokončit registraci</button>
+      </form>
+    </section>
+
+    <section class="success hidden" id="success" aria-labelledby="successTitle">
+      <div class="success-icon" aria-hidden="true">✓</div>
+      <p class="eyebrow" data-i18n="successEyebrow">HOTOVO</p>
+      <h1 id="successTitle">Registrace je připravena</h1>
+      <p class="lead" id="successMessage"></p>
+      <div class="certificate"><span data-i18n="certificate">Potvrzení registrace</span><strong id="certificateType"></strong><small id="certificateEmail"></small></div>
+      <button class="button button-ghost" id="restartButton" type="button" data-i18n="restart">Projít znovu</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
