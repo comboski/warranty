@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="prototype-note" data-i18n="prototype">Prototyp · údaje se zatím nikam neodesílají</div>
+  <div class="prototype-note" data-i18n="prototype">Registrace se bezpečně ukládá</div>
 
   <main class="app-shell">
     <header class="topbar">
@@ -99,9 +99,9 @@
       <p class="lead" data-i18n="completeLead">Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci a potvrzení registrace.</p>
 
       <form id="registrationForm" novalidate>
+        <label class="honeypot" aria-hidden="true">Web<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></label>
         <div class="form-grid">
           <label class="field"><span>E-mail <b aria-label="povinné">*</b></span><input id="email" name="email" type="email" autocomplete="email" required placeholder="vas@email.cz"></label>
-          <label class="field"><span data-i18n="orderLabel">Číslo objednávky <em>dobrovolné</em></span><input id="orderNumber" name="orderNumber" type="text" autocomplete="off" placeholder="např. 202600123"></label>
         </div>
 
         <fieldset class="warranty-choice">
@@ -122,16 +122,16 @@
           <label class="check-row"><input type="checkbox" id="warrantyTerms"><span data-i18n="termsConsent">Seznámil/a jsem se s podmínkami tříleté obchodní záruky.</span></label>
         </div>
 
-        <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Toto je prototyp; odkazy na finální podmínky a ochranu osobních údajů budou doplněny před spuštěním.</p>
+        <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Odesláním formuláře potvrzujete, že uvedené údaje mohou být použity pro evidenci záruky.</p>
         <p class="form-error" id="formError" role="alert"></p>
-        <button class="button button-primary button-full" type="submit" data-i18n="submit">Dokončit registraci</button>
+        <button class="button button-primary button-full" id="submitButton" type="submit" data-i18n="submit">Dokončit registraci</button>
       </form>
     </section>
 
     <section class="success hidden" id="success" aria-labelledby="successTitle">
       <div class="success-icon" aria-hidden="true">✓</div>
       <p class="eyebrow" data-i18n="successEyebrow">HOTOVO</p>
-      <h1 id="successTitle">Registrace je připravena</h1>
+      <h1 id="successTitle">Registrace byla uložena</h1>
       <p class="lead" id="successMessage"></p>
       <div class="certificate"><span data-i18n="certificate">Potvrzení registrace</span><strong id="certificateType"></strong><small id="certificateEmail"></small></div>
       <button class="button button-ghost" id="restartButton" type="button" data-i18n="restart">Projít znovu</button>

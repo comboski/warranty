@@ -19,6 +19,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-size: 16px; 
 button, input { font: inherit; }
 button { cursor: pointer; }
 .hidden { display: none !important; }
+.honeypot { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
 .prototype-note { background: var(--red); color: white; padding: .45rem 1rem; text-align: center; font-size: .78rem; font-weight: 750; letter-spacing: .03em; }
 .app-shell { width: min(100%, 1180px); min-height: calc(100vh - 34px); margin: 0 auto; padding: 0 22px 56px; }
 .topbar { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; padding: 18px 20px; border-radius: 18px; background: var(--ink); }
@@ -156,7 +157,7 @@ button { cursor: pointer; }
 .button:focus-visible, input:focus-visible { outline: 3px solid rgba(214,61,44,.28); outline-offset: 2px; }
 .registration, .success { margin-top: 14px; }
 .completion-badge, .success-icon { display: grid; place-items: center; width: 58px; height: 58px; margin-bottom: 22px; border-radius: 18px; color: var(--ink); background: var(--lime); font-size: 1.7rem; font-weight: 950; }
-.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.form-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
 .field { display: grid; gap: 7px; font-weight: 780; }
 .field em { color: var(--muted); font-size: .78rem; font-style: normal; font-weight: 600; }
 .field input { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid #bec7d4; border-radius: 12px; background: white; }
