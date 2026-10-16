@@ -1,0 +1,29 @@
+name: Publish warranty guide to GitHub Pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Require configured registration service
+        run: |
+          test -f public/guide/registration-config.js
+          grep -q 'https://script.google.com/macros/s/' public/guide/registration-config.js
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public/guide
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

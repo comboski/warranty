@@ -20,6 +20,9 @@ function doPost(e) {
     if (!sheet) throw new Error('List registrací nebyl nalezen.');
     const last = sheet.getLastRow();
     if (last >= 6 && sheet.getRange(6, 1, last - 5, 1).getValues().some(row => row[0] === p.id)) return json_({ok:true, id:p.id});
+    const cache = CacheService.getScriptCache();
+    const cacheKey = 'email:' + Utilities.base64EncodeWebSafe(email);
+    if (cache.get(cacheKey)) throw new Error('Please wait');
     const now = new Date().toISOString();
     const safe = value => /^[=+@\-\t\r]/.test(String(value)) ? "'" + value : String(value);
     sheet.getRange(Math.max(6, last + 1), 1, 1, 12).setValues([[
@@ -29,6 +32,7 @@ function doPost(e) {
       safe(String(p.source || 'direct').slice(0,60)), '1.2', '', extended ? safe(social) : ''
     ]]);
     SpreadsheetApp.flush();
+    cache.put(cacheKey, '1', 60);
     return json_({ok:true, id:p.id});
   } catch (error) {
     return json_({ok:false, error:'Registraci se nepodařilo uložit. Zkontrolujte údaje a zkuste to znovu.'});

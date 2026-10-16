@@ -190,9 +190,17 @@ $("registrationForm").addEventListener("submit",async event=>{
   let source="direct";
   try{const parentUrl=new URL(document.referrer);source=parentUrl.searchParams.get("source")||"direct";}catch{}
   try{
-    const response=await fetch("/api/register",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email,warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value})});
+    source=new URLSearchParams(location.search).get("source")||source;
+    const payload={email,warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value};
+    const signature=JSON.stringify(payload);
+    let pending;
+    try{pending=JSON.parse(sessionStorage.getItem("combo-pending-registration")||"null");}catch{}
+    if(!pending||pending.signature!==signature){pending={signature,id:crypto.randomUUID()};try{sessionStorage.setItem("combo-pending-registration",JSON.stringify(pending));}catch{}}
+    const endpoint=window.COMBO_REGISTRATION_URL||"/api/register";
+    const response=await fetch(endpoint,{method:"POST",credentials:"omit",headers:{"Content-Type":window.COMBO_REGISTRATION_URL?"text/plain;charset=UTF-8":"application/json"},body:JSON.stringify({...payload,id:pending.id}),signal:AbortSignal.timeout(45000)});
     const result=await response.json();
-    if(!response.ok)throw new Error(result.error||copy[lang].formSaveError);
+    if(!response.ok||result.ok!==true)throw new Error(result.error||copy[lang].formSaveError);
+    try{sessionStorage.removeItem("combo-pending-registration");}catch{}
     $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").textContent=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;$("certificateType").textContent=type==="extended"?copy[lang].extendedCertificate:copy[lang].standardCertificate;$("certificateEmail").textContent=email;window.scrollTo({top:0,behavior:"smooth"});
   }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
