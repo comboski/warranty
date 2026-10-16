@@ -87,7 +87,7 @@ Object.assign(copy.en,{
 Object.assign(copy.cs,{
   completeLead:"Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci registrace.",
   extendedTitle:"Prodlužte si záruku na 3 roky!",extendedCertificate:"Záruka prodloužená na 3 roky",newsletterRequired:"Pro prodloužení záruky na 3 roky je potřeba zaškrtnout souhlas s odběrem novinek.",
-  newsletterOfferTitle:"Buďte o krok napřed",newsletterOfferLead:"Praktické tipy pro bezpečnější a zábavnější jízdu, návody, novinky a výhodné nabídky Combo Ski přímo do e-mailu.",newsletterConsent:"Chci dostávat tipy, návody, novinky a nabídky Combo Ski. Souhlas mohu kdykoliv odvolat.",
+  newsletterOfferTitle:"Buďte o krok napřed",newsletterOfferLead:"Praktické tipy pro bezpečnější a zábavnější jízdu, návody, novinky a výhodné nabídky Combo Ski přímo do e-mailu.",standardNewsletterConsent:"Chci dostávat tipy, návody, novinky a nabídky Combo Ski. Souhlas mohu kdykoliv odvolat.",newsletterConsent:"Přihlašuji se k odběru novinek, praktických tipů a nabídek Combo Ski. Souhlas mohu kdykoliv odvolat.",
   socialProofLabel:"Název vašeho IG/FB účtu <b aria-label=povinné>*</b>",socialProofHelp:"Podle názvu účtu spárujeme označení s vaší registrací.",pairingNote:"<strong>Co se stane potom?</strong> Jakmile se označený příspěvek nebo story objeví, ověříme jej a spárujeme s registrací podle názvu účtu.",socialPostConsent:"Potvrzuji, že jsem zveřejnil/a nebo zveřejním příspěvek či story s viditelným produktem a označím <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",formSocialProof:"Zadejte název vašeho IG nebo FB účtu.",formSocialPost:"Potvrďte, že jste zveřejnil/a nebo zveřejníte příspěvek či story a označíte náš profil.",
   extendedText:"Po dokončení průvodce můžete požádat o prodloužení záruky ze 2 na 3 roky.",
   programEyebrow:"PRODLOUŽENÁ ZÁRUKA COMBO SKI",programTitle:"Prodlužte si záruku ze 2 na 3 roky",programLead:"Vyplňte údaje níže. E-mail použijeme pro evidenci registrace a spárování s příspěvkem nebo story.",programTiming:"<strong>Nemusíte čekat na hory.</strong> Combo Ski můžete vyfotit už při rozbalování nebo je ukázat v akci.",programExampleCaption:"Ukázka příspěvku nebo story: produkt je dobře vidět a profil Combo Ski je označený.",programTermsTitle:"Podmínky prodloužení záruky",programTermProduct:"Na fotografii nebo videu musí být produkt Combo Ski zřetelně viditelný.",programTermTag:"V příspěvku nebo story označte <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",
@@ -96,7 +96,7 @@ Object.assign(copy.cs,{
 Object.assign(copy.en,{
   completeLead:"You can now register your product. We use your email to record the registration.",
   extendedTitle:"Extend your warranty to 3 years!",extendedCertificate:"Warranty extended to 3 years",newsletterRequired:"To extend the warranty to 3 years, please select the consent to receive news.",
-  newsletterOfferTitle:"Stay one step ahead",newsletterOfferLead:"Practical tips for safer and more enjoyable rides, how-to guides, news and special Combo Ski offers delivered to your inbox.",newsletterConsent:"I would like to receive Combo Ski tips, guides, news and offers. I can withdraw my consent at any time.",
+  newsletterOfferTitle:"Stay one step ahead",newsletterOfferLead:"Practical tips for safer and more enjoyable rides, how-to guides, news and special Combo Ski offers delivered to your inbox.",standardNewsletterConsent:"I would like to receive Combo Ski tips, guides, news and offers. I can withdraw my consent at any time.",newsletterConsent:"I subscribe to Combo Ski news, practical tips and offers. I may withdraw my consent at any time.",
   socialProofLabel:"Your IG/FB account name <b aria-label=required>*</b>",socialProofHelp:"We use the account name to match the tag with your registration.",pairingNote:"<strong>What happens next?</strong> Once the tagged post or story appears, we will verify it and match it with the registration using the account name.",socialPostConsent:"I confirm that I have published or will publish a post or story showing the product and will tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook.",formSocialProof:"Enter your IG or FB account name.",formSocialPost:"Confirm that you have published or will publish a post or story and will tag our profile.",
   extendedText:"After completing the guide, you can apply to extend the warranty from 2 to 3 years.",
   programEyebrow:"COMBO SKI EXTENDED WARRANTY",programTitle:"Extend your warranty from 2 to 3 years",programLead:"Complete the details below. We use your email to record the registration and match it with the post or story.",programTiming:"<strong>You do not need to wait for a mountain trip.</strong> Photograph Combo Ski while unboxing them or show them in action.",programExampleCaption:"Example post or story: the product is clearly visible and the Combo Ski profile is tagged.",programTermsTitle:"Extended warranty terms",programTermProduct:"The Combo Ski product must be clearly visible in the photo or video.",programTermTag:"Tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook in the post or story.",
@@ -169,13 +169,14 @@ document.querySelectorAll("[data-switch-lang]").forEach(button=>button.addEventL
 document.addEventListener("click",closeLanguageMenu);
 document.addEventListener("keydown",event=>{if(event.key==="Escape")closeLanguageMenu();});
 $("continueButton").addEventListener("click",handleContinue); $("backButton").addEventListener("click",()=>{if(step>0){step--;renderLesson();}else{$("course").classList.add("hidden");$("languageScreen").classList.remove("hidden");}window.scrollTo({top:0,behavior:"smooth"});});
-document.querySelectorAll('input[name="warranty"]').forEach(radio=>radio.addEventListener("change",event=>{$("extendedConsents").classList.toggle("hidden",event.target.value!=="extended");$("newsletterError").classList.add("hidden");$("formError").textContent="";}));
+document.querySelectorAll('input[name="warranty"]').forEach(radio=>radio.addEventListener("change",event=>{const type=event.target.value;$("extendedConsents").classList.toggle("hidden",type!=="extended");$("standardNewsletterOffer").classList.toggle("hidden",type!=="standard");$("newsletterError").classList.add("hidden");$("formError").textContent="";}));
 $("newsletterConsent").addEventListener("change",()=>{if($("newsletterConsent").checked)$("newsletterError").classList.add("hidden");});
 $("registrationForm").addEventListener("submit",async event=>{
   event.preventDefault();
   const email=$("email").value.trim();
   const type=document.querySelector('input[name="warranty"]:checked')?.value;
   const socialProof=$("socialProof").value.trim();
+  const marketingConsent=type==="extended"?$("newsletterConsent").checked:$("standardNewsletterConsent").checked;
   const submit=$("submitButton");
   $("newsletterError").classList.add("hidden");
   if(!/^\S+@\S+\.\S+$/.test(email)){$("formError").textContent=copy[lang].formEmail;return;}
@@ -187,13 +188,13 @@ $("registrationForm").addEventListener("submit",async event=>{
   let source="direct";
   try{const parentUrl=new URL(document.referrer);source=parentUrl.searchParams.get("source")||"direct";}catch{}
   try{
-    const response=await fetch("/api/register",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email,warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent:$("newsletterConsent").checked,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value})});
+    const response=await fetch("/api/register",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email,warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value})});
     const result=await response.json();
     if(!response.ok)throw new Error(result.error||copy[lang].formSaveError);
     $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").textContent=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;$("certificateType").textContent=type==="extended"?copy[lang].extendedCertificate:copy[lang].standardCertificate;$("certificateEmail").textContent=email;window.scrollTo({top:0,behavior:"smooth"});
   }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
-$("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");$("newsletterError").classList.add("hidden");startCourse(lang);});
+$("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");$("standardNewsletterOffer").classList.add("hidden");$("newsletterError").classList.add("hidden");startCourse(lang);});
 setLanguage("cs");
 if(new URLSearchParams(window.location.search).get("test")==="1")$("testSkipButton").classList.remove("hidden");
