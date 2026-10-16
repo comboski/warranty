@@ -227,6 +227,14 @@ button { cursor: pointer; }
 .certificate { display: grid; width: min(100%, 460px); gap: 6px; margin: 28px auto; padding: 24px; border: 2px dashed #b9c2cf; border-radius: 18px; background: #fbfcfe; }
 .certificate span, .certificate small { color: var(--muted); }
 .certificate strong { font-size: 1.35rem; }
+.community-card { display: grid; grid-template-columns: 72px 1fr; gap: 20px; align-items: start; width: min(100%, 670px); margin: 30px auto 22px; padding: 24px; border: 1px solid #cfe0fa; border-radius: 20px; background: linear-gradient(135deg, #f4f8ff 0%, #fff 72%); box-shadow: 0 12px 30px rgba(24,119,242,.09); text-align: left; }
+.community-logo { display: grid; place-items: center; width: 72px; height: 72px; border-radius: 20px; color: white; background: #1877f2; box-shadow: 0 8px 20px rgba(24,119,242,.24); }
+.community-logo svg { width: 46px; height: 46px; fill: currentColor; }
+.community-copy h2 { margin: 3px 0 8px; font-size: clamp(1.3rem, 4vw, 1.75rem); letter-spacing: -.025em; }
+.community-copy > p:not(.community-eyebrow) { margin: 0 0 17px; color: #4f5b6b; line-height: 1.55; }
+.community-eyebrow { margin: 0; color: #1877f2; font-size: .72rem; font-weight: 900; letter-spacing: .1em; }
+.community-button { display: inline-flex; justify-content: center; color: white; background: #1877f2; text-decoration: none; box-shadow: 0 8px 18px rgba(24,119,242,.2); }
+.community-button:hover { background: #0f68dc; }
 
 @media (min-width: 900px) {
   .lesson-media-layout { display: grid; grid-template-columns: minmax(320px, 420px) minmax(0, 1fr); align-items: start; gap: 24px; margin: 28px 0 22px; }
@@ -256,6 +264,9 @@ button { cursor: pointer; }
   .social-profile { grid-template-columns: 42px 1fr; }
   .social-logo { width: 42px; height: 42px; }
   .profile-open { display: none; }
+  .community-card { grid-template-columns: 1fr; padding: 20px; text-align: center; }
+  .community-logo { margin-inline: auto; }
+  .community-button { width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
