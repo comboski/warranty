@@ -63,6 +63,9 @@ button { cursor: pointer; }
 .language-card-soon { cursor: default; opacity: .52; }
 .language-card-soon:hover { transform: none; border-color: var(--line); box-shadow: none; }
 .language-start { display: block; width: min(100%, 360px); margin: 22px 0 0 auto; }
+.language-skip { display: block; width: min(100%, 360px); margin: 10px 0 0 auto; }
+.button-test { border-color: #e2a83b; color: #724a00; background: #fff4d9; }
+.button-test:hover { background: #ffe9b5; }
 .course { padding-top: 14px; }
 .progress-wrap { position: sticky; top: 0; z-index: 5; padding: 12px 0 16px; background: linear-gradient(var(--paper) 76%, transparent); }
 .progress-meta { display: flex; justify-content: space-between; color: var(--muted); font-size: .82rem; font-weight: 750; }
