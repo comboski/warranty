@@ -14,6 +14,7 @@ export async function POST(request: Request) {
     const payload = (await request.json()) as {
       email?: string;
       warrantyType?: string;
+      socialProof?: string;
       marketingConsent?: boolean;
       warrantyTermsConsent?: boolean;
       language?: string;
@@ -27,6 +28,7 @@ export async function POST(request: Request) {
 
     const email = payload.email?.trim().toLowerCase() ?? "";
     const warrantyType = payload.warrantyType === "extended" ? "extended" : payload.warrantyType === "standard" ? "standard" : "";
+    const socialProof = payload.socialProof?.trim() ?? "";
     const marketingConsent = payload.marketingConsent === true;
     const warrantyTermsConsent = payload.warrantyTermsConsent === true;
 
@@ -36,8 +38,8 @@ export async function POST(request: Request) {
     if (!warrantyType) {
       return Response.json({ error: "Vyberte typ registrace." }, { status: 400 });
     }
-    if (warrantyType === "extended" && (!marketingConsent || !warrantyTermsConsent)) {
-      return Response.json({ error: "Pro tříletou záruku potvrďte oba souhlasy." }, { status: 400 });
+    if (warrantyType === "extended" && (socialProof.length < 2 || socialProof.length > 300 || !marketingConsent || !warrantyTermsConsent)) {
+      return Response.json({ error: "Pro tříletou záruku vyplňte odkaz nebo název účtu, potvrďte příspěvek a udělte marketingový souhlas." }, { status: 400 });
     }
 
     const id = crypto.randomUUID();
@@ -46,12 +48,13 @@ export async function POST(request: Request) {
       id,
       email,
       warrantyType,
+      socialProof: warrantyType === "extended" ? socialProof : null,
       marketingConsent: warrantyType === "extended" && marketingConsent,
       marketingConsentAt: warrantyType === "extended" && marketingConsent ? now : null,
       warrantyTermsConsent: warrantyType === "extended" && warrantyTermsConsent,
       language: payload.language === "en" ? "en" : "cs",
       source: (payload.source ?? "direct").slice(0, 60),
-      guideVersion: "1.0",
+      guideVersion: "1.1",
     });
 
     return Response.json({ ok: true, id }, { status: 201, headers: { "Cache-Control": "no-store" } });

@@ -174,6 +174,10 @@ button { cursor: pointer; }
 .choice-featured { border-color: #82c66b; background: #f4fff0; }
 .year-badge { position: absolute; right: 15px; top: 15px; padding: 5px 8px; border-radius: 8px; color: var(--ink); background: var(--lime); font-size: .7rem; font-weight: 950; }
 .extended-consents { display: grid; gap: 10px; margin: 16px 0; padding: 18px; border-radius: 16px; background: #f3f6fa; }
+.social-tag-callout { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 10px; margin-bottom: 6px; padding: 15px; border: 1px solid #a9dd98; border-radius: 13px; background: #f1ffed; }
+.social-tag-callout strong { width: 100%; }
+.social-tag-callout a { color: var(--ink); font-weight: 900; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.social-tag-callout span { color: var(--muted); font-size: .85rem; }
 .check-row { display: flex; align-items: flex-start; gap: 11px; }
 .check-row input { flex: 0 0 auto; margin-top: 5px; accent-color: var(--red); }
 .legal-note { color: var(--muted); font-size: .82rem; }

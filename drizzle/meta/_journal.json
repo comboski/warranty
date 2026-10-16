@@ -8,6 +8,13 @@
       "when": 1792145844416,
       "tag": "0000_moaning_owl",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792147567075,
+      "tag": "0001_premium_baron_strucker",
+      "breakpoints": true
     }
   ]
 }

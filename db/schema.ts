@@ -6,6 +6,7 @@ export const registrations = sqliteTable("registrations", {
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
   email: text("email").notNull(),
   warrantyType: text("warranty_type").notNull(),
+  socialProof: text("social_proof"),
   marketingConsent: integer("marketing_consent", { mode: "boolean" }).notNull().default(false),
   marketingConsentAt: text("marketing_consent_at"),
   warrantyTermsConsent: integer("warranty_terms_consent", { mode: "boolean" }).notNull().default(false),
