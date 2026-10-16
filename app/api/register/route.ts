@@ -39,7 +39,7 @@ export async function POST(request: Request) {
       return Response.json({ error: "Vyberte typ registrace." }, { status: 400 });
     }
     if (warrantyType === "extended" && (socialProof.length < 2 || socialProof.length > 300 || !marketingConsent || !warrantyTermsConsent)) {
-      return Response.json({ error: "Pro tříletou záruku vyplňte odkaz nebo název účtu, potvrďte příspěvek a udělte marketingový souhlas." }, { status: 400 });
+      return Response.json({ error: "Pro tříletou záruku vyplňte název účtu, potvrďte příspěvek nebo story a udělte marketingový souhlas." }, { status: 400 });
     }
 
     const id = crypto.randomUUID();
@@ -49,12 +49,12 @@ export async function POST(request: Request) {
       email,
       warrantyType,
       socialProof: warrantyType === "extended" ? socialProof : null,
-      marketingConsent: warrantyType === "extended" && marketingConsent,
-      marketingConsentAt: warrantyType === "extended" && marketingConsent ? now : null,
+      marketingConsent,
+      marketingConsentAt: marketingConsent ? now : null,
       warrantyTermsConsent: warrantyType === "extended" && warrantyTermsConsent,
       language: payload.language === "en" ? "en" : "cs",
       source: (payload.source ?? "direct").slice(0, 60),
-      guideVersion: "1.1",
+      guideVersion: "1.2",
     });
 
     return Response.json({ ok: true, id }, { status: 201, headers: { "Cache-Control": "no-store" } });
