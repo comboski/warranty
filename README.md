@@ -2,6 +2,14 @@
 
 Interaktivní průvodce pro zákazníky Combo Ski. Obsahuje instruktážní kapitoly, kontrolní otázky a registraci standardní nebo tříleté obchodní záruky.
 
+## GitHub Pages
+
+Veřejný web: https://comboski.github.io/warranty/
+
+GitHub Actions workflow `pages.yml` publikuje obsah `public/guide` při ručním spuštění. Formulář posílá data jako JSON s typem `text/plain` na Google Apps Script nastavený v `public/guide/registration-config.js`. Úspěch se zobrazí pouze po odpovědi `ok: true`. Opakovaný pokus používá stejné ID, aby nevznikaly duplicity.
+
+Google skript běží pod účtem `ondrej@severgear.com`, zapisuje do neveřejného listu `Registrace` a neposkytuje čtecí rozhraní. Zdroj je v `google-apps-script/Code.gs`. Původní nasazení Sites používá samostatnou databázi; jeho registrace se nadále synchronizují původní automatizací. Při změnách skriptu je nutné publikovat novou verzi jeho implementace v Apps Script.
+
 ## Funkce
 
 - česká a anglická verze
