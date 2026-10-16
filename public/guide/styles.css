@@ -72,6 +72,8 @@ button { cursor: pointer; }
 .lesson-card h1, .registration h1, .success h1 { max-width: 680px; font-size: clamp(2rem, 5.4vw, 3.65rem); }
 .lesson-index { position: absolute; top: 28px; right: 34px; color: #e6eaf0; font-size: 4rem; font-weight: 950; line-height: 1; }
 .lesson-intro { max-width: 650px; color: var(--muted); font-size: 1.06rem; }
+.video-column { min-width: 0; }
+.video-heading { margin: 0 0 12px; font-size: 1.35rem; letter-spacing: -.025em; }
 .video-panel { position: relative; display: flex; align-items: center; gap: 15px; min-height: 150px; margin: 28px 0; padding: 24px; overflow: hidden; border-radius: 22px; color: white; background-color: var(--ink); background-repeat: no-repeat; background-size: cover; }
 .video-panel::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,24,38,.97), rgba(16,24,38,.6) 60%, rgba(16,24,38,.18)); }
 .video-safety { background-image: url('assets/manual-ski-mode.png'); background-position: center 5%; }
@@ -80,7 +82,7 @@ button { cursor: pointer; }
 .video-snowshoe { background-image: url('assets/manual-snowshoe-mode.png'); background-position: center 47%; }
 .video-care { background-image: url('assets/manual-snowshoe-mode.png'); background-position: center 9%; }
 .video-play, .video-copy, .video-time { position: relative; z-index: 1; }
-.video-live { display: block; width: min(100%, 420px); min-height: 0; margin: 28px auto; padding: 0; background: #000; aspect-ratio: 9 / 16; }
+.video-live { display: block; width: min(100%, 420px); min-height: 0; margin: 0 auto; padding: 0; background: #000; aspect-ratio: 9 / 16; }
 .video-live::before { display: none; }
 .video-live video { display: block; width: 100%; height: 100%; border-radius: inherit; object-fit: contain; background: #000; }
 .video-live .video-time { position: absolute; top: 12px; right: 12px; pointer-events: none; }
@@ -175,6 +177,7 @@ button { cursor: pointer; }
 .check-row { display: flex; align-items: flex-start; gap: 11px; }
 .check-row input { flex: 0 0 auto; margin-top: 5px; accent-color: var(--red); }
 .legal-note { color: var(--muted); font-size: .82rem; }
+.legal-note a { color: var(--ink); font-weight: 800; text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
 .form-error { color: var(--red); font-weight: 700; }
 .button-full { width: 100%; margin-top: 8px; }
 .success { text-align: center; }

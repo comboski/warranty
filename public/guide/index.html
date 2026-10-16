@@ -72,10 +72,13 @@
         <h1 id="lessonTitle"></h1>
         <p class="lesson-intro" id="lessonIntro"></p>
         <div class="lesson-media-layout">
-          <div class="video-panel" id="videoPanel" role="region" aria-label="Video k této kapitole">
-            <span class="video-play" aria-hidden="true">▶</span>
-            <span class="video-copy"><b id="videoTitle">Video k této části</b><small id="videoNote">Obsah videa doplníme z dodaného materiálu</small></span>
-            <span class="video-time">00:30</span>
+          <div class="video-column" id="videoColumn">
+            <h2 class="video-heading" id="videoHeading">Nejdřív se podívejte na video</h2>
+            <div class="video-panel" id="videoPanel" role="region" aria-label="Video k této kapitole">
+              <span class="video-play" aria-hidden="true">▶</span>
+              <span class="video-copy"><b id="videoTitle">Video k této části</b><small id="videoNote">Obsah videa doplníme z dodaného materiálu</small></span>
+              <span class="video-time">00:30</span>
+            </div>
           </div>
           <ul class="lesson-points" id="lessonPoints"></ul>
         </div>
@@ -122,7 +125,7 @@
           <label class="check-row"><input type="checkbox" id="warrantyTerms"><span data-i18n="termsConsent">Seznámil/a jsem se s podmínkami tříleté obchodní záruky.</span></label>
         </div>
 
-        <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Odesláním formuláře potvrzujete, že uvedené údaje mohou být použity pro evidenci záruky.</p>
+        <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Odesláním formuláře potvrzujete, že uvedené údaje mohou být použity pro evidenci záruky. Více najdete v <a href="https://www.comboski.cz/podminky-ochrany-osobnich-udaju/" target="_blank" rel="noopener noreferrer">podmínkách ochrany osobních údajů</a>.</p>
         <p class="form-error" id="formError" role="alert"></p>
         <button class="button button-primary button-full" id="submitButton" type="submit" data-i18n="submit">Dokončit registraci</button>
       </form>
