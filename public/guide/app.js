@@ -70,6 +70,21 @@ const copy = {
   en:{welcomeEyebrow:"COMBO SKI WARRANTY CHECK",welcomeTitle:"Before you head out into the snow",welcomeLead:"<strong>Complete this short guide to meet the warranty rules.</strong> We will show you the correct setup, safe use and care of Combo Ski.",welcomeRequired:"<strong>The guide must be completed.</strong><br>At the end, enter your email to record completion of the warranty check.",welcomeReward:"<strong>You can receive a 3-year warranty</strong><br><small>After completing the guide, you may receive a third warranty year.</small>",chooseLanguage:"Choose your language",durationNote:"Takes approximately 4 minutes",startGuide:"Start warranty check",testSkip:"TEST: Skip to registration",prototype:"Combo Ski warranty check",videoHeading:"First, watch the video",manualLink:"Open the original illustrated manual",quizTitle:"Check questions",quizCount:"3 questions",completeEyebrow:"CHECK COMPLETED",completeTitle:"You know the basics of safe use",completeLead:"You can now register your product. We use your email to record and confirm registration.",chooseRegistration:"Choose registration type",standardTitle:"Standard registration",standardText:"No newsletter. Your statutory rights are not affected.",extendedTitle:"3-year commercial warranty",extendedText:"Publish a post showing the product, tag @combo_ski on Instagram or @Comboski on Facebook, and give marketing consent to receive the third warranty year.",socialProofLabel:"Post link or IG/FB account name <b aria-label=required>*</b>",socialProofHelp:"Either option is enough. We will use it only to match the post with your registration.",socialTagCallout:"<strong>Remember to tag our profile in the post:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>or</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",newsletterConsent:"I subscribe to Combo Ski news, practical tips and offers. I may withdraw my consent at any time.",socialPostConsent:"I confirm that I have published a post showing the product and tagged <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook.",legalNote:"Registration and this check do not limit statutory rights relating to defective goods. By submitting, you confirm the details may be used to record the warranty. Read our <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>privacy policy</a>.",submit:"Complete registration",certificate:"Registration confirmation",restart:"Start again",back:"Back",check:"Check answers",next:"Continue",step:"Step",of:"of",correct:"All answers are correct. You can continue.",answerRequired:"Answer all three questions.",formEmail:"Enter a valid email address.",formChoice:"Choose a registration type.",formConsents:"For the three-year warranty, enter the post link or account name, confirm that you published the post, and give marketing consent.",formSaving:"Saving registration…",formSaveError:"We could not save the registration. Please try again.",successTitle:"Registration saved",standardSuccess:"You have completed standard product registration.",extendedSuccess:"You have completed registration for the three-year commercial warranty. We will match the post using the link or account name provided.",standardCertificate:"Standard registration",extendedCertificate:"3-year commercial warranty"}
 };
 
+Object.assign(copy.cs,{
+  standardText:"Evidujeme dokončení garanční prohlídky. Vaše zákonná práva tím nejsou dotčena.",
+  extendedText:"Sdílejte příspěvek s viditelným produktem a označte náš oficiální profil. Po ověření získáte třetí rok záruky.",
+  socialOfferEyebrow:"JAK ZÍSKAT TŘETÍ ROK ZÁRUKY",socialOfferTitle:"Ukažte Combo Ski v akci",socialOfferLead:"Zveřejněte vlastní příspěvek, ve kterém je produkt dobře vidět, a označte jeden z našich oficiálních profilů.",
+  socialStepOne:"Vyfoťte nebo natočte Combo Ski",socialStepTwo:"Zveřejněte příspěvek",socialStepThree:"Označte náš profil",officialProfiles:"Oficiální profily Combo Ski",openProfile:"Otevřít profil ↗",
+  newsletterRequired:"Pro získání 3leté obchodní záruky je potřeba zaškrtnout souhlas s odběrem novinek.",formSocialProof:"Vyplňte odkaz na příspěvek nebo název IG/FB účtu.",formSocialPost:"Potvrďte zveřejnění příspěvku a označení našeho profilu."
+});
+Object.assign(copy.en,{
+  standardText:"We record completion of the warranty check. Your statutory rights are not affected.",
+  extendedText:"Share a post showing the product and tag our official profile. After verification, you receive the third warranty year.",
+  socialOfferEyebrow:"HOW TO RECEIVE THE THIRD WARRANTY YEAR",socialOfferTitle:"Show Combo Ski in action",socialOfferLead:"Publish your own post in which the product is clearly visible and tag one of our official profiles.",
+  socialStepOne:"Photograph or film Combo Ski",socialStepTwo:"Publish the post",socialStepThree:"Tag our profile",officialProfiles:"Official Combo Ski profiles",openProfile:"Open profile ↗",
+  newsletterRequired:"To receive the 3-year commercial warranty, please select the consent to receive news.",formSocialProof:"Enter the post link or your IG/FB account name.",formSocialPost:"Confirm that you published the post and tagged our profile."
+});
+
 const $ = id => document.getElementById(id);
 let lang = "cs", step = 0, verified = false;
 
@@ -136,16 +151,20 @@ document.querySelectorAll("[data-switch-lang]").forEach(button=>button.addEventL
 document.addEventListener("click",closeLanguageMenu);
 document.addEventListener("keydown",event=>{if(event.key==="Escape")closeLanguageMenu();});
 $("continueButton").addEventListener("click",handleContinue); $("backButton").addEventListener("click",()=>{if(step>0){step--;renderLesson();}else{$("course").classList.add("hidden");$("languageScreen").classList.remove("hidden");}window.scrollTo({top:0,behavior:"smooth"});});
-document.querySelectorAll('input[name="warranty"]').forEach(radio=>radio.addEventListener("change",event=>{$("extendedConsents").classList.toggle("hidden",event.target.value!=="extended");$("formError").textContent="";}));
+document.querySelectorAll('input[name="warranty"]').forEach(radio=>radio.addEventListener("change",event=>{$("extendedConsents").classList.toggle("hidden",event.target.value!=="extended");$("newsletterError").classList.add("hidden");$("formError").textContent="";}));
+$("newsletterConsent").addEventListener("change",()=>{if($("newsletterConsent").checked)$("newsletterError").classList.add("hidden");});
 $("registrationForm").addEventListener("submit",async event=>{
   event.preventDefault();
   const email=$("email").value.trim();
   const type=document.querySelector('input[name="warranty"]:checked')?.value;
   const socialProof=$("socialProof").value.trim();
   const submit=$("submitButton");
+  $("newsletterError").classList.add("hidden");
   if(!/^\S+@\S+\.\S+$/.test(email)){$("formError").textContent=copy[lang].formEmail;return;}
   if(!type){$("formError").textContent=copy[lang].formChoice;return;}
-  if(type==="extended"&&(socialProof.length<2||!$("newsletterConsent").checked||!$("warrantyTerms").checked)){$("formError").textContent=copy[lang].formConsents;return;}
+  if(type==="extended"&&socialProof.length<2){$("formError").textContent=copy[lang].formSocialProof;return;}
+  if(type==="extended"&&!$("warrantyTerms").checked){$("formError").textContent=copy[lang].formSocialPost;return;}
+  if(type==="extended"&&!$("newsletterConsent").checked){$("formError").textContent="";$("newsletterError").classList.remove("hidden");$("newsletterConsent").focus();return;}
   submit.disabled=true;submit.textContent=copy[lang].formSaving;$("formError").textContent="";
   let source="direct";
   try{const parentUrl=new URL(document.referrer);source=parentUrl.searchParams.get("source")||"direct";}catch{}
@@ -157,6 +176,6 @@ $("registrationForm").addEventListener("submit",async event=>{
   }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
-$("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");startCourse(lang);});
+$("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");$("newsletterError").classList.add("hidden");startCourse(lang);});
 setLanguage("cs");
 if(new URLSearchParams(window.location.search).get("test")==="1")$("testSkipButton").classList.remove("hidden");

@@ -112,20 +112,43 @@
           <legend data-i18n="chooseRegistration">Vyberte typ registrace</legend>
           <label class="choice-card">
             <input type="radio" name="warranty" value="standard">
-            <span><strong data-i18n="standardTitle">Standardní registrace</strong><small data-i18n="standardText">Bez odběru newsletteru. Vaše zákonná práva tím nejsou dotčena.</small></span>
+            <span><strong data-i18n="standardTitle">Standardní registrace</strong><small data-i18n="standardText">Evidujeme dokončení garanční prohlídky. Vaše zákonná práva tím nejsou dotčena.</small></span>
           </label>
           <label class="choice-card choice-featured">
             <input type="radio" name="warranty" value="extended">
-            <span class="choice-copy"><strong data-i18n="extendedTitle">3letá obchodní záruka</strong><small data-i18n="extendedText">Zveřejněte příspěvek s viditelným produktem, označte @combo_ski na Instagramu nebo @Comboski na Facebooku a udělte marketingový souhlas.</small></span>
+            <span class="choice-copy"><strong data-i18n="extendedTitle">3letá obchodní záruka</strong><small data-i18n="extendedText">Sdílejte příspěvek s viditelným produktem a označte náš oficiální profil. Po ověření získáte třetí rok záruky.</small></span>
             <span class="year-badge">3 ROKY</span>
           </label>
         </fieldset>
 
         <div class="extended-consents hidden" id="extendedConsents">
-          <div class="social-tag-callout" data-i18n="socialTagCallout"><strong>V příspěvku nezapomeňte označit náš profil:</strong><a href="https://www.instagram.com/combo_ski/" target="_blank" rel="noopener noreferrer">Instagram @combo_ski</a><span>nebo</span><a href="https://www.facebook.com/Comboski/" target="_blank" rel="noopener noreferrer">Facebook @Comboski</a></div>
+          <div class="social-offer">
+            <p class="social-offer-eyebrow" data-i18n="socialOfferEyebrow">JAK ZÍSKAT TŘETÍ ROK ZÁRUKY</p>
+            <h2 data-i18n="socialOfferTitle">Ukažte Combo Ski v akci</h2>
+            <p class="social-offer-lead" data-i18n="socialOfferLead">Zveřejněte vlastní příspěvek, ve kterém je produkt dobře vidět, a označte jeden z našich oficiálních profilů.</p>
+            <div class="social-steps" aria-label="Postup">
+              <span><b>1</b><span data-i18n="socialStepOne">Vyfoťte nebo natočte Combo Ski</span></span>
+              <span><b>2</b><span data-i18n="socialStepTwo">Zveřejněte příspěvek</span></span>
+              <span><b>3</b><span data-i18n="socialStepThree">Označte náš profil</span></span>
+            </div>
+            <p class="official-profiles" data-i18n="officialProfiles">Oficiální profily Combo Ski</p>
+            <div class="social-profiles">
+              <a class="social-profile instagram" href="https://www.instagram.com/combo_ski/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Combo Ski @combo_ski">
+                <span class="social-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.1"></circle><circle class="social-logo-dot" cx="17.4" cy="6.7" r="1.1"></circle></svg></span>
+                <span><small>Instagram</small><strong>@combo_ski</strong></span>
+                <span class="profile-open" data-i18n="openProfile">Otevřít profil ↗</span>
+              </a>
+              <a class="social-profile facebook" href="https://www.facebook.com/Comboski/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Combo Ski @Comboski">
+                <span class="social-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.2 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.8-.1-1.6-.2-2.4-.2-2.4 0-4.1 1.5-4.1 4.2v2.3H8.3V13H11v8h3.2z"></path></svg></span>
+                <span><small>Facebook</small><strong>@Comboski</strong></span>
+                <span class="profile-open" data-i18n="openProfile">Otevřít profil ↗</span>
+              </a>
+            </div>
+          </div>
           <label class="field social-proof-field"><span data-i18n="socialProofLabel">Odkaz na příspěvek nebo název IG/FB účtu <b aria-label="povinné">*</b></span><input id="socialProof" name="socialProof" type="text" maxlength="300" autocomplete="off" placeholder="@uživatelské_jméno nebo odkaz"><em data-i18n="socialProofHelp">Stačí jedna z možností. Použijeme ji pouze ke spárování příspěvku s registrací.</em></label>
           <label class="check-row"><input type="checkbox" id="warrantyTerms"><span data-i18n="socialPostConsent">Potvrzuji, že jsem zveřejnil/a příspěvek s viditelným produktem a označil/a <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.</span></label>
           <label class="check-row"><input type="checkbox" id="newsletterConsent"><span data-i18n="newsletterConsent">Přihlašuji se k odběru novinek, praktických tipů a nabídek Combo Ski. Souhlas mohu kdykoliv odvolat.</span></label>
+          <p class="checkbox-error hidden" id="newsletterError" role="alert" data-i18n="newsletterRequired">Pro získání 3leté obchodní záruky je potřeba zaškrtnout souhlas s odběrem novinek.</p>
         </div>
 
         <p class="legal-note" data-i18n="legalNote">Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Odesláním formuláře potvrzujete, že uvedené údaje mohou být použity pro evidenci záruky. Více najdete v <a href="https://www.comboski.cz/podminky-ochrany-osobnich-udaju/" target="_blank" rel="noopener noreferrer">podmínkách ochrany osobních údajů</a>.</p>

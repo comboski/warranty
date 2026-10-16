@@ -176,13 +176,31 @@ button { cursor: pointer; }
 .choice-copy { padding-right: 72px; }
 .choice-featured { border-color: #82c66b; background: #f4fff0; }
 .year-badge { position: absolute; right: 15px; top: 15px; padding: 5px 8px; border-radius: 8px; color: var(--ink); background: var(--lime); font-size: .7rem; font-weight: 950; }
-.extended-consents { display: grid; gap: 10px; margin: 16px 0; padding: 18px; border-radius: 16px; background: #f3f6fa; }
-.social-tag-callout { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 10px; margin-bottom: 6px; padding: 15px; border: 1px solid #a9dd98; border-radius: 13px; background: #f1ffed; }
-.social-tag-callout strong { width: 100%; }
-.social-tag-callout a { color: var(--ink); font-weight: 900; text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.social-tag-callout span { color: var(--muted); font-size: .85rem; }
+.extended-consents { display: grid; gap: 14px; margin: 16px 0; padding: clamp(16px, 4vw, 24px); border: 1px solid var(--line); border-radius: 20px; background: #f7f9fc; }
+.social-offer { padding: clamp(18px, 4vw, 28px); border: 1px solid #dce3ec; border-radius: 18px; background: white; box-shadow: 0 12px 30px rgba(16,24,38,.06); }
+.social-offer-eyebrow { margin: 0 0 7px; color: var(--red); font-size: .72rem; font-weight: 950; letter-spacing: .11em; }
+.social-offer h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2rem); letter-spacing: -.035em; }
+.social-offer-lead { max-width: 680px; margin: 9px 0 18px; color: var(--muted); }
+.social-steps { display: grid; gap: 8px; margin-bottom: 20px; }
+.social-steps > span { display: flex; align-items: center; gap: 10px; color: #334155; font-size: .9rem; font-weight: 760; }
+.social-steps b { display: grid; flex: 0 0 28px; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: var(--ink); background: var(--lime); font-size: .78rem; }
+.official-profiles { margin: 0 0 9px; color: var(--muted); font-size: .76rem; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; }
+.social-profiles { display: grid; gap: 10px; }
+.social-profile { display: grid; grid-template-columns: 46px 1fr auto; align-items: center; gap: 12px; min-width: 0; padding: 12px; border: 1px solid #dce3ec; border-radius: 14px; color: var(--ink); background: white; text-decoration: none; transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+.social-profile:hover { transform: translateY(-1px); border-color: #aab7c6; box-shadow: 0 8px 18px rgba(16,24,38,.08); }
+.social-profile small, .social-profile strong { display: block; }
+.social-profile small { color: var(--muted); font-size: .72rem; }
+.social-profile strong { overflow-wrap: anywhere; font-size: .98rem; }
+.social-logo { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 13px; color: white; }
+.social-logo svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.instagram .social-logo { background: radial-gradient(circle at 30% 105%, #ffd600 0 20%, #ff7a00 35%, #ff0169 58%, #d300c5 78%, #7638fa 100%); }
+.instagram .social-logo-dot { fill: currentColor; stroke: none; }
+.facebook .social-logo { background: #1877f2; }
+.facebook .social-logo svg { fill: currentColor; stroke: none; }
+.profile-open { color: #526174; font-size: .72rem; font-weight: 800; white-space: nowrap; }
 .check-row { display: flex; align-items: flex-start; gap: 11px; }
 .check-row input { flex: 0 0 auto; margin-top: 5px; accent-color: var(--red); }
+.checkbox-error { margin: -4px 0 0 28px; color: var(--red); font-size: .82rem; font-weight: 780; }
 .legal-note { color: var(--muted); font-size: .82rem; }
 .legal-note a { color: var(--ink); font-weight: 800; text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
 .form-error { color: var(--red); font-weight: 700; }
@@ -202,6 +220,8 @@ button { cursor: pointer; }
   .lesson-media-layout .lesson-points { grid-template-columns: 1fr; margin: 0; }
   .lesson-media-layout .lesson-points li { min-height: 120px; }
   .lesson-media-layout .lesson-points li:has(.supplied-diagram):not(.stacked-visual) { grid-template-columns: 190px 1fr; }
+  .social-steps, .social-profiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .social-profiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 640px) {
@@ -218,6 +238,9 @@ button { cursor: pointer; }
   .lesson-points li { grid-template-columns: 108px 1fr; }
   .quiz { padding: 18px 14px; }
   .lesson-actions .button-primary { flex: 1; }
+  .social-profile { grid-template-columns: 42px 1fr; }
+  .social-logo { width: 42px; height: 42px; }
+  .profile-open { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
