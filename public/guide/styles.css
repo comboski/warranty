@@ -206,6 +206,8 @@ button { cursor: pointer; }
 .facebook .social-logo { background: #1877f2; }
 .facebook .social-logo svg { fill: currentColor; stroke: none; }
 .profile-open { color: #526174; font-size: .72rem; font-weight: 800; white-space: nowrap; }
+.pairing-note { margin: 0; padding: 14px 16px; border-left: 4px solid var(--red); border-radius: 0 12px 12px 0; color: #3f4b5b; background: #f5f7fa; font-size: .86rem; line-height: 1.5; }
+.pairing-note strong { display: block; margin-bottom: 2px; color: var(--ink); }
 .check-row { display: flex; align-items: flex-start; gap: 11px; }
 .check-row input { flex: 0 0 auto; margin-top: 5px; accent-color: var(--red); }
 .checkbox-error { margin: -4px 0 0 28px; color: var(--red); font-size: .82rem; font-weight: 780; }
