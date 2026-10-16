@@ -86,14 +86,16 @@ Object.assign(copy.en,{
 });
 Object.assign(copy.cs,{
   completeLead:"Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci registrace.",
+  extendedTitle:"Prodlužte si záruku na 3 roky!",extendedCertificate:"Záruka prodloužená na 3 roky",newsletterRequired:"Pro prodloužení záruky na 3 roky je potřeba zaškrtnout souhlas s odběrem novinek.",
   extendedText:"Po dokončení průvodce můžete požádat o prodloužení záruky ze 2 na 3 roky.",
-  programEyebrow:"PRODLOUŽENÁ ZÁRUKA COMBO SKI",programTitle:"Prodlužte si záruku ze 2 na 3 roky",programLead:"Vyplňte údaje níže. E-mail použijeme pro evidenci registrace a spárování s příspěvkem.",programExampleCaption:"Ukázka příspěvku: produkt je dobře vidět a profil Combo Ski je označený.",programTermsTitle:"Podmínky prodloužení záruky",programTermProduct:"Na fotografii nebo videu musí být produkt Combo Ski zřetelně viditelný.",programTermTag:"V příspěvku označte <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",
-  extendedSuccess:"Vaši žádost o tříletou obchodní záruku jsme zaznamenali. Příspěvek spárujeme podle uvedeného odkazu nebo názvu účtu."
+  programEyebrow:"PRODLOUŽENÁ ZÁRUKA COMBO SKI",programTitle:"Prodlužte si záruku ze 2 na 3 roky",programLead:"Vyplňte údaje níže. E-mail použijeme pro evidenci registrace a spárování s příspěvkem.",programTiming:"<strong>Nemusíte příspěvek zveřejňovat hned po nákupu.</strong> Udělejte ho až ve chvíli, kdy budete mít Combo Ski s sebou na horách.",programExampleCaption:"Ukázka příspěvku: produkt je dobře vidět a profil Combo Ski je označený.",programTermsTitle:"Podmínky prodloužení záruky",programTermProduct:"Na fotografii nebo videu musí být produkt Combo Ski zřetelně viditelný.",programTermTag:"V příspěvku označte <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",
+  extendedSuccess:"Vaši žádost o prodloužení záruky na 3 roky jsme zaznamenali. Příspěvek spárujeme podle uvedeného odkazu nebo názvu účtu."
 });
 Object.assign(copy.en,{
   completeLead:"You can now register your product. We use your email to record the registration.",
+  extendedTitle:"Extend your warranty to 3 years!",extendedCertificate:"Warranty extended to 3 years",newsletterRequired:"To extend the warranty to 3 years, please select the consent to receive news.",
   extendedText:"After completing the guide, you can apply to extend the warranty from 2 to 3 years.",
-  programEyebrow:"COMBO SKI EXTENDED WARRANTY",programTitle:"Extend your warranty from 2 to 3 years",programLead:"Complete the details below. We use your email to record the registration and match it with the post.",programExampleCaption:"Example post: the product is clearly visible and the Combo Ski profile is tagged.",programTermsTitle:"Extended warranty terms",programTermProduct:"The Combo Ski product must be clearly visible in the photo or video.",programTermTag:"Tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook in the post.",
+  programEyebrow:"COMBO SKI EXTENDED WARRANTY",programTitle:"Extend your warranty from 2 to 3 years",programLead:"Complete the details below. We use your email to record the registration and match it with the post.",programTiming:"<strong>You do not need to publish the post immediately after purchase.</strong> Do it when you have Combo Ski with you in the mountains.",programExampleCaption:"Example post: the product is clearly visible and the Combo Ski profile is tagged.",programTermsTitle:"Extended warranty terms",programTermProduct:"The Combo Ski product must be clearly visible in the photo or video.",programTermTag:"Tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook in the post.",
   extendedSuccess:"We have recorded your application for the 3-year commercial warranty. We will match the post using the link or account name provided."
 });
 
