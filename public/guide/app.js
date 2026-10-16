@@ -85,7 +85,7 @@ Object.assign(copy.en,{
   newsletterRequired:"To receive the 3-year commercial warranty, please select the consent to receive news.",formSocialProof:"Enter the post link or your IG/FB account name.",formSocialPost:"Confirm that you published the post and tagged our profile."
 });
 Object.assign(copy.cs,{
-  successEyebrow:"DĚKUJEME",communityEyebrow:"KOMUNITA COMBO SKI",communityTitle:"Přidejte se k ostatním jezdcům",communityText:"Sdílejte zážitky, inspirujte se, získejte tipy a buďte u novinek jako první ve facebookové skupině Combo Ski Users.",communityButton:"Připojit se ke skupině na Facebooku ↗",
+  successEyebrow:"DĚKUJEME",communityEyebrow:"KOMUNITA COMBO SKI",communityTitle:"Přidejte se k ostatním nadšencům",communityText:"Sdílejte zážitky, inspirujte se, získejte tipy a buďte u novinek jako první ve facebookové skupině <strong>Combo Ski Users</strong>.",communityButton:"Připojit se ke skupině na Facebooku ↗",
   completeLead:"Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci registrace.",standardTitle:"Registrace standardní 2leté záruky",standardText:"Zaregistrujte dokončení garanční prohlídky ke standardní 2leté záruce.",
   extendedTitle:"Prodloužená záruka na 3 roky",extendedCertificate:"Záruka prodloužená na 3 roky",newsletterRequired:"Pro prodloužení záruky na 3 roky je potřeba zaškrtnout souhlas s odběrem novinek.",
   newsletterOfferTitle:"Buďte o krok napřed",newsletterOfferLead:"Praktické tipy pro bezpečnější a zábavnější jízdu, návody, novinky a výhodné nabídky Combo Ski přímo do e-mailu.",standardNewsletterConsent:"Chci dostávat tipy, návody, novinky a nabídky Combo Ski. Souhlas mohu kdykoliv odvolat.",newsletterConsent:"Přihlašuji se k odběru novinek, praktických tipů a nabídek Combo Ski. Souhlas mohu kdykoliv odvolat.",
@@ -95,7 +95,7 @@ Object.assign(copy.cs,{
   extendedSuccess:"Vaši žádost o prodloužení záruky na 3 roky jsme zaznamenali. Označení spárujeme podle uvedeného názvu účtu."
 });
 Object.assign(copy.en,{
-  successEyebrow:"THANK YOU",communityEyebrow:"COMBO SKI COMMUNITY",communityTitle:"Join other Combo Ski riders",communityText:"Share your adventures, find inspiration, get practical tips and be first to hear the news in the Combo Ski Users Facebook group.",communityButton:"Join the Facebook group ↗",
+  successEyebrow:"THANK YOU",communityEyebrow:"COMBO SKI COMMUNITY",communityTitle:"Join other Combo Ski enthusiasts",communityText:"Share your adventures, find inspiration, get practical tips and be first to hear the news in the <strong>Combo Ski Users</strong> Facebook group.",communityButton:"Join the Facebook group ↗",
   completeLead:"You can now register your product. We use your email to record the registration.",standardTitle:"Standard 2-year warranty registration",standardText:"Register completion of the warranty check for the standard 2-year warranty.",
   extendedTitle:"Extended 3-year warranty",extendedCertificate:"Warranty extended to 3 years",newsletterRequired:"To extend the warranty to 3 years, please select the consent to receive news.",
   newsletterOfferTitle:"Stay one step ahead",newsletterOfferLead:"Practical tips for safer and more enjoyable rides, how-to guides, news and special Combo Ski offers delivered to your inbox.",standardNewsletterConsent:"I would like to receive Combo Ski tips, guides, news and offers. I can withdraw my consent at any time.",newsletterConsent:"I subscribe to Combo Ski news, practical tips and offers. I may withdraw my consent at any time.",
