@@ -77,6 +77,12 @@ for (const language of ["cs", "en"]) {
   chapters[5].questions[1].answers[0] = cs
     ? "Tak, aby se nepoškodila skluznice o kovové zuby"
     : "So the metal teeth cannot damage the sliding surface";
+  chapters[5].points[1].text = cs
+    ? "Při přenášení nebo uložení do batohu umístěte Combo Ski tak, aby se skluznice nepoškodila o kovové zuby."
+    : "When carrying or packing Combo Ski in a backpack, position them so the metal teeth cannot damage the sliding surface.";
+  chapters[5].questions[1].hint = cs
+    ? "Umístěte Combo Ski tak, aby se skluznice nepoškodila o kovové zuby."
+    : "Position Combo Ski so the metal teeth cannot damage the sliding surface.";
 }
 
 const copy = {
