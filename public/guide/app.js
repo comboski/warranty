@@ -119,6 +119,35 @@ Object.assign(copy.en,{
   extendedSuccess:"We have recorded your application to extend the warranty to 3 years. We will match the tag using the account name provided."
 });
 
+Object.assign(copy.cs, {
+  programTitle:"Sdílejte Combo Ski na Instagramu nebo Facebooku a získejte 3 roky záruky.",
+  socialProofLabel:"Název vašeho instagramového nebo facebookového účtu <b aria-label=povinné>*</b>",
+  programExampleCaption:"<strong>Ukázka příspěvku nebo story:</strong> produkt je dobře vidět a profil Combo Ski je označený.",
+  pairingNote:"<strong>Co se stane potom?</strong> Jakmile se označený <strong>příspěvek nebo story</strong> objeví, ověříme jej, <strong>spárujeme s vaší registrací</strong> podle názvu účtu a <strong>aktivujeme prodlouženou záruku na 3 roky</strong>.",
+  socialPostConsent:"Potvrzuji, že jsem zveřejnil/a <strong>nebo zveřejním</strong> příspěvek či story s viditelným produktem a označím <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",
+  officialProfiles:"Přidejte příspěvek nebo story",openInstagram:"Otevřít Instagram ↗",openFacebook:"Otevřít Facebook ↗",
+  socialComposeHelp:"V aplikaci nebo na webu zvolte <strong>+ / Vytvořit příspěvek</strong>, přidejte vlastní fotku a označte <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku. Potom se vraťte sem a dokončete registraci.",
+  actionRulesTitle:"Pravidla akce",actionRuleRegistration:"Dokončete průvodce a vyplňte e-mail a název svého instagramového nebo facebookového účtu.",
+  actionRulePost:"Zveřejněte vlastní příspěvek nebo story s viditelným produktem Combo Ski a označte náš profil: <strong>@combo_ski</strong> nebo <strong>@Comboski</strong>.",
+  actionRuleConsent:"Součástí akce je <strong>souhlas s odběrem novinek</strong>. Souhlas lze kdykoliv odvolat.",
+  actionRuleActivation:"Odesláním formuláře evidujeme žádost. Prodlouženou záruku <strong>aktivujeme po ověření a spárování příspěvku nebo story</strong>.",
+  actionRuleRights:"Vaše zákonná práva z vadného plnění nejsou účastí ani neúčastí v akci dotčena. S dotazy se obraťte na <a href=mailto:info@comboski.cz>info@comboski.cz</a>."
+});
+Object.assign(copy.en, {
+  programTitle:"Share Combo Ski on Instagram or Facebook and get a 3-year warranty.",
+  socialProofLabel:"Your Instagram or Facebook account name <b aria-label=required>*</b>",
+  programExampleCaption:"<strong>Example post or story:</strong> the product is clearly visible and the Combo Ski profile is tagged.",
+  pairingNote:"<strong>What happens next?</strong> Once the tagged <strong>post or story</strong> appears, we will verify it, <strong>match it to your registration</strong> using the account name and <strong>activate your extended 3-year warranty</strong>.",
+  socialPostConsent:"I confirm that I have published <strong>or will publish</strong> a post or story showing the product and will tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook.",
+  officialProfiles:"Add a post or story",openInstagram:"Open Instagram ↗",openFacebook:"Open Facebook ↗",
+  socialComposeHelp:"In the app or website, choose <strong>+ / Create post</strong>, add your own photo and tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook. Then return here to complete your registration.",
+  actionRulesTitle:"Promotion rules",actionRuleRegistration:"Complete the guide and enter your email and Instagram or Facebook account name.",
+  actionRulePost:"Publish your own post or story showing Combo Ski and tag our profile: <strong>@combo_ski</strong> or <strong>@Comboski</strong>.",
+  actionRuleConsent:"The promotion includes <strong>consent to receive news</strong>. You can withdraw consent at any time.",
+  actionRuleActivation:"Submitting the form records your application. We <strong>activate the extended warranty after verifying and matching the post or story</strong>.",
+  actionRuleRights:"Your statutory rights are unaffected by participating or not participating in this promotion. Contact <a href=mailto:info@comboski.cz>info@comboski.cz</a> with any questions."
+});
+
 const $ = id => document.getElementById(id);
 let lang = "cs", step = 0, verified = false;
 

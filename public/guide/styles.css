@@ -193,7 +193,14 @@ button { cursor: pointer; }
 .program-timing > span:first-child { flex: 0 0 auto; font-size: 1.15rem; }
 .program-example { width: 100%; margin: 26px auto 0; overflow: hidden; border: 0; border-radius: 0; background: #f3f4f6; }
 .program-example img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
-.program-example figcaption { margin: 0; padding: 11px 14px; color: #4f5b6b; background: white; font-size: .8rem; line-height: 1.4; }
+.program-example figcaption { margin: 0; padding: 16px 0; color: var(--ink); background: white; font-size: 1rem; font-weight: 650; line-height: 1.5; }
+.program-header h2 { font-size: clamp(1.65rem, 4.2vw, 2.5rem); line-height: 1.15; }
+.social-compose-help { margin: 14px 0 0; color: var(--muted); line-height: 1.6; }
+.social-profiles .social-profile { grid-template-columns: 46px 1fr; }
+.action-rules { border-top: 1px solid var(--line); padding-top: 16px; }
+.action-rules summary { cursor: pointer; font-weight: 800; }
+.action-rules ol { padding-left: 22px; line-height: 1.6; }
+.action-rules li + li { margin-top: 10px; }
 .program-divider { height: 1px; margin: 28px 0; background: #b8bec7; }
 .program-terms h3 { margin: 0 0 18px; font-size: clamp(1.25rem, 3.5vw, 1.7rem); letter-spacing: -.025em; }
 .program-terms ol { display: grid; gap: 12px; margin: 0 0 28px; padding-left: 1.45rem; }
@@ -214,7 +221,8 @@ button { cursor: pointer; }
 .facebook .social-logo svg { fill: currentColor; stroke: none; }
 .profile-open { color: #526174; font-size: .72rem; font-weight: 800; white-space: nowrap; }
 .pairing-note { margin: 0; padding: 14px 16px; border-left: 4px solid var(--red); border-radius: 0 12px 12px 0; color: #3f4b5b; background: #f5f7fa; font-size: .86rem; line-height: 1.5; }
-.pairing-note strong { display: block; margin-bottom: 2px; color: var(--ink); }
+.pairing-note strong { color: var(--ink); }
+.pairing-note > strong:first-child { display: block; margin-bottom: 4px; }
 .newsletter-offer { display: grid; gap: 14px; padding: 18px; border: 1px solid #d9e2ec; border-radius: 16px; background: linear-gradient(135deg, #f7f9fc, #fff); }
 .newsletter-offer-copy { display: grid; grid-template-columns: 38px 1fr; align-items: center; gap: 12px; }
 .newsletter-offer-copy strong, .newsletter-offer-copy small { display: block; }
