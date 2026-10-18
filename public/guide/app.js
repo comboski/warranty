@@ -167,6 +167,15 @@ Object.assign(copy.en, {
 Object.assign(copy.cs,{retailerLabel:"Kde jste Combo Ski koupili? *",retailerPlaceholder:"Vyberte prodejce",retailerCombo:"E-shop Combo Ski",retailerOther:"Jiný prodejce",retailerNameLabel:"Název prodejce *",retailerError:"Vyberte, kde jste Combo Ski koupili.",retailerNameError:"Napište název prodejce."});
 Object.assign(copy.en,{retailerLabel:"Where did you buy Combo Ski? *",retailerPlaceholder:"Select a retailer",retailerCombo:"Combo Ski online store",retailerOther:"Other retailer",retailerNameLabel:"Retailer name *",retailerError:"Select where you bought Combo Ski.",retailerNameError:"Enter the retailer name."});
 
+for(const language of ["cs","en"]){
+  const emphasis=language==="cs"
+    ? /(<strong>[\s\S]*?<\/strong>)|(@combo_ski|@Comboski|příspěvek nebo story|příspěvek či story|příspěvku nebo story)/g
+    : /(<strong>[\s\S]*?<\/strong>)|(@combo_ski|@Comboski|post or story)/g;
+  for(const key of ["extendedSuccess","socialPostConsent","programLead","programExampleCaption","programTermTag","actionRulePost"]){
+    copy[language][key]=copy[language][key].replace(emphasis,(match,strong)=>strong||`<strong>${match}</strong>`);
+  }
+}
+
 const $ = id => document.getElementById(id);
 let lang = "cs", step = 0, verified = false;
 
@@ -284,7 +293,7 @@ $("registrationForm").addEventListener("submit",async event=>{
     const result=await response.json();
     if(!response.ok||result.ok!==true)throw new Error(result.error||copy[lang].formSaveError);
     try{sessionStorage.removeItem("combo-pending-registration");}catch{}
-    $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").textContent=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;window.scrollTo({top:0,behavior:"smooth"});
+    $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").innerHTML=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;window.scrollTo({top:0,behavior:"smooth"});
   }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
