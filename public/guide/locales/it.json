@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Per prima cosa fissa la fessura di montaggio posteriore, sul tallone dello stivale.",
+          "text": "Aggancia prima l’asola posteriore, vicino al tallone.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Quindi collegare la fessura di montaggio anteriore con il pulsante di rilascio, sulla punta dello stivale.",
+          "text": "Poi aggancia l’asola anteriore con il pulsante di sgancio, vicino alla punta dello scarponcino.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Qual è la posizione di base?",
           "answers": [
             "Piedi uniti e ginocchia piegate",
-            "Piedi larghi e ginocchia dritte",
-            "Peso molto indietro"
+            "Piedi divaricati e ginocchia dritte",
+            "Peso molto spostato all’indietro"
           ],
           "correct": 0,
           "hint": "Tieni i piedi uniti e le ginocchia piegate. Non appoggiarti all'indietro."
@@ -382,7 +382,7 @@
     "prototype": "Controllo garanzia Combo Ski",
     "videoHeading": "Per prima cosa, guarda il video",
     "manualLink": "Apri il manuale illustrato originale",
-    "quizTitle": "Controlla le domande",
+    "quizTitle": "Domande di verifica",
     "quizCount": "3 domande",
     "completeEyebrow": "CONTROLLO COMPLETATO",
     "completeTitle": "Conosci le basi per un utilizzo sicuro",
@@ -472,8 +472,8 @@
     "selected": "Selezionato",
     "select": "Seleziona",
     "backToLanguages": "Torna alla selezione della lingua",
-    "snowshoeMode": "Modalità racchette da neve",
-    "miniSkiMode": "Modalità mini-sci",
+    "snowshoeMode": "Modalità ciaspole",
+    "miniSkiMode": "Modalità minisci",
     "questionCount": "{n} domande",
     "chooseAnswer": "Scegli una risposta.",
     "tryAgain": "Riprova.",

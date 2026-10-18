@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najpierw przymocuj tylną szczelinę montażową na pięcie buta.",
+          "text": "Najpierw załóż tylny otwór montażowy przy pięcie.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Następnie przymocuj przednią szczelinę montażową za pomocą przycisku zwalniającego, na czubku buta.",
+          "text": "Następnie załóż przedni otwór z przyciskiem zwalniającym, przy czubku buta.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Jaka jest podstawowa postawa?",
           "answers": [
             "Stopy złączone, kolana ugięte",
-            "Stopy szerokie i kolana proste",
-            "Ciężar ciała mocno z tyłu"
+            "Stopy szeroko i kolana wyprostowane",
+            "Ciężar ciała mocno przesunięty do tyłu"
           ],
           "correct": 0,
           "hint": "Trzymaj stopy razem, a kolana ugięte. Nie odchylaj się do tyłu."
@@ -382,7 +382,7 @@
     "prototype": "Kontrola gwarancji Combo Ski",
     "videoHeading": "Najpierw obejrzyj wideo",
     "manualLink": "Otwórz oryginalną ilustrowaną instrukcję",
-    "quizTitle": "Sprawdź pytania",
+    "quizTitle": "Pytania kontrolne",
     "quizCount": "3 pytania",
     "completeEyebrow": "KONTROLA ZAKOŃCZONA",
     "completeTitle": "Znasz podstawy bezpiecznego użytkowania",

@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Először rögzítse a hátsó rögzítőnyílást, a bakancs sarkánál.",
+          "text": "Először a saroknál lévő hátsó nyílást rögzítse.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Ezután rögzítse az elülső rögzítőnyílást a kioldógombbal a bakancs orránál.",
+          "text": "Ezután rögzítse a bakancs orránál lévő első nyílást a kioldógombbal.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Mi az alapállás?",
           "answers": [
             "Lábak együtt és térdek behajlítva",
-            "A láb széles és a térd egyenes",
-            "Súly messze vissza"
+            "Lábak szélesen, térdek kinyújtva",
+            "A testsúly erősen hátrahelyezve"
           ],
           "correct": 0,
           "hint": "Tartsa össze a lábát, és hajlítsa a térdét. Ne dőljön hátra."
@@ -382,7 +382,7 @@
     "prototype": "Combo Ski garanciális ellenőrzés",
     "videoHeading": "Először nézze meg a videót",
     "manualLink": "Nyissa meg az eredeti illusztrált kézikönyvet",
-    "quizTitle": "Ellenőrizze a kérdéseket",
+    "quizTitle": "Ellenőrző kérdések",
     "quizCount": "3 kérdés",
     "completeEyebrow": "ELLENŐRZÉS KÉSZÜLT",
     "completeTitle": "Ismeri a biztonságos használat alapjait",
@@ -473,7 +473,7 @@
     "select": "Válassza ki",
     "backToLanguages": "Vissza a nyelvválasztáshoz",
     "snowshoeMode": "Hótalpas mód",
-    "miniSkiMode": "Mini-sí mód",
+    "miniSkiMode": "Minisí mód",
     "questionCount": "{n} kérdés",
     "chooseAnswer": "Válasszon egy választ.",
     "tryAgain": "Próbáld újra.",

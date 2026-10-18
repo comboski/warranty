@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najprej pritrdite zadnjo pritrdilno režo, pri peti čevlja.",
+          "text": "Najprej pritrdite zadnjo odprtino pri peti čevlja.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Nato pritrdite sprednjo pritrdilno režo z gumbom za sprostitev na prst čevlja.",
+          "text": "Nato pritrdite sprednjo odprtino z gumbom za sprostitev pri konici čevlja.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Kakšna je osnovna drža?",
           "answers": [
             "Stopala skupaj in pokrčena kolena",
-            "Stopala široka in kolena ravna",
-            "Teža daleč nazaj"
+            "Stopala narazen in kolena iztegnjena",
+            "Teža močno pomaknjena nazaj"
           ],
           "correct": 0,
           "hint": "Stopala držite skupaj, kolena pa pokrčena. Ne naslanjajte se nazaj."
@@ -382,7 +382,7 @@
     "prototype": "Preverjanje garancije Combo Ski",
     "videoHeading": "Najprej si oglejte video",
     "manualLink": "Odprite originalni ilustriran priročnik",
-    "quizTitle": "Preverite vprašanja",
+    "quizTitle": "Kontrolna vprašanja",
     "quizCount": "3 vprašanja",
     "completeEyebrow": "PREVERJANJE KONČANO",
     "completeTitle": "Poznaš osnove varne uporabe",
@@ -472,8 +472,8 @@
     "selected": "Izbrano",
     "select": "Izberite",
     "backToLanguages": "Nazaj na izbiro jezika",
-    "snowshoeMode": "Način s krpljami",
-    "miniSkiMode": "Mini smučarski način",
+    "snowshoeMode": "Način krpelj",
+    "miniSkiMode": "Način mini smuči",
     "questionCount": "Število vprašanj: {n}",
     "chooseAnswer": "Izberite odgovor.",
     "tryAgain": "Poskusite znova.",

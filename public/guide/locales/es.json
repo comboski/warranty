@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Primero coloque la ranura de montaje trasera, en el talón de la bota.",
+          "text": "Fija primero la ranura trasera, junto al talón.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Luego fije la ranura de montaje frontal con el botón de liberación, en la punta del bota.",
+          "text": "Después fija la ranura delantera con el botón de desbloqueo, junto a la puntera de la bota.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "¿Cuál es la postura básica?",
           "answers": [
             "Pies juntos y rodillas dobladas.",
-            "Pies abiertos y rodillas rectas.",
-            "Peso muy atrás"
+            "Pies separados y rodillas estiradas",
+            "Peso muy desplazado hacia atrás"
           ],
           "correct": 0,
           "hint": "Mantenga los pies juntos y las rodillas dobladas. No te recuestes."
@@ -382,7 +382,7 @@
     "prototype": "Comprobación de garantía de esquí combinado",
     "videoHeading": "Primero, mira el vídeo.",
     "manualLink": "Abra el manual ilustrado original.",
-    "quizTitle": "Consultar preguntas",
+    "quizTitle": "Preguntas de control",
     "quizCount": "3 preguntas",
     "completeEyebrow": "COMPROBACIÓN COMPLETADA",
     "completeTitle": "Conoces los conceptos básicos del uso seguro",
@@ -473,7 +473,7 @@
     "select": "Seleccionar",
     "backToLanguages": "Volver a la selección de idioma",
     "snowshoeMode": "Modo raquetas de nieve",
-    "miniSkiMode": "Modo miniesquí",
+    "miniSkiMode": "Modo miniesquís",
     "questionCount": "{n} preguntas",
     "chooseAnswer": "Elige una respuesta.",
     "tryAgain": "Intentar otra vez.",

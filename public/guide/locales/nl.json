@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Bevestig eerst de achterste montagesleuf, op de hiel van de laars.",
+          "text": "Bevestig eerst de achterste sleuf bij de hiel.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Bevestig vervolgens de voorste montagesleuf met de ontgrendelingsknop op de neus van de laars.",
+          "text": "Bevestig daarna de voorste sleuf met de ontgrendelingsknop bij de neus van de schoen.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,7 +161,7 @@
           "question": "Wat is het basishouding?",
           "answers": [
             "Voeten bij elkaar en knieën gebogen",
-            "Voeten breed en knieën recht",
+            "Voeten ver uit elkaar en knieën gestrekt",
             "Gewicht ver naar achteren"
           ],
           "correct": 0,
@@ -382,7 +382,7 @@
     "prototype": "Combo Ski-garantiecontrole",
     "videoHeading": "Bekijk eerst de video",
     "manualLink": "Open de originele geïllustreerde handleiding",
-    "quizTitle": "Controleer vragen",
+    "quizTitle": "Controlevragen",
     "quizCount": "3 vragen",
     "completeEyebrow": "CONTROLE VOLTOOID",
     "completeTitle": "Je kent de basisprincipes van veilig gebruik",
@@ -472,8 +472,8 @@
     "selected": "Geselecteerd",
     "select": "Selecteer",
     "backToLanguages": "Terug naar taalkeuze",
-    "snowshoeMode": "Sneeuwschoenmodus",
-    "miniSkiMode": "Miniski-modus",
+    "snowshoeMode": "Sneeuwschoenstand",
+    "miniSkiMode": "Miniskistand",
     "questionCount": "{n} vragen",
     "chooseAnswer": "Kies een antwoord.",
     "tryAgain": "Probeer het opnieuw.",

@@ -24,7 +24,7 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najprv pripevnite zadný montážny otvor na päte topánky.",
+          "text": "Najprv nasaďte zadný upevňovací otvor pri päte topánky.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
@@ -161,8 +161,8 @@
           "question": "Aký je základný postoj?",
           "answers": [
             "Nohy spolu a kolená pokrčené",
-            "Chodidlá široké a kolená rovné",
-            "Váha ďaleko vzadu"
+            "Nohy široko a kolená vystreté",
+            "Váha výrazne vzadu"
           ],
           "correct": 0,
           "hint": "Nohy majte pri sebe a kolená pokrčené. Nenakláňajte sa."
@@ -473,7 +473,7 @@
     "select": "Vyberte",
     "backToLanguages": "Späť na výber jazyka",
     "snowshoeMode": "Režim snežnice",
-    "miniSkiMode": "Mini-lyžiarsky režim",
+    "miniSkiMode": "Režim minilyže",
     "questionCount": "Počet otázok: {n}",
     "chooseAnswer": "Vyberte odpoveď.",
     "tryAgain": "Skúste to znova.",

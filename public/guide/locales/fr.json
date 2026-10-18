@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Fixez d'abord la fente de montage arrière, au niveau du talon de la botte.",
+          "text": "Fixez d’abord l’ouverture arrière, près du talon.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Fixez ensuite la fente de montage avant avec le bouton de déverrouillage, au niveau du bout de la botte.",
+          "text": "Fixez ensuite l’ouverture avant avec le bouton de déverrouillage, près de la pointe de la chaussure.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Quelle est la position de base ?",
           "answers": [
             "Pieds joints et genoux fléchis",
-            "Pieds écartés et genoux droits",
-            "Poids loin en arrière"
+            "Pieds écartés et genoux tendus",
+            "Poids nettement vers l’arrière"
           ],
           "correct": 0,
           "hint": "Gardez vos pieds joints et vos genoux pliés. Ne vous penchez pas en arrière."
@@ -382,7 +382,7 @@
     "prototype": "Vérification de la garantie du Combo Ski",
     "videoHeading": "Tout d'abord, regardez la vidéo",
     "manualLink": "Ouvrir le manuel illustré original",
-    "quizTitle": "Vérifiez les questions",
+    "quizTitle": "Questions de contrôle",
     "quizCount": "3 questions",
     "completeEyebrow": "CHÈQUE COMPLÉTÉ",
     "completeTitle": "Vous connaissez les bases d'une utilisation sécuritaire",
@@ -473,7 +473,7 @@
     "select": "Sélectionnez",
     "backToLanguages": "Retour à la sélection de la langue",
     "snowshoeMode": "Mode raquettes",
-    "miniSkiMode": "Mode mini-ski",
+    "miniSkiMode": "Mode mini-skis",
     "questionCount": "{n} questions",
     "chooseAnswer": "Choisissez une réponse.",
     "tryAgain": "Essayer à nouveau.",

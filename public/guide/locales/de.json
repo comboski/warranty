@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Befestigen Sie zunächst den hinteren Befestigungsschlitz am Stiefelabsatz.",
+          "text": "Zuerst befestigen Sie die hintere Öffnung an der Ferse.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Befestigen Sie dann den vorderen Befestigungsschlitz mit dem Entriegelungsknopf an der Stiefelspitze.",
+          "text": "Danach befestigen Sie die vordere Öffnung mit dem Entriegelungsknopf an der Schuhspitze.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,8 +161,8 @@
           "question": "Wie sieht die Grundhaltung aus?",
           "answers": [
             "Füße zusammen und Knie gebeugt",
-            "Füße breit und Knie gerade",
-            "Gewicht weit hinten"
+            "Füße weit auseinander und Knie durchgestreckt",
+            "Gewicht deutlich nach hinten verlagert"
           ],
           "correct": 0,
           "hint": "Halten Sie Ihre Füße zusammen und Ihre Knie gebeugt. Lehnen Sie sich nicht zurück."
@@ -382,7 +382,7 @@
     "prototype": "Garantieprüfung für Combo Ski",
     "videoHeading": "Schauen Sie sich zunächst das Video an",
     "manualLink": "Öffnen Sie das bebilderte Originalhandbuch",
-    "quizTitle": "Überprüfen Sie die Fragen",
+    "quizTitle": "Kontrollfragen",
     "quizCount": "3 Fragen",
     "completeEyebrow": "CHECK ABGESCHLOSSEN",
     "completeTitle": "Sie kennen die Grundlagen des sicheren Gebrauchs",
@@ -473,7 +473,7 @@
     "select": "Auswählen",
     "backToLanguages": "Zurück zur Sprachauswahl",
     "snowshoeMode": "Schneeschuhmodus",
-    "miniSkiMode": "Mini-Ski-Modus",
+    "miniSkiMode": "Miniski-Modus",
     "questionCount": "{n} Fragen",
     "chooseAnswer": "Wählen Sie eine Antwort.",
     "tryAgain": "Versuchen Sie es erneut.",

@@ -82,6 +82,18 @@ sl:{
     extendedSuccess:'Zdaj čakamo na vašo <strong>objavo ali zgodbo</strong> z oznako <strong>@combo_ski</strong> na Instagramu ali <strong>@Comboski</strong> na Facebooku. Če ste jo že objavili, vas prosimo za potrpljenje, dokler je ne povežemo z vašo registracijo.',
     actionRuleActivation:'Z oddajo obrazca shranimo vašo prijavo. <strong>Podaljšano garancijo aktiviramo po preverjanju objave ali zgodbe in povezavi z registracijo</strong>.',questionCount:'Število vprašanj: {n}'}}
 };
+const finalLabels={
+  de:['Zuerst befestigen Sie die hintere Öffnung an der Ferse.','Danach befestigen Sie die vordere Öffnung mit dem Entriegelungsknopf an der Schuhspitze.','Kontrollfragen','Füße weit auseinander und Knie durchgestreckt','Gewicht deutlich nach hinten verlagert','Schneeschuhmodus','Miniski-Modus'],
+  fr:['Fixez d’abord l’ouverture arrière, près du talon.','Fixez ensuite l’ouverture avant avec le bouton de déverrouillage, près de la pointe de la chaussure.','Questions de contrôle','Pieds écartés et genoux tendus','Poids nettement vers l’arrière','Mode raquettes','Mode mini-skis'],
+  it:['Aggancia prima l’asola posteriore, vicino al tallone.','Poi aggancia l’asola anteriore con il pulsante di sgancio, vicino alla punta dello scarponcino.','Domande di verifica','Piedi divaricati e ginocchia dritte','Peso molto spostato all’indietro','Modalità ciaspole','Modalità minisci'],
+  es:['Fija primero la ranura trasera, junto al talón.','Después fija la ranura delantera con el botón de desbloqueo, junto a la puntera de la bota.','Preguntas de control','Pies separados y rodillas estiradas','Peso muy desplazado hacia atrás','Modo raquetas de nieve','Modo miniesquís'],
+  pl:['Najpierw załóż tylny otwór montażowy przy pięcie.','Następnie załóż przedni otwór z przyciskiem zwalniającym, przy czubku buta.','Pytania kontrolne','Stopy szeroko i kolana wyprostowane','Ciężar ciała mocno przesunięty do tyłu','Tryb rakiet śnieżnych','Tryb mininart'],
+  nl:['Bevestig eerst de achterste sleuf bij de hiel.','Bevestig daarna de voorste sleuf met de ontgrendelingsknop bij de neus van de schoen.','Controlevragen','Voeten ver uit elkaar en knieën gestrekt','Gewicht ver naar achteren','Sneeuwschoenstand','Miniskistand'],
+  ro:['Fixează mai întâi fanta din spate, de lângă călcâi.','Apoi fixează fanta din față cu butonul de eliberare, de lângă vârful bocancului.','Întrebări de verificare','Picioarele depărtate și genunchii întinși','Greutatea mult prea în spate','Mod rachete de zăpadă','Mod mini-schiuri'],
+  hu:['Először a saroknál lévő hátsó nyílást rögzítse.','Ezután rögzítse a bakancs orránál lévő első nyílást a kioldógombbal.','Ellenőrző kérdések','Lábak szélesen, térdek kinyújtva','A testsúly erősen hátrahelyezve','Hótalpas mód','Minisí mód'],
+  sk:['Najprv nasaďte zadný upevňovací otvor pri päte topánky.','Potom nasaďte predný upevňovací otvor s tlačidlom pri špičke topánky.','Kontrolné otázky','Nohy široko a kolená vystreté','Váha výrazne vzadu','Režim snežnice','Režim minilyže'],
+  sl:['Najprej pritrdite zadnjo odprtino pri peti čevlja.','Nato pritrdite sprednjo odprtino z gumbom za sprostitev pri konici čevlja.','Kontrolna vprašanja','Stopala narazen in kolena iztegnjena','Teža močno pomaknjena nazaj','Način krpelj','Način mini smuči']
+};
 for(const [lang,c] of Object.entries(reviewed)){
   const file=`public/guide/locales/${lang}.json`,d=JSON.parse(fs.readFileSync(file,'utf8'));
   d.lessons[0].points[2].text=c.mounting;
@@ -91,6 +103,10 @@ for(const [lang,c] of Object.entries(reviewed)){
   if(lang==='hu')d.lessons[0].title='Hótalp vagy minisí?';
   d.lessons[4].questions[3]=structuredClone(d.lessons[0].questions[1]);
   Object.assign(d.copy,c.ui);
+  const labels=finalLabels[lang];
+  d.lessons[0].points[4].text=labels[0];d.lessons[0].points[5].text=labels[1];
+  d.copy.quizTitle=labels[2];d.lessons[2].questions[1].answers[1]=labels[3];d.lessons[2].questions[1].answers[2]=labels[4];
+  d.copy.snowshoeMode=labels[5];d.copy.miniSkiMode=labels[6];
   // The proper group name is not translated.
   d.copy.communityText=d.copy.communityText.replace(/<strong>[^<]*<\/strong>/,'<strong>Combo Ski Users</strong>');
   fs.writeFileSync(file,JSON.stringify(d,null,2)+'\n');

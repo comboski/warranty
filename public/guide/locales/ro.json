@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Mai întâi atașați fanta de montare din spate, la călcâiul bocancului.",
+          "text": "Fixează mai întâi fanta din spate, de lângă călcâi.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Apoi atașați fanta de montare frontală cu butonul de eliberare, la vârful bocancului.",
+          "text": "Apoi fixează fanta din față cu butonul de eliberare, de lângă vârful bocancului.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -161,7 +161,7 @@
           "question": "Care este poziția de bază?",
           "answers": [
             "Picioarele împreună și genunchii îndoiți",
-            "Picioare late și genunchi drepti",
+            "Picioarele depărtate și genunchii întinși",
             "Greutatea mult prea în spate"
           ],
           "correct": 0,
@@ -382,7 +382,7 @@
     "prototype": "Verificare garanție Combo Ski",
     "videoHeading": "În primul rând, urmăriți videoclipul",
     "manualLink": "Deschideți manualul original ilustrat",
-    "quizTitle": "Verificați întrebările",
+    "quizTitle": "Întrebări de verificare",
     "quizCount": "3 intrebari",
     "completeEyebrow": "VERIFICAREA TERMINATĂ",
     "completeTitle": "Cunoașteți elementele de bază ale utilizării în siguranță",
@@ -472,8 +472,8 @@
     "selected": "Selectat",
     "select": "Selectați",
     "backToLanguages": "Înapoi la selecția limbii",
-    "snowshoeMode": "Modul cu rachete de zăpadă",
-    "miniSkiMode": "Mod mini-ski",
+    "snowshoeMode": "Mod rachete de zăpadă",
+    "miniSkiMode": "Mod mini-schiuri",
     "questionCount": "{n} întrebări",
     "chooseAnswer": "Alegeți un răspuns.",
     "tryAgain": "Încearcă din nou.",
