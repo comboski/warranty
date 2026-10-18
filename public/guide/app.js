@@ -264,7 +264,7 @@ function renderLesson(){
   if(step<5){
     const videoNumber=step+1;
     videoPanel.className="video-panel video-live";
-    const subtitleFile=lang==="cs"?`lesson-${videoNumber}.vtt`:`lesson-${videoNumber}.${lang}.vtt`;
+    const subtitleFile=(lang==="cs"?`lesson-${videoNumber}.vtt`:`lesson-${videoNumber}.${lang}.vtt`)+"?v=20261018-caption-gap";
     videoPanel.innerHTML=`<video controls playsinline preload="metadata" poster="assets/videos/lesson-${videoNumber}-poster.jpg" aria-label="${lesson.title}"><source src="assets/videos/lesson-${videoNumber}.mp4" type="video/mp4"><track kind="subtitles" src="assets/videos/${subtitleFile}" srclang="${lang}" label="${localeNames[lang][1]}" default>${copy[lang].videoUnsupported}</video><span class="video-time">${lesson.duration}</span>`;
   }else{
     videoPanel.className="video-panel hidden";
