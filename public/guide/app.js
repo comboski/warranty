@@ -250,10 +250,6 @@ function startCourse(nextLang){
   setLanguage(nextLang); $("languageScreen").classList.add("hidden"); $("registration").classList.add("hidden"); $("success").classList.add("hidden"); $("course").classList.remove("hidden"); step=0; renderLesson(); window.scrollTo({top:0,behavior:"smooth"});
 }
 
-function skipToRegistration(){
-  setLanguage(lang); $("languageScreen").classList.add("hidden"); $("course").classList.add("hidden"); $("success").classList.add("hidden"); $("registration").classList.remove("hidden"); window.scrollTo({top:0,behavior:"smooth"});
-}
-
 function renderLesson(){
   verified=false; const lesson=lessons[lang][step], total=lessons[lang].length;
   $("lessonIndex").textContent=String(step+1).padStart(2,"0"); $("lessonEyebrow").textContent=lesson.eyebrow; $("lessonTitle").textContent=lesson.title; $("lessonIntro").textContent=lesson.intro;
@@ -313,7 +309,6 @@ $("quizQuestions").addEventListener("change",event=>{
 });
 document.querySelectorAll("[data-lang]").forEach(button=>button.addEventListener("click",()=>setLanguage(button.dataset.lang)));
 $("startButton").addEventListener("click",()=>startCourse(lang));
-$("testSkipButton").addEventListener("click",skipToRegistration);
 function closeLanguageMenu(){ $("languageMenu").classList.add("hidden"); $("languageShortcut").setAttribute("aria-expanded","false"); }
 $("languageShortcut").addEventListener("click",()=>{
   $("languageMenu").classList.add("hidden");
