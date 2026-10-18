@@ -131,7 +131,12 @@ Object.assign(copy.cs, {
   actionRulePost:"Zveřejněte vlastní příspěvek nebo story s viditelným produktem Combo Ski a označte náš profil: <strong>@combo_ski</strong> nebo <strong>@Comboski</strong>.",
   actionRuleConsent:"Součástí akce je <strong>souhlas s odběrem novinek</strong>. Souhlas lze kdykoliv odvolat.",
   actionRuleActivation:"Odesláním formuláře evidujeme žádost. Prodlouženou záruku <strong>aktivujeme po ověření a spárování příspěvku nebo story</strong>.",
-  actionRuleRights:"Vaše zákonná práva z vadného plnění nejsou účastí ani neúčastí v akci dotčena. S dotazy se obraťte na <a href=mailto:info@comboski.cz>info@comboski.cz</a>."
+  warrantyCoverageTitle:"Co kryje prodloužená záruka ve třetím roce?",
+  warrantyCoverage:"Prodloužená záruka ve třetím roce kryje <strong>výrobní vady a vady materiálu</strong> při používání výrobku podle návodu.",
+  warrantyExclusions:"Nevztahuje se na <strong>běžné opotřebení, kosmetické škrábance, poškození nárazem do kamenů, nesprávné používání ani neodborné úpravy</strong>.",
+  warrantyRemedy:"Uznanou závadu řešíme <strong>opravou nebo výměnou vadného dílu</strong>.",
+  warrantyDuration:"Celková doba záruky po prodloužení je <strong>36 měsíců od převzetí výrobku</strong>, nikoli od registrace.",
+  actionRuleRights:"Vaše zákonná práva z vadného plnění nejsou účastí ani neúčastí v akci dotčena. Uvedené krytí a výluky se týkají dobrovolně poskytovaného třetího roku záruky. S dotazy a požadavky na záruční servis se obraťte na <a href=mailto:info@comboski.cz>info@comboski.cz</a>."
 });
 Object.assign(copy.en, {
   programTitle:"Share Combo Ski on Instagram or Facebook and get a 3-year warranty.",
@@ -145,7 +150,12 @@ Object.assign(copy.en, {
   actionRulePost:"Publish your own post or story showing Combo Ski and tag our profile: <strong>@combo_ski</strong> or <strong>@Comboski</strong>.",
   actionRuleConsent:"The promotion includes <strong>consent to receive news</strong>. You can withdraw consent at any time.",
   actionRuleActivation:"Submitting the form records your application. We <strong>activate the extended warranty after verifying and matching the post or story</strong>.",
-  actionRuleRights:"Your statutory rights are unaffected by participating or not participating in this promotion. Contact <a href=mailto:info@comboski.cz>info@comboski.cz</a> with any questions."
+  warrantyCoverageTitle:"What does the third warranty year cover?",
+  warrantyCoverage:"The third warranty year covers <strong>manufacturing and material defects</strong> when the product is used according to the instructions.",
+  warrantyExclusions:"It does not cover <strong>normal wear and tear, cosmetic scratches, damage from impacts with rocks, misuse or unauthorised modifications</strong>.",
+  warrantyRemedy:"Accepted defects are resolved by <strong>repairing or replacing the defective part</strong>.",
+  warrantyDuration:"The total warranty period after extension is <strong>36 months from receipt of the product</strong>, not from registration.",
+  actionRuleRights:"Your statutory rights are unaffected by participating or not participating in this promotion. The stated coverage and exclusions apply to the voluntarily provided third warranty year. Contact <a href=mailto:info@comboski.cz>info@comboski.cz</a> with questions or warranty service requests."
 });
 
 const $ = id => document.getElementById(id);
