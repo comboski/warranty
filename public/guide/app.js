@@ -193,7 +193,7 @@ function renderLesson(){
   if(step<5){
     const videoNumber=step+1;
     videoPanel.className="video-panel video-live";
-    videoPanel.innerHTML=`<video controls playsinline preload="metadata" aria-label="${lang==="cs"?"Videonávod":"Video tutorial"}: ${lesson.title}"><source src="assets/videos/lesson-${videoNumber}.mp4" type="video/mp4"><track kind="subtitles" src="assets/videos/lesson-${videoNumber}.vtt" srclang="cs" label="České titulky" default>${lang==="cs"?"Váš prohlížeč nepodporuje přehrávání videa.":"Your browser does not support video playback."}</video><span class="video-time">${lesson.duration}</span>`;
+    videoPanel.innerHTML=`<video controls playsinline preload="metadata" poster="assets/videos/lesson-${videoNumber}-poster.jpg" aria-label="${lang==="cs"?"Videonávod":"Video tutorial"}: ${lesson.title}"><source src="assets/videos/lesson-${videoNumber}.mp4" type="video/mp4"><track kind="subtitles" src="assets/videos/lesson-${videoNumber}.vtt" srclang="cs" label="České titulky" default>${lang==="cs"?"Váš prohlížeč nepodporuje přehrávání videa.":"Your browser does not support video playback."}</video><span class="video-time">${lesson.duration}</span>`;
   }else{
     videoPanel.className="video-panel hidden";
     videoPanel.innerHTML="";
