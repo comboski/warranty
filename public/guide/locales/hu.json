@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · VÁLTÁSI MÓDOK",
+      "title": "Hótalp vagy minisí?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Itt bemutatjuk, hogyan válthat az emelkedőn használt hótalpas mód és a lejtmeneti minisí mód között. A kötésen kulcslyuk alakú rögzítőnyílások vannak. Az első nyílás mindig a bakancs orránál, a hátsó a saroknál van, mindkét módban.",
+      "points": [
+        {
+          "text": "Hótalpas módban a fém peremmel és fém tüskékkel ellátott oldal mindig előre mutat. A műanyag hegy soha nem lehet elöl.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Ez helytelen: hótalpas üzemmódban a műanyag hegy nem mutathat előre.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "Hótalpas módban a bakancs orránál lévő első, kulcslyuk alakú rögzítőnyílást rögzítse a középső csapra mindkét oldalon. Az első csap szabadon marad, így a sarok kissé mozoghat.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>Minisí módban a kötés elöl és hátul is rögzítve van.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Először rögzítse a hátsó rögzítőnyílást, a bakancs sarkánál.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Ezután rögzítse az elülső rögzítőnyílást a kioldógombbal a bakancs orránál.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Melyik oldal mutat előre hótalpas módban?",
+          "answers": [
+            "Műanyag hegyű oldal",
+            "Fém peremmel és tüskékkel ellátott oldal",
+            "Az irány nem számít"
+          ],
+          "correct": 1,
+          "hint": "A fém peremmel és fém tüskékkel ellátott oldal mindig előre mutat."
+        },
+        {
+          "question": "Mi van rögzítve a középső csapn hótalpas módban?",
+          "answers": [
+            "Csak a bakancs orránál lévő első nyílás, hogy a sarok kissé mozoghasson",
+            "Csak a saroknál lévő hátsó nyílás",
+            "Mindkét rögzítőnyílás"
+          ],
+          "correct": 0,
+          "hint": "Mindkét oldalon csak az elülső rögzítőnyílást rögzítse a középső csaphoz, hogy a sarok kissé elmozdulhasson."
+        },
+        {
+          "question": "Milyen sorrendben rögzítik a kötést mini-sí módban?",
+          "answers": [
+            "Először az első, majd a hátsó rögzítési nyílás",
+            "Először a hátsó rögzítőnyílás, majd az első nyílás a kioldógombbal",
+            "A sorrend nem számít"
+          ],
+          "correct": 1,
+          "hint": "Először rögzítse a hátsó rögzítőnyílást, majd az első nyílást a kioldógombbal."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · MEGFELELŐ FELÜLET",
+      "title": "Beállítás és megfelelő illeszkedés",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "A Combo Ski felszerelése előtt állítsa be a méretet, és ellenőrizze az L és R jelzéseket. A szövet sarokpánt beállítja a csizma méretét és helyzetét. Az első racsnis pánt átmegy a lábujjakon. A hátsó racsnis heveder átmegy a láb tetején. A felső tépőzáras pánt a sípcsont körül megy.",
+      "points": [
+        {
+          "text": "Mindig ellenőrizze, hogy a bal oldali kötés a bal lábon, a jobb oldali kötés pedig a jobb lábon legyen. Az L és R jelzések a tépőzáras pánton találhatók.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Használja a saroktextil pántot a csizma elhelyezéséhez úgy, hogy a sarok a mérettáblázat szerinti S, M vagy L megjelölt pozícióhoz illeszkedjen.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Ismételje meg a folyamatot a kötés másik oldalán.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Húzza meg biztonságosan mindkét hevedert, mintha a Combo Ski a bakancs szilárd része lenne.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Hogyan lehet azonosítani a bal és a jobb oldalt?",
+          "answers": [
+            "Szín szerint",
+            "A tépőzáras pánt L és R jelzései szerint",
+            "Cserélhetők"
+          ],
+          "correct": 1,
+          "hint": "Az L és R jelzések a tépőzáras pánton találhatók."
+        },
+        {
+          "question": "Mit kell helyesen beállítani a bakancs méretéhez?",
+          "answers": [
+            "A sarok textil pánt",
+            "Csak az első racsnis heveder",
+            "Semmit sem kell igazítani"
+          ],
+          "correct": 0,
+          "hint": "Állítsa be a saroktextil pántot úgy, hogy a sarok illeszkedjen a megjelölt mérethez."
+        },
+        {
+          "question": "Hogyan húzza meg az első és hátsó racsnis pántot síelés előtt?",
+          "answers": [
+            "Hagyja szabadon mindkettőt",
+            "Erősen húzza meg mindkettőt, mintha a Combo Ski a bakancs szilárd része lenne",
+            "Elég csak az első hevedert megfeszíteni"
+          ],
+          "correct": 1,
+          "hint": "Húzza meg erősen mindkét hevedert."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · ELSŐ FUTÁS",
+      "title": "Állás, fordulás és fékezés",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Kezdje sík talajon, majd menjen egy enyhe lejtőre. Először tanuljon meg stabil tartást, fordulást és biztonságos fékezést.",
+      "points": [
+        {
+          "text": "Javasoljuk a sísisak viselését.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Tartsa a lábait közel egymáshoz, a térdeit pedig hajlítva. Tartsa meg az egyensúlyát előre-hátra, mint korcsolyán vagy görkorcsolyán. Ne dőljön hátra.",
+          "image": ""
+        },
+        {
+          "text": "Forduljon, mint a normál síléceken, vagy mozgassa az egyik lábát kissé a másik elé.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Fékezéshez fordítsa mindkét minisílécet a haladás irányára merőlegesen, és csússzon az éleken, mint korcsolyán. Vészhelyzetben válasszon kontrollált esést.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Hol érdemes kezdeni?",
+          "answers": [
+            "Bármilyen sípályán",
+            "Sík talajon, majd enyhe lejtőn",
+            "Jeges havon"
+          ],
+          "correct": 1,
+          "hint": "Kezdje sík talajon, majd menjen egy enyhe lejtőre."
+        },
+        {
+          "question": "Mi az alapállás?",
+          "answers": [
+            "Lábak együtt és térdek behajlítva",
+            "A láb széles és a térd egyenes",
+            "Súly messze vissza"
+          ],
+          "correct": 0,
+          "hint": "Tartsa össze a lábát, és hajlítsa a térdét. Ne dőljön hátra."
+        },
+        {
+          "question": "Hogyan kell fékezni?",
+          "answers": [
+            "Fékezéshez fordítsa mindkét minisílécet a haladás irányára merőlegesen, és csússzon az éleken, mint korcsolyán",
+            "Hóekében fékezzen",
+            "Mozgassa a súlyát hátrafelé"
+          ],
+          "correct": 0,
+          "hint": "Fordítsa oldalra mindkét mini sílécet, és csúsztassa a szélén."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · GYAKORLAT",
+      "title": "Felület, lábbeli és vezérlés",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "A viselkedés a felülettel együtt változik. Fokozatosan gyakoroljon, és a feltételeket a képességeihez igazítsa.",
+      "points": [
+        {
+          "text": "Kerülje a jeges vagy fagyott havat és a köveket.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "A masszív, bokáig érő téli csizma javítja a tartást és az irányítást.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Gyakorold először az egyensúlyt, majd folytasd a korcsolyázást és az enyhe ereszkedést.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Milyen felületet érdemes kerülni?",
+          "answers": [
+            "Normál puha hó",
+            "Jeges vagy fagyott hó",
+            "Enyhe lejtő"
+          ],
+          "correct": 1,
+          "hint": "Kerülje a jeges vagy fagyott havat és a köveket."
+        },
+        {
+          "question": "Milyen lábbeli megfelelő?",
+          "answers": [
+            "Masszív, bokáig érő téli csizma",
+            "Alacsony túracipő",
+            "Sportcipő"
+          ],
+          "correct": 0,
+          "hint": "Használjon erős, bokáig érő téli csizmát."
+        },
+        {
+          "question": "Mit kell először gyakorolni?",
+          "answers": [
+            "Végsebesség",
+            "Leereszkedések",
+            "Kiegyensúlyozottság és alapállás"
+          ],
+          "correct": 2,
+          "hint": "Először gyakorold az egyensúlyt és az alapállást."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · FELFELÉ",
+      "title": "Vissza a hótalpokhoz és felfelé",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Váltson módot vízszintes talajon, és győződjön meg arról, hogy a sarok szabad marad.",
+      "points": [
+        {
+          "text": "Távolítsa el a havat és a jeget a rögzítőnyílásokból és a csapokról, például kifújással.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "A kötés levételéhez nyomja meg a gombot, és csúsztassa le a rögzítőnyílást a csapról.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Fordítsa a Combo Skit a csúszófelületével felfelé, és helyezze a kötést a középső csapra.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Rögzítse a bakancs orránál lévő első, kulcslyuk alakú nyílást a középső csapra mindkét oldalon.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Tartsa szabadon a sarkát a természetesebb lépés érdekében.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "A sarok textilpánt segítségével igazítsa a csizma hegyét a Combo Ski hegyéhez.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Húzza meg a pántokat ebben a sorrendben: először az első pántot a lábujjakon, majd a hátsó pántot a láb tetején, végül a felső tépőzáras pántot a lábszár körül.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Mit tegyen, ha hó vagy jég van a rögzítőnyílásokban vagy a csapokon?",
+          "answers": [
+            "Távolítsa el a havat és a jeget, például kifújással",
+            "Kényszerítse a kötést a helyére",
+            "Hagyja őket blokkolva"
+          ],
+          "correct": 0,
+          "hint": "Távolítsa el a havat és a jeget a rögzítőnyílásokból és a csapokról, például kifújással."
+        },
+        {
+          "question": "Hótalpas módban milyen sorrendben húzza meg a hevedereket?",
+          "answers": [
+            "Először a hátsó, majd az első heveder",
+            "Első pánt a lábujjakon, hátsó pánt a láb tetején, majd felső tépőzáras pánt",
+            "A sorrend nem számít"
+          ],
+          "correct": 1,
+          "hint": "Első pánt a lábujjakon, hátsó pánt a láb tetején, majd felső tépőzáras pánt."
+        },
+        {
+          "question": "Hol legyen a csizma orrja hótalpas módban?",
+          "answers": [
+            "A Combo Ski hegyéhez igazítva",
+            "Jóval a Combo Ski eleje mögött",
+            "A Combo Ski középvonalán kívül"
+          ],
+          "correct": 0,
+          "hint": "Igazítsa a csizma hegyét a Combo Ski hegyéhez."
+        },
+        {
+          "question": "Mi van rögzítve a középső csapn hótalpas módban?",
+          "answers": [
+            "Csak a bakancs orránál lévő első nyílás, hogy a sarok kissé mozoghasson",
+            "Csak a saroknál lévő hátsó nyílás",
+            "Mindkét rögzítőnyílás"
+          ],
+          "correct": 0,
+          "hint": "Mindkét oldalon csak az elülső rögzítőnyílást rögzítse a középső csaphoz, hogy a sarok kissé elmozdulhasson."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · GONDOZÁS",
+      "title": "Használat után szárítsa meg és ellenőrizze",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "A szárítás, ellenőrzés és megfelelő tárolás védi a csúszófelületet és meghosszabbítja a termék élettartamát.",
+      "points": [
+        {
+          "text": "Hagyja a Combo Skit teljesen megszáradni minden használat után. Ne tárolja őket nedvesen.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Amikor a Combo Skit hátizsákba viszi vagy becsomagolja, úgy helyezze el őket, hogy a fém fogak ne sértsék meg a csúszófelületet.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Rendszeresen ellenőrizze a csavarkötéseket.",
+          "image": ""
+        },
+        {
+          "text": "Hagyja abba a sérült alkatrészek használatát, és lépjen kapcsolatba a szervizzel.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Mit kell tenni használat után?",
+          "answers": [
+            "Hagyja őket nedvesen",
+            "Hagyja teljesen megszáradni",
+            "Használjon maximális közvetlen hőt"
+          ],
+          "correct": 1,
+          "hint": "Hagyja teljesen megszáradni."
+        },
+        {
+          "question": "Hogyan kell őket becsomagolni?",
+          "answers": [
+            "Úgy, hogy a fémfogak ne sértsék meg a csúszófelületet",
+            "Kifelé csúszó felületek",
+            "Mindegy"
+          ],
+          "correct": 0,
+          "hint": "Úgy helyezze el a Combo Skit, hogy a fém fogak ne sértsék meg a csúszófelületet."
+        },
+        {
+          "question": "Mi van, ha egy alkatrész megsérül?",
+          "answers": [
+            "Síelj tovább",
+            "Ragassza fel és síeljen tovább",
+            "Hagyja abba a használatát, és lépjen kapcsolatba a szervizzel az info@comboski.cz címen"
+          ],
+          "correct": 2,
+          "hint": "Ne használjon sérült terméket; forduljon a szervizhez az info@comboski.cz címen."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "KOMBO SÍ GARANCIA ELLENŐRZÉSE",
+    "welcomeTitle": "Mielőtt kimész a hóba",
+    "welcomeLead": "<strong>Töltse ki ezt a rövid útmutatót, hogy megfeleljen a garanciális szabályoknak.</strong> Megmutatjuk a Combo Ski helyes beállítását, biztonságos használatát és gondozását.",
+    "welcomeRequired": "<strong>Az útmutatót ki kell tölteni.</strong><br>A végén írja be e-mail-címét, hogy rögzítse a garanciális ellenőrzés befejezését.",
+    "welcomeReward": "<strong>3 év garanciát kaphat</strong><br><small>Az útmutató kitöltése után egy harmadik év garanciát kaphat.</small>",
+    "chooseLanguage": "Válassza ki a nyelvet",
+    "durationNote": "Körülbelül 4 percet vesz igénybe",
+    "startGuide": "Indítsa el a garanciális ellenőrzést",
+    "testSkip": "TESZT: Ugrás a regisztrációhoz",
+    "prototype": "Combo Ski garanciális ellenőrzés",
+    "videoHeading": "Először nézze meg a videót",
+    "manualLink": "Nyissa meg az eredeti illusztrált kézikönyvet",
+    "quizTitle": "Ellenőrizze a kérdéseket",
+    "quizCount": "3 kérdés",
+    "completeEyebrow": "ELLENŐRZÉS KÉSZÜLT",
+    "completeTitle": "Ismeri a biztonságos használat alapjait",
+    "completeLead": "Most már regisztrálhatja termékét. Az Ön e-mail-címét használjuk a regisztráció rögzítésére.",
+    "chooseRegistration": "Válassza ki a regisztráció típusát",
+    "standardTitle": "Normál 2 év garanciális regisztráció",
+    "standardText": "Regisztrálja a jótállási ellenőrzés elvégzését a normál 2 éves garanciához.",
+    "extendedTitle": "3 év kiterjesztett garancia",
+    "extendedText": "Mutasd meg a Combo Skit barátaidnak, és 3 év garanciát kapsz.",
+    "socialProofLabel": "Instagram- vagy Facebook-fiókod neve <b aria-label=required>*</b>",
+    "socialProofHelp": "A fiók nevét használjuk, hogy megfeleljen a regisztrációs címkének.",
+    "socialTagCallout": "<strong>Ne felejtse el megcímkézni profilunkat a bejegyzésben:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>vagy</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Feliratkozom a Combo Ski hírekre, gyakorlati tippekre és ajánlatokra. Hozzájárulásomat bármikor visszavonhatom.",
+    "socialPostConsent": "Megerősítem, hogy közzétettem <strong>vagy közzé fogok tenni</strong> egy <strong>bejegyzést vagy történetet</strong>, amely bemutatja a terméket, és megjelölöm a <strong>@combo_ski</strong> nevet az Instagramon vagy a <strong>@Comboski</strong> nevet a Facebookon.",
+    "legalNote": "A regisztráció és ez az ellenőrzés nem korlátozza a hibás árukkal kapcsolatos törvényes jogokat. Az elküldéssel Ön megerősíti, hogy az adatok felhasználhatók a garancia rögzítésére. Olvassa el <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>adatvédelmi irányelveinket</a>.",
+    "submit": "Teljes regisztráció",
+    "certificate": "Regisztráció megerősítése",
+    "restart": "Kezdje újra",
+    "back": "Vissza",
+    "check": "Ellenőrizze a válaszokat",
+    "next": "Folytatás",
+    "step": "lépés",
+    "of": "a",
+    "correct": "Minden válasz helyes. Folytathatod.",
+    "answerRequired": "Válaszoljon mindhárom kérdésre.",
+    "formEmail": "Adjon meg egy érvényes e-mail címet.",
+    "formChoice": "Válasszon regisztrációs típust.",
+    "formConsents": "A három év garanciához adja meg a bejegyzés hivatkozását vagy a fiók nevét, erősítse meg, hogy közzétette a bejegyzést, és adja meg a marketing hozzájárulását.",
+    "formSaving": "Regisztráció mentése…",
+    "formSaveError": "Nem tudtuk menteni a regisztrációt. Kérjük, próbálja újra.",
+    "successTitle": "Regisztráció mentve",
+    "standardSuccess": "Befejezte a szabványos termékregisztrációt.",
+    "extendedSuccess": "Most várjuk a <strong>bejegyzését vagy történetét</strong>, amelyben megjelöli a <strong>@combo_ski</strong> profilunkat az Instagramon vagy a <strong>@Comboski</strong> profilunkat a Facebookon. Ha már közzétette, kérjük, legyen türelemmel, amíg összekapcsoljuk a regisztrációjával.",
+    "standardCertificate": "Normál regisztráció",
+    "extendedCertificate": "Regisztráció a kiterjesztett 3 év garanciára",
+    "socialOfferEyebrow": "A HARMADIK GARANCIA ÉVÉT HOGYAN KAPJA MEG",
+    "socialOfferTitle": "Mutasd meg a Combo Skit működés közben",
+    "socialOfferLead": "Tegye közzé saját bejegyzését, amelyben a termék jól látható, és jelölje meg egyik hivatalos profilunkat.",
+    "socialStepOne": "Fénykép vagy film Combo Ski",
+    "socialStepTwo": "A bejegyzés közzététele",
+    "socialStepThree": "Jelölje meg profilunkat",
+    "officialProfiles": "Adjon hozzá bejegyzést vagy történetet",
+    "openProfile": "Profil megnyitása ↗",
+    "newsletterRequired": "A garancia 3 évre történő meghosszabbításához válassza ki a hírfogadási hozzájárulást.",
+    "formSocialProof": "Adja meg IG vagy FB fiókjának nevét.",
+    "formSocialPost": "Erősítse meg, hogy közzétett vagy közzétesz egy bejegyzést vagy történetet, és megcímkézi profilunkat.",
+    "successEyebrow": "KÖSZÖNÖM",
+    "communityEyebrow": "KOMBO SÍ KÖZÖSSÉG",
+    "communityTitle": "Csatlakozzon más Combo Ski rajongókhoz",
+    "communityText": "Ossza meg kalandjait, merítsen ihletet, szerezzen gyakorlati tippeket, és értesüljön elsőként a hírekről a <strong>Combo Ski Users</strong> Facebook-csoportban.",
+    "communityButton": "Csatlakozz a Facebook csoporthoz ↗",
+    "newsletterOfferTitle": "Maradj egy lépéssel előrébb",
+    "newsletterOfferLead": "Gyakorlati tippek a biztonságosabb és élvezetesebb túrákhoz, útmutatók, hírek és speciális Combo Ski ajánlatok a postaládájába.",
+    "standardNewsletterConsent": "Szeretnék Combo Ski tippeket, útmutatókat, híreket és ajánlatokat kapni. Hozzájárulásomat bármikor visszavonhatom.",
+    "pairingNote": "<strong>Mi történik ezután?</strong> Amint megjelenik a megjelölést tartalmazó <strong>bejegyzés vagy történet</strong>, ellenőrizzük, <strong>a fióknév alapján összekapcsoljuk a regisztrációval</strong>, és <strong>aktiváljuk az összesen 3 évre meghosszabbított garanciát</strong>.",
+    "programEyebrow": "KOMBO SÍ MEGHOSSZABBÍTOTT GARANCIA",
+    "programTitle": "Oszd meg a Combo Skit az Instagramon vagy a Facebookon, és 3 év garanciát kapsz.",
+    "programLead": "Töltse ki az alábbi részleteket. Az Ön e-mail-címe segítségével rögzítjük a regisztrációt, és párosítjuk a <strong>bejegyzéssel vagy történettel</strong>.",
+    "programTiming": "<strong>Nem kell várnia a hegyi kirándulásra.</strong> Fényképezze le a kombinált sílécet, miközben kicsomagolja őket, vagy mutassa meg működés közben.",
+    "programExampleCaption": "<strong>Példabejegyzés vagy történet:</strong> a termék jól látható, és a Combo Ski profil meg van címkézve.",
+    "programTermsTitle": "Kiterjesztett jótállási feltételek",
+    "programTermProduct": "A Combo Ski terméknek jól láthatónak kell lennie a fényképen vagy videón.",
+    "programTermTag": "A <strong>bejegyzésben vagy történetben</strong> jelölje meg az Instagramon a <strong>@combo_ski</strong>, vagy a Facebookon a <strong>@Comboski</strong> profilunkat.",
+    "openInstagram": "Nyisd meg az Instagramot ↗",
+    "openFacebook": "Nyisd meg a Facebookot ↗",
+    "socialComposeHelp": "Az alkalmazásban vagy a webhelyen válassza a <strong>+ / Bejegyzés létrehozása</strong> lehetőséget, adja hozzá saját fényképét, és címkézze meg a következőt: <strong>@combo_ski</strong> az Instagramon vagy <strong>@Comboski</strong> a Facebookon. Ezután térjen vissza ide a regisztráció befejezéséhez.",
+    "actionRulesTitle": "Promóciós szabályok",
+    "actionRuleDeadline": "Kérje a garancia meghosszabbítását <strong>a termék megvásárlásától számított egy éven belül</strong>.",
+    "actionRuleOnce": "A garancia <strong>termékenként csak egyszer</strong> hosszabbítható meg.",
+    "actionRuleRegistration": "Töltse ki az útmutatót, és adja meg e-mail-címét és Instagram- vagy Facebook-fiókja nevét.",
+    "actionRulePost": "Tegye közzé saját <strong>bejegyzését vagy történetét</strong> a Combo Skit bemutatóval, és jelölje meg profilunkat: <strong>@combo_ski</strong> vagy <strong>@Comboski</strong>.",
+    "actionRuleConsent": "A promóció magában foglalja a <strong>hírek fogadásához való hozzájárulást</strong>. A hozzájárulást bármikor visszavonhatja.",
+    "actionRuleActivation": "Az űrlap elküldésével rögzítjük a kérelmet. <strong>A meghosszabbított garanciát a bejegyzés vagy történet ellenőrzése és a regisztrációval való összekapcsolása után aktiváljuk</strong>.",
+    "warrantyCoverageTitle": "Mit takar a harmadik garanciaév?",
+    "warrantyCoverage": "A harmadik garanciális év a <strong>gyártási és anyaghibákra</strong> terjed ki, ha a terméket az útmutató szerint használják.",
+    "warrantyExclusions": "Nem terjed ki a <strong>normál kopásra, esztétikai karcolásokra, köveknek ütközésből eredő sérülésekre, helytelen használatra és szakszerűtlen átalakításokra</strong>.",
+    "warrantyRemedy": "Az elfogadott hibákat <strong>a hibás alkatrész megjavításával vagy cseréjével</strong> oldjuk meg.",
+    "warrantyDuration": "A teljes jótállási idő a meghosszabbítás után <strong>36 hónap a termék kézhezvételétől</strong>, nem pedig a regisztrációtól.",
+    "actionRuleRights": "Az Ön törvényes jogait nem érinti, ha részt vesz vagy nem vesz részt ebben a promócióban. A feltüntetett fedezet és kizárások az önkéntesen biztosított harmadik jótállási évre vonatkoznak. Kérdéseivel vagy garanciális szolgáltatási kérésével forduljon az <a href=mailto:info@comboski.cz>info@comboski.cz</a> címhez.",
+    "retailerLabel": "Hol vetted a Combo Skit? *",
+    "retailerPlaceholder": "Válasszon egy kiskereskedőt",
+    "retailerCombo": "Combo Ski webáruház",
+    "retailerOther": "Más kiskereskedő",
+    "retailerNameLabel": "A kiskereskedő neve *",
+    "retailerError": "Válassza ki, hol vásárolta a Combo Skit.",
+    "retailerNameError": "Adja meg a kiskereskedő nevét.",
+    "selected": "Kiválasztva",
+    "select": "Válassza ki",
+    "backToLanguages": "Vissza a nyelvválasztáshoz",
+    "snowshoeMode": "Hótalpas mód",
+    "miniSkiMode": "Mini-sí mód",
+    "questionCount": "{n} kérdés",
+    "chooseAnswer": "Válasszon egy választ.",
+    "tryAgain": "Próbáld újra.",
+    "correctAnswer": "Helyes.",
+    "allQuestions": "Válaszoljon mind a {n} kérdésre.",
+    "fixAnswers": "Kérjük, javítsa ki a kiemelt válaszokat!",
+    "videoUnsupported": "Az Ön böngészője nem támogatja a videolejátszást.",
+    "yearBadge": "3 ÉV",
+    "tagInstagram": "Tag @combo_ski",
+    "tagFacebook": "Tag @Comboski",
+    "socialExampleAlt": "Példa egy bejegyzésre vagy történetre, amely bemutatja a Combo Skit és a profilunkat",
+    "formEmailLabel": "E-mail*",
+    "accountPlaceholder": "@a_fiókod",
+    "emailPlaceholder": "te@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Szia, Vojta vagyok, és ma megmutatom,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "hogyan kell biztonságosan használni a Combo Skit"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "és a Sever Gear botjainkat."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "A Combo Ski kétféle üzemmódban használható."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Hótalpas mód vagy mini-sí mód."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "Hótalpas módban csak a középső csapot használom"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "az első, kulcslyuk alakú rögzítőnyíláshoz."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "A fémtüskéknek mindig elöl kell lenniük."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "A műanyag vég"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "hátul, elöl soha."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Mint említettem,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Csak egy csapot rögzítek."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Az első csap szabadon marad."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Most váltsunk mini-sí módra."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Kioldom a rögzítést,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "és a másik oldalon is kioldom a nyílást."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Most mindkét csapot rögzítem."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Először a hátsó rögzítőnyílás, majd az első."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "Ugyanez a másik oldalon."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Most állítanom kell a textil sarokpántot"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "hogy a méret megfeleljen nekem."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Például"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "A Combo Skit S és M méret közé állítottam."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Tehát meglazítom a műanyag csatot,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "és kényelmes méretre állítom a pántot."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Ugyanezt teszem a másik Combo Ski-en is."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Most felteszem a Combo Skit a jobb lábamra."
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Az R jelzés"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "a felső tépőzáras pánton."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Erősen meghúzom a hevedereket,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "a csat segítségével."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Az elülső pánt a lábujjakon,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "majd a felső tépőzáras pánt."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "Ugyanezt teszem a bal lábbal is."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Állva megfeszítem a hevedereket,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "hogy a Combo Ski szinte a bakancs része legyen."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Megnézem a méret beállításához használt sarokpántot."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "A felső heveder"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "a bakancsra is kerülhet,"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "vagy fölé, a lábszár köré. Mindkettő helyes."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Most bemutatjuk a lejtmenetet a Combo Skivel."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Soha ne kezdd el,"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "meredek lejtőkön vagy piros sípályákon."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Mindig jobb sík terepen vagy enyhe lejtőn indulni."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Mindig figyeljen arra,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "hogy ne feszüljön meg."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Maradjon laza, és hajlítsa be a térdét."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "behajlítva tartom a térdem,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "rövid kanyarokat teszek"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "és a jobb egyensúlyért az egyik lábamat"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "kissé a másik előtt tartom."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "Eleinte kínos érzés lehet,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "de idővel megszokod,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "magabiztosabb lesz, és megtanul oldalirányú csúszással fékezni."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Mint említettem,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Tartsa az egyik lábát kissé a másik előtt a jobb egyensúly érdekében."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Gyakori hibák."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Ne síeljen nyújtott térddel, és ne fékezzen hóekében."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Nem működik, és valószínűleg elesik."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "A lényeg, hogy nyugodt maradj,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "főleg a térdében."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Rövid gyakorlat után növelheti a sebességet és a dőlésszöget,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "és jobban élvezheti a síelést."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Amint látod,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "az éleknek és a felső pántnak köszönhetően"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "a síelés kényelmes és biztonságos."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "A Combo Ski egyik legszórakoztatóbb mozgása a korcsolyázás."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Ugyanakkor ez az egyik legegyszerűbb módja,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "megtanulni a Combo Ski használatát."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Segít egyensúlyban tartani előre és hátra:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "ugyanúgy korcsolyázol, mint görkorcsolyán."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "lehet korcsolyázni lefelé,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "vagy sík terepen,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "vagy akár,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "kissé felfelé."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Lejtmenetben nagyon fontosak a hóviszonyok,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "a legjobb körülmények a normál, puha hó."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "A jeges felületek veszélyesek és nehézkesek."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "A jégen való síelés kezdőknek szinte lehetetlen."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "A masszív téli csizmák ideálisak a Combo Ski-hez."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Csak egy szabály van,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Meg kell tartaniuk a bokát."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Minél magasabb és merevebb a csizma,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "annál jobb."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Most átkapcsolom a Combo Skit hótalpas módra."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "megnyomom a gombot,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "és kioldom a hátsó nyílást."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "Ugyanezt teszem a másik oldalon."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "És most, ahogy korábban említettem,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "a legfontosabb az,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "hogy a fémtüskék elöl vannak."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Tehát csak a középső csapot rögzítem"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "és benyomom a rögzítést."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Ha van hó bent,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "egyszerűen kifújom,"
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "Ugyanezt teszem a másik oldalon."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Így van beállítva a hótalpas mód."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Amint látod,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Most behelyezem a jobb lábamat."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Teljesen hátracsúsztatom a lábam, és megnézem"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "hogy a textil sarokpánt a helyén van-e."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Meghúzom az első pántot a lábujjakon,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "majd a hátsó hevedert a láb tetején,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "és végül a felső tépőzáras pánt."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Amint látod,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "a bakancs orra egy vonalban van a Combo Ski hegyével."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Ez azt jelenti, hogy a Combo Ski megfelelően van felszerelve."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Kényelmesen sétálhatok felfelé."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Nagyon meredek terepen,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "nyomja a Combo Skit határozottan a hóba."
+      }
+    ]
+  ]
+}

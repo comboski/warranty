@@ -85,6 +85,47 @@ for (const language of ["cs", "en"]) {
     : "Position Combo Ski so the metal teeth cannot damage the sliding surface.";
 }
 
+lessons.cs[0].intro += " Upevňovací otvory ve vázání mají tvar klíčové dírky. Přední otvor je u špičky boty, zadní u paty — v obou režimech.";
+lessons.en[0].title = "Snowshoes or mini-skis?";
+lessons.en[0].intro += " The binding has keyhole-shaped mounting slots. The front slot is at the boot toe and the rear slot at the boot heel, in both modes.";
+lessons.cs[0].points[2].text = "V režimu sněžnice upevněte přední otvor ve tvaru klíčové dírky (u špičky boty) na prostřední čep na obou stranách. Přední čep zůstává volný, takže se pata může mírně pohybovat.";
+lessons.en[0].points[2].text = "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.";
+lessons.en[0].points[4].text = "First attach the rear mounting slot, at the boot heel.";
+lessons.en[0].points[5].text = "Then attach the front mounting slot with the release button, at the boot toe.";
+lessons.cs[0].points[4].text = "Nejprve nasaďte zadní otvor ve tvaru klíčové dírky, u paty boty.";
+lessons.cs[0].points[5].text = "Poté nasaďte přední otvor ve tvaru klíčové dírky s tlačítkem, u špičky boty.";
+lessons.cs[0].questions[1].answers[0] = "Pouze přední otvor ve tvaru klíčové dírky (u špičky boty), aby se pata mohla mírně pohybovat";
+lessons.en[0].questions[1].answers = ["Only the front mounting slot (at the boot toe), so the heel can move slightly", "Only the rear mounting slot (at the boot heel)", "Both mounting slots"];
+lessons.en[0].questions[2].answers = ["Front mounting slot first, then rear", "Rear mounting slot first, then the front slot with the release button", "The order does not matter"];
+for(const language of ["cs","en"]){
+  const cs=language==="cs", chapters=lessons[language];
+  chapters[1].intro += cs
+    ? " Patní textilní pásek nastavuje velikost a polohu boty. Přední ráčnový pásek vede přes špičku boty, zadní ráčnový pásek přes nárt. Horní pásek se suchým zipem obepíná holeň."
+    : " The textile heel strap sets the boot size and position. The front ratchet strap goes over the boot toe and the rear ratchet strap over the instep. The upper hook-and-loop strap wraps around the shin.";
+  chapters[1].questions[2].question=cs?"Jak dotáhnete přední a zadní ráčnový pásek před jízdou?":"How should you tighten the front and rear ratchet straps before riding?";
+  chapters[1].questions[2].answers=cs?["Oba nechám volné","Oba pevně, jako by Combo Ski byla pevnou součástí boty","Stačí dotáhnout pouze přední pásek"]:["Leave both loose","Tighten both firmly, as if Combo Ski were a solid part of the boot","Tightening only the front strap is enough"];
+  chapters[4].points[3].text=cs?"Přední otvor ve tvaru klíčové dírky (u špičky boty) upevněte na prostřední čep na obou stranách.":"Attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side.";
+  chapters[4].points[6].text=cs?"Nejprve dotáhněte přední ráčnový pásek přes špičku boty, potom zadní ráčnový pásek přes nárt a nakonec horní pásek se suchým zipem kolem holeně.":"First tighten the front ratchet strap over the boot toe, then the rear ratchet strap over the instep, and finally the upper hook-and-loop strap around the shin.";
+  chapters[4].questions[1].question=cs?"V jakém pořadí dotahujete pásky v režimu sněžnice?":"In what order should you tighten the straps in snowshoe mode?";
+  chapters[4].questions[1].answers=cs?["Nejprve zadní ráčnový přes nárt, pak přední přes špičku","Přední ráčnový přes špičku, zadní přes nárt a nakonec horní se suchým zipem","Na pořadí nezáleží"]:["Rear ratchet strap over the instep first, then front over the toe","Front ratchet strap over the toe, rear over the instep, then the upper hook-and-loop strap","The order does not matter"];
+  chapters[4].questions[3]=structuredClone(chapters[0].questions[1]);
+}
+
+// Plain English: explain the parts once, then use the same short names throughout.
+lessons.en[1].intro = "Set the size and check the L and R marks before putting Combo Ski on. The fabric heel strap adjusts the size and the position of the boot. The front ratchet strap goes over the toes. The rear ratchet strap goes over the top of the foot. The upper Velcro strap goes around the shin.";
+lessons.en[2].points[1].text = "Keep your feet together and your knees bent. Balance forwards and backwards, as on ice skates or inline skates. Do not lean back.";
+lessons.en[2].points[2].text = "Turn as on normal skis, or move one foot slightly in front of the other.";
+lessons.en[2].points[3].text = "To brake, turn both mini-skis sideways and slide on their edges, as on ice skates. If you cannot stop, use a controlled fall.";
+lessons.en[2].questions[1].hint = "Keep your feet together and your knees bent. Do not lean back.";
+lessons.en[2].questions[2].question = "How should you brake?";
+lessons.en[2].questions[2].answers[0] = "Turn both mini-skis sideways and slide on their edges, as on ice skates";
+lessons.en[2].questions[2].hint = "Turn both mini-skis sideways and slide on their edges.";
+lessons.en[4].points[6].text = "Tighten the straps in this order: first the front strap over the toes, then the rear strap over the top of the foot, and finally the upper Velcro strap around the shin.";
+lessons.en[4].questions[1].answers = ["Rear strap first, then front strap", "Front strap over the toes, rear strap over the top of the foot, then upper Velcro strap", "The order does not matter"];
+lessons.en[4].questions[2].question = "Where should the boot toe be in snowshoe mode?";
+lessons.cs[4].points[1].text = "Vázání uvolníte stisknutím tlačítka a vysunutím upevňovacího otvoru z čepu směrem dolů.";
+lessons.en[4].points[1].text = "To release the binding, press the button and slide the mounting slot down off the pin.";
+
 const copy = {
   cs:{welcomeEyebrow:"GARANČNÍ PROHLÍDKA COMBO SKI",welcomeTitle:"Než vyrazíte na sníh",welcomeLead:"<strong>Dokončete tohoto krátkého průvodce pro splnění pravidel záruky.</strong> Ukážeme vám správné nastavení, bezpečné používání a péči o Combo Ski.",welcomeRequired:"<strong>Průvodce je potřeba dokončit.</strong><br>Na konci zadáte e-mail a zaznamenáme splnění garanční prohlídky.",welcomeReward:"<strong>Můžete získat 3 roky záruky</strong><br><small>Po dokončení průvodce můžete získat třetí rok záruky.</small>",chooseLanguage:"Vyberte jazyk",durationNote:"Zabere přibližně 4 minuty",startGuide:"Začít garanční prohlídku",testSkip:"TEST: Přeskočit na registraci",prototype:"Garanční prohlídka Combo Ski",videoHeading:"Nejdřív se podívejte na video",manualLink:"Otevřít původní obrázkový návod",quizTitle:"Kontrolní otázky",quizCount:"3 otázky",completeEyebrow:"PROHLÍDKA DOKONČENA",completeTitle:"Znáte základy bezpečného používání",completeLead:"Teď můžete výrobek zaregistrovat. E-mail použijeme pro evidenci a potvrzení registrace.",chooseRegistration:"Vyberte typ registrace",standardTitle:"Standardní registrace",standardText:"Bez odběru newsletteru. Vaše zákonná práva tím nejsou dotčena.",extendedTitle:"3letá obchodní záruka",extendedText:"Zveřejněte příspěvek s viditelným produktem, označte @combo_ski na Instagramu nebo @Comboski na Facebooku a udělte marketingový souhlas. Získáte tím třetí rok záruky.",socialProofLabel:"Odkaz na příspěvek nebo název IG/FB účtu <b aria-label=povinné>*</b>",socialProofHelp:"Stačí jedna z možností. Použijeme ji pouze ke spárování příspěvku s registrací.",socialTagCallout:"<strong>V příspěvku nezapomeňte označit náš profil:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>nebo</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",newsletterConsent:"Přihlašuji se k odběru novinek, praktických tipů a nabídek Combo Ski. Souhlas mohu kdykoliv odvolat.",socialPostConsent:"Potvrzuji, že jsem zveřejnil/a příspěvek s viditelným produktem a označil/a <strong>@combo_ski</strong> na Instagramu nebo <strong>@Comboski</strong> na Facebooku.",legalNote:"Registrace ani absolvování této prohlídky neomezuje zákonná práva z vadného plnění. Odesláním formuláře potvrzujete, že uvedené údaje mohou být použity pro evidenci záruky. Více najdete v <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>podmínkách ochrany osobních údajů</a>.",submit:"Dokončit registraci",certificate:"Potvrzení registrace",restart:"Projít znovu",back:"Zpět",check:"Zkontrolovat odpovědi",next:"Pokračovat",step:"Krok",of:"z",correct:"Všechny odpovědi jsou správně. Můžete pokračovat.",answerRequired:"Odpovězte na všechny tři otázky.",formEmail:"Zadejte platný e-mail.",formChoice:"Vyberte typ registrace.",formConsents:"Pro tříletou záruku vyplňte odkaz nebo název účtu, potvrďte zveřejnění příspěvku a udělte marketingový souhlas.",formSaving:"Ukládám registraci…",formSaveError:"Registraci se nepodařilo uložit. Zkuste to prosím znovu.",successTitle:"Registrace byla uložena",standardSuccess:"Dokončili jste standardní registraci výrobku.",extendedSuccess:"Dokončili jste registraci tříleté obchodní záruky. Příspěvek spárujeme podle uvedeného odkazu nebo názvu účtu.",standardCertificate:"Standardní registrace",extendedCertificate:"3letá obchodní záruka"},
   en:{welcomeEyebrow:"COMBO SKI WARRANTY CHECK",welcomeTitle:"Before you head out into the snow",welcomeLead:"<strong>Complete this short guide to meet the warranty rules.</strong> We will show you the correct setup, safe use and care of Combo Ski.",welcomeRequired:"<strong>The guide must be completed.</strong><br>At the end, enter your email to record completion of the warranty check.",welcomeReward:"<strong>You can receive a 3-year warranty</strong><br><small>After completing the guide, you may receive a third warranty year.</small>",chooseLanguage:"Choose your language",durationNote:"Takes approximately 4 minutes",startGuide:"Start warranty check",testSkip:"TEST: Skip to registration",prototype:"Combo Ski warranty check",videoHeading:"First, watch the video",manualLink:"Open the original illustrated manual",quizTitle:"Check questions",quizCount:"3 questions",completeEyebrow:"CHECK COMPLETED",completeTitle:"You know the basics of safe use",completeLead:"You can now register your product. We use your email to record and confirm registration.",chooseRegistration:"Choose registration type",standardTitle:"Standard registration",standardText:"No newsletter. Your statutory rights are not affected.",extendedTitle:"3-year commercial warranty",extendedText:"Publish a post showing the product, tag @combo_ski on Instagram or @Comboski on Facebook, and give marketing consent to receive the third warranty year.",socialProofLabel:"Post link or IG/FB account name <b aria-label=required>*</b>",socialProofHelp:"Either option is enough. We will use it only to match the post with your registration.",socialTagCallout:"<strong>Remember to tag our profile in the post:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>or</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",newsletterConsent:"I subscribe to Combo Ski news, practical tips and offers. I may withdraw my consent at any time.",socialPostConsent:"I confirm that I have published a post showing the product and tagged <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook.",legalNote:"Registration and this check do not limit statutory rights relating to defective goods. By submitting, you confirm the details may be used to record the warranty. Read our <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>privacy policy</a>.",submit:"Complete registration",certificate:"Registration confirmation",restart:"Start again",back:"Back",check:"Check answers",next:"Continue",step:"Step",of:"of",correct:"All answers are correct. You can continue.",answerRequired:"Answer all three questions.",formEmail:"Enter a valid email address.",formChoice:"Choose a registration type.",formConsents:"For the three-year warranty, enter the post link or account name, confirm that you published the post, and give marketing consent.",formSaving:"Saving registration…",formSaveError:"We could not save the registration. Please try again.",successTitle:"Registration saved",standardSuccess:"You have completed standard product registration.",extendedSuccess:"You have completed registration for the three-year commercial warranty. We will match the post using the link or account name provided.",standardCertificate:"Standard registration",extendedCertificate:"3-year commercial warranty"}
@@ -176,18 +217,33 @@ for(const language of ["cs","en"]){
   }
 }
 
+const localeNames = {cs:["🇨🇿","Čeština"],en:["🇬🇧","English"],de:["🇩🇪","Deutsch"],fr:["🇫🇷","Français"],it:["🇮🇹","Italiano"],es:["🇪🇸","Español"],pl:["🇵🇱","Polski"],nl:["🇳🇱","Nederlands"],ro:["🇷🇴","Română"],hu:["🇭🇺","Magyar"],sk:["🇸🇰","Slovenčina"],sl:["🇸🇮","Slovenščina"]};
+Object.assign(copy.cs,{selected:"Vybráno",select:"Vybrat",backToLanguages:"Zpět na výběr jazyka",snowshoeMode:"Režim sněžnice",miniSkiMode:"Režim mini-lyže",questionCount:"{n} otázky",chooseAnswer:"Vyberte odpověď.",tryAgain:"Zkuste to znovu.",correctAnswer:"Správně.",allQuestions:"Odpovězte na všechny otázky ({n}).",fixAnswers:"Některé odpovědi ještě opravte.",videoUnsupported:"Váš prohlížeč nepodporuje přehrávání videa.",yearBadge:"3 ROKY",tagInstagram:"Označte @combo_ski",tagFacebook:"Označte @Comboski",socialExampleAlt:"Ukázka příspěvku nebo story s produktem Combo Ski a označením profilu",formEmailLabel:"E-mail *",accountPlaceholder:"@uživatelské_jméno",emailPlaceholder:"vas@email.cz"});
+for(const [language,data] of Object.entries(window.COMBO_LOCALES || {})){
+  lessons[language]=data.lessons;
+  copy[language]=data.copy;
+}
+document.querySelector(".language-grid").innerHTML=Object.entries(localeNames).map(([code,[flag,name]])=>`<button class="language-card" type="button" data-lang="${code}" aria-pressed="false"><span class="flag" aria-hidden="true">${flag}</span><span class="language-name">${name}</span><small></small></button>`).join("");
 const $ = id => document.getElementById(id);
 let lang = "cs", step = 0, verified = false;
 
 function setLanguage(nextLang){
+  if(!copy[nextLang] || !lessons[nextLang])return;
   lang = nextLang; document.documentElement.lang = lang;
+  document.title=copy[lang].prototype;
   $("languageShortcut").innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h15"/></svg>`;
-  $("languageShortcut").setAttribute("aria-label",lang==="cs"?"Zpět na výběr jazyka":"Back to language selection");
+  $("languageShortcut").setAttribute("aria-label",copy[lang].backToLanguages);
   $("languageShortcut").removeAttribute("aria-haspopup");
   $("languageShortcut").removeAttribute("aria-expanded");
   document.querySelectorAll("[data-i18n]").forEach(node => { const value = copy[lang][node.dataset.i18n]; if(value) node.innerHTML = value; });
   $("quizTitle").textContent = copy[lang].quizTitle; $("quizCount").textContent = copy[lang].quizCount;
-  document.querySelectorAll("[data-lang]").forEach(button=>{const selected=button.dataset.lang===lang;button.classList.toggle("language-card-selected",selected);button.setAttribute("aria-pressed",String(selected));const note=button.querySelector("small");if(note)note.textContent=selected?(lang==="cs"?"Vybráno":"Selected"):(button.dataset.lang==="cs"?"Vybrat":"Select");});
+  document.querySelectorAll("[data-lang]").forEach(button=>{const selected=button.dataset.lang===lang;button.classList.toggle("language-card-selected",selected);button.setAttribute("aria-pressed",String(selected));const note=button.querySelector("small");if(note)note.textContent=selected?copy[lang].selected:copy[lang].select;});
+  $("email").placeholder=copy[lang].emailPlaceholder;
+  $("socialProof").placeholder=copy[lang].accountPlaceholder;
+  document.querySelector(".program-example img").alt=copy[lang].socialExampleAlt;
+  $("videoPanel").setAttribute("aria-label",copy[lang].videoHeading);
+  document.querySelector(".language-grid").setAttribute("aria-label",copy[lang].chooseLanguage);
+  $("formError").textContent="";
 }
 
 function startCourse(nextLang){
@@ -208,7 +264,8 @@ function renderLesson(){
   if(step<5){
     const videoNumber=step+1;
     videoPanel.className="video-panel video-live";
-    videoPanel.innerHTML=`<video controls playsinline preload="metadata" poster="assets/videos/lesson-${videoNumber}-poster.jpg" aria-label="${lang==="cs"?"Videonávod":"Video tutorial"}: ${lesson.title}"><source src="assets/videos/lesson-${videoNumber}.mp4" type="video/mp4"><track kind="subtitles" src="assets/videos/lesson-${videoNumber}.vtt" srclang="cs" label="České titulky" default>${lang==="cs"?"Váš prohlížeč nepodporuje přehrávání videa.":"Your browser does not support video playback."}</video><span class="video-time">${lesson.duration}</span>`;
+    const subtitleFile=lang==="cs"?`lesson-${videoNumber}.vtt`:`lesson-${videoNumber}.${lang}.vtt`;
+    videoPanel.innerHTML=`<video controls playsinline preload="metadata" poster="assets/videos/lesson-${videoNumber}-poster.jpg" aria-label="${lesson.title}"><source src="assets/videos/lesson-${videoNumber}.mp4" type="video/mp4"><track kind="subtitles" src="assets/videos/${subtitleFile}" srclang="${lang}" label="${localeNames[lang][1]}" default>${copy[lang].videoUnsupported}</video><span class="video-time">${lesson.duration}</span>`;
   }else{
     videoPanel.className="video-panel hidden";
     videoPanel.innerHTML="";
@@ -217,18 +274,18 @@ function renderLesson(){
   lessonPoints.className=step<=5?"lesson-points mode-points":"lesson-points";
   if(step===0){
     const cards=lesson.points.map(point=>`<li class="stacked-visual"><span class="point-image ${point.image}" aria-hidden="true"></span><span class="point-text">${point.text}</span></li>`);
-    lessonPoints.innerHTML=`<li class="point-section-title"><h2>${lang==="cs"?"Režim sněžnice":"Snowshoe mode"}</h2></li>${cards.slice(0,3).join("")}<li class="point-section-title point-section-title-secondary"><h2>${lang==="cs"?"Režim mini-lyže":"Mini-ski mode"}</h2></li>${cards.slice(3).join("")}`;
+    lessonPoints.innerHTML=`<li class="point-section-title"><h2>${copy[lang].snowshoeMode}</h2></li>${cards.slice(0,3).join("")}<li class="point-section-title point-section-title-secondary"><h2>${copy[lang].miniSkiMode}</h2></li>${cards.slice(3).join("")}`;
   }else{
     lessonPoints.innerHTML=lesson.points.map(point=>`<li class="${step<=5?"stacked-visual":""} ${point.image?"":"text-only-point"}">${point.image?`<span class="point-image ${point.image}" aria-hidden="true"></span>`:""}<span class="point-text">${point.text}</span></li>`).join("");
   }
-  $("quizCount").textContent=lang==="cs"?`${lesson.questions.length} ${lesson.questions.length===1?"otázka":lesson.questions.length<5?"otázky":"otázek"}`:`${lesson.questions.length} ${lesson.questions.length===1?"question":"questions"}`;
+  $("quizCount").textContent=copy[lang].questionCount.replace("{n}",lesson.questions.length);
   $("quizQuestions").innerHTML=lesson.questions.map((item,i)=>`<fieldset class="quiz-item"><legend><span class="question-number">${i+1}.</span>${item.question}</legend>${item.answers.map((answer,j)=>`<label class="answer"><input type="radio" name="quiz-${i}" value="${j}"><span>${answer}</span></label>`).join("")}<p class="question-feedback" id="questionFeedback-${i}"></p></fieldset>`).join("");
   $("feedback").textContent=""; $("feedback").className="feedback";
   const back=$("backButton");
   back.classList.toggle("back-icon-only",step===0);
   if(step===0){
     back.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h15"/></svg>';
-    back.setAttribute("aria-label",lang==="cs"?"Zpět na výběr jazyka":"Back to language selection");
+    back.setAttribute("aria-label",copy[lang].backToLanguages);
   }else{
     back.textContent=copy[lang].back;
     back.removeAttribute("aria-label");
@@ -240,8 +297,8 @@ function renderLesson(){
 function handleContinue(){
   if(verified){ if(step<lessons[lang].length-1){step++;renderLesson();}else{$("course").classList.add("hidden");$("registration").classList.remove("hidden");} window.scrollTo({top:0,behavior:"smooth"}); return; }
   const questions=lessons[lang][step].questions; let complete=true, allCorrect=true;
-  questions.forEach((item,i)=>{ const chosen=document.querySelector(`input[name="quiz-${i}"]:checked`), feedback=$(`questionFeedback-${i}`), block=feedback.closest(".quiz-item"); feedback.className="question-feedback"; block.classList.remove("quiz-correct","quiz-error"); if(!chosen){complete=false;allCorrect=false;block.classList.add("quiz-error");feedback.textContent=lang==="cs"?"Vyberte odpověď.":"Choose an answer.";}else if(Number(chosen.value)!==item.correct){allCorrect=false;block.classList.add("quiz-error");feedback.textContent=lang==="cs"?"Zkuste to znovu.":"Try again.";}else{block.classList.add("quiz-correct");feedback.textContent=lang==="cs"?"Správně.":"Correct.";feedback.classList.add("correct");} });
-  if(!complete){showFeedback(lang==="cs"?`Odpovězte na všechny ${questions.length===4?"čtyři":"tři"} otázky.`:`Answer all ${questions.length} questions.`,false);return;} if(!allCorrect){showFeedback(lang==="cs"?"Některé odpovědi ještě opravte.":"Please correct the highlighted answers.",false);return;} verified=true;showFeedback(copy[lang].correct,true);$("continueButton").textContent=copy[lang].next;
+  questions.forEach((item,i)=>{ const chosen=document.querySelector(`input[name="quiz-${i}"]:checked`), feedback=$(`questionFeedback-${i}`), block=feedback.closest(".quiz-item"); feedback.className="question-feedback"; block.classList.remove("quiz-correct","quiz-error"); if(!chosen){complete=false;allCorrect=false;block.classList.add("quiz-error");feedback.textContent=copy[lang].chooseAnswer;}else if(Number(chosen.value)!==item.correct){allCorrect=false;block.classList.add("quiz-error");feedback.textContent=copy[lang].tryAgain;}else{block.classList.add("quiz-correct");feedback.textContent=copy[lang].correctAnswer;feedback.classList.add("correct");} });
+  if(!complete){showFeedback(copy[lang].allQuestions.replace("{n}",questions.length),false);return;} if(!allCorrect){showFeedback(copy[lang].fixAnswers,false);return;} verified=true;showFeedback(copy[lang].correct,true);$("continueButton").textContent=copy[lang].next;
 }
 
 function showFeedback(message,correct){$("feedback").textContent=message;$("feedback").className=`feedback ${correct?"correct":"error"}`;}
@@ -301,10 +358,10 @@ $("registrationForm").addEventListener("submit",async event=>{
     const endpoint=window.COMBO_REGISTRATION_URL||"/api/register";
     const response=await fetch(endpoint,{method:"POST",credentials:"omit",headers:{"Content-Type":window.COMBO_REGISTRATION_URL?"text/plain;charset=UTF-8":"application/json"},body:JSON.stringify({...payload,id:pending.id}),signal:AbortSignal.timeout(45000)});
     const result=await response.json();
-    if(!response.ok||result.ok!==true)throw new Error(result.error||copy[lang].formSaveError);
+    if(!response.ok||result.ok!==true)throw new Error(copy[lang].formSaveError);
     try{sessionStorage.removeItem("combo-pending-registration");}catch{}
     $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").innerHTML=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;window.scrollTo({top:0,behavior:"smooth"});
-  }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
+  }catch(error){$("formError").textContent=copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
 $("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");$("standardNewsletterOffer").classList.add("hidden");$("newsletterError").classList.add("hidden");startCourse(lang);});

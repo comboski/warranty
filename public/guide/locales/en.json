@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · SWITCHING MODES",
+      "title": "Snowshoes or mini-skis?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "This chapter shows the complete switch between snowshoe mode for walking uphill and mini-ski mode for riding down. The binding has keyhole-shaped mounting slots. The front slot is at the boot toe and the rear slot at the boot heel, in both modes.",
+      "points": [
+        {
+          "text": "In snowshoe mode, the side with the metal rim and metal spikes always points forward. The plastic tip must never be at the front.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "This is incorrect: the plastic tip must not point forward in snowshoe mode.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>In mini-ski mode, the binding is secured at both the front and rear.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "First attach the rear mounting slot, at the boot heel.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Then attach the front mounting slot with the release button, at the boot toe.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which side points forward in snowshoe mode?",
+          "answers": [
+            "The plastic-tip side",
+            "The side with the metal rim and spikes",
+            "Either side"
+          ],
+          "correct": 1,
+          "hint": "The side with the metal rim and metal spikes always points forward."
+        },
+        {
+          "question": "What is secured on the middle pin in snowshoe mode?",
+          "answers": [
+            "Only the front mounting slot (at the boot toe), so the heel can move slightly",
+            "Only the rear mounting slot (at the boot heel)",
+            "Both mounting slots"
+          ],
+          "correct": 0,
+          "hint": "Attach only the front mounting slot to the middle pin on each side, so the heel can move slightly."
+        },
+        {
+          "question": "In which order is the binding attached in mini-ski mode?",
+          "answers": [
+            "Front mounting slot first, then rear",
+            "Rear mounting slot first, then the front slot with the release button",
+            "The order does not matter"
+          ],
+          "correct": 1,
+          "hint": "Attach the rear mounting slot first, then the front slot with the release button."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · CORRECT FIT",
+      "title": "Adjustment and correct fit",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Set the size and check the L and R marks before putting Combo Ski on. The fabric heel strap adjusts the size and the position of the boot. The front ratchet strap goes over the toes. The rear ratchet strap goes over the top of the foot. The upper Velcro strap goes around the shin.",
+      "points": [
+        {
+          "text": "Always check that the left binding is on the left foot and the right binding on the right foot. The L and R markings are on the Velcro strap.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Use the heel textile strap to position the boot so the heel aligns with the marked positions S, M or L according to the size chart.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Repeat the process on the other side of the binding.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Tighten both straps securely, as if Combo Ski were a solid part of the boot.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "How do you identify left and right?",
+          "answers": [
+            "By colour",
+            "By the L and R markings on the Velcro strap",
+            "They are interchangeable"
+          ],
+          "correct": 1,
+          "hint": "The L and R markings are on the Velcro strap."
+        },
+        {
+          "question": "What must be adjusted correctly for the boot size?",
+          "answers": [
+            "The heel textile strap",
+            "Only the front ratchet strap",
+            "Nothing needs adjustment"
+          ],
+          "correct": 0,
+          "hint": "Adjust the heel textile strap so the heel matches the marked size."
+        },
+        {
+          "question": "How should you tighten the front and rear ratchet straps before riding?",
+          "answers": [
+            "Leave both loose",
+            "Tighten both firmly, as if Combo Ski were a solid part of the boot",
+            "Tightening only the front strap is enough"
+          ],
+          "correct": 1,
+          "hint": "Tighten both straps firmly."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · FIRST RUN",
+      "title": "Stance, turning and braking",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Start on flat ground, then move to a gentle slope. First learn a stable stance, turning and safe braking.",
+      "points": [
+        {
+          "text": "We recommend wearing a ski helmet.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Keep your feet together and your knees bent. Balance forwards and backwards, as on ice skates or inline skates. Do not lean back.",
+          "image": ""
+        },
+        {
+          "text": "Turn as on normal skis, or move one foot slightly in front of the other.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "To brake, turn both mini-skis sideways and slide on their edges, as on ice skates. If you cannot stop, use a controlled fall.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Where should you start?",
+          "answers": [
+            "On any ski slope",
+            "On flat ground, then on a gentle slope",
+            "On icy snow"
+          ],
+          "correct": 1,
+          "hint": "Start on flat ground, then move to a gentle slope."
+        },
+        {
+          "question": "What is the basic stance?",
+          "answers": [
+            "Feet together and knees bent",
+            "Feet wide and knees straight",
+            "Weight far back"
+          ],
+          "correct": 0,
+          "hint": "Keep your feet together and your knees bent. Do not lean back."
+        },
+        {
+          "question": "How should you brake?",
+          "answers": [
+            "Turn both mini-skis sideways and slide on their edges, as on ice skates",
+            "Use a snowplough",
+            "Shift your weight backwards"
+          ],
+          "correct": 0,
+          "hint": "Turn both mini-skis sideways and slide on their edges."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRACTICE",
+      "title": "Surface, footwear and control",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Behaviour changes with the surface. Practise gradually and match the conditions to your ability.",
+      "points": [
+        {
+          "text": "Avoid icy or frozen snow and rocks.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Sturdy high-ankle winter boots improve support and control.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Practise balance first, then progress to skating and gentle descents.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "What surface should you avoid?",
+          "answers": [
+            "Normal soft snow",
+            "Icy or frozen snow",
+            "A gentle slope"
+          ],
+          "correct": 1,
+          "hint": "Avoid icy or frozen snow and rocks."
+        },
+        {
+          "question": "What footwear is suitable?",
+          "answers": [
+            "Sturdy high-ankle winter boots",
+            "Low hiking shoes",
+            "Trainers"
+          ],
+          "correct": 0,
+          "hint": "Use sturdy high-ankle winter boots."
+        },
+        {
+          "question": "What should you practise first?",
+          "answers": [
+            "Top speed",
+            "Descents",
+            "Balance and basic stance"
+          ],
+          "correct": 2,
+          "hint": "Practise balance and basic stance first."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · UPHILL",
+      "title": "Back to snowshoes and uphill",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Change mode on level ground and make sure the heel remains free.",
+      "points": [
+        {
+          "text": "Clear snow or ice from the keyholes and pins, for example by blowing it out.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "To release the binding, press the button and slide the mounting slot down off the pin.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Turn Combo Ski base-up and place the binding on the middle pin.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Keep the heel free for a more natural step.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Use the heel textile strap to align the boot tip with the tip of Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Tighten the straps in this order: first the front strap over the toes, then the rear strap over the top of the foot, and finally the upper Velcro strap around the shin.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What should you do if the keyholes or pins contain snow or ice?",
+          "answers": [
+            "Clear them, for example by blowing it out",
+            "Force the binding into place",
+            "Leave them blocked"
+          ],
+          "correct": 0,
+          "hint": "Clear the keyholes and pins first, for example by blowing out the snow."
+        },
+        {
+          "question": "In what order should you tighten the straps in snowshoe mode?",
+          "answers": [
+            "Rear strap first, then front strap",
+            "Front strap over the toes, rear strap over the top of the foot, then upper Velcro strap",
+            "The order does not matter"
+          ],
+          "correct": 1,
+          "hint": "Front strap over the toes, rear strap over the top of the foot, then upper Velcro strap."
+        },
+        {
+          "question": "Where should the boot toe be in snowshoe mode?",
+          "answers": [
+            "Aligned with the tip of Combo Ski",
+            "Far behind the Combo Ski tip",
+            "Outside the Combo Ski centre line"
+          ],
+          "correct": 0,
+          "hint": "Align the boot tip with the tip of Combo Ski."
+        },
+        {
+          "question": "What is secured on the middle pin in snowshoe mode?",
+          "answers": [
+            "Only the front mounting slot (at the boot toe), so the heel can move slightly",
+            "Only the rear mounting slot (at the boot heel)",
+            "Both mounting slots"
+          ],
+          "correct": 0,
+          "hint": "Attach only the front mounting slot to the middle pin on each side, so the heel can move slightly."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · CARE",
+      "title": "Dry and inspect after use",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Drying, inspection and correct storage protect the bases and extend product life.",
+      "points": [
+        {
+          "text": "Let Combo Ski dry completely after every use. Do not store them wet.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "When carrying or packing Combo Ski in a backpack, position them so the metal teeth cannot damage the sliding surface.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Check screw connections regularly.",
+          "image": ""
+        },
+        {
+          "text": "Stop using damaged parts and contact service.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "What should you do after use?",
+          "answers": [
+            "Leave them wet",
+            "Let them dry completely",
+            "Use maximum direct heat"
+          ],
+          "correct": 1,
+          "hint": "Let them dry completely."
+        },
+        {
+          "question": "How should they be packed?",
+          "answers": [
+            "So the metal teeth cannot damage the sliding surface",
+            "Sliding surfaces outward",
+            "Either way"
+          ],
+          "correct": 0,
+          "hint": "Position Combo Ski so the metal teeth cannot damage the sliding surface."
+        },
+        {
+          "question": "What if a part is damaged?",
+          "answers": [
+            "Keep riding",
+            "Tape it and ride",
+            "Stop using it and contact service at info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Do not use a damaged product; contact service at info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "COMBO SKI WARRANTY CHECK",
+    "welcomeTitle": "Before you head out into the snow",
+    "welcomeLead": "<strong>Complete this short guide to meet the warranty rules.</strong> We will show you the correct setup, safe use and care of Combo Ski.",
+    "welcomeRequired": "<strong>The guide must be completed.</strong><br>At the end, enter your email to record completion of the warranty check.",
+    "welcomeReward": "<strong>You can receive a 3-year warranty</strong><br><small>After completing the guide, you may receive a third warranty year.</small>",
+    "chooseLanguage": "Choose your language",
+    "durationNote": "Takes approximately 4 minutes",
+    "startGuide": "Start warranty check",
+    "testSkip": "TEST: Skip to registration",
+    "prototype": "Combo Ski warranty check",
+    "videoHeading": "First, watch the video",
+    "manualLink": "Open the original illustrated manual",
+    "quizTitle": "Check questions",
+    "quizCount": "3 questions",
+    "completeEyebrow": "CHECK COMPLETED",
+    "completeTitle": "You know the basics of safe use",
+    "completeLead": "You can now register your product. We use your email to record the registration.",
+    "chooseRegistration": "Choose registration type",
+    "standardTitle": "Standard 2-year warranty registration",
+    "standardText": "Register completion of the warranty check for the standard 2-year warranty.",
+    "extendedTitle": "Extended 3-year warranty",
+    "extendedText": "Show Combo Ski to your friends and receive a 3-year warranty.",
+    "socialProofLabel": "Your Instagram or Facebook account name <b aria-label=required>*</b>",
+    "socialProofHelp": "We use the account name to match the tag with your registration.",
+    "socialTagCallout": "<strong>Remember to tag our profile in the post:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>or</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "I subscribe to Combo Ski news, practical tips and offers. I may withdraw my consent at any time.",
+    "socialPostConsent": "I confirm that I have published <strong>or will publish</strong> a <strong>post or story</strong> showing the product and will tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook.",
+    "legalNote": "Registration and this check do not limit statutory rights relating to defective goods. By submitting, you confirm the details may be used to record the warranty. Read our <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>privacy policy</a>.",
+    "submit": "Complete registration",
+    "certificate": "Registration confirmation",
+    "restart": "Start again",
+    "back": "Back",
+    "check": "Check answers",
+    "next": "Continue",
+    "step": "Step",
+    "of": "of",
+    "correct": "All answers are correct. You can continue.",
+    "answerRequired": "Answer all three questions.",
+    "formEmail": "Enter a valid email address.",
+    "formChoice": "Choose a registration type.",
+    "formConsents": "For the three-year warranty, enter the post link or account name, confirm that you published the post, and give marketing consent.",
+    "formSaving": "Saving registration…",
+    "formSaveError": "We could not save the registration. Please try again.",
+    "successTitle": "Registration saved",
+    "standardSuccess": "You have completed standard product registration.",
+    "extendedSuccess": "We will now wait for your <strong>post or story</strong> tagging <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook. If you have already shared it, please allow us some time to match it with your registration.",
+    "standardCertificate": "Standard registration",
+    "extendedCertificate": "Registration for the extended 3-year warranty",
+    "socialOfferEyebrow": "HOW TO RECEIVE THE THIRD WARRANTY YEAR",
+    "socialOfferTitle": "Show Combo Ski in action",
+    "socialOfferLead": "Publish your own post in which the product is clearly visible and tag one of our official profiles.",
+    "socialStepOne": "Photograph or film Combo Ski",
+    "socialStepTwo": "Publish the post",
+    "socialStepThree": "Tag our profile",
+    "officialProfiles": "Add a post or story",
+    "openProfile": "Open profile ↗",
+    "newsletterRequired": "To extend the warranty to 3 years, please select the consent to receive news.",
+    "formSocialProof": "Enter your IG or FB account name.",
+    "formSocialPost": "Confirm that you have published or will publish a post or story and will tag our profile.",
+    "successEyebrow": "THANK YOU",
+    "communityEyebrow": "COMBO SKI COMMUNITY",
+    "communityTitle": "Join other Combo Ski enthusiasts",
+    "communityText": "Share your adventures, find inspiration, get practical tips and be first to hear the news in the <strong>Combo Ski Users</strong> Facebook group.",
+    "communityButton": "Join the Facebook group ↗",
+    "newsletterOfferTitle": "Stay one step ahead",
+    "newsletterOfferLead": "Practical tips for safer and more enjoyable rides, how-to guides, news and special Combo Ski offers delivered to your inbox.",
+    "standardNewsletterConsent": "I would like to receive Combo Ski tips, guides, news and offers. I can withdraw my consent at any time.",
+    "pairingNote": "<strong>What happens next?</strong> Once the tagged <strong>post or story</strong> appears, we will verify it, <strong>match it to your registration</strong> using the account name and <strong>activate your extended 3-year warranty</strong>.",
+    "programEyebrow": "COMBO SKI EXTENDED WARRANTY",
+    "programTitle": "Share Combo Ski on Instagram or Facebook and get a 3-year warranty.",
+    "programLead": "Complete the details below. We use your email to record the registration and match it with the <strong>post or story</strong>.",
+    "programTiming": "<strong>You do not need to wait for a mountain trip.</strong> Photograph Combo Ski while unboxing them or show them in action.",
+    "programExampleCaption": "<strong>Example post or story:</strong> the product is clearly visible and the Combo Ski profile is tagged.",
+    "programTermsTitle": "Extended warranty terms",
+    "programTermProduct": "The Combo Ski product must be clearly visible in the photo or video.",
+    "programTermTag": "Tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook in the <strong>post or story</strong>.",
+    "openInstagram": "Open Instagram ↗",
+    "openFacebook": "Open Facebook ↗",
+    "socialComposeHelp": "In the app or website, choose <strong>+ / Create post</strong>, add your own photo and tag <strong>@combo_ski</strong> on Instagram or <strong>@Comboski</strong> on Facebook. Then return here to complete your registration.",
+    "actionRulesTitle": "Promotion rules",
+    "actionRuleDeadline": "Apply for the warranty extension <strong>within one year of purchasing the product</strong>.",
+    "actionRuleOnce": "The warranty can be extended <strong>only once per product</strong>.",
+    "actionRuleRegistration": "Complete the guide and enter your email and Instagram or Facebook account name.",
+    "actionRulePost": "Publish your own <strong>post or story</strong> showing Combo Ski and tag our profile: <strong>@combo_ski</strong> or <strong>@Comboski</strong>.",
+    "actionRuleConsent": "The promotion includes <strong>consent to receive news</strong>. You can withdraw consent at any time.",
+    "actionRuleActivation": "Submitting the form records your application. We <strong>activate the extended warranty after verifying and matching the post or story</strong>.",
+    "warrantyCoverageTitle": "What does the third warranty year cover?",
+    "warrantyCoverage": "The third warranty year covers <strong>manufacturing and material defects</strong> when the product is used according to the instructions.",
+    "warrantyExclusions": "It does not cover <strong>normal wear and tear, cosmetic scratches, damage from impacts with rocks, misuse or unauthorised modifications</strong>.",
+    "warrantyRemedy": "Accepted defects are resolved by <strong>repairing or replacing the defective part</strong>.",
+    "warrantyDuration": "The total warranty period after extension is <strong>36 months from receipt of the product</strong>, not from registration.",
+    "actionRuleRights": "Your statutory rights are unaffected by participating or not participating in this promotion. The stated coverage and exclusions apply to the voluntarily provided third warranty year. Contact <a href=mailto:info@comboski.cz>info@comboski.cz</a> with questions or warranty service requests.",
+    "retailerLabel": "Where did you buy Combo Ski? *",
+    "retailerPlaceholder": "Select a retailer",
+    "retailerCombo": "Combo Ski online store",
+    "retailerOther": "Other retailer",
+    "retailerNameLabel": "Retailer name *",
+    "retailerError": "Select where you bought Combo Ski.",
+    "retailerNameError": "Enter the retailer name.",
+    "selected": "Selected",
+    "select": "Select",
+    "backToLanguages": "Back to language selection",
+    "snowshoeMode": "Snowshoe mode",
+    "miniSkiMode": "Mini-ski mode",
+    "questionCount": "{n} questions",
+    "chooseAnswer": "Choose an answer.",
+    "tryAgain": "Try again.",
+    "correctAnswer": "Correct.",
+    "allQuestions": "Answer all {n} questions.",
+    "fixAnswers": "Please correct the highlighted answers.",
+    "videoUnsupported": "Your browser does not support video playback.",
+    "yearBadge": "3 YEARS",
+    "tagInstagram": "Tag @combo_ski",
+    "tagFacebook": "Tag @Comboski",
+    "socialExampleAlt": "Example of a post or story showing Combo Ski and tagging our profile",
+    "formEmailLabel": "Email *",
+    "accountPlaceholder": "@your_account",
+    "emailPlaceholder": "you@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Hi, I’m Vojta, and today I’ll show you,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "how to safely use Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "and our Sever Gear poles."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski can be used in two modes."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Snowshoe mode or mini-ski mode."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "In snowshoe mode, I attach only the middle pin"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "to the front keyhole-shaped mounting slot."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "In snowshoe mode, the metal spikes must always be at the front,"
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "The plastic end stays"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "at the back, never at the front."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "As I mentioned,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "I connect only one pin,"
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "The front pin remains unused."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Now let’s switch to mini-ski mode."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "I release the pin,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "and release the mounting slot on the other side too."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "and now I connect both pins."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "First the rear mounting slot, then the front one."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "The same on the other side."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Now I need to adjust the textile heel strap"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "so that the size fits me."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "For example,"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "I set my Combo Ski between size S and M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "So I loosen the plastic buckle,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "and adjust the strap to fit comfortably."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "I do the same on the other Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Now I put the Combo Ski on my right foot,"
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "The R mark is"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "on the upper Velcro strap."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "I tighten the straps firmly,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "using the buckle."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "The front strap over the toes,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "then the upper Velcro strap."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "I do the same on the left foot."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "While standing, I tighten the straps,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "so that Combo Ski feels like a solid part of the boot."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "I check the heel strap used to adjust the size."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "The upper strap"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "can sit either on the boot,"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "or directly on the leg. Both are correct."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Now let’s show how to ride downhill on Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Never start,"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "on steep slopes or red ski runs."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "It’s always better to start on flat terrain or gentle slopes."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Always make sure,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "you are not tense,"
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "stay relaxed and keep your knees bent."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "I keep my knees bent,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "make short turns,"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "For better balance, I keep one foot"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "slightly in front of the other."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "At first, it may feel awkward,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "but over time you get used to it,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "gain confidence and use the hockey stop to brake."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "As I mentioned,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Keep one foot slightly in front of the other for better balance."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Common mistakes."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Never ski with straight legs or try to snowplow."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "It doesn’t work and you are likely to fall."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "The key is to stay relaxed,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "especially in your knees."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "After a short practice, you can increase speed and slope angle,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "and start enjoying the ride more."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "As you can see,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "thanks to the edges and the upper strap,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "the ride is comfortable and safe."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "One of the most fun movements on Combo Ski is skating."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "At the same time, it’s one of the easiest ways,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "to learn Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "It helps you balance forwards and backwards:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "you skate just as you would on inline skates."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "you can skate downhill,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "or on flat terrain,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "or even,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "slightly uphill."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "When riding downhill, snow conditions are very important,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "the best conditions are normal, soft snow."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Icy surfaces are dangerous and difficult."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Riding on ice is almost impossible for beginners."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Sturdy winter boots are ideal for Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "There is only one rule,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "They must support the ankle."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "The higher and stiffer the boots are,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "the better."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Now I switch Combo Ski to snowshoe mode."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "I press the button,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "and release the rear slot."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "and do the same on the other side."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "And now, as I mentioned earlier,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "the most important thing is,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "that the metal spikes are at the front."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "So I attach only the middle pin"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "and press it in."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "If there is snow inside,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "I simply blow it out,"
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "and do the same on the other side."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "This is how snowshoe mode is set."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "As you can see,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "I am now inserting my right foot."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "I slide my foot fully back and check"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "that the textile heel strap is seated securely."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "I tighten the front strap over the toes,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "then the rear strap over the top of the foot,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "and finally the upper Velcro strap."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "As you can see,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "the toe of the boot is aligned with the tip of Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "This means Combo Ski is correctly fitted."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "I can comfortably walk uphill."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "On very steep terrain,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "don’t hesitate to dig Combo Ski into the snow."
+      }
+    ]
+  ]
+}

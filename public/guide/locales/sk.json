@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · PREPÍNANIE REŽIMOV",
+      "title": "Snežnice alebo minilyže?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Ukážeme si prepnutie z režimu snežnice na chôdzu do kopca do režimu minilyže na jazdu dolu. Upevňovacie otvory vo viazaní majú tvar kľúčovej dierky. Predný otvor je pri špičke topánky a zadný pri päte – v oboch režimoch.",
+      "points": [
+        {
+          "text": "V režime snežnice strana s kovovým lemom a kovovými hrotmi vždy smeruje dopredu. Plastový hrot nesmie byť nikdy vpredu.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Toto je nesprávne: plastový hrot nesmie smerovať dopredu v režime snežnice.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "V režime snežnice upevnite predný otvor v tvare kľúčovej dierky pri špičke topánky na prostredný čap na oboch stranách. Predný čap zostáva voľný, takže sa päta môže mierne pohybovať.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>V režime minilyží je viazanie zaistené vpredu aj vzadu.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Najprv pripevnite zadný montážny otvor na päte topánky.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Potom nasaďte predný upevňovací otvor s tlačidlom pri špičke topánky.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Ktorá strana smeruje dopredu v režime snežnice?",
+          "answers": [
+            "Strana s plastovým hrotom",
+            "Strana s kovovým lemom a hrotmi",
+            "Na smere nezáleží"
+          ],
+          "correct": 1,
+          "hint": "Strana s kovovým lemom a kovovými hrotmi smeruje vždy dopredu."
+        },
+        {
+          "question": "Čo je zaistené na strednom kolíku v režime snežnice?",
+          "answers": [
+            "Iba predný otvor pri špičke topánky, aby sa päta mohla mierne pohybovať",
+            "Iba zadný otvor pri päte",
+            "Oba upevňovacie otvory"
+          ],
+          "correct": 0,
+          "hint": "Na stredný kolík na každej strane pripevnite iba prednú montážnu štrbinu, aby sa päta mohla mierne pohybovať."
+        },
+        {
+          "question": "V akom poradí je viazanie pripevnené v režime minilyží?",
+          "answers": [
+            "Najprv predný montážny otvor, potom zadný",
+            "Najprv zadná montážna drážka, potom predná drážka s uvoľňovacím tlačidlom",
+            "Na poradí nezáleží"
+          ],
+          "correct": 1,
+          "hint": "Najprv pripojte zadnú montážnu drážku, potom prednú drážku pomocou uvoľňovacieho tlačidla."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · SPRÁVNE SEDIA",
+      "title": "Nastavenie a správne prispôsobenie",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Pred nasadením Combo Ski nastavte veľkosť a skontrolujte značky L a R. Látkový remienok na päte upravuje veľkosť a polohu topánky. Predný remienok s račňou prechádza cez prsty. Zadný račňový popruh prechádza cez hornú časť chodidla. Horný pásik na suchý zips vedie okolo holene.",
+      "points": [
+        {
+          "text": "Vždy skontrolujte, či je ľavé viazanie na ľavej nohe a pravé viazanie na pravej nohe. Označenie L a R je na pásiku so suchým zipsom.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Pomocou textilného remienku na päte umiestnite topánku tak, aby bola päta zarovnaná s označenými polohami S, M alebo L podľa tabuľky veľkostí.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Opakujte postup na druhej strane viazania.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Pevne utiahnite oba popruhy, ako keby bola Combo Ski pevnou súčasťou topánky.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Ako rozoznáte ľavú a pravú Combo Ski?",
+          "answers": [
+            "Podľa farby",
+            "Podľa značiek L a R na pásiku na suchý zips",
+            "Sú zameniteľné"
+          ],
+          "correct": 1,
+          "hint": "Označenie L a R je na pásiku so suchým zipsom."
+        },
+        {
+          "question": "Čo treba správne prispôsobiť veľkosti topánok?",
+          "answers": [
+            "Textilný pásik na päte",
+            "Iba predný račňový popruh",
+            "Nič nepotrebuje úpravu"
+          ],
+          "correct": 0,
+          "hint": "Upravte textilný remienok na päte tak, aby päta zodpovedala označenej veľkosti."
+        },
+        {
+          "question": "Ako by ste mali pred jazdou utiahnuť predné a zadné račňové popruhy?",
+          "answers": [
+            "Nechajte obe voľné",
+            "Obe pevne utiahnite, ako keby bola Combo Ski pevnou súčasťou topánky",
+            "Stačí dotiahnuť len predný popruh"
+          ],
+          "correct": 1,
+          "hint": "Pevne utiahnite oba popruhy."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · PRVÝ BEH",
+      "title": "Postoj, zatáčanie a brzdenie",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Začnite na rovnom teréne a potom prejdite na mierny svah. Najprv sa naučte stabilný postoj, zatáčanie a bezpečné brzdenie.",
+      "points": [
+        {
+          "text": "Odporúčame nosiť lyžiarsku prilbu.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Nohy držte pri sebe a kolená pokrčené. Udržujte predozadnú rovnováhu ako na ľadových alebo kolieskových korčuliach. Nezakláňajte sa dozadu.",
+          "image": ""
+        },
+        {
+          "text": "Otočte sa ako na bežných lyžiach, alebo jednu nohu posuňte mierne pred druhú.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Pri brzdení otočte obe minilyže naprieč smeru jazdy a zabrzdite šmykom cez hrany ako na korčuliach. V núdzi zvoľte kontrolovaný pád.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Kde začať?",
+          "answers": [
+            "Na akejkoľvek zjazdovke",
+            "Na rovine, potom na miernom svahu",
+            "Na ľadovom snehu"
+          ],
+          "correct": 1,
+          "hint": "Začnite na rovnom teréne a potom prejdite na mierny svah."
+        },
+        {
+          "question": "Aký je základný postoj?",
+          "answers": [
+            "Nohy spolu a kolená pokrčené",
+            "Chodidlá široké a kolená rovné",
+            "Váha ďaleko vzadu"
+          ],
+          "correct": 0,
+          "hint": "Nohy majte pri sebe a kolená pokrčené. Nenakláňajte sa."
+        },
+        {
+          "question": "Ako by ste mali brzdiť?",
+          "answers": [
+            "Pri brzdení otočte obe minilyže naprieč smeru jazdy a zabrzdite šmykom cez hrany ako na korčuliach",
+            "Pluhom",
+            "Presuňte váhu dozadu"
+          ],
+          "correct": 0,
+          "hint": "Obe minilyže otočte nabok a nasúvajte ich po hranách."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRAX",
+      "title": "Povrch, obuv a ovládanie",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Správanie sa mení s povrchom. Cvičte postupne a prispôsobte podmienky svojim schopnostiam.",
+      "points": [
+        {
+          "text": "Vyhnite sa zľadovatenému alebo zmrznutému snehu a kameňom.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Pevné zimné topánky s vysokým členkom zlepšujú podporu a kontrolu.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Najprv si precvičte rovnováhu, potom prejdite na korčuľovanie a jemné zjazdy.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Akému povrchu by ste sa mali vyhnúť?",
+          "answers": [
+            "Normálny mäkký sneh",
+            "Zľadovatený alebo zmrznutý sneh",
+            "Mierny svah"
+          ],
+          "correct": 1,
+          "hint": "Vyhnite sa zľadovatenému alebo zmrznutému snehu a kameňom."
+        },
+        {
+          "question": "Aká obuv je vhodná?",
+          "answers": [
+            "Pevné zimné topánky s vysokým členkom",
+            "Nízka turistická obuv",
+            "Tenisky"
+          ],
+          "correct": 0,
+          "hint": "Používajte pevnú zimnú obuv s vysokými členkami."
+        },
+        {
+          "question": "Čo by ste si mali nacvičiť ako prvé?",
+          "answers": [
+            "Najvyššia rýchlosť",
+            "Zjazdy",
+            "Rovnováha a základný postoj"
+          ],
+          "correct": 2,
+          "hint": "Najprv si precvičte rovnováhu a základný postoj."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · DO KOPCA",
+      "title": "Späť na snežnice a do kopca",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Zmeňte režim na rovnom povrchu a uistite sa, že päta zostáva voľná.",
+      "points": [
+        {
+          "text": "Vyčistite upevňovacie otvory a čapy od snehu alebo ľadu, napríklad vyfúknutím.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Na uvoľnenie viazania stlačte tlačidlo a vysuňte upevňovací otvor z čapu smerom nadol.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Otočte Combo Ski sklznicou nahor a nasaďte viazanie na prostredný čap.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Predný otvor v tvare kľúčovej dierky pri špičke topánky upevnite na prostredný čap na oboch stranách.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Nechajte pätu voľnú pre prirodzenejší krok.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Použite textilný pásik na päte na zarovnanie špičky topánky so špičkou Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Remienky utiahnite v tomto poradí: najprv predný popruh cez prsty, potom zadný popruh cez vrch chodidla a nakoniec horný popruh na suchý zips okolo holene.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Čo urobíte, ak sú upevňovacie otvory alebo čapy zanesené snehom či ľadom?",
+          "answers": [
+            "Vyčistím ich, napríklad vyfúknutím",
+            "Zatlačte viazanie na miesto",
+            "Nechajte ich zablokované"
+          ],
+          "correct": 0,
+          "hint": "Vyčistite upevňovacie otvory a čapy od snehu alebo ľadu, napríklad vyfúknutím."
+        },
+        {
+          "question": "V akom poradí by ste mali utiahnuť popruhy v režime snežnice?",
+          "answers": [
+            "Najprv zadný popruh, potom predný popruh",
+            "Predný pásik cez prsty, zadný pásik cez vrch chodidla, potom horný pásik na suchý zips",
+            "Na poradí nezáleží"
+          ],
+          "correct": 1,
+          "hint": "Predný pásik cez prsty, zadný pásik cez vrch chodidla, potom horný pásik na suchý zips."
+        },
+        {
+          "question": "Kde by mala byť špička topánky v režime snežnice?",
+          "answers": [
+            "Zároveň so špičkou Combo Ski",
+            "Ďaleko za špičkou Combo Ski",
+            "Mimo stredovú líniu Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Zarovnajte špičku topánky so špičkou kombinovanej lyže."
+        },
+        {
+          "question": "Čo je zaistené na strednom kolíku v režime snežnice?",
+          "answers": [
+            "Iba predný otvor pri špičke topánky, aby sa päta mohla mierne pohybovať",
+            "Iba zadný otvor pri päte",
+            "Oba upevňovacie otvory"
+          ],
+          "correct": 0,
+          "hint": "Na stredný kolík na každej strane pripevnite iba prednú montážnu štrbinu, aby sa päta mohla mierne pohybovať."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · STAROSTLIVOSŤ",
+      "title": "Po použití osušte a skontrolujte",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Správne sušenie, kontrola a uloženie chránia sklznice aj spojovacie časti a predlžujú životnosť výrobku.",
+      "points": [
+        {
+          "text": "Nechajte Combo Ski po každom použití úplne vyschnúť. Neskladujte ich mokré.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Pri prenášaní alebo balení Combo Ski do batohu ich umiestnite tak, aby kovové zuby nemohli poškodiť klznú plochu.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Pravidelne kontrolujte skrutkové spoje.",
+          "image": ""
+        },
+        {
+          "text": "Prestaňte používať poškodené diely a kontaktujte servis.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Čo by ste mali urobiť po použití?",
+          "answers": [
+            "Nechajte ich mokré",
+            "Nechajte ich úplne vyschnúť",
+            "Používajte maximálne priame teplo"
+          ],
+          "correct": 1,
+          "hint": "Nechajte ich úplne vyschnúť."
+        },
+        {
+          "question": "Ako by mali byť zabalené?",
+          "answers": [
+            "Tak, aby kovové zuby nepoškodili sklznicu",
+            "Sklznice smerom von",
+            "Na uložení nezáleží"
+          ],
+          "correct": 0,
+          "hint": "Umiestnite lyže Combo tak, aby kovové zuby nemohli poškodiť klznú plochu."
+        },
+        {
+          "question": "Čo ak je časť poškodená?",
+          "answers": [
+            "Pokračujte v jazde",
+            "Nalepte to a jazdite",
+            "Prestaňte ho používať a kontaktujte servis na info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Nepoužívajte poškodený výrobok; kontaktujte servis na info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "ZÁRUČNÁ KONTROLA COMBO LYŽÍ",
+    "welcomeTitle": "Predtým, ako vyrazíte do snehu",
+    "welcomeLead": "<strong>Dokončite tohto krátkeho sprievodcu, aby ste splnili pravidlá záruky.</strong> Ukážeme vám správne nastavenie, bezpečné používanie a starostlivosť o Combo Ski.",
+    "welcomeRequired": "<strong>Táto príručka musí byť vyplnená.</strong><br>Na konci zadajte svoj e-mail, aby ste zaznamenali dokončenie záručnej kontroly.",
+    "welcomeReward": "<strong>Môžete získať 3-ročnú záruku</strong><br><small>Po dokončení príručky môžete získať tretí záručný rok.</small>",
+    "chooseLanguage": "Vyberte si jazyk",
+    "durationNote": "Trvá približne 4 minúty",
+    "startGuide": "Spustite záručnú kontrolu",
+    "testSkip": "TEST: Preskočte na registráciu",
+    "prototype": "Záručná kontrola Combo Ski",
+    "videoHeading": "Najprv si pozrite video",
+    "manualLink": "Otvorte originálny ilustrovaný návod",
+    "quizTitle": "Kontrolné otázky",
+    "quizCount": "3 otázky",
+    "completeEyebrow": "KONTROLA VYKONANÁ",
+    "completeTitle": "Poznáte základy bezpečného používania",
+    "completeLead": "Teraz môžete zaregistrovať svoj produkt. Váš e-mail používame na zaznamenanie registrácie.",
+    "chooseRegistration": "Vyberte typ registrácie",
+    "standardTitle": "Štandardná registrácia 2-ročnej záruky",
+    "standardText": "Zaregistrujte dokončenie záručnej kontroly pre štandardnú 2-ročnú záruku.",
+    "extendedTitle": "Predĺžená záruka 3 roky",
+    "extendedText": "Ukážte Combo Ski svojim priateľom a získajte 3-ročnú záruku.",
+    "socialProofLabel": "Názov vášho účtu na Instagrame alebo Facebooku <b aria-label=required>*</b>",
+    "socialProofHelp": "Názov účtu používame na priradenie značky k vašej registrácii.",
+    "socialTagCallout": "<strong>Nezabudnite označiť náš profil v príspevku:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>alebo</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook> @Comboski</span>",
+    "newsletterConsent": "Odoberám Combo Ski novinky, praktické tipy a ponuky. Svoj súhlas môžem kedykoľvek odvolať.",
+    "socialPostConsent": "Potvrdzujem, že som zverejnil/a <strong>alebo zverejním</strong> <strong>príspevok alebo story</strong> s viditeľným produktom a označím <strong>@combo_ski</strong> na Instagrame alebo <strong>@Comboski</strong> na Facebooku.",
+    "legalNote": "Registrácia a táto kontrola neobmedzujú zákonné práva týkajúce sa chybného tovaru. Odoslaním potvrdzujete, že údaje môžu byť použité na zaznamenanie záruky. Prečítajte si naše <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>zásady ochrany osobných údajov</a>.",
+    "submit": "Dokončite registráciu",
+    "certificate": "Potvrdenie registrácie",
+    "restart": "Začnite znova",
+    "back": "Späť",
+    "check": "Skontrolujte odpovede",
+    "next": "Pokračovať",
+    "step": "Krok",
+    "of": "z",
+    "correct": "Všetky odpovede sú správne. Môžete pokračovať.",
+    "answerRequired": "Odpovedzte na všetky tri otázky.",
+    "formEmail": "Zadajte platnú e-mailovú adresu.",
+    "formChoice": "Vyberte typ registrácie.",
+    "formConsents": "V prípade trojročnej záruky zadajte odkaz na príspevok alebo názov účtu, potvrďte, že ste príspevok zverejnili, a udeľte marketingový súhlas.",
+    "formSaving": "Ukladá sa registrácia…",
+    "formSaveError": "Nepodarilo sa nám uložiť registráciu. Skúste to znova.",
+    "successTitle": "Registrácia bola uložená",
+    "standardSuccess": "Dokončili ste štandardnú registráciu produktu.",
+    "extendedSuccess": "Teraz budeme čakať na váš <strong>príspevok alebo story</strong> s označením <strong>@combo_ski</strong> na Instagrame alebo <strong>@Comboski</strong> na Facebooku. Ak ste príspevok už pridali, prosíme o strpenie, kým ho spárujeme s vašou registráciou.",
+    "standardCertificate": "Štandardná registrácia",
+    "extendedCertificate": "Registrácia na predĺženú 3-ročnú záruku",
+    "socialOfferEyebrow": "AKO ZÍSKAŤ TRETÍ ROK ZÁRUKY",
+    "socialOfferTitle": "Ukážte Combo Ski v akcii",
+    "socialOfferLead": "Zverejnite svoj vlastný príspevok, v ktorom je produkt jasne viditeľný a označte jeden z našich oficiálnych profilov.",
+    "socialStepOne": "Odfoťte alebo nafilmujte Combo Ski",
+    "socialStepTwo": "Uverejnite príspevok",
+    "socialStepThree": "Označte náš profil",
+    "officialProfiles": "Pridajte príspevok alebo príbeh",
+    "openProfile": "Otvoriť profil ↗",
+    "newsletterRequired": "Pre predĺženie záruky na 3 roky vyberte prosím súhlas s odberom noviniek.",
+    "formSocialProof": "Zadajte názov svojho účtu na IG alebo FB.",
+    "formSocialPost": "Potvrďte, že ste zverejnili alebo zverejníte príspevok alebo príbeh a označíte náš profil.",
+    "successEyebrow": "ĎAKUJEM",
+    "communityEyebrow": "KOMUNITÁ LYŽIARSKA KOMUNITA",
+    "communityTitle": "Pridajte sa k ďalším nadšencom Combo Ski",
+    "communityText": "Podeľte sa o svoje dobrodružstvá, nájdite inšpiráciu, získajte praktické tipy a buďte prví, kto sa dozvie novinky v skupine <strong>Combo Ski Users</strong> na Facebooku.",
+    "communityButton": "Pridajte sa do facebookovej skupiny ↗",
+    "newsletterOfferTitle": "Buďte o krok vpred",
+    "newsletterOfferLead": "Praktické tipy na bezpečnejšie a príjemnejšie jazdy, návody, novinky a špeciálne ponuky Combo Ski doručené do vašej schránky.",
+    "standardNewsletterConsent": "Chcel by som dostávať tipy, návody, novinky a ponuky pre Combo Ski. Svoj súhlas môžem kedykoľvek odvolať.",
+    "pairingNote": "<strong>Čo sa stane potom?</strong> Keď sa označený <strong>príspevok alebo story</strong> objaví, overíme ho, <strong>spárujeme s vašou registráciou</strong> podľa názvu účtu a <strong>aktivujeme predĺženú záruku na celkovo 3 roky</strong>.",
+    "programEyebrow": "COMBO LYŽE PREDĹŽENÁ ZÁRUKA",
+    "programTitle": "Zdieľajte Combo Ski na Instagrame alebo Facebooku a získajte 3-ročnú záruku.",
+    "programLead": "Vyplňte podrobnosti nižšie. Váš e-mail používame na zaznamenanie registrácie a priradenie k <strong>príspevku alebo príbehu</strong>.",
+    "programTiming": "<strong>Nemusíte čakať na výlet do hôr.</strong> Odfoťte kombinované lyže pri rozbaľovaní alebo ich ukážte v akcii.",
+    "programExampleCaption": "<strong>Príklad príspevku alebo príbehu:</strong> produkt je jasne viditeľný a profil Combo Ski je označený.",
+    "programTermsTitle": "Podmienky predĺženej záruky",
+    "programTermProduct": "Produkt Combo Ski musí byť na fotografii alebo videu jasne viditeľný.",
+    "programTermTag": "Označte <strong>@combo_ski</strong> na Instagrame alebo <strong>@Comboski</strong> na Facebooku v <strong>príspevku alebo príbehu</strong>.",
+    "openInstagram": "Otvorte Instagram ↗",
+    "openFacebook": "Otvorte si Facebook ↗",
+    "socialComposeHelp": "V aplikácii alebo na webovej stránke zvoľte <strong>+ / Vytvoriť príspevok</strong>, pridajte vlastnú fotografiu a označte <strong>@combo_ski</strong> na Instagrame alebo <strong>@Comboski</strong> na Facebooku. Potom sa vráťte sem a dokončite registráciu.",
+    "actionRulesTitle": "Pravidlá propagácie",
+    "actionRuleDeadline": "Požiadajte o predĺženie záruky <strong>do jedného roka od zakúpenia produktu</strong>.",
+    "actionRuleOnce": "Záruku je možné predĺžiť <strong>len raz na jeden produkt</strong>.",
+    "actionRuleRegistration": "Vyplňte príručku a zadajte svoj e-mail a názov účtu na Instagrame alebo Facebooku.",
+    "actionRulePost": "Zverejnite svoj vlastný <strong>príspevok alebo príbeh</strong> zobrazujúci Combo Ski a označte náš profil: <strong>@combo_ski</strong> alebo <strong>@Comboski</strong>.",
+    "actionRuleConsent": "Propagácia zahŕňa <strong>súhlas s odberom noviniek</strong>. Súhlas môžete kedykoľvek odvolať.",
+    "actionRuleActivation": "Odoslaním formulára sa zaznamená vaša žiadosť. <strong>Predĺženú záruku aktivujeme po overení a spárovaní príspevku alebo príbehu</strong>.",
+    "warrantyCoverageTitle": "Na čo sa vzťahuje tretí záručný rok?",
+    "warrantyCoverage": "Tretí záručný rok sa vzťahuje na <strong>výrobné a materiálové chyby</strong>, keď sa výrobok používa podľa návodu.",
+    "warrantyExclusions": "Nevzťahuje sa na <strong>bežné opotrebenie, kozmetické škrabance, poškodenie nárazom do kameňov, nesprávne používanie ani neodborné úpravy</strong>.",
+    "warrantyRemedy": "Akceptované chyby sa riešia <strong>opravou alebo výmenou chybného dielu</strong>.",
+    "warrantyDuration": "Celková záručná doba po predĺžení je <strong>36 mesiacov od prevzatia produktu</strong>, nie od registrácie.",
+    "actionRuleRights": "Účasť alebo neúčasť na tejto akcii nemá vplyv na vaše zákonné práva. Uvedené krytie a výluky sa vzťahujú na dobrovoľne poskytnutý tretí záručný rok. S otázkami alebo požiadavkami na záručný servis kontaktujte <a href=mailto:info@comboski.cz>info@comboski.cz</a>.",
+    "retailerLabel": "Kde si kupil Combo Ski? *",
+    "retailerPlaceholder": "Vyberte predajcu",
+    "retailerCombo": "Internetový obchod Combo Ski",
+    "retailerOther": "Iný predajca",
+    "retailerNameLabel": "Meno predajcu*",
+    "retailerError": "Vyberte, kde ste kúpili Combo Ski.",
+    "retailerNameError": "Zadajte názov predajcu.",
+    "selected": "Vybrané",
+    "select": "Vyberte",
+    "backToLanguages": "Späť na výber jazyka",
+    "snowshoeMode": "Režim snežnice",
+    "miniSkiMode": "Mini-lyžiarsky režim",
+    "questionCount": "Počet otázok: {n}",
+    "chooseAnswer": "Vyberte odpoveď.",
+    "tryAgain": "Skúste to znova.",
+    "correctAnswer": "Správne.",
+    "allQuestions": "Odpovedzte na všetky otázky ({n}).",
+    "fixAnswers": "Opravte zvýraznené odpovede.",
+    "videoUnsupported": "Váš prehliadač nepodporuje prehrávanie videa.",
+    "yearBadge": "3 ROKY",
+    "tagInstagram": "Označte @combo_ski",
+    "tagFacebook": "Označte @Comboski",
+    "socialExampleAlt": "Príklad príspevku alebo príbehu zobrazujúceho Combo Ski a označovanie nášho profilu",
+    "formEmailLabel": "E-mail *",
+    "accountPlaceholder": "@váš_účet",
+    "emailPlaceholder": "ty@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Ahoj, som Vojta a dnes ti ukážem,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "ako bezpečne používať Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "a naše palice Sever Gear."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski možno používať v dvoch režimoch."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Režim snežnice alebo režim minilyže."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "V režime snežnice používam len prostredný čap"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "pre predný otvor v tvare kľúčovej dierky."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "V režime snežníc musia byť kovové hroty vždy vpredu,"
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Plastový koniec zostáva"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "vzadu, nikdy nie vpredu."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "ako som spomenul,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Upevním iba jeden čap."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Predný čap zostáva voľný."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Teraz prepnime do režimu minilyží."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Uvoľním upevnenie,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "a uvoľním otvor aj na druhej strane."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Teraz upevním oba čapy."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Najprv zadný montážny otvor, potom predný."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "To isté na druhej strane."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Teraz nastavím patný textilný pásik"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "aby mi veľkosť sedela."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Napríklad"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "svoje Combo Ski som nastavil medzi veľkosťami S a M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Tak som uvoľnil plastovú pracku,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "a nastavím pásik tak, aby mi veľkosť sedela."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "To isté urobím na druhej Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Teraz nasadím Combo Ski na pravú nohu."
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Značka R je"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "na hornom popruhu na suchý zips."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Pevne uťahujem popruhy,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "pomocou spony."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Predný popruh cez prsty,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "potom horný pásik na suchý zips."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "To isté robím na ľavej nohe."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "V stoji uťahujem popruhy,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "takže Combo Ski pôsobí ako pevná súčasť topánky."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Skontrolujem pásik na päte, ktorý slúži na nastavenie veľkosti."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "Horný popruh"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "môže byť na topánke"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "alebo okolo nohy nad topánkou. Obe možnosti sú správne."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Teraz si ukážeme, ako jazdiť z kopca na Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Nikdy nezačínajte"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "na strmých svahoch alebo červených zjazdovkách."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Vždy je lepšie začať na rovnom teréne alebo miernych svahoch."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Vždy dbajte na to,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "aby ste neboli stuhnutí."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Zostaňte uvoľnení a kolená majte pokrčené."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Kolená držím pokrčené,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "robím krátke oblúky"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "Pre lepšiu rovnováhu držím jednu nohu"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "mierne pred druhou."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "Spočiatku to môže byť nepríjemné,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "ale časom si zvykneš,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "získate istotu a naučíte sa brzdiť šmykom cez hrany."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "ako som spomenul,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Držte jednu nohu mierne pred druhou pre lepšiu rovnováhu."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Časté chyby."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Nejazdite s vystretými kolenami a nebrzdite pluhom."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Nefunguje to a je pravdepodobné, že spadnete."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "Kľúčom je zostať uvoľnený,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "najmä v kolenách."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Po krátkom tréningu môžete zvýšiť rýchlosť a uhol sklonu,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "a jazdu si viac užívať."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Ako vidíte,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "vďaka hranám a hornému pásiku,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "jazda je pohodlná a bezpečná."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Jedným z najzábavnejších pohybov na Combo Ski je korčuľovanie."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Zároveň je to jeden z najjednoduchších spôsobov,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "ako sa naučiť používať Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Pomáha vám udržiavať rovnováhu dopredu a dozadu:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "korčuľujete rovnako ako na inline korčuliach."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "môžeš korčuľovať z kopca,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "alebo na rovnom teréne,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "alebo dokonca,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "mierne do kopca."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Pri jazde z kopca sú veľmi dôležité snehové podmienky,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "najlepšie podmienky sú normálny, mäkký sneh."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Zľadovatené povrchy sú nebezpečné a náročné."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Jazda na ľade je pre začiatočníkov takmer nemožná."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Pevné zimné topánky sú ideálne pre Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Existuje len jedno pravidlo,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Musia poskytnúť oporu členku."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Čím sú topánky vyššie a tuhšie,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "tým lepšie."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Teraz prepínam Combo Ski do režimu snežníc."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "stlačím tlačidlo,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "a uvoľním zadný upevňovací otvor."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "To isté urobím na druhej strane."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "A teraz, ako som už spomenul,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "najdôležitejšie je,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "že kovové hroty sú vpredu."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Upevním teda len prostredný čap"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "a zatlačím upevnenie."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Ak je vo vnútri sneh,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "jednoducho ho vyfúknem."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "To isté urobím na druhej strane."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Takto je nastavený režim snežnice."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Ako vidíte,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Teraz vkladám pravú nohu."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Posúvam nohu úplne dozadu a kontrolujem"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "či je patný textilný pásik správne usadený."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Utiahnem predný popruh cez prsty,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "potom zadný popruh cez hornú časť chodidla,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "a nakoniec horný pásik na suchý zips."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Ako vidíte,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "Špička topánky je zarovnaná so špičkou Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Takto je Combo Ski správne nasadená."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Do kopca môžem pohodlne kráčať."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Vo veľmi strmom teréne,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "neváhajte pevne zaboriť Combo Ski do snehu."
+      }
+    ]
+  ]
+}

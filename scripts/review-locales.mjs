@@ -1,0 +1,137 @@
+// Meaning/terminology corrections to the build-time drafts. Keep these separate
+// so re-running draft preparation cannot silently discard the reviewed wording.
+import fs from 'node:fs';
+const changes = {
+  de:{replace:[[/Stecknadeln/g,'Befestigungsstiften'],[/Schlüssellöchern/g,'Befestigungsöffnungen'],[/Schlüssellöcher/g,'Befestigungsöffnungen'],[/Schlüsselloch/g,'Befestigungsschlitz'],[/Montageschlitz/g,'Befestigungsschlitz'],[/Montageschlitze/g,'Befestigungsschlitze'],[/Montageplätze/g,'Befestigungsschlitze'],[/Trainer/g,'Turnschuhe'],[/Combo-Ski/g,'Combo Ski']],
+    intro:'Hier sehen Sie den Wechsel zwischen Schneeschuhmodus zum Bergaufgehen und Miniski-Modus zum Abfahren. Die Bindung hat schlüssellochförmige Befestigungsöffnungen. Vorne bedeutet immer an der Schuhspitze, hinten an der Ferse – in beiden Modi.',
+    clear:'Entfernen Sie Schnee und Eis aus den Befestigungsöffnungen und von den Befestigungsstiften, zum Beispiel durch Ausblasen.',
+    release:'Zum Lösen der Bindung drücken Sie den Knopf und schieben die Befestigungsöffnung nach unten vom Stift.',
+    base:'Drehen Sie Combo Ski mit der Gleitfläche nach oben und setzen Sie die Bindung auf den mittleren Befestigungsstift.',
+    clearQuestion:'Was tun Sie, wenn Schnee oder Eis in den Befestigungsöffnungen oder an den Befestigungsstiften sitzt?',
+    clearAnswer:'Schnee und Eis entfernen, zum Beispiel durch Ausblasen',
+    both:'Beide Befestigungsöffnungen',either:'Die Richtung spielt keine Rolle',
+    surface:'Meiden Sie vereisten oder gefrorenen Schnee sowie Steine.',
+    posture:'Halten Sie die Füße nah beieinander und die Knie gebeugt. Halten Sie das Gleichgewicht nach vorne und hinten wie auf Schlittschuhen oder Inlineskates. Lehnen Sie sich nicht nach hinten.',
+    brake:'Zum Bremsen drehen Sie beide Miniski quer zur Fahrtrichtung und rutschen auf den Kanten, wie auf Schlittschuhen. Falls Sie nicht mehr anhalten können, wählen Sie einen kontrollierten Sturz.',
+    pack:'So, dass die Metallzähne die Gleitflächen nicht beschädigen',careIntro:'Trocknen, Prüfen und richtiges Verstauen schützen die Gleitflächen und verlängern die Lebensdauer.',
+    extra:{'lessons.2.questions.1.question':'Wie sieht die Grundhaltung aus?','lessons.2.questions.2.answers.1':'Im Pflug bremsen','lessons.5.questions.2.answers.1':'Mit Klebeband flicken und weiterfahren'}},
+  fr:{replace:[[/La reliure/g,'La fixation'],[/la reliure/g,'la fixation'],[/reliure/g,'fixation'],[/épingles/g,'ergots de fixation'],[/goupille/g,'ergot'],[/broche/g,'ergot'],[/Formateurs/g,'Baskets'],[/Enregistrez-le et roulez/g,'Réparer avec du ruban adhésif et continuer']],
+    intro:'Cette partie explique le passage du mode raquettes pour monter au mode mini-skis pour descendre. La fixation comporte des ouvertures en forme de trou de serrure. Dans les deux modes, l’ouverture avant est du côté de la pointe de la chaussure et l’ouverture arrière du côté du talon.',
+    clear:'Retirez la neige et la glace des ouvertures et des ergots de fixation, par exemple en soufflant dessus.',
+    release:'Pour détacher la fixation, appuyez sur le bouton et faites glisser l’ouverture vers le bas pour la dégager de l’ergot.',
+    base:'Retournez Combo Ski, semelle de glisse vers le haut, et placez la fixation sur l’ergot central.',
+    clearQuestion:'Que faire si de la neige ou de la glace bloque les ouvertures ou les ergots de fixation ?',clearAnswer:'Retirer la neige et la glace, par exemple en soufflant dessus',both:'Les deux ouvertures de fixation',either:'Le sens n’a pas d’importance',
+    surface:'Évitez la neige verglacée ou gelée, ainsi que les pierres.',
+    posture:'Gardez les pieds rapprochés et les genoux fléchis. Maintenez votre équilibre d’avant en arrière, comme sur des patins à glace ou des rollers. Ne vous penchez pas en arrière.',
+    brake:'Pour freiner, placez les deux mini-skis en travers de la pente et dérapez sur les carres, comme sur des patins à glace. En cas d’urgence, choisissez une chute contrôlée.',
+    pack:'De façon à ce que les dents métalliques n’abîment pas les semelles de glisse',careIntro:'Le séchage, le contrôle et un rangement adapté protègent les semelles de glisse et prolongent la durée de vie du produit.',
+    extra:{'lessons.1.title':'Réglage et mise en place','lessons.5.questions.1.answers.2':'Le sens n’a pas d’importance'}},
+  it:{replace:[[/La rilegatura/g,'L’attacco'],[/la rilegatura/g,'l’attacco'],[/della rilegatura/g,'dell’attacco'],[/legatura sinistra/g,'attacco sinistro'],[/legatura destra/g,'attacco destro'],[/serrature/g,'asole di fissaggio'],[/spilli/g,'perni'],[/Formatori/g,'Scarpe da ginnastica'],[/Registratelo e guidate/g,'Ripararlo con del nastro e continuare']],
+    intro:'Qui vediamo come passare dalla modalità ciaspole per salire alla modalità minisci per scendere. L’attacco ha asole di fissaggio a forma di buco della serratura. In entrambe le modalità, l’asola anteriore è vicino alla punta dello scarponcino e quella posteriore vicino al tallone.',
+    clear:'Rimuovi neve e ghiaccio dalle asole e dai perni di fissaggio, ad esempio soffiando.',
+    release:'Per sganciare l’attacco, premi il pulsante e fai scorrere l’asola verso il basso per sfilarla dal perno.',
+    base:'Gira Combo Ski con la soletta verso l’alto e posiziona l’attacco sul perno centrale.',
+    clearQuestion:'Cosa devi fare se neve o ghiaccio bloccano le asole o i perni di fissaggio?',clearAnswer:'Rimuovere neve e ghiaccio, ad esempio soffiando',both:'Entrambe le asole di fissaggio',either:'La direzione non conta',
+    surface:'Evita la neve ghiacciata o gelata e i sassi.',
+    posture:'Tieni i piedi vicini e le ginocchia piegate. Mantieni l’equilibrio avanti e indietro come sui pattini da ghiaccio o in linea. Non inclinarti all’indietro.',
+    brake:'Per frenare, gira entrambi i minisci trasversalmente alla direzione di marcia e derapa sulle lamine, come sui pattini da ghiaccio. In caso di emergenza, scegli una caduta controllata.',
+    pack:'In modo che i denti metallici non danneggino la soletta',careIntro:'Asciugare, controllare e riporre correttamente Combo Ski protegge la soletta e prolunga la durata del prodotto.',
+    extra:{'lessons.3.questions.0.answers.1':'Neve ghiacciata o gelata','lessons.2.questions.2.answers.1':'Frenare a spazzaneve','lessons.5.questions.1.answers.2':'Non importa come'}},
+  es:{replace:[[/La encuadernación/g,'La fijación'],[/la encuadernación/g,'la fijación'],[/encuadernación/g,'fijación'],[/maletero/g,'bota'],[/alfileres/g,'pasadores de fijación'],[/cerraduras/g,'ranuras de fijación'],[/Entrenadores/g,'Zapatillas deportivas'],[/Grábalo y monta/g,'Repararlo con cinta adhesiva y seguir']],
+    intro:'Aquí verás cómo pasar del modo raquetas de nieve para subir al modo miniesquís para bajar. La fijación tiene ranuras con forma de ojo de cerradura. En ambos modos, la ranura delantera está junto a la puntera de la bota y la trasera junto al talón.',
+    clear:'Retira la nieve y el hielo de las ranuras y de los pasadores de fijación, por ejemplo soplando.',
+    release:'Para soltar la fijación, pulsa el botón y desliza la ranura hacia abajo para sacarla del pasador.',
+    base:'Gira Combo Ski con la suela deslizante hacia arriba y coloca la fijación en el pasador central.',
+    clearQuestion:'¿Qué debes hacer si hay nieve o hielo en las ranuras o los pasadores de fijación?',clearAnswer:'Retirar la nieve y el hielo, por ejemplo soplando',both:'Las dos ranuras de fijación',either:'La dirección no importa',
+    surface:'Evita la nieve helada o congelada y las piedras.',
+    posture:'Mantén los pies juntos y las rodillas flexionadas. Mantén el equilibrio hacia delante y hacia atrás, como con patines de hielo o en línea. No te inclines hacia atrás.',
+    brake:'Para frenar, gira ambos miniesquís hasta colocarlos de lado respecto al sentido de la marcha y derrapa sobre los cantos, como con patines de hielo. En una emergencia, opta por una caída controlada.',
+    pack:'De forma que los dientes metálicos no dañen la suela deslizante',careIntro:'Secar, revisar y guardar bien Combo Ski protege las suelas y alarga la vida del producto.',
+    extra:{'lessons.1.title':'Ajuste y colocación','lessons.2.questions.2.answers.1':'Frenar en cuña','lessons.5.questions.1.answers.2':'Da igual cómo'}},
+  pl:{replace:[[/bagażnika/g,'buta'],[/szpilki/g,'sworznie'],[/Trenerzy/g,'Tenisówki'],[/mini-ski/g,'mininart'],[/podstawowe stanowisko/g,'podstawowa postawa'],[/podstawowe stanowisko/g,'podstawowa postawa']],
+    intro:'Tutaj pokazujemy zmianę trybu rakiet śnieżnych do podchodzenia na tryb mininart do zjazdu. Wiązanie ma otwory montażowe w kształcie dziurki od klucza. W obu trybach przedni otwór jest przy czubku buta, a tylny przy pięcie.',
+    clear:'Usuń śnieg i lód z otworów montażowych i sworzni, na przykład wydmuchując go.',
+    release:'Aby odpiąć wiązanie, naciśnij przycisk i zsuń otwór montażowy w dół ze sworznia.',
+    base:'Obróć Combo Ski ślizgiem do góry i załóż wiązanie na środkowy sworzeń.',
+    clearQuestion:'Co zrobić, jeśli śnieg lub lód zatyka otwory montażowe lub oblepia sworznie?',clearAnswer:'Usunąć śnieg i lód, na przykład wydmuchując go',both:'Oba otwory montażowe',either:'Kierunek nie ma znaczenia',
+    surface:'Unikaj oblodzonego lub zamarzniętego śniegu oraz kamieni.',
+    posture:'Trzymaj stopy blisko siebie, a kolana ugięte. Utrzymuj równowagę w przód i w tył, jak na łyżwach lub rolkach. Nie odchylaj się do tyłu.',
+    brake:'Aby zahamować, ustaw obie mininarty bokiem do kierunku jazdy i ślizgaj się na krawędziach, jak na łyżwach. W sytuacji awaryjnej wybierz kontrolowany upadek.',
+    pack:'Tak, aby metalowe zęby nie uszkodziły ślizgów',careIntro:'Suszenie, kontrola i prawidłowe przechowywanie chronią ślizgi i przedłużają żywotność produktu.',
+    extra:{'lessons.1.intro':'Przed założeniem Combo Ski ustaw rozmiar i sprawdź oznaczenia L i R. Tekstylny pasek za piętą reguluje rozmiar i położenie buta. Przedni pasek z klamrą zaciskową biegnie nad palcami, a tylny nad podbiciem. Górny pasek na rzep obejmuje goleń.','lessons.1.questions.2.answers.1':'Mocno zacisnąć oba paski, tak aby Combo Ski było jak część buta','lessons.2.questions.1.question':'Jaka jest podstawowa postawa?','lessons.2.questions.1.answers.2':'Ciężar ciała mocno z tyłu','lessons.2.questions.2.answers.1':'Hamować pługiem','lessons.4.questions.2.question':'Gdzie ma być czubek buta w trybie rakiet śnieżnych?','lessons.5.questions.1.answers.2':'Nie ma znaczenia'}},
+  nl:{replace:[[/kofferbak/g,'laars'],[/Trainers/g,'Sportschoenen'],[/basisstandpunt/g,'basishouding']],
+    intro:'Hier zie je hoe je wisselt tussen de sneeuwschoenstand voor omhoog lopen en de miniskistand voor afdalen. De binding heeft sleutelgatvormige bevestigingssleuven. In beide standen zit de voorste sleuf bij de neus van de schoen en de achterste bij de hiel.',
+    clear:'Verwijder sneeuw en ijs uit de bevestigingssleuven en van de pennen, bijvoorbeeld door het weg te blazen.',
+    release:'Druk op de knop en schuif de bevestigingssleuf omlaag van de pen om de binding los te maken.',
+    base:'Draai Combo Ski met het glijvlak naar boven en plaats de binding op de middelste pen.',
+    clearQuestion:'Wat doe je als er sneeuw of ijs in de bevestigingssleuven of op de pennen zit?',clearAnswer:'Sneeuw en ijs verwijderen, bijvoorbeeld door het weg te blazen',both:'Beide bevestigingssleuven',either:'De richting maakt niet uit',
+    surface:'Vermijd ijzige of bevroren sneeuw en stenen.',
+    posture:'Houd je voeten dicht bij elkaar en je knieën gebogen. Houd je evenwicht naar voren en naar achteren, net als op schaatsen of inlineskates. Leun niet achterover.',
+    brake:'Draai om te remmen beide miniski’s dwars op de rijrichting en glijd op de kanten, net als op schaatsen. Kies in een noodgeval voor een gecontroleerde val.',
+    pack:'Zo dat de metalen tanden de glijvlakken niet beschadigen',careIntro:'Drogen, controleren en goed opbergen beschermen de glijvlakken en verlengen de levensduur.',
+    extra:{'lessons.3.intro':'Het gedrag van Combo Ski hangt af van de ondergrond. Oefen stap voor stap en kies omstandigheden die bij je niveau passen.','lessons.2.questions.2.answers.1':'Remmen in ploegstand','lessons.5.questions.1.answers.2':'Het maakt niet uit'}},
+  ro:{replace:[[/portbagajului/g,'bocancului'],[/Antrenori/g,'Pantofi sport'],[/legarea/g,'legătura'],[/Legatura/g,'Legătura'],[/sloturi/g,'fante'],[/vârful piciorului/g,'partea de sus a labei piciorului']],
+    intro:'Aici vezi trecerea de la modul rachete de zăpadă pentru urcare la modul mini-schiuri pentru coborâre. Legătura are fante de fixare în formă de gaură de cheie. În ambele moduri, fanta din față este lângă vârful bocancului, iar cea din spate lângă călcâi.',
+    clear:'Îndepărtează zăpada și gheața din fantele de fixare și de pe știfturi, de exemplu suflând.',
+    release:'Pentru a desprinde legătura, apasă butonul și glisează fanta în jos, scoțând-o de pe știft.',
+    base:'Întoarce Combo Ski cu talpa de alunecare în sus și așază legătura pe știftul din mijloc.',
+    clearQuestion:'Ce faci dacă există zăpadă sau gheață în fantele de fixare sau pe știfturi?',clearAnswer:'Îndepărtez zăpada și gheața, de exemplu suflând',both:'Ambele fante de fixare',either:'Direcția nu contează',
+    surface:'Evită zăpada înghețată sau acoperită cu gheață și pietrele.',
+    posture:'Ține picioarele apropiate și genunchii îndoiți. Păstrează echilibrul înainte și înapoi, ca pe patine de gheață sau role. Nu te lăsa pe spate.',
+    brake:'Pentru a frâna, întoarce ambele mini-schiuri transversal față de direcția de mers și derapează pe canturi, ca pe patinele de gheață. În caz de urgență, alege o cădere controlată.',
+    pack:'Astfel încât dinții metalici să nu deterioreze talpa de alunecare',careIntro:'Uscarea, verificarea și depozitarea corectă protejează tălpile de alunecare și prelungesc durata de viață a produsului.',
+    extra:{'lessons.2.title':'Poziția, virajele și frânarea','lessons.2.questions.1.answers.2':'Greutatea mult prea în spate','lessons.2.questions.2.answers.1':'Frânare în plug','lessons.3.questions.0.answers.1':'Zăpadă înghețată sau acoperită cu gheață','lessons.5.questions.2.answers.0':'Continui să folosesc produsul','lessons.5.questions.2.answers.1':'Lipesc cu bandă adezivă și continui','lessons.5.questions.1.answers.2':'Nu contează'}},
+  hu:{replace:[[/csomagtartó/g,'bakancs'],[/lovaglás/g,'síelés'],[/Lovagolj tovább/g,'Síelj tovább'],[/lovagoljon/g,'síeljen tovább'],[/Edzők/g,'Sportcipő'],[/középső tű/g,'középső csap'],[/tűk/g,'csapok']],
+    intro:'Itt bemutatjuk, hogyan válthat az emelkedőn használt hótalpas mód és a lejtmeneti minisí mód között. A kötésen kulcslyuk alakú rögzítőnyílások vannak. Az első nyílás mindig a bakancs orránál, a hátsó a saroknál van, mindkét módban.',
+    clear:'Távolítsa el a havat és a jeget a rögzítőnyílásokból és a csapokról, például kifújással.',
+    release:'A kötés levételéhez nyomja meg a gombot, és csúsztassa le a rögzítőnyílást a csapról.',
+    base:'Fordítsa a Combo Skit a csúszófelületével felfelé, és helyezze a kötést a középső csapra.',
+    clearQuestion:'Mit tegyen, ha hó vagy jég van a rögzítőnyílásokban vagy a csapokon?',clearAnswer:'Távolítsa el a havat és a jeget, például kifújással',both:'Mindkét rögzítőnyílás',either:'Az irány nem számít',
+    surface:'Kerülje a jeges vagy fagyott havat és a köveket.',
+    posture:'Tartsa a lábait közel egymáshoz, a térdeit pedig hajlítva. Tartsa meg az egyensúlyát előre-hátra, mint korcsolyán vagy görkorcsolyán. Ne dőljön hátra.',
+    brake:'Fékezéshez fordítsa mindkét minisílécet a haladás irányára merőlegesen, és csússzon az éleken, mint korcsolyán. Vészhelyzetben válasszon kontrollált esést.',
+    pack:'Úgy, hogy a fémfogak ne sértsék meg a csúszófelületet',careIntro:'A szárítás, ellenőrzés és megfelelő tárolás védi a csúszófelületet és meghosszabbítja a termék élettartamát.',
+    extra:{'lessons.1.questions.1.question':'Mit kell helyesen beállítani a bakancs méretéhez?','lessons.1.questions.2.question':'Hogyan húzza meg az első és hátsó racsnis pántot síelés előtt?','lessons.2.questions.2.answers.1':'Hóekében fékezzen','lessons.4.questions.2.answers.1':'Jóval a Combo Ski eleje mögött','lessons.5.questions.1.answers.2':'Mindegy'}},
+  sk:{replace:[[/mini-lyžiarov/g,'minilyží'],[/minilyžiarov/g,'minilyží'],[/Combo lyží/g,'Combo Ski'],[/batožinového priestoru/g,'topánky'],[/Tréneri/g,'Tenisky'],[/väzby/g,'viazania'],[/väzbu/g,'viazanie'],[/Posuvné plochy/g,'Sklznice']],
+    intro:'Ukážeme si prepnutie z režimu snežnice na chôdzu do kopca do režimu minilyže na jazdu dolu. Upevňovacie otvory vo viazaní majú tvar kľúčovej dierky. Predný otvor je pri špičke topánky a zadný pri päte – v oboch režimoch.',
+    clear:'Vyčistite upevňovacie otvory a čapy od snehu alebo ľadu, napríklad vyfúknutím.',
+    release:'Na uvoľnenie viazania stlačte tlačidlo a vysuňte upevňovací otvor z čapu smerom nadol.',
+    base:'Otočte Combo Ski sklznicou nahor a nasaďte viazanie na prostredný čap.',
+    clearQuestion:'Čo urobíte, ak sú upevňovacie otvory alebo čapy zanesené snehom či ľadom?',clearAnswer:'Vyčistím ich, napríklad vyfúknutím',both:'Oba upevňovacie otvory',either:'Na smere nezáleží',
+    surface:'Vyhnite sa zľadovatenému alebo zmrznutému snehu a kameňom.',
+    posture:'Nohy držte pri sebe a kolená pokrčené. Udržujte predozadnú rovnováhu ako na ľadových alebo kolieskových korčuliach. Nezakláňajte sa dozadu.',
+    brake:'Pri brzdení otočte obe minilyže naprieč smeru jazdy a zabrzdite šmykom cez hrany ako na korčuliach. V núdzi zvoľte kontrolovaný pád.',
+    pack:'Tak, aby kovové zuby nepoškodili sklznicu',careIntro:'Správne sušenie, kontrola a uloženie chránia sklznice aj spojovacie časti a predlžujú životnosť výrobku.',
+    extra:{'lessons.0.points.5.text':'Potom nasaďte predný upevňovací otvor s tlačidlom pri špičke topánky.','lessons.1.questions.0.question':'Ako rozoznáte ľavú a pravú Combo Ski?','lessons.3.questions.2.answers.1':'Zjazdy','lessons.4.questions.2.answers.0':'Zároveň so špičkou Combo Ski','lessons.5.questions.1.answers.2':'Na uložení nezáleží','lessons.2.questions.2.answers.1':'Pluhom'}},
+  sl:{replace:[[/prtljažnika/g,'čevlja'],[/vezave/g,'vezi'],[/Vezava/g,'Vez'],[/vezava/g,'vez'],[/Trenerji/g,'Športni copati'],[/ključavnic/g,'pritrdilnih odprtin'],[/ključavnico/g,'pritrdilno odprtino']],
+    intro:'Tukaj pokažemo preklop iz načina krpelj za vzpon v način mini smuči za spust. Vez ima pritrdilne odprtine v obliki ključavnice. V obeh načinih je sprednja odprtina pri konici čevlja, zadnja pa pri peti.',
+    clear:'Iz pritrdilnih odprtin in z zatičev odstranite sneg in led, na primer z izpihovanjem.',
+    release:'Za sprostitev vezi pritisnite gumb in potisnite pritrdilno odprtino navzdol z zatiča.',
+    base:'Obrnite Combo Ski z drsno ploskvijo navzgor in namestite vez na srednji zatič.',
+    clearQuestion:'Kaj storite, če je v pritrdilnih odprtinah ali na zatičih sneg ali led?',clearAnswer:'Odstranim sneg in led, na primer z izpihovanjem',both:'Obe pritrdilni odprtini',either:'Smer ni pomembna',
+    surface:'Izogibajte se poledenelemu ali zmrznjenemu snegu in kamenju.',
+    posture:'Stopala držite blizu skupaj, kolena pa pokrčena. Ohranjajte ravnotežje naprej in nazaj kot na drsalkah ali rolerjih. Ne nagibajte se nazaj.',
+    brake:'Za zaviranje obrnite obe mini smuči prečno na smer vožnje in zdrsnite po robnikih, kot na drsalkah. V sili izberite nadzorovan padec.',
+    pack:'Tako, da kovinski zobje ne poškodujejo drsne ploskve',careIntro:'Sušenje, pregled in pravilno shranjevanje ščitijo drsne ploskve in podaljšujejo življenjsko dobo izdelka.',
+    extra:{'lessons.2.questions.1.question':'Kakšna je osnovna drža?','lessons.2.questions.2.answers.1':'Zaviranje v plugu','lessons.3.points.1.text':'Čvrsti zimski čevlji, ki segajo nad gleženj, izboljšajo oporo in nadzor.','lessons.3.questions.1.answers.0':'Čvrsti zimski čevlji, ki segajo nad gleženj','lessons.3.questions.2.answers.1':'Spusti','lessons.4.questions.2.question':'Kje mora biti konica čevlja v načinu krpelj?','lessons.5.questions.1.answers.2':'Način shranjevanja ni pomemben'}}
+};
+const english=JSON.parse(fs.readFileSync('public/guide/locales/en.json','utf8'));
+for(const [lang,c] of Object.entries(changes)){
+  const file=`public/guide/locales/${lang}.json`,d=JSON.parse(fs.readFileSync(file,'utf8'));
+  function walk(o){for(const [k,v]of Object.entries(o)){if(v&&typeof v==='object')walk(v);else if(typeof v==='string'&&!['image','visual','timing','duration'].includes(k))for(const [pattern,replacement]of c.replace)o[k]=o[k].replace(pattern,replacement);}}
+  walk(d);
+  // CSS class names and all numeric/structural data are never translated.
+  d.lessons.forEach((l,i)=>{l.visual=english.lessons[i].visual;l.duration=english.lessons[i].duration;l.points.forEach((p,j)=>p.image=english.lessons[i].points[j].image);});
+  const l=d.lessons;
+  l[0].intro=c.intro;l[0].questions[0].answers[2]=c.either;
+  l[0].questions[1].answers[2]=c.both;
+  l[2].points[1].text=c.posture;l[2].points[3].text=c.brake;
+  l[2].questions[2].answers[0]=c.brake.split('. ')[0];
+  l[3].points[0].text=c.surface;l[3].questions[0].hint=c.surface;
+  l[4].points[0].text=c.clear;l[4].points[1].text=c.release;l[4].points[2].text=c.base;
+  l[4].questions[0].question=c.clearQuestion;l[4].questions[0].answers[0]=c.clearAnswer;
+  l[5].intro=c.careIntro;l[5].questions[1].answers[0]=c.pack;
+  for(const [key,value]of Object.entries(c.extra||{})){const path=key.split('.');let o=d;for(const k of path.slice(0,-1))o=o[k];o[path.at(-1)]=value;}
+  l[4].questions[3]=structuredClone(l[0].questions[1]);
+  fs.writeFileSync(file,JSON.stringify(d,null,2)+'\n');
+}

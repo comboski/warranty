@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · WIJZIGEN VAN MODUS",
+      "title": "Sneeuwschoenen of miniski's?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Hier zie je hoe je wisselt tussen de sneeuwschoenstand voor omhoog lopen en de miniskistand voor afdalen. De binding heeft sleutelgatvormige bevestigingssleuven. In beide standen zit de voorste sleuf bij de neus van de schoen en de achterste bij de hiel.",
+      "points": [
+        {
+          "text": "In de sneeuwschoenmodus wijst de kant met de metalen rand en metalen punten altijd naar voren. De plastic punt mag nooit aan de voorkant zitten.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Dit is onjuist: de plastic punt mag in de sneeuwschoenmodus niet naar voren wijzen.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "Bevestig in de sneeuwschoenstand de voorste sleutelgatvormige sleuf bij de neus van de schoen aan de middelste pen, aan beide kanten. De voorste pen blijft vrij, zodat de hiel een beetje kan bewegen.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>In de miniskimodus is de binding zowel aan de voor- als achterkant vastgezet.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Bevestig eerst de achterste montagesleuf, op de hiel van de laars.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Bevestig vervolgens de voorste montagesleuf met de ontgrendelingsknop op de neus van de laars.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Welke kant wijst naar voren in de sneeuwschoenmodus?",
+          "answers": [
+            "De kant met de plastic punt",
+            "De kant met de metalen rand en spikes",
+            "De richting maakt niet uit"
+          ],
+          "correct": 1,
+          "hint": "De kant met de metalen rand en metalen pinnen wijst altijd naar voren."
+        },
+        {
+          "question": "Wat wordt er in de sneeuwschoenmodus op de middelste pin vastgezet?",
+          "answers": [
+            "Alleen de voorste sleuf bij de neus van de schoen, zodat de hiel een beetje kan bewegen",
+            "Alleen de achterste sleuf bij de hiel",
+            "Beide bevestigingssleuven"
+          ],
+          "correct": 0,
+          "hint": "Bevestig alleen de voorste montagegleuf aan de middelste pin aan elke kant, zodat de hiel iets kan bewegen."
+        },
+        {
+          "question": "In welke volgorde wordt de binding bevestigd in de miniskimodus?",
+          "answers": [
+            "Montagesleuf aan de voorkant eerst, dan aan de achterkant",
+            "Eerst de achterste montagegleuf, daarna de voorste gleuf met de ontgrendelingsknop",
+            "De volgorde doet er niet toe"
+          ],
+          "correct": 1,
+          "hint": "Bevestig eerst de achterste montagesleuf en vervolgens de voorste sleuf met de ontgrendelingsknop."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · JUISTE PASVORM",
+      "title": "Aanpassing en juiste pasvorm",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Stel de maat in en controleer de L- en R-markeringen voordat u de Combo Ski opzet. De stoffen hielband verstelt de maat en de positie van de laars. De voorste ratelriem gaat over de tenen. De achterste ratelriem gaat over de bovenkant van de voet. De bovenste klittenbandsluiting gaat rond het scheenbeen.",
+      "points": [
+        {
+          "text": "Controleer altijd of de linkerbinding op de linkervoet zit en de rechterbinding op de rechtervoet. De L- en R-markeringen bevinden zich op de klittenbandsluiting.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Gebruik de textielband aan de hiel om de laars zo te positioneren dat de hiel op één lijn ligt met de gemarkeerde posities S, M of L volgens de maattabel.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Herhaal het proces aan de andere kant van de binding.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Maak beide riemen stevig vast, alsof de Combo Ski een stevig onderdeel van de laars is.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Hoe herken je links en rechts?",
+          "answers": [
+            "Op kleur",
+            "Te herkennen aan de L- en R-markeringen op de klittenbandsluiting",
+            "Ze zijn uitwisselbaar"
+          ],
+          "correct": 1,
+          "hint": "De L- en R-markeringen bevinden zich op de klittenbandsluiting."
+        },
+        {
+          "question": "Wat moet er correct aangepast worden aan de laarsmaat?",
+          "answers": [
+            "De hielband van textiel",
+            "Alleen de voorste spanband",
+            "Niets behoeft aanpassing"
+          ],
+          "correct": 0,
+          "hint": "Pas het textielbandje aan de hiel aan, zodat de hiel overeenkomt met de aangegeven maat."
+        },
+        {
+          "question": "Hoe moet u de spanbanden voor en achter aanspannen voordat u gaat rijden?",
+          "answers": [
+            "Laat beide los",
+            "Draai beide stevig vast, alsof Combo Ski een stevig onderdeel van de laars is",
+            "Het aanspannen van alleen de voorband is voldoende"
+          ],
+          "correct": 1,
+          "hint": "Trek beide banden stevig aan."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · EERSTE RUN",
+      "title": "Stand, draaien en remmen",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Begin op een vlakke ondergrond en ga dan naar een lichte helling. Leer eerst een stabiele houding, draaien en veilig remmen.",
+      "points": [
+        {
+          "text": "Wij adviseren het dragen van een skihelm.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Houd je voeten dicht bij elkaar en je knieën gebogen. Houd je evenwicht naar voren en naar achteren, net als op schaatsen of inlineskates. Leun niet achterover.",
+          "image": ""
+        },
+        {
+          "text": "Draai zoals bij normale ski's, of beweeg de ene voet iets voor de andere.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Draai om te remmen beide miniski’s dwars op de rijrichting en glijd op de kanten, net als op schaatsen. Kies in een noodgeval voor een gecontroleerde val.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Waar moet je beginnen?",
+          "answers": [
+            "Op elke skipiste",
+            "Op vlak terrein, daarna op een lichte helling",
+            "Op ijzige sneeuw"
+          ],
+          "correct": 1,
+          "hint": "Begin op een vlakke ondergrond en ga dan naar een lichte helling."
+        },
+        {
+          "question": "Wat is het basishouding?",
+          "answers": [
+            "Voeten bij elkaar en knieën gebogen",
+            "Voeten breed en knieën recht",
+            "Gewicht ver naar achteren"
+          ],
+          "correct": 0,
+          "hint": "Houd uw voeten bij elkaar en uw knieën gebogen. Leun niet achterover."
+        },
+        {
+          "question": "Hoe moet je remmen?",
+          "answers": [
+            "Draai om te remmen beide miniski’s dwars op de rijrichting en glijd op de kanten, net als op schaatsen",
+            "Remmen in ploegstand",
+            "Verplaats uw gewicht naar achteren"
+          ],
+          "correct": 0,
+          "hint": "Draai beide miniski's zijwaarts en schuif op hun randen."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRAKTIJK",
+      "title": "Oppervlakte, schoeisel en controle",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Het gedrag van Combo Ski hangt af van de ondergrond. Oefen stap voor stap en kies omstandigheden die bij je niveau passen.",
+      "points": [
+        {
+          "text": "Vermijd ijzige of bevroren sneeuw en stenen.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Stevige winterlaarzen met hoge enkel verbeteren de ondersteuning en controle.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Oefen eerst het evenwicht en ga dan verder met skaten en zachte afdalingen.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Welke ondergrond moet je vermijden?",
+          "answers": [
+            "Normale zachte sneeuw",
+            "IJzige of bevroren sneeuw",
+            "Een zachte helling"
+          ],
+          "correct": 1,
+          "hint": "Vermijd ijzige of bevroren sneeuw en stenen."
+        },
+        {
+          "question": "Welk schoeisel is geschikt?",
+          "answers": [
+            "Stevige winterlaarzen met hoge enkel",
+            "Lage wandelschoenen",
+            "Sportschoenen"
+          ],
+          "correct": 0,
+          "hint": "Gebruik stevige winterlaarzen met hoge enkel."
+        },
+        {
+          "question": "Wat moet je eerst oefenen?",
+          "answers": [
+            "Topsnelheid",
+            "Afdalingen",
+            "Balans en basishouding"
+          ],
+          "correct": 2,
+          "hint": "Oefen eerst het evenwicht en de basishouding."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · bergopwaarts",
+      "title": "Terug naar sneeuwschoenen en bergopwaarts",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Verander van modus op een vlakke ondergrond en zorg ervoor dat de hiel vrij blijft.",
+      "points": [
+        {
+          "text": "Verwijder sneeuw en ijs uit de bevestigingssleuven en van de pennen, bijvoorbeeld door het weg te blazen.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Druk op de knop en schuif de bevestigingssleuf omlaag van de pen om de binding los te maken.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Draai Combo Ski met het glijvlak naar boven en plaats de binding op de middelste pen.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Bevestig de voorste sleutelgatvormige sleuf bij de neus van de schoen aan de middelste pen, aan beide kanten.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Houd de hiel vrij voor een natuurlijkere stap.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Gebruik de textielband aan de hiel om de punt van de laars uit te lijnen met de punt van de Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Trek de banden in deze volgorde aan: eerst de voorste band over de tenen, dan de achterste band over de bovenkant van de voet en ten slotte de bovenste klittenband rond het scheenbeen.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Wat doe je als er sneeuw of ijs in de bevestigingssleuven of op de pennen zit?",
+          "answers": [
+            "Sneeuw en ijs verwijderen, bijvoorbeeld door het weg te blazen",
+            "Forceer de binding op zijn plaats",
+            "Laat ze geblokkeerd"
+          ],
+          "correct": 0,
+          "hint": "Verwijder sneeuw en ijs uit de bevestigingssleuven en van de pennen, bijvoorbeeld door het weg te blazen."
+        },
+        {
+          "question": "In welke volgorde moet je de riemen aantrekken in de sneeuwschoenmodus?",
+          "answers": [
+            "Eerst de achterste riem, dan de voorste riem",
+            "Voorste band over de tenen, achterste band over de bovenkant van de voet en vervolgens het bovenste klittenband",
+            "De volgorde doet er niet toe"
+          ],
+          "correct": 1,
+          "hint": "Voorste band over de tenen, achterste band over de bovenkant van de voet en vervolgens het bovenste klittenband."
+        },
+        {
+          "question": "Waar moet de neus van de laars zich bevinden in de sneeuwschoenmodus?",
+          "answers": [
+            "Uitgelijnd met de punt van Combo Ski",
+            "Ver achter de Combo Ski-tip",
+            "Buiten de middenlijn van Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Lijn de punt van de schoen uit met de punt van de Combo Ski."
+        },
+        {
+          "question": "Wat wordt er in de sneeuwschoenmodus op de middelste pin vastgezet?",
+          "answers": [
+            "Alleen de voorste sleuf bij de neus van de schoen, zodat de hiel een beetje kan bewegen",
+            "Alleen de achterste sleuf bij de hiel",
+            "Beide bevestigingssleuven"
+          ],
+          "correct": 0,
+          "hint": "Bevestig alleen de voorste montagegleuf aan de middelste pin aan elke kant, zodat de hiel iets kan bewegen."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · VERZORGING",
+      "title": "Na gebruik drogen en inspecteren",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Drogen, controleren en goed opbergen beschermen de glijvlakken en verlengen de levensduur.",
+      "points": [
+        {
+          "text": "Laat Combo Ski na elk gebruik volledig drogen. Bewaar ze niet nat.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Wanneer u Combo Ski in een rugzak draagt of verpakt, plaats deze dan zo dat de metalen tanden het glijoppervlak niet kunnen beschadigen.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Controleer de schroefverbindingen regelmatig.",
+          "image": ""
+        },
+        {
+          "text": "Gebruik geen beschadigde onderdelen meer en neem contact op met de klantenservice.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Wat moet u doen na gebruik?",
+          "answers": [
+            "Laat ze nat",
+            "Laat ze volledig drogen",
+            "Gebruik maximale directe warmte"
+          ],
+          "correct": 1,
+          "hint": "Laat ze volledig drogen."
+        },
+        {
+          "question": "Hoe moeten ze verpakt worden?",
+          "answers": [
+            "Zo dat de metalen tanden de glijvlakken niet beschadigen",
+            "Glijvlakken naar buiten",
+            "Het maakt niet uit"
+          ],
+          "correct": 0,
+          "hint": "Plaats Combo Ski zo dat de metalen tanden het glijoppervlak niet kunnen beschadigen."
+        },
+        {
+          "question": "Wat als een onderdeel beschadigd is?",
+          "answers": [
+            "Blijf rijden",
+            "Plak het vast en rijd",
+            "Stop met het gebruik ervan en neem contact op met de service via info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Gebruik geen beschadigd product; neem contact op met de service via info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "COMBO SKI GARANTIECHECK",
+    "welcomeTitle": "Voordat je de sneeuw in gaat",
+    "welcomeLead": "<strong>Vul deze korte handleiding in om aan de garantieregels te voldoen.</strong> We laten u de juiste installatie, het veilige gebruik en het onderhoud van Combo Ski zien.",
+    "welcomeRequired": "<strong>De handleiding moet worden ingevuld.</strong><br>Voer aan het einde uw e-mailadres in om de voltooiing van de garantiecontrole vast te leggen.",
+    "welcomeReward": "<strong>U kunt 3 jaar garantie krijgen</strong><br><small>Nadat u de handleiding heeft doorlopen, ontvangt u mogelijk een derde garantiejaar.</small>",
+    "chooseLanguage": "Kies uw taal",
+    "durationNote": "Duurt ongeveer 4 minuten",
+    "startGuide": "Start garantiecontrole",
+    "testSkip": "TEST: Ga naar registratie",
+    "prototype": "Combo Ski-garantiecontrole",
+    "videoHeading": "Bekijk eerst de video",
+    "manualLink": "Open de originele geïllustreerde handleiding",
+    "quizTitle": "Controleer vragen",
+    "quizCount": "3 vragen",
+    "completeEyebrow": "CONTROLE VOLTOOID",
+    "completeTitle": "Je kent de basisprincipes van veilig gebruik",
+    "completeLead": "U kunt nu uw product registreren. Wij gebruiken uw e-mailadres om de registratie vast te leggen.",
+    "chooseRegistration": "Kies het registratietype",
+    "standardTitle": "Standaard 2 jaar garantieregistratie",
+    "standardText": "Registreer voltooiing van de garantiecontrole voor de standaardgarantie van 2 jaar.",
+    "extendedTitle": "Verlengde garantie van 3 jaar",
+    "extendedText": "Laat Combo Ski zien aan je vrienden en ontvang 3 jaar garantie.",
+    "socialProofLabel": "Uw Instagram- of Facebook-accountnaam <b aria-label=required>*</b>",
+    "socialProofHelp": "We gebruiken de accountnaam om de tag te matchen met uw registratie.",
+    "socialTagCallout": "<strong>Vergeet niet ons profiel te taggen in het bericht:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>of</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Ik abonneer mij op Combo Ski nieuws, praktische tips en aanbiedingen. Ik kan mijn toestemming op elk moment intrekken.",
+    "socialPostConsent": "Ik bevestig dat ik een <strong>post of story</strong> met het product duidelijk in beeld heb gepubliceerd <strong>of zal publiceren</strong>, met de tag <strong>@combo_ski</strong> op Instagram of <strong>@Comboski</strong> op Facebook.",
+    "legalNote": "Registratie en deze controle beperken de wettelijke rechten met betrekking tot defecte goederen niet. Door dit in te dienen, bevestigt u dat de gegevens mogen worden gebruikt om de garantie vast te leggen. Lees ons <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>privacybeleid</a>.",
+    "submit": "Volledige registratie",
+    "certificate": "Bevestiging van registratie",
+    "restart": "Begin opnieuw",
+    "back": "Terug",
+    "check": "Controleer antwoorden",
+    "next": "Ga door",
+    "step": "Stap",
+    "of": "van",
+    "correct": "Alle antwoorden zijn correct. Je kunt doorgaan.",
+    "answerRequired": "Beantwoord alle drie de vragen.",
+    "formEmail": "Voer een geldig e-mailadres in.",
+    "formChoice": "Kies een registratietype.",
+    "formConsents": "Voor de garantie van drie jaar voert u de postlink of accountnaam in, bevestigt u dat u het bericht heeft gepubliceerd en geeft u marketingtoestemming.",
+    "formSaving": "Registratie opslaan…",
+    "formSaveError": "We konden de registratie niet opslaan. Probeer het opnieuw.",
+    "successTitle": "Registratie opgeslagen",
+    "standardSuccess": "U heeft de standaardproductregistratie voltooid.",
+    "extendedSuccess": "We wachten nu op je <strong>post of story</strong> met de tag <strong>@combo_ski</strong> op Instagram of <strong>@Comboski</strong> op Facebook. Heb je deze al gedeeld? Heb dan nog even geduld terwijl we deze aan je registratie koppelen.",
+    "standardCertificate": "Standaard registratie",
+    "extendedCertificate": "Registratie voor de verlengde garantie van 3 jaar",
+    "socialOfferEyebrow": "HOE KUNT U HET DERDE GARANTIEJAAR ONTVANGEN",
+    "socialOfferTitle": "Laat Combo Ski in actie zien",
+    "socialOfferLead": "Publiceer je eigen bericht waarin het product duidelijk zichtbaar is en tag één van onze officiële profielen.",
+    "socialStepOne": "Comboski fotograferen of filmen",
+    "socialStepTwo": "Publiceer het bericht",
+    "socialStepThree": "Tag ons profiel",
+    "officialProfiles": "Voeg een bericht of verhaal toe",
+    "openProfile": "Profiel openen ↗",
+    "newsletterRequired": "Om de garantie tot 3 jaar te verlengen, selecteert u de toestemming om nieuws te ontvangen.",
+    "formSocialProof": "Voer uw IG- of FB-accountnaam in.",
+    "formSocialPost": "Bevestig dat je een bericht of verhaal hebt gepubliceerd of gaat publiceren en ons profiel tagt.",
+    "successEyebrow": "DANK U",
+    "communityEyebrow": "COMBO SKI-GEMEENSCHAP",
+    "communityTitle": "Sluit je aan bij andere Combo Ski-liefhebbers",
+    "communityText": "Deel je avonturen, vind inspiratie, krijg praktische tips en hoor als eerste het nieuws in de Facebook-groep <strong>Combo Ski Users</strong>.",
+    "communityButton": "Word lid van de Facebook-groep ↗",
+    "newsletterOfferTitle": "Blijf een stap voor",
+    "newsletterOfferLead": "Praktische tips voor veiligere en leukere ritten, handleidingen, nieuws en speciale Combo Ski-aanbiedingen in uw inbox.",
+    "standardNewsletterConsent": "Ik wil graag Combo Ski-tips, gidsen, nieuws en aanbiedingen ontvangen. Ik kan mijn toestemming op elk moment intrekken.",
+    "pairingNote": "<strong>Wat gebeurt er daarna?</strong> Zodra de getagde <strong>post of story</strong> verschijnt, controleren we deze, <strong>koppelen we deze via de accountnaam aan je registratie</strong> en <strong>activeren we de verlengde garantie van in totaal 3 jaar</strong>.",
+    "programEyebrow": "COMBO SKI VERLENGDE GARANTIE",
+    "programTitle": "Deel Combo Ski op Instagram of Facebook en krijg 3 jaar garantie.",
+    "programLead": "Vul de onderstaande gegevens in. We gebruiken je e-mailadres om de registratie vast te leggen en te matchen met het <strong>bericht of verhaal</strong>.",
+    "programTiming": "<strong>Je hoeft niet te wachten op een bergtocht.</strong> Fotografeer Combo Ski's terwijl je ze uitpakt of laat ze in actie zien.",
+    "programExampleCaption": "<strong>Voorbeeldbericht of verhaal:</strong> het product is duidelijk zichtbaar en het Combo Ski-profiel is getagd.",
+    "programTermsTitle": "Uitgebreide garantievoorwaarden",
+    "programTermProduct": "Het Combo Ski-product moet duidelijk zichtbaar zijn op de foto of video.",
+    "programTermTag": "Tag <strong>@combo_ski</strong> op Instagram of <strong>@Comboski</strong> op Facebook in de <strong>post of story</strong>.",
+    "openInstagram": "Open Instagram↗",
+    "openFacebook": "Open Facebook↗",
+    "socialComposeHelp": "Kies in de app of website <strong>+ / Bericht maken</strong>, voeg je eigen foto toe en tag <strong>@combo_ski</strong> op Instagram of <strong>@Comboski</strong> op Facebook. Kom dan hier terug om uw registratie af te ronden.",
+    "actionRulesTitle": "Promotieregels",
+    "actionRuleDeadline": "Vraag de garantieverlenging aan <strong>binnen één jaar na aankoop van het product</strong>.",
+    "actionRuleOnce": "De garantie kan <strong>slechts één keer per product</strong> worden verlengd.",
+    "actionRuleRegistration": "Voltooi de handleiding en voer uw e-mailadres en Instagram- of Facebook-accountnaam in.",
+    "actionRulePost": "Publiceer uw eigen <strong>post of verhaal</strong> waarin Combo Ski wordt getoond en tag ons profiel: <strong>@combo_ski</strong> of <strong>@Comboski</strong>.",
+    "actionRuleConsent": "De promotie omvat <strong>toestemming om nieuws te ontvangen</strong>. U kunt uw toestemming op elk moment intrekken.",
+    "actionRuleActivation": "Door het formulier te verzenden, wordt uw aanvraag geregistreerd. We <strong>activeren de verlengde garantie na het verifiëren en matchen van het bericht of verhaal</strong>.",
+    "warrantyCoverageTitle": "Wat valt onder het derde garantiejaar?",
+    "warrantyCoverage": "Het derde garantiejaar dekt <strong>fabricage- en materiaalfouten</strong> wanneer het product volgens de instructies wordt gebruikt.",
+    "warrantyExclusions": "De garantie dekt geen <strong>normale slijtage, cosmetische krassen, schade door schokken met stenen, misbruik of ongeoorloofde aanpassingen</strong>.",
+    "warrantyRemedy": "Geaccepteerde defecten worden opgelost door <strong>het defecte onderdeel te repareren of te vervangen</strong>.",
+    "warrantyDuration": "De totale garantieperiode na verlenging bedraagt ​​<strong>36 maanden vanaf ontvangst van het product</strong>, niet vanaf registratie.",
+    "actionRuleRights": "Uw wettelijke rechten worden niet beïnvloed door deelname of niet deelname aan deze promotie. De genoemde dekking en uitsluitingen zijn van toepassing op het vrijwillig verstrekte derde garantiejaar. Neem contact op met <a href=mailto:info@comboski.cz>info@comboski.cz</a> met vragen of verzoeken om garantieservice.",
+    "retailerLabel": "Waar heb je Combo Ski gekocht? *",
+    "retailerPlaceholder": "Selecteer een detailhandelaar",
+    "retailerCombo": "Comboski online winkel",
+    "retailerOther": "Andere detailhandelaar",
+    "retailerNameLabel": "Naam verkoper *",
+    "retailerError": "Selecteer waar u de Combo Ski heeft gekocht.",
+    "retailerNameError": "Voer de naam van de verkoper in.",
+    "selected": "Geselecteerd",
+    "select": "Selecteer",
+    "backToLanguages": "Terug naar taalkeuze",
+    "snowshoeMode": "Sneeuwschoenmodus",
+    "miniSkiMode": "Miniski-modus",
+    "questionCount": "{n} vragen",
+    "chooseAnswer": "Kies een antwoord.",
+    "tryAgain": "Probeer het opnieuw.",
+    "correctAnswer": "Juist.",
+    "allQuestions": "Beantwoord alle {n} vragen.",
+    "fixAnswers": "Corrigeer de gemarkeerde antwoorden.",
+    "videoUnsupported": "Uw browser ondersteunt het afspelen van video niet.",
+    "yearBadge": "3 JAAR",
+    "tagInstagram": "Tag @combo_ski",
+    "tagFacebook": "Tag @Comboski",
+    "socialExampleAlt": "Voorbeeld van een bericht of verhaal waarin Combo Ski wordt getoond en waarin ons profiel wordt getagd",
+    "formEmailLabel": "E-mail *",
+    "accountPlaceholder": "@uw_account",
+    "emailPlaceholder": "jij@voorbeeld.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Hallo, ik ben Vojta, en vandaag laat ik je zien:"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "hoe u Combo Ski veilig kunt gebruiken"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "en onze Sever Gear-stokken."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski kan in twee modi worden gebruikt."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Sneeuwschoenmodus of miniskimodus."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "In de sneeuwschoenstand gebruik ik alleen de middelste pen"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "voor de voorste sleutelgatvormige bevestigingssleuf."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "De metalen punten moeten altijd naar voren wijzen."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Het plastic uiteinde blijft"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "aan de achterkant, nooit aan de voorkant."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Zoals ik al zei,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Ik maak maar één pen vast."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "De voorste pin blijft ongebruikt."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Laten we nu overschakelen naar de miniskimodus."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Ik maak de bevestiging los,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "en maak ook de montagesleuf aan de andere kant los."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "en nu maak ik beide pennen vast."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Eerst de achterste montagesleuf en vervolgens de voorste."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "Hetzelfde aan de andere kant."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Nu moet ik de hielband van textiel verstellen"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "zodat de maat bij mij past."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Bijvoorbeeld"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Ik heb mijn Combo Ski ingesteld tussen maat S en M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Dus ik maak de plastic gesp los,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "en pas de riem aan zodat hij comfortabel zit."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Hetzelfde doe ik op de andere Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Nu plaats ik Combo Ski aan mijn rechtervoet."
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Het R-teken is"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "op de bovenste klittenbandsluiting."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Ik span de riemen stevig aan,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "met behulp van de gesp."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "De voorband over de tenen,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "dan de bovenste klittenband."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "Hetzelfde doe ik met de linkervoet."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Terwijl ik sta, span ik de riemen aan,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "zodat Combo Ski aanvoelt als een stevig onderdeel van de schoen."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Ik controleer het hielbandje dat wordt gebruikt om de maat aan te passen."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "De bovenste band"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "kan op de laars zitten,"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "of direct op het been. Beide zijn correct."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Laten we nu laten zien hoe u bergafwaarts kunt rijden op Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Begin nooit,"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "op steile hellingen of rode skipistes."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Het is altijd beter om op vlak terrein of zachte hellingen te beginnen."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Zorg ervoor"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "dat je niet verkrampt."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Blijf ontspannen en houd je knieën gebogen."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Ik houd mijn knieën gebogen,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "maak korte bochten"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "en houd voor een beter evenwicht één voet"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "iets voor de ander."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "In het begin kan het ongemakkelijk voelen,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "maar na verloop van tijd raak je eraan gewend,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "krijg je vertrouwen en leer je met een hockeystop te remmen."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Zoals ik al zei,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Houd de ene voet iets voor de andere voor een betere balans."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Veel voorkomende fouten."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Ski niet met stijve benen en rem niet in ploegstand."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Het werkt niet en de kans is groot dat je valt."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "De sleutel is om ontspannen te blijven,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "vooral in je knieën."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Na wat oefenen kun je de snelheid en de helling geleidelijk verhogen,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "en meer van de afdaling genieten."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Zoals je kunt zien,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "dankzij de kanten en de bovenste band,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "de rit is comfortabel en veilig."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Een van de leukste bewegingen op Combo Ski is schaatsen."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Tegelijkertijd is het een van de gemakkelijkste manieren,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "om met Combo Ski te leren omgaan."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Het helpt je om voorwaarts en achterwaarts te balanceren:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "je skate net zoals je zou doen op inline skates."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "je kunt bergafwaarts schaatsen,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "of op vlak terrein,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "of zelfs,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "lichtjes bergop."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Bij het bergafwaarts rijden zijn de sneeuwcondities erg belangrijk,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "de beste omstandigheden zijn normale, zachte sneeuw."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "IJzige oppervlakken zijn gevaarlijk en lastig."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Rijden op ijs is voor beginners bijna onmogelijk."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Stevige winterlaarzen zijn ideaal voor Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Er is maar één regel,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Ze moeten de enkel ondersteunen."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Hoe hoger en stijver de laarzen zijn,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "hoe beter."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Nu schakel ik Combo Ski over naar de sneeuwschoenmodus."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "Ik druk op de knop,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "en maak de achterste sleuf los."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "en doe hetzelfde aan de andere kant."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "En nu, zoals ik al eerder zei,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "het allerbelangrijkste is,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "dat de metalen spikes zich aan de voorkant bevinden."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Dus ik bevestig alleen de middelste pin"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "en druk deze in."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Als er binnen sneeuw ligt,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "blaas ik die gewoon weg."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "en doe hetzelfde aan de andere kant."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Dit is hoe de sneeuwschoenmodus wordt ingesteld."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Zoals je kunt zien,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Ik zet nu mijn rechtervoet in."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Ik schuif mijn voet helemaal naar achteren en controleer"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "dat de textielhielband stevig op zijn plaats zit."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Ik trek de voorband strak over de tenen,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "dan de achterste band over de bovenkant van de voet,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "en tenslotte de bovenste klittenband."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Zoals je kunt zien,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "de neus van de laars is uitgelijnd met de punt van Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Dit betekent dat de Combo Ski correct is gemonteerd."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Ik kan comfortabel bergop lopen."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Op zeer steil terrein,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "zet Combo Ski stevig in de sneeuw."
+      }
+    ]
+  ]
+}

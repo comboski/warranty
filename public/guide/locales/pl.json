@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · PRZEŁĄCZANIE TRYBÓW",
+      "title": "Rakiety śnieżne czy mini narty?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Tutaj pokazujemy zmianę trybu rakiet śnieżnych do podchodzenia na tryb mininart do zjazdu. Wiązanie ma otwory montażowe w kształcie dziurki od klucza. W obu trybach przedni otwór jest przy czubku buta, a tylny przy pięcie.",
+      "points": [
+        {
+          "text": "W trybie rakiet śnieżnych strona z metalowym obrzeżem i metalowymi kolcami jest zawsze skierowana do przodu. Plastikowa końcówka nigdy nie może znajdować się z przodu.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Jest to błędne: plastikowa końcówka nie może być skierowana do przodu w trybie rakiet śnieżnych.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "W trybie rakiet śnieżnych załóż przedni otwór montażowy w kształcie dziurki od klucza, przy czubku buta, na środkowy sworzeń po obu stronach. Przedni sworzeń pozostaje wolny, dzięki czemu pięta może się lekko poruszać.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>W trybie mini-narty wiązania są zabezpieczone zarówno z przodu, jak i z tyłu.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Najpierw przymocuj tylną szczelinę montażową na pięcie buta.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Następnie przymocuj przednią szczelinę montażową za pomocą przycisku zwalniającego, na czubku buta.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Która strona skierowana jest do przodu w trybie rakiet śnieżnych?",
+          "answers": [
+            "Strona z plastikową końcówką",
+            "Strona z metalowym obrzeżem i kolcami",
+            "Kierunek nie ma znaczenia"
+          ],
+          "correct": 1,
+          "hint": "Strona z metalowym obrzeżem i metalowymi kolcami jest zawsze skierowana do przodu."
+        },
+        {
+          "question": "Co jest zabezpieczone na środkowym sworzniu w trybie rakiety śnieżnej?",
+          "answers": [
+            "Tylko przedni otwór przy czubku buta, aby pięta mogła się lekko poruszać",
+            "Tylko tylny otwór przy pięcie",
+            "Oba otwory montażowe"
+          ],
+          "correct": 0,
+          "hint": "Przymocuj tylko przednią szczelinę montażową do środkowego sworznia po obu stronach, tak aby pięta mogła się lekko poruszać."
+        },
+        {
+          "question": "W jakiej kolejności zakłada się wiązania w trybie mininart?",
+          "answers": [
+            "Najpierw otwór montażowy z przodu, potem z tyłu",
+            "Najpierw tylna szczelina montażowa, następnie przednia szczelina z przyciskiem zwalniającym",
+            "Kolejność nie ma znaczenia"
+          ],
+          "correct": 1,
+          "hint": "Najpierw zamocuj tylną szczelinę montażową, a następnie przednią szczelinę za pomocą przycisku zwalniającego."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · PRAWIDŁOWE DOPASOWANIE",
+      "title": "Regulacja i prawidłowe dopasowanie",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Przed założeniem Combo Ski ustaw rozmiar i sprawdź oznaczenia L i R. Tekstylny pasek za piętą reguluje rozmiar i położenie buta. Przedni pasek z klamrą zaciskową biegnie nad palcami, a tylny nad podbiciem. Górny pasek na rzep obejmuje goleń.",
+      "points": [
+        {
+          "text": "Zawsze sprawdzaj, czy lewe wiązanie znajduje się na lewej stopie, a prawe na prawej stopie. Oznaczenia L i R znajdują się na pasku z rzepem.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Użyj tekstylnego paska na pięcie, aby ustawić but tak, aby pięta zrównała się z zaznaczonymi pozycjami S, M lub L zgodnie z tabelą rozmiarów.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Powtórz proces po drugiej stronie wiązania.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Zaciśnij mocno oba paski, tak jakby narty Combo Ski były solidną częścią buta.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Jak rozpoznać lewą i prawą stronę?",
+          "answers": [
+            "Według koloru",
+            "Po oznaczeniach L i R na pasku na rzep",
+            "Są wymienne"
+          ],
+          "correct": 1,
+          "hint": "Oznaczenia L i R znajdują się na pasku z rzepem."
+        },
+        {
+          "question": "Co należy odpowiednio dopasować do rozmiaru buta?",
+          "answers": [
+            "Tekstylny pasek na piętę",
+            "Tylko przedni pasek zapadkowy",
+            "Nic nie wymaga regulacji"
+          ],
+          "correct": 0,
+          "hint": "Wyreguluj tekstylny pasek na pięcie tak, aby pięta odpowiadała zaznaczonemu rozmiarowi."
+        },
+        {
+          "question": "Jak napiąć przednie i tylne paski zapadkowe przed jazdą?",
+          "answers": [
+            "Zostaw oba luzem",
+            "Mocno zacisnąć oba paski, tak aby Combo Ski było jak część buta",
+            "Wystarczy zapiąć tylko przedni pasek"
+          ],
+          "correct": 1,
+          "hint": "Mocno dokręć oba paski."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · PIERWSZY BIEG",
+      "title": "Postawa, skręcanie i hamowanie",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Zacznij na płaskim terenie, a następnie przejdź na łagodne zbocze. Najpierw naucz się stabilnej postawy, skręcania i bezpiecznego hamowania.",
+      "points": [
+        {
+          "text": "Zalecamy noszenie kasku narciarskiego.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Trzymaj stopy blisko siebie, a kolana ugięte. Utrzymuj równowagę w przód i w tył, jak na łyżwach lub rolkach. Nie odchylaj się do tyłu.",
+          "image": ""
+        },
+        {
+          "text": "Skręć jak na normalnych nartach lub przesuń jedną stopę nieco przed drugą.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Aby zahamować, ustaw obie mininarty bokiem do kierunku jazdy i ślizgaj się na krawędziach, jak na łyżwach. W sytuacji awaryjnej wybierz kontrolowany upadek.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Gdzie powinieneś zacząć?",
+          "answers": [
+            "Na dowolnym stoku narciarskim",
+            "Na płaskim terenie, potem na łagodnym zboczu",
+            "Na lodowatym śniegu"
+          ],
+          "correct": 1,
+          "hint": "Zacznij na płaskim terenie, a następnie przejdź na łagodne zbocze."
+        },
+        {
+          "question": "Jaka jest podstawowa postawa?",
+          "answers": [
+            "Stopy złączone, kolana ugięte",
+            "Stopy szerokie i kolana proste",
+            "Ciężar ciała mocno z tyłu"
+          ],
+          "correct": 0,
+          "hint": "Trzymaj stopy razem, a kolana ugięte. Nie odchylaj się do tyłu."
+        },
+        {
+          "question": "Jak należy hamować?",
+          "answers": [
+            "Aby zahamować, ustaw obie mininarty bokiem do kierunku jazdy i ślizgaj się na krawędziach, jak na łyżwach",
+            "Hamować pługiem",
+            "Przesuń ciężar do tyłu"
+          ],
+          "correct": 0,
+          "hint": "Obróć obie mini-narty na bok i zsuń się po ich krawędziach."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRAKTYKA",
+      "title": "Powierzchnia, obuwie i kontrola",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Zachowanie zmienia się wraz z powierzchnią. Ćwicz stopniowo i dopasowuj warunki do swoich możliwości.",
+      "points": [
+        {
+          "text": "Unikaj oblodzonego lub zamarzniętego śniegu oraz kamieni.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Solidne buty zimowe za kostkę zapewniają lepsze wsparcie i kontrolę.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Najpierw ćwicz równowagę, a następnie przejdź do jazdy na łyżwach i łagodnych zjazdów.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Jakiej powierzchni należy unikać?",
+          "answers": [
+            "Normalny miękki śnieg",
+            "Lodowaty lub zamarznięty śnieg",
+            "Łagodny stok"
+          ],
+          "correct": 1,
+          "hint": "Unikaj oblodzonego lub zamarzniętego śniegu oraz kamieni."
+        },
+        {
+          "question": "Jakie obuwie jest odpowiednie?",
+          "answers": [
+            "Solidne buty zimowe za kostkę",
+            "Niskie buty turystyczne",
+            "Tenisówki"
+          ],
+          "correct": 0,
+          "hint": "Noś solidne buty zimowe za kostkę."
+        },
+        {
+          "question": "Co powinieneś ćwiczyć w pierwszej kolejności?",
+          "answers": [
+            "Najwyższa prędkość",
+            "Zjazdy",
+            "Równowaga i podstawowa postawa"
+          ],
+          "correct": 2,
+          "hint": "Najpierw przećwicz równowagę i podstawową postawę."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · POD GÓRĘ",
+      "title": "Wracamy do rakiet śnieżnych i pod górę",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Zmień tryb na równym podłożu i upewnij się, że pięta pozostaje wolna.",
+      "points": [
+        {
+          "text": "Usuń śnieg i lód z otworów montażowych i sworzni, na przykład wydmuchując go.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Aby odpiąć wiązanie, naciśnij przycisk i zsuń otwór montażowy w dół ze sworznia.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Obróć Combo Ski ślizgiem do góry i załóż wiązanie na środkowy sworzeń.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Załóż przedni otwór w kształcie dziurki od klucza, przy czubku buta, na środkowy sworzeń po obu stronach.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Trzymaj piętę wolną, aby zapewnić bardziej naturalny krok.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Użyj tekstylnego paska na pięcie, aby dopasować czubek buta do czubka nart Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Zapinaj paski w następującej kolejności: najpierw przedni pasek nad palcami, następnie tylny pasek nad górną częścią stopy, a na końcu górny pasek z rzepem wokół goleni.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Co zrobić, jeśli śnieg lub lód zatyka otwory montażowe lub oblepia sworznie?",
+          "answers": [
+            "Usunąć śnieg i lód, na przykład wydmuchując go",
+            "Wciśnij wiązanie na miejsce",
+            "Zostaw je zablokowane"
+          ],
+          "correct": 0,
+          "hint": "Usuń śnieg i lód z otworów montażowych i sworzni, na przykład wydmuchując go."
+        },
+        {
+          "question": "W jakiej kolejności należy zapinać paski w trybie rakiety śnieżnej?",
+          "answers": [
+            "Najpierw pasek tylny, potem przedni",
+            "Pasek przedni nad palcami, pasek tylny nad górną częścią stopy, następnie górny pasek na rzep",
+            "Kolejność nie ma znaczenia"
+          ],
+          "correct": 1,
+          "hint": "Pasek przedni nad palcami, pasek tylny nad górną częścią stopy, następnie górny pasek na rzep."
+        },
+        {
+          "question": "Gdzie ma być czubek buta w trybie rakiet śnieżnych?",
+          "answers": [
+            "Dopasowane do czubka nart Combo Ski",
+            "Daleko w tyle za końcówką Combo Ski",
+            "Poza środkową linią Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Wyrównaj końcówkę buta z czubkiem nart Combo Ski."
+        },
+        {
+          "question": "Co jest zabezpieczone na środkowym sworzniu w trybie rakiety śnieżnej?",
+          "answers": [
+            "Tylko przedni otwór przy czubku buta, aby pięta mogła się lekko poruszać",
+            "Tylko tylny otwór przy pięcie",
+            "Oba otwory montażowe"
+          ],
+          "correct": 0,
+          "hint": "Przymocuj tylko przednią szczelinę montażową do środkowego sworznia po obu stronach, tak aby pięta mogła się lekko poruszać."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · PIELĘGNACJA",
+      "title": "Po użyciu wysuszyć i sprawdzić",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Suszenie, kontrola i prawidłowe przechowywanie chronią ślizgi i przedłużają żywotność produktu.",
+      "points": [
+        {
+          "text": "Po każdym użyciu należy pozostawić Combo Ski do całkowitego wyschnięcia. Nie przechowuj ich mokrych.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Nosząc lub pakując narty Combo Ski do plecaka, należy je ustawić tak, aby metalowe zęby nie uszkodziły powierzchni ślizgowej.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Regularnie sprawdzaj połączenia śrubowe.",
+          "image": ""
+        },
+        {
+          "text": "Przestań używać uszkodzonych części i skontaktuj się z serwisem.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Co należy zrobić po użyciu?",
+          "answers": [
+            "Zostaw je mokre",
+            "Pozwól im całkowicie wyschnąć",
+            "Użyj maksymalnego ciepła bezpośredniego"
+          ],
+          "correct": 1,
+          "hint": "Pozwól im całkowicie wyschnąć."
+        },
+        {
+          "question": "Jak należy je pakować?",
+          "answers": [
+            "Tak, aby metalowe zęby nie uszkodziły ślizgów",
+            "Powierzchnie przesuwne na zewnątrz",
+            "Nie ma znaczenia"
+          ],
+          "correct": 0,
+          "hint": "Ustaw Combo Ski tak, aby metalowe zęby nie uszkodziły powierzchni ślizgowej."
+        },
+        {
+          "question": "A co jeśli część ulegnie uszkodzeniu?",
+          "answers": [
+            "Jedź dalej",
+            "Naklej taśmę i jedź",
+            "Przestań go używać i skontaktuj się z obsługą pod adresem info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Nie używaj uszkodzonego produktu; skontaktuj się z obsługą pod adresem info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "KONTROLA GWARANCJI NA NARTY COMBO",
+    "welcomeTitle": "Zanim wyruszysz w śnieg",
+    "welcomeLead": "<strong>Wypełnij ten krótki przewodnik, aby spełnić warunki gwarancji.</strong> Pokażemy Ci prawidłową konfigurację, bezpieczne użytkowanie i pielęgnację Combo Ski.",
+    "welcomeRequired": "<strong>Przewodnik musi zostać wypełniony.</strong><br>Na koniec wpisz swój adres e-mail, aby odnotować zakończenie kontroli gwarancyjnej.",
+    "welcomeReward": "<strong>Możesz otrzymać 3-letnią gwarancję</strong><br><small>Po ukończeniu przewodnika możesz otrzymać trzeci rok gwarancji.</small>",
+    "chooseLanguage": "Wybierz swój język",
+    "durationNote": "Trwa około 4 minut",
+    "startGuide": "Rozpocznij sprawdzanie gwarancji",
+    "testSkip": "TEST: Przejdź do rejestracji",
+    "prototype": "Kontrola gwarancji Combo Ski",
+    "videoHeading": "Najpierw obejrzyj wideo",
+    "manualLink": "Otwórz oryginalną ilustrowaną instrukcję",
+    "quizTitle": "Sprawdź pytania",
+    "quizCount": "3 pytania",
+    "completeEyebrow": "KONTROLA ZAKOŃCZONA",
+    "completeTitle": "Znasz podstawy bezpiecznego użytkowania",
+    "completeLead": "Możesz teraz zarejestrować swój produkt. Używamy Twojego adresu e-mail do rejestracji rejestracji.",
+    "chooseRegistration": "Wybierz typ rejestracji",
+    "standardTitle": "Rejestracja standardowej 2-letniej gwarancji",
+    "standardText": "Zarejestruj zakończenie kontroli gwarancyjnej w celu uzyskania standardowej 2-letniej gwarancji.",
+    "extendedTitle": "Przedłużona 3-letnia gwarancja",
+    "extendedText": "Pokaż Combo Ski swoim znajomym i otrzymaj 3-letnią gwarancję.",
+    "socialProofLabel": "Nazwa Twojego konta na Instagramie lub Facebooku <b aria-label=required>*</b>",
+    "socialProofHelp": "Używamy nazwy konta, aby dopasować tag do Twojej rejestracji.",
+    "socialTagCallout": "<strong>Pamiętaj o otagowaniu naszego profilu w poście:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>lub</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Subskrybuję aktualności, praktyczne wskazówki i oferty Combo Ski. W każdej chwili mogę wycofać zgodę.",
+    "socialPostConsent": "Potwierdzam, że opublikowałem/am <strong>lub opublikuję</strong> <strong>post lub relację</strong> z dobrze widocznym produktem i oznaczę <strong>@combo_ski</strong> na Instagramie lub <strong>@Comboski</strong> na Facebooku.",
+    "legalNote": "Rejestracja i ta kontrola nie ograniczają praw ustawowych związanych z wadliwym towarem. Przesyłając, potwierdzasz, że dane mogą zostać wykorzystane do zarejestrowania gwarancji. Przeczytaj naszą <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>politykę prywatności</a>.",
+    "submit": "Dokończ rejestrację",
+    "certificate": "Potwierdzenie rejestracji",
+    "restart": "Zacznij od nowa",
+    "back": "Powrót",
+    "check": "Sprawdź odpowiedzi",
+    "next": "Kontynuuj",
+    "step": "Krok",
+    "of": "z",
+    "correct": "Wszystkie odpowiedzi są prawidłowe. Możesz kontynuować.",
+    "answerRequired": "Odpowiedz na wszystkie trzy pytania.",
+    "formEmail": "Wpisz prawidłowy adres e-mail.",
+    "formChoice": "Wybierz typ rejestracji.",
+    "formConsents": "Aby uzyskać trzyletnią gwarancję, wpisz link do postu lub nazwę konta, potwierdź publikację postu i wyraż zgodę marketingową.",
+    "formSaving": "Zapisuję rejestrację…",
+    "formSaveError": "Nie udało się zapisać rejestracji. Spróbuj ponownie.",
+    "successTitle": "Rejestracja została zapisana",
+    "standardSuccess": "Zakończyłeś standardową rejestrację produktu.",
+    "extendedSuccess": "Teraz czekamy na Twój <strong>post lub relację</strong> z oznaczeniem <strong>@combo_ski</strong> na Instagramie lub <strong>@Comboski</strong> na Facebooku. Jeśli już został opublikowany, prosimy o cierpliwość, aż połączymy go z Twoją rejestracją.",
+    "standardCertificate": "Rejestracja standardowa",
+    "extendedCertificate": "Rejestracja w celu przedłużenia 3-letniej gwarancji",
+    "socialOfferEyebrow": "JAK OTRZYMAĆ TRZECI ROK GWARANCJI",
+    "socialOfferTitle": "Pokaż narty Combo w akcji",
+    "socialOfferLead": "Opublikuj własny post, w którym produkt jest dobrze widoczny i oznacz jeden z naszych oficjalnych profili.",
+    "socialStepOne": "Zdjęcie lub film Combo Ski",
+    "socialStepTwo": "Opublikuj post",
+    "socialStepThree": "Oznacz nasz profil",
+    "officialProfiles": "Dodaj post lub historię",
+    "openProfile": "Otwórz profil ↗",
+    "newsletterRequired": "Aby przedłużyć gwarancję do 3 lat należy zaznaczyć zgodę na otrzymywanie aktualności.",
+    "formSocialProof": "Wpisz nazwę swojego konta IG lub FB.",
+    "formSocialPost": "Potwierdź, że opublikowałeś lub opublikujesz post lub historię i oznaczysz nasz profil.",
+    "successEyebrow": "DZIĘKUJĘ",
+    "communityEyebrow": "WSPÓLNOTA COMBO NART",
+    "communityTitle": "Dołącz do innych entuzjastów Combo Ski",
+    "communityText": "Podziel się swoimi przygodami, znajdź inspirację, otrzymuj praktyczne wskazówki i jako pierwszy dowiaduj się o nowościach w grupie <strong>Combo Ski Users</strong> na Facebooku.",
+    "communityButton": "Dołącz do grupy na Facebooku ↗",
+    "newsletterOfferTitle": "Bądź o krok do przodu",
+    "newsletterOfferLead": "Praktyczne wskazówki dotyczące bezpieczniejszej i przyjemniejszej jazdy, poradniki, aktualności i specjalne oferty Combo Ski dostarczane do Twojej skrzynki odbiorczej.",
+    "standardNewsletterConsent": "Chcę otrzymywać wskazówki, przewodniki, aktualności i oferty Combo Ski. W każdej chwili mogę wycofać zgodę.",
+    "pairingNote": "<strong>Co dalej?</strong> Gdy pojawi się oznaczony <strong>post lub relacja</strong>, sprawdzimy go, <strong>połączymy z Twoją rejestracją</strong> na podstawie nazwy konta i <strong>aktywujemy gwarancję przedłużoną łącznie do 3 lat</strong>.",
+    "programEyebrow": "ROZSZERZONA GWARANCJA COMBO SKI",
+    "programTitle": "Udostępnij Combo Ski na Instagramie lub Facebooku i zyskaj 3-letnią gwarancję.",
+    "programLead": "Uzupełnij szczegóły poniżej. Używamy Twojego adresu e-mail, aby zarejestrować rejestrację i dopasować ją do <strong>postu lub historii</strong>.",
+    "programTiming": "<strong>Nie musisz czekać na wyprawę w góry.</strong> Sfotografuj Combo Ski podczas rozpakowywania lub pokaż je w akcji.",
+    "programExampleCaption": "<strong>Przykładowy post lub historia:</strong> produkt jest wyraźnie widoczny, a profil Combo Ski jest oznaczony tagiem.",
+    "programTermsTitle": "Rozszerzone warunki gwarancji",
+    "programTermProduct": "Produkt Combo Ski musi być dobrze widoczny na zdjęciu lub filmie.",
+    "programTermTag": "Oznacz <strong>@combo_ski</strong> na Instagramie lub <strong>@Comboski</strong> na Facebooku w <strong>poście lub relacji</strong>.",
+    "openInstagram": "Otwórz Instagram ↗",
+    "openFacebook": "Otwórz Facebooka ↗",
+    "socialComposeHelp": "W aplikacji lub witrynie wybierz <strong>+ / Utwórz post</strong>, dodaj własne zdjęcie i oznacz <strong>@combo_ski</strong> na Instagramie lub <strong>@Comboski</strong> na Facebooku. Następnie wróć tutaj, aby dokończyć rejestrację.",
+    "actionRulesTitle": "Zasady promocji",
+    "actionRuleDeadline": "Złóż wniosek o przedłużenie gwarancji <strong>w ciągu roku od zakupu produktu</strong>.",
+    "actionRuleOnce": "Gwarancję można przedłużyć <strong>tylko raz na produkt</strong>.",
+    "actionRuleRegistration": "Wypełnij przewodnik i wpisz swój adres e-mail oraz nazwę konta na Instagramie lub Facebooku.",
+    "actionRulePost": "Opublikuj swój własny <strong>post lub historię</strong> przedstawiającą Combo Ski i oznacz nasz profil: <strong>@combo_ski</strong> lub <strong>@Comboski</strong>.",
+    "actionRuleConsent": "Promocja obejmuje <strong>zgodę na otrzymywanie aktualności</strong>. Zgodę możesz wycofać w dowolnym momencie.",
+    "actionRuleActivation": "Wysłanie formularza zapisuje zgłoszenie. <strong>Aktywujemy przedłużoną gwarancję po sprawdzeniu postu lub relacji i połączeniu z rejestracją</strong>.",
+    "warrantyCoverageTitle": "Co obejmuje trzeci rok gwarancji?",
+    "warrantyCoverage": "Trzeci rok gwarancji obejmuje <strong>wady produkcyjne i materiałowe</strong>, jeśli produkt jest używany zgodnie z instrukcją.",
+    "warrantyExclusions": "Nie obejmuje <strong>normalnego zużycia, kosmetycznych zadrapań, uszkodzeń spowodowanych uderzeniami kamieni, niewłaściwego użycia lub nieautoryzowanych modyfikacji</strong>.",
+    "warrantyRemedy": "Zaakceptowane wady są usuwane poprzez <strong>naprawę lub wymianę wadliwej części</strong>.",
+    "warrantyDuration": "Całkowity okres gwarancji po przedłużeniu wynosi <strong>36 miesięcy od otrzymania produktu</strong>, a nie od rejestracji.",
+    "actionRuleRights": "Uczestnictwo lub nieuczestnictwo w tej promocji nie ma wpływu na Twoje prawa ustawowe. Podany zakres i wyłączenia mają zastosowanie do dobrowolnie udzielonego trzeciego roku gwarancji. Skontaktuj się z <a href=mailto:info@comboski.cz>info@comboski.cz</a>, jeśli masz pytania lub chcesz skorzystać z usług gwarancyjnych.",
+    "retailerLabel": "Gdzie kupiłeś narty Combo? *",
+    "retailerPlaceholder": "Wybierz sprzedawcę",
+    "retailerCombo": "Sklep internetowy Combo Ski",
+    "retailerOther": "Inny sprzedawca",
+    "retailerNameLabel": "Nazwa sprzedawcy *",
+    "retailerError": "Wybierz, gdzie kupiłeś narty Combo.",
+    "retailerNameError": "Wprowadź nazwę sprzedawcy.",
+    "selected": "Wybrane",
+    "select": "Wybierz",
+    "backToLanguages": "Powrót do wyboru języka",
+    "snowshoeMode": "Tryb rakiet śnieżnych",
+    "miniSkiMode": "Tryb mininart",
+    "questionCount": "Liczba pytań: {n}",
+    "chooseAnswer": "Wybierz odpowiedź.",
+    "tryAgain": "Spróbuj ponownie.",
+    "correctAnswer": "Prawidłowy.",
+    "allQuestions": "Odpowiedz na wszystkie {n} pytań.",
+    "fixAnswers": "Popraw wyróżnione odpowiedzi.",
+    "videoUnsupported": "Twoja przeglądarka nie obsługuje odtwarzania wideo.",
+    "yearBadge": "3 LATA",
+    "tagInstagram": "Oznacz @combo_ski",
+    "tagFacebook": "Oznacz @Comboski",
+    "socialExampleAlt": "Przykład postu lub historii przedstawiającej Combo Ski i oznaczającej nasz profil",
+    "formEmailLabel": "E-mail *",
+    "accountPlaceholder": "@twoje_konto",
+    "emailPlaceholder": "ty@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Cześć, jestem Vojta i dziś pokażę ci,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "jak bezpiecznie korzystać z Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "oraz naszych kijków Sever Gear."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski można używać w dwóch trybach."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Tryb rakiet śnieżnych lub tryb mininart."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "W trybie rakiet śnieżnych używam tylko środkowego sworznia"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "do przedniego otworu w kształcie dziurki od klucza."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "Metalowe kolce muszą być zawsze z przodu."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Plastikowa końcówka zostaje"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "z tyłu, nigdy z przodu."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Jak wspomniałem,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Mocuję tylko jeden sworzeń."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Przedni sworzeń pozostaje nieużywany."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Przejdźmy teraz do trybu mininart."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Odpinam mocowanie,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "i zwalniam otwór również po drugiej stronie."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Teraz mocuję oba sworznie."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Najpierw tylny otwór montażowy, potem przedni."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "To samo po drugiej stronie."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Teraz muszę wyregulować tekstylny pasek na piętę"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "żeby rozmiar był dla mnie odpowiedni."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Na przykład"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Ustawiłem narty Combo pomiędzy rozmiarem S i M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Więc poluzuję plastikową klamrę,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "i dopasowuję pasek do rozmiaru buta."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "To samo robię z drugim Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Teraz zakładam Combo Ski na prawą stopę."
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Znak R jest"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "na górnym pasku na rzep."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Mocno zaciskam pasy,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "za pomocą klamry."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Pasek z przodu nad palcami,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "następnie górny pasek na rzep."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "To samo robię na lewą stopę."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Stojąc, zapinam pasy,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "tak aby Combo Ski było jak część buta."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Sprawdzam pasek na piętę używany do regulacji rozmiaru."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "Górny pasek"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "może leżeć na bucie"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "lub obejmować nogę powyżej buta. Obie opcje są poprawne."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Pokażmy teraz, jak zjeżdżać w dół na Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Nigdy nie zaczynaj,"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "na stromych zboczach lub czerwonych trasach narciarskich."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Zawsze lepiej jest zacząć na płaskim terenie lub łagodnych zboczach."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Zawsze pamiętaj,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "żeby się nie usztywniać."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "pozostań zrelaksowany i ugnij kolana."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Trzymam kolana zgięte,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "wykonuję krótkie skręty"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "i dla lepszej równowagi trzymam jedną stopę"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "nieco przed drugą."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "Na początku możesz czuć się niezręcznie,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "ale z biegiem czasu można się do tego przyzwyczaić"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "nabierzesz pewności i nauczysz się hamować ślizgiem bokiem."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Jak wspomniałem,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Trzymaj jedną stopę nieco przed drugą, aby uzyskać lepszą równowagę."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Typowe błędy."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Nie jedź na prostych nogach i nie hamuj pługiem."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "To nie zadziała i prawdopodobnie upadniesz."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "Najważniejsze to pozostać zrelaksowanym,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "szczególnie w kolanach."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Po krótkiej praktyce możesz zwiększyć prędkość i kąt nachylenia,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "i czerpać więcej przyjemności z jazdy."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Jak widać,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "dzięki krawędziom i górnemu paskowi,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "jazda jest wygodna i bezpieczna."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Jednym z najprzyjemniejszych ruchów jest krok łyżwowy."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Jednocześnie jest to jeden z najłatwiejszych sposobów,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "żeby nauczyć się korzystać z Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Pomaga zachować równowagę w przód i w tył:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "Ruch jest taki sam jak na rolkach."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "Tak możesz poruszać się w dół,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "lub na płaskim terenie,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "lub nawet,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "lekko pod górę."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Podczas zjazdów bardzo ważne są warunki śniegowe,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "najlepsze warunki to normalny, miękki śnieg."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Oblodzone powierzchnie są niebezpieczne i trudne."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Dla początkujących jazda na lodzie jest prawie niemożliwa."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Solidne buty zimowe są idealne do Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Jest tylko jedna zasada,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Muszą wspierać kostkę."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Im wyższe i sztywniejsze są buty,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "tym lepiej."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Teraz przełączam Combo Ski na tryb rakiet śnieżnych."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "Naciskam przycisk,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "i zwalniam tylny otwór montażowy."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "To samo robię po drugiej stronie."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "A teraz, jak już wspomniałem,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "najważniejsze jest to,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "aby metalowe kolce znajdowały się z przodu."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Mocuję więc tylko środkowy sworzeń"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "i dociskam mocowanie."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Jeśli w środku jest śnieg,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "po prostu go wydmuchuję."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "To samo robię po drugiej stronie."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "W ten sposób ustawiony jest tryb rakiet śnieżnych."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Jak widać,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Teraz wkładam prawą stopę."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Cofam całkowicie stopę i sprawdzam"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "czy tekstylny pasek na piętę jest prawidłowo osadzony."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Zaciskam przedni pasek nad palcami,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "potem tylny pasek nad podbiciem,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "i wreszcie górny pasek na rzep."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Jak widać,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "czubek buta jest wyrównany z czubkiem nart Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Oznacza to, że narty Combo Ski są prawidłowo dopasowane."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Mogę spokojnie chodzić pod górę."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Na bardzo stromym terenie"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "mocno wbij Combo Ski w śnieg."
+      }
+    ]
+  ]
+}

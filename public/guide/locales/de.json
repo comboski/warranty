@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · MODI WECHSELN",
+      "title": "Schneeschuhe oder Miniski?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Hier sehen Sie den Wechsel zwischen Schneeschuhmodus zum Bergaufgehen und Miniski-Modus zum Abfahren. Die Bindung hat schlüssellochförmige Befestigungsöffnungen. Vorne bedeutet immer an der Schuhspitze, hinten an der Ferse – in beiden Modi.",
+      "points": [
+        {
+          "text": "Im Schneeschuhmodus zeigt die Seite mit dem Metallrand und den Metallspikes immer nach vorne. Die Kunststoffspitze darf niemals vorne sein.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Das ist falsch: Die Kunststoffspitze darf im Schneeschuhmodus nicht nach vorne zeigen.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "Im Schneeschuhmodus befestigen Sie die vordere schlüssellochförmige Öffnung an der Schuhspitze auf beiden Seiten am mittleren Stift. Der vordere Stift bleibt frei, damit sich die Ferse leicht bewegen kann.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>Im Mini-Ski-Modus wird die Bindung sowohl vorne als auch hinten gesichert.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Befestigen Sie zunächst den hinteren Befestigungsschlitz am Stiefelabsatz.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Befestigen Sie dann den vorderen Befestigungsschlitz mit dem Entriegelungsknopf an der Stiefelspitze.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Welche Seite zeigt im Schneeschuhmodus nach vorne?",
+          "answers": [
+            "Die Seite mit der Kunststoffspitze",
+            "Die Seite mit dem Metallrand und den Spikes",
+            "Die Richtung spielt keine Rolle"
+          ],
+          "correct": 1,
+          "hint": "Die Seite mit dem Metallrand und den Metallspikes zeigt immer nach vorne."
+        },
+        {
+          "question": "Was wird im Schneeschuhmodus am Mittelstift befestigt?",
+          "answers": [
+            "Nur die vordere Befestigungsöffnung an der Schuhspitze, damit sich die Ferse leicht bewegen kann",
+            "Nur die hintere Befestigungsöffnung an der Ferse",
+            "Beide Befestigungsöffnungen"
+          ],
+          "correct": 0,
+          "hint": "Befestigen Sie auf jeder Seite nur den vorderen Befestigungsschlitz am mittleren Stift, damit sich die Ferse leicht bewegen kann."
+        },
+        {
+          "question": "In welcher Reihenfolge wird die Bindung im Mini-Ski-Modus befestigt?",
+          "answers": [
+            "Zuerst den vorderen Befestigungsschlitz, dann den hinteren",
+            "Zuerst den hinteren Befestigungsschlitz, dann den vorderen Schlitz mit der Entriegelungstaste",
+            "Die Reihenfolge spielt keine Rolle"
+          ],
+          "correct": 1,
+          "hint": "Befestigen Sie zuerst den hinteren Befestigungsschlitz und dann den vorderen Schlitz mit dem Entriegelungsknopf."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · RICHTIGE PASSFORM",
+      "title": "Anpassung und korrekte Passform",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Stellen Sie die Größe ein und überprüfen Sie die L- und R-Markierungen, bevor Sie den Combo Ski anziehen. Der Fersenriemen aus Stoff passt die Größe und Position des Stiefels an. Der vordere Ratschengurt geht über die Zehen. Der hintere Ratschengurt verläuft über die Oberseite des Fußes. Der obere Klettverschluss verläuft um das Schienbein.",
+      "points": [
+        {
+          "text": "Überprüfen Sie immer, dass sich die linke Bindung am linken Fuß und die rechte Bindung am rechten Fuß befindet. Die Markierungen L und R befinden sich auf dem Klettband.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Positionieren Sie den Stiefel mithilfe des Fersen-Textilriemens so, dass die Ferse entsprechend der Größentabelle an den markierten Positionen S, M oder L ausgerichtet ist.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Wiederholen Sie den Vorgang auf der anderen Seite der Bindung.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Ziehen Sie beide Riemen fest an, als ob Combo Ski ein fester Bestandteil des Stiefels wäre.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Wie erkennt man links und rechts?",
+          "answers": [
+            "Nach Farbe",
+            "Anhand der L- und R-Markierungen auf dem Klettband",
+            "Sie sind austauschbar"
+          ],
+          "correct": 1,
+          "hint": "Die Markierungen L und R befinden sich auf dem Klettband."
+        },
+        {
+          "question": "Was muss bei der Stiefelgröße richtig eingestellt werden?",
+          "answers": [
+            "Der Fersen-Textilriemen",
+            "Nur der vordere Ratschengurt",
+            "Nichts muss angepasst werden"
+          ],
+          "correct": 0,
+          "hint": "Stellen Sie den Fersen-Textilriemen so ein, dass die Ferse der markierten Größe entspricht."
+        },
+        {
+          "question": "Wie sollten Sie die vorderen und hinteren Ratschengurte vor der Fahrt festziehen?",
+          "answers": [
+            "Lassen Sie beide locker",
+            "Ziehen Sie beide fest an, als ob Combo Ski ein fester Bestandteil des Stiefels wäre",
+            "Es reicht aus, nur den vorderen Riemen festzuziehen"
+          ],
+          "correct": 1,
+          "hint": "Ziehen Sie beide Gurte fest an."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · ERSTER RUN",
+      "title": "Stand, Wenden und Bremsen",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Beginnen Sie auf ebenem Untergrund und gehen Sie dann zu einem sanften Gefälle über. Erlernen Sie zunächst einen stabilen Stand, das Wenden und sicheres Bremsen.",
+      "points": [
+        {
+          "text": "Wir empfehlen das Tragen eines Skihelms.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Halten Sie die Füße nah beieinander und die Knie gebeugt. Halten Sie das Gleichgewicht nach vorne und hinten wie auf Schlittschuhen oder Inlineskates. Lehnen Sie sich nicht nach hinten.",
+          "image": ""
+        },
+        {
+          "text": "Drehen Sie sich wie auf normalen Skiern oder bewegen Sie einen Fuß leicht vor den anderen.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Zum Bremsen drehen Sie beide Miniski quer zur Fahrtrichtung und rutschen auf den Kanten, wie auf Schlittschuhen. Falls Sie nicht mehr anhalten können, wählen Sie einen kontrollierten Sturz.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Wo soll man anfangen?",
+          "answers": [
+            "Auf jeder Skipiste",
+            "Auf ebenem Untergrund, dann auf sanftem Gefälle",
+            "Auf eisigem Schnee"
+          ],
+          "correct": 1,
+          "hint": "Beginnen Sie auf ebenem Untergrund und gehen Sie dann zu einem sanften Gefälle über."
+        },
+        {
+          "question": "Wie sieht die Grundhaltung aus?",
+          "answers": [
+            "Füße zusammen und Knie gebeugt",
+            "Füße breit und Knie gerade",
+            "Gewicht weit hinten"
+          ],
+          "correct": 0,
+          "hint": "Halten Sie Ihre Füße zusammen und Ihre Knie gebeugt. Lehnen Sie sich nicht zurück."
+        },
+        {
+          "question": "Wie soll man bremsen?",
+          "answers": [
+            "Zum Bremsen drehen Sie beide Miniski quer zur Fahrtrichtung und rutschen auf den Kanten, wie auf Schlittschuhen",
+            "Im Pflug bremsen",
+            "Verlagern Sie Ihr Gewicht nach hinten"
+          ],
+          "correct": 0,
+          "hint": "Drehen Sie beide Mini-Ski zur Seite und gleiten Sie auf ihren Kanten."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRAXIS",
+      "title": "Oberfläche, Schuhwerk und Kontrolle",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Verhalten ändert sich mit der Oberfläche. Üben Sie schrittweise und passen Sie die Bedingungen Ihren Fähigkeiten an.",
+      "points": [
+        {
+          "text": "Meiden Sie vereisten oder gefrorenen Schnee sowie Steine.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Robuste Winterstiefel mit hohem Knöchel verbessern Halt und Kontrolle.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Üben Sie zunächst das Gleichgewicht und gehen Sie dann zum Skaten und sanften Abfahrten über.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Welche Oberfläche sollten Sie meiden?",
+          "answers": [
+            "Normaler weicher Schnee",
+            "Eisiger oder gefrorener Schnee",
+            "Ein sanfter Hang"
+          ],
+          "correct": 1,
+          "hint": "Meiden Sie vereisten oder gefrorenen Schnee sowie Steine."
+        },
+        {
+          "question": "Welches Schuhwerk ist geeignet?",
+          "answers": [
+            "Robuste, knöchelhohe Winterstiefel",
+            "Niedrige Wanderschuhe",
+            "Turnschuhe"
+          ],
+          "correct": 0,
+          "hint": "Verwenden Sie robuste Winterstiefel mit hohem Knöchel."
+        },
+        {
+          "question": "Was sollten Sie zuerst üben?",
+          "answers": [
+            "Höchstgeschwindigkeit",
+            "Abfahrten",
+            "Balance und Grundhaltung"
+          ],
+          "correct": 2,
+          "hint": "Üben Sie zunächst das Gleichgewicht und die Grundhaltung."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · bergauf",
+      "title": "Zurück zu den Schneeschuhen und bergauf",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Wechseln Sie den Modus auf ebenem Untergrund und achten Sie darauf, dass die Ferse frei bleibt.",
+      "points": [
+        {
+          "text": "Entfernen Sie Schnee und Eis aus den Befestigungsöffnungen und von den Befestigungsstiften, zum Beispiel durch Ausblasen.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Zum Lösen der Bindung drücken Sie den Knopf und schieben die Befestigungsöffnung nach unten vom Stift.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Drehen Sie Combo Ski mit der Gleitfläche nach oben und setzen Sie die Bindung auf den mittleren Befestigungsstift.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Befestigen Sie die vordere schlüssellochförmige Öffnung an der Schuhspitze auf beiden Seiten am mittleren Stift.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Halten Sie die Ferse für einen natürlicheren Schritt frei.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Verwenden Sie den Fersen-Textilriemen, um die Schuhspitze an der Spitze des Combo Ski auszurichten.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Ziehen Sie die Riemen in dieser Reihenfolge fest: Zuerst den vorderen Riemen über den Zehen, dann den hinteren Riemen über der Oberseite des Fußes und schließlich den oberen Klettverschluss um das Schienbein.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Was tun Sie, wenn Schnee oder Eis in den Befestigungsöffnungen oder an den Befestigungsstiften sitzt?",
+          "answers": [
+            "Schnee und Eis entfernen, zum Beispiel durch Ausblasen",
+            "Bringen Sie die Bindung mit Gewalt in Position",
+            "Lassen Sie sie blockiert"
+          ],
+          "correct": 0,
+          "hint": "Entfernen Sie Schnee und Eis aus den Befestigungsöffnungen und von den Befestigungsstiften, zum Beispiel durch Ausblasen."
+        },
+        {
+          "question": "In welcher Reihenfolge sollten Sie die Gurte im Schneeschuhmodus festziehen?",
+          "answers": [
+            "Zuerst den hinteren Riemen, dann den vorderen Riemen",
+            "Vorderer Riemen über den Zehen, hinterer Riemen über der Oberseite des Fußes, dann oberer Klettverschluss",
+            "Die Reihenfolge spielt keine Rolle"
+          ],
+          "correct": 1,
+          "hint": "Vorderer Riemen über den Zehen, hinterer Riemen über der Oberseite des Fußes, dann oberer Klettverschluss."
+        },
+        {
+          "question": "Wo soll die Schuhspitze im Schneeschuhmodus sein?",
+          "answers": [
+            "Auf die Spitze des Combo Ski ausgerichtet",
+            "Weit hinter der Combo Ski-Spitze",
+            "Außerhalb der Combo Ski-Mittellinie"
+          ],
+          "correct": 0,
+          "hint": "Richten Sie die Schuhspitze an der Spitze des Combo Ski aus."
+        },
+        {
+          "question": "Was wird im Schneeschuhmodus am Mittelstift befestigt?",
+          "answers": [
+            "Nur die vordere Befestigungsöffnung an der Schuhspitze, damit sich die Ferse leicht bewegen kann",
+            "Nur die hintere Befestigungsöffnung an der Ferse",
+            "Beide Befestigungsöffnungen"
+          ],
+          "correct": 0,
+          "hint": "Befestigen Sie auf jeder Seite nur den vorderen Befestigungsschlitz am mittleren Stift, damit sich die Ferse leicht bewegen kann."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · PFLEGE",
+      "title": "Nach Gebrauch trocknen und prüfen",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Trocknen, Prüfen und richtiges Verstauen schützen die Gleitflächen und verlängern die Lebensdauer.",
+      "points": [
+        {
+          "text": "Lassen Sie Combo Ski nach jedem Gebrauch vollständig trocknen. Lagern Sie sie nicht nass.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Wenn Sie Combo Ski in einem Rucksack tragen oder verpacken, positionieren Sie sie so, dass die Metallzähne die Gleitfläche nicht beschädigen können.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Schraubverbindungen regelmäßig prüfen.",
+          "image": ""
+        },
+        {
+          "text": "Verwenden Sie keine beschädigten Teile mehr und wenden Sie sich an den Kundendienst.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Was ist nach der Anwendung zu tun?",
+          "answers": [
+            "Lassen Sie sie nass",
+            "Lassen Sie sie vollständig trocknen",
+            "Verwenden Sie maximale direkte Hitze"
+          ],
+          "correct": 1,
+          "hint": "Lassen Sie sie vollständig trocknen."
+        },
+        {
+          "question": "Wie sollen sie verpackt werden?",
+          "answers": [
+            "So, dass die Metallzähne die Gleitflächen nicht beschädigen",
+            "Gleitflächen nach außen",
+            "So oder so"
+          ],
+          "correct": 0,
+          "hint": "Positionieren Sie den Combo Ski so, dass die Metallzähne die Gleitfläche nicht beschädigen können."
+        },
+        {
+          "question": "Was passiert, wenn ein Teil beschädigt ist?",
+          "answers": [
+            "Fahren Sie weiter",
+            "Mit Klebeband flicken und weiterfahren",
+            "Beenden Sie die Nutzung und kontaktieren Sie den Service unter info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Benutzen Sie kein beschädigtes Produkt; Kontaktieren Sie den Service unter info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "COMBO-SKI-GARANTIE-CHECK",
+    "welcomeTitle": "Bevor es raus in den Schnee geht",
+    "welcomeLead": "<strong>Schließen Sie diesen kurzen Leitfaden ab, um die Garantiebedingungen zu erfüllen.</strong> Wir zeigen Ihnen, wie Sie Combo Ski richtig einstellen, sicher benutzen und pflegen.",
+    "welcomeRequired": "<strong>Der Leitfaden muss ausgefüllt werden.</strong><br>Geben Sie am Ende Ihre E-Mail-Adresse ein, um den Abschluss der Garantieprüfung zu dokumentieren.",
+    "welcomeReward": "<strong>Sie können eine 3-Jahres-Garantie erhalten</strong><br><small>Nach Abschluss des Leitfadens erhalten Sie möglicherweise ein drittes Garantiejahr.</small>",
+    "chooseLanguage": "Wählen Sie Ihre Sprache",
+    "durationNote": "Dauert etwa 4 Minuten",
+    "startGuide": "Garantieprüfung starten",
+    "testSkip": "TEST: Weiter zur Registrierung",
+    "prototype": "Garantieprüfung für Combo Ski",
+    "videoHeading": "Schauen Sie sich zunächst das Video an",
+    "manualLink": "Öffnen Sie das bebilderte Originalhandbuch",
+    "quizTitle": "Überprüfen Sie die Fragen",
+    "quizCount": "3 Fragen",
+    "completeEyebrow": "CHECK ABGESCHLOSSEN",
+    "completeTitle": "Sie kennen die Grundlagen des sicheren Gebrauchs",
+    "completeLead": "Sie können Ihr Produkt jetzt registrieren. Zur Protokollierung der Anmeldung nutzen wir Ihre E-Mail-Adresse.",
+    "chooseRegistration": "Wählen Sie den Registrierungstyp",
+    "standardTitle": "Standardmäßige 2-Jahres-Garantieregistrierung",
+    "standardText": "Registrieren Sie den Abschluss der Garantieprüfung für die Standardgarantie von 2 Jahren.",
+    "extendedTitle": "Erweiterte 3-Jahres-Garantie",
+    "extendedText": "Zeigen Sie Combo Ski Ihren Freunden und erhalten Sie 3 Jahre Garantie.",
+    "socialProofLabel": "Ihr Instagram- oder Facebook-Kontoname <b aria-label=required>*</b>",
+    "socialProofHelp": "Wir verwenden den Kontonamen, um das Tag mit Ihrer Registrierung abzugleichen.",
+    "socialTagCallout": "<strong>Denken Sie daran, unser Profil im Beitrag zu markieren:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>oder</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Ich abonniere die Neuigkeiten, praktischen Tipps und Angebote von Combo Ski. Ich kann meine Einwilligung jederzeit widerrufen.",
+    "socialPostConsent": "Ich bestätige, dass ich einen <strong>Beitrag oder eine Story</strong> mit gut sichtbarem Produkt veröffentlicht habe <strong>oder veröffentlichen werde</strong> und dabei <strong>@combo_ski</strong> auf Instagram oder <strong>@Comboski</strong> auf Facebook markiere.",
+    "legalNote": "Durch die Registrierung und diese Prüfung werden die gesetzlichen Rechte wegen mangelhafter Ware nicht eingeschränkt. Mit dem Absenden bestätigen Sie, dass die Angaben zur Erfassung der Garantie verwendet werden dürfen. Lesen Sie unsere <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>Datenschutzerklärung</a>.",
+    "submit": "Vollständige Registrierung",
+    "certificate": "Anmeldebestätigung",
+    "restart": "Beginnen Sie erneut",
+    "back": "Zurück",
+    "check": "Überprüfen Sie die Antworten",
+    "next": "Weiter",
+    "step": "Schritt",
+    "of": "von",
+    "correct": "Alle Antworten sind richtig. Sie können fortfahren.",
+    "answerRequired": "Beantworten Sie alle drei Fragen.",
+    "formEmail": "Geben Sie eine gültige E-Mail-Adresse ein.",
+    "formChoice": "Wählen Sie einen Registrierungstyp.",
+    "formConsents": "Geben Sie für die dreijährige Garantie den Beitragslink oder den Kontonamen ein, bestätigen Sie, dass Sie den Beitrag veröffentlicht haben, und erteilen Sie Ihre Marketingeinwilligung.",
+    "formSaving": "Registrierung wird gespeichert…",
+    "formSaveError": "Wir konnten die Registrierung nicht speichern. Bitte versuchen Sie es erneut.",
+    "successTitle": "Anmeldung gespeichert",
+    "standardSuccess": "Sie haben die Standardproduktregistrierung abgeschlossen.",
+    "extendedSuccess": "Wir warten jetzt auf Ihren <strong>Beitrag oder Ihre Story</strong> mit der Markierung <strong>@combo_ski</strong> auf Instagram oder <strong>@Comboski</strong> auf Facebook. Falls Sie den Beitrag bereits geteilt haben, haben Sie bitte etwas Geduld, bis wir ihn Ihrer Registrierung zugeordnet haben.",
+    "standardCertificate": "Standardregistrierung",
+    "extendedCertificate": "Registrierung für die erweiterte 3-Jahres-Garantie",
+    "socialOfferEyebrow": "SO ERHALTEN SIE DAS DRITTE GARANTIEJAHR",
+    "socialOfferTitle": "Zeigen Sie Combo Ski in Aktion",
+    "socialOfferLead": "Veröffentlichen Sie Ihren eigenen Beitrag, in dem das Produkt deutlich sichtbar ist, und markieren Sie eines unserer offiziellen Profile.",
+    "socialStepOne": "Combo Ski fotografieren oder filmen",
+    "socialStepTwo": "Veröffentlichen Sie den Beitrag",
+    "socialStepThree": "Markieren Sie unser Profil",
+    "officialProfiles": "Fügen Sie einen Beitrag oder eine Geschichte hinzu",
+    "openProfile": "Profil öffnen ↗",
+    "newsletterRequired": "Um die Garantie auf 3 Jahre zu verlängern, wählen Sie bitte die Einwilligung zum Erhalt von Neuigkeiten aus.",
+    "formSocialProof": "Geben Sie Ihren IG- oder FB-Kontonamen ein.",
+    "formSocialPost": "Bestätigen Sie, dass Sie einen Beitrag oder eine Geschichte veröffentlicht haben oder veröffentlichen werden und dass Sie unser Profil markieren.",
+    "successEyebrow": "DANKE",
+    "communityEyebrow": "COMBO-SKI-COMMUNITY",
+    "communityTitle": "Schließen Sie sich anderen Combo Ski-Enthusiasten an",
+    "communityText": "Teilen Sie Ihre Abenteuer, lassen Sie sich inspirieren, erhalten Sie praktische Tipps und erfahren Sie als Erster Neuigkeiten in der Facebook-Gruppe <strong>Combo Ski Users</strong>.",
+    "communityButton": "Treten Sie der Facebook-Gruppe bei ↗",
+    "newsletterOfferTitle": "Bleiben Sie einen Schritt voraus",
+    "newsletterOfferLead": "Praktische Tipps für sicherere und angenehmere Fahrten, Anleitungen, Neuigkeiten und spezielle Combo Ski-Angebote direkt in Ihren Posteingang.",
+    "standardNewsletterConsent": "Ich möchte Combo Ski-Tipps, Guides, Neuigkeiten und Angebote erhalten. Ich kann meine Einwilligung jederzeit widerrufen.",
+    "pairingNote": "<strong>Was passiert danach?</strong> Sobald Ihr markierter <strong>Beitrag oder Ihre Story</strong> erscheint, prüfen wir ihn, <strong>ordnen ihn anhand des Kontonamens Ihrer Registrierung zu</strong> und <strong>aktivieren die verlängerte Garantie auf insgesamt 3 Jahre</strong>.",
+    "programEyebrow": "VERLÄNGERTE GARANTIE FÜR COMBO-SKI",
+    "programTitle": "Teilen Sie Combo Ski auf Instagram oder Facebook und erhalten Sie 3 Jahre Garantie.",
+    "programLead": "Vervollständigen Sie die nachstehenden Angaben. Wir verwenden Ihre E-Mail-Adresse, um die Registrierung zu erfassen und sie mit dem <strong>Beitrag oder der Story</strong> abzugleichen.",
+    "programTiming": "<strong>Sie müssen nicht auf eine Bergtour warten.</strong> Fotografieren Sie Combo Ski beim Auspacken oder zeigen Sie sie in Aktion.",
+    "programExampleCaption": "<strong>Beispielbeitrag oder -geschichte:</strong> Das Produkt ist deutlich sichtbar und das Combo Ski-Profil ist getaggt.",
+    "programTermsTitle": "Erweiterte Garantiebedingungen",
+    "programTermProduct": "Das Combo Ski-Produkt muss auf dem Foto oder Video deutlich sichtbar sein.",
+    "programTermTag": "Taggen Sie <strong>@combo_ski</strong> auf Instagram oder <strong>@Comboski</strong> auf Facebook im <strong>Beitrag oder in der Story</strong>.",
+    "openInstagram": "Öffne Instagram ↗",
+    "openFacebook": "Öffnen Sie Facebook ↗",
+    "socialComposeHelp": "Wählen Sie in der App oder auf der Website <strong>+ / Beitrag erstellen</strong>, fügen Sie Ihr eigenes Foto hinzu und taggen Sie <strong>@combo_ski</strong> auf Instagram oder <strong>@Comboski</strong> auf Facebook. Kehren Sie dann hierher zurück, um Ihre Registrierung abzuschließen.",
+    "actionRulesTitle": "Werberegeln",
+    "actionRuleDeadline": "Beantragen Sie die Garantieverlängerung <strong>innerhalb eines Jahres nach Kauf des Produkts</strong>.",
+    "actionRuleOnce": "Die Garantie kann <strong>nur einmal pro Produkt</strong> verlängert werden.",
+    "actionRuleRegistration": "Füllen Sie den Leitfaden aus und geben Sie Ihre E-Mail-Adresse und Ihren Instagram- oder Facebook-Kontonamen ein.",
+    "actionRulePost": "Veröffentlichen Sie Ihren eigenen <strong>Beitrag oder Ihre eigene Story</strong> über Combo Ski und taggen Sie unser Profil: <strong>@combo_ski</strong> oder <strong>@Comboski</strong>.",
+    "actionRuleConsent": "Die Aktion beinhaltet die <strong>Einwilligung zum Erhalt von Neuigkeiten</strong>. Sie können Ihre Einwilligung jederzeit widerrufen.",
+    "actionRuleActivation": "Mit dem Absenden des Formulars wird Ihre Bewerbung erfasst. Wir <strong>aktivieren die erweiterte Garantie, nachdem wir den Beitrag oder die Story überprüft und zugeordnet haben</strong>.",
+    "warrantyCoverageTitle": "Was deckt das dritte Garantiejahr ab?",
+    "warrantyCoverage": "Das dritte Garantiejahr deckt <strong>Herstellungs- und Materialfehler</strong> bei bestimmungsgemäßer Verwendung des Produkts ab.",
+    "warrantyExclusions": "Nicht abgedeckt sind <strong>normale Abnutzung, kosmetische Kratzer, Schäden durch Stöße mit Steinen, Missbrauch oder unbefugte Modifikationen</strong>.",
+    "warrantyRemedy": "Akzeptierte Mängel werden durch <strong>Reparatur oder Austausch des defekten Teils</strong> behoben.",
+    "warrantyDuration": "Die Gesamtgarantiezeit nach Verlängerung beträgt <strong>36 Monate ab Erhalt des Produkts</strong>, nicht ab Registrierung.",
+    "actionRuleRights": "Ihre gesetzlichen Rechte bleiben unabhängig von der Teilnahme an dieser Aktion unberührt. Der genannte Leistungsumfang und die Ausschlüsse gelten nur für das freiwillig gewährte dritte Garantiejahr. Bei Fragen oder Garantieansprüchen wenden Sie sich an <a href=mailto:info@comboski.cz>info@comboski.cz</a>.",
+    "retailerLabel": "Wo hast du Combo Ski gekauft? *",
+    "retailerPlaceholder": "Wählen Sie einen Händler aus",
+    "retailerCombo": "Combo Ski Online-Shop",
+    "retailerOther": "Anderer Einzelhändler",
+    "retailerNameLabel": "Händlername *",
+    "retailerError": "Wählen Sie aus, wo Sie Combo Ski gekauft haben.",
+    "retailerNameError": "Geben Sie den Händlernamen ein.",
+    "selected": "Ausgewählt",
+    "select": "Auswählen",
+    "backToLanguages": "Zurück zur Sprachauswahl",
+    "snowshoeMode": "Schneeschuhmodus",
+    "miniSkiMode": "Mini-Ski-Modus",
+    "questionCount": "{n} Fragen",
+    "chooseAnswer": "Wählen Sie eine Antwort.",
+    "tryAgain": "Versuchen Sie es erneut.",
+    "correctAnswer": "Richtig.",
+    "allQuestions": "Beantworten Sie alle {n} Fragen.",
+    "fixAnswers": "Bitte korrigieren Sie die markierten Antworten.",
+    "videoUnsupported": "Ihr Browser unterstützt die Videowiedergabe nicht.",
+    "yearBadge": "3 JAHRE",
+    "tagInstagram": "Markieren Sie @combo_ski",
+    "tagFacebook": "Markieren Sie @Comboski",
+    "socialExampleAlt": "Beispiel eines Beitrags oder einer Story, die Combo Ski zeigt und unser Profil markiert",
+    "formEmailLabel": "E-Mail *",
+    "accountPlaceholder": "@Ihr_Konto",
+    "emailPlaceholder": "you@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Hallo, ich bin Vojta und heute zeige ich dir,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "wie man Combo Ski sicher benutzt"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "und unsere Sever Gear Stöcke."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski kann in zwei Modi verwendet werden."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Schneeschuh-Modus oder Mini-Ski-Modus."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "Im Schneeschuhmodus nutze ich nur den mittleren Stift"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "für die vordere schlüssellochförmige Öffnung."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "Die Metallspitzen müssen immer nach vorne zeigen."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Das Kunststoffende bleibt"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "hinten, nie vorne."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Wie ich bereits erwähnt habe,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Ich befestige nur einen Stift,"
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Der vordere Stift bleibt unbenutzt."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Wechseln wir nun in den Mini-Ski-Modus."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Ich löse die Befestigung,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "und löse auch die Öffnung auf der anderen Seite."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Jetzt befestige ich beide Stifte."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Zuerst der hintere Befestigungsschlitz, dann der vordere."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "Das Gleiche auf der anderen Seite."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Jetzt muss ich den textilen Fersenriemen anpassen"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "damit mir die Größe passt."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Zum Beispiel,"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Ich habe meinen Combo Ski zwischen Größe S und M eingestellt."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Also löse ich die Plastikschnalle,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "und stelle den Riemen passend ein."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Dasselbe mache ich auch mit dem anderen Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Jetzt lege ich Combo Ski am rechten Fuß an."
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Die Markierung R ist"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "auf dem oberen Klettband."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Ich ziehe die Riemen fest an,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "mit der Schnalle."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Der vordere Riemen über den Zehen,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "dann das obere Klettband."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "Dasselbe mache ich auch am linken Fuß."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Im Stehen ziehe ich die Gurte fest,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "sodass Combo Ski fest mit dem Schuh verbunden ist."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Ich überprüfe den Fersenriemen, mit dem die Größe angepasst wird."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "Der obere Riemen"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "kann über dem Schuh sitzen"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "oder am Bein darüber. Beides ist richtig."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Jetzt zeigen wir, wie man mit dem Combo Ski bergab fährt."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Beginnen Sie nie"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "an steilen Hängen oder roten Pisten."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Es ist immer besser, auf flachem Gelände oder sanften Hängen zu beginnen."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Achten Sie darauf,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "nicht zu verkrampfen."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Bleiben Sie locker und beugen Sie die Knie."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Ich halte meine Knie gebeugt,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "fahre kurze Kurven"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "und halte für mehr Gleichgewicht einen Fuß"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "leicht vor dem anderen."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "Am Anfang mag es sich unangenehm anfühlen,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "aber mit der Zeit gewöhnen Sie sich daran,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "werden sicherer und bremsen mit einem seitlichen Kantenschwung."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Wie ich bereits erwähnt habe,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Halten Sie einen Fuß leicht vor dem anderen, um das Gleichgewicht zu verbessern."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Häufige Fehler."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Fahren Sie nicht mit steifen Beinen und bremsen Sie nicht im Pflug."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Es funktioniert nicht und Sie werden wahrscheinlich stürzen."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "Der Schlüssel liegt darin, entspannt zu bleiben,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "besonders in den Knien."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Nach kurzer Übung können Sie Geschwindigkeit und Neigungswinkel steigern,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "und die Fahrt mehr genießen."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Wie Sie sehen können,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "dank der Kanten und des oberen Riemens,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "Die Fahrt ist komfortabel und sicher."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Eine der spaßigsten Bewegungen beim Combo Ski ist das Skaten."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Gleichzeitig ist es eine der einfachsten Möglichkeiten,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "den Umgang mit Combo Ski zu lernen."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Es hilft Ihnen, vorwärts und rückwärts zu balancieren:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "Sie bewegen sich wie auf Inlineskates."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "Das geht bergab,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "oder auf flachem Gelände,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "oder sogar,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "leicht bergauf."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Beim Bergabfahren sind die Schneeverhältnisse sehr wichtig,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "Die besten Bedingungen sind normaler, weicher Schnee."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Vereiste Oberflächen sind gefährlich und schwierig."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Für Anfänger ist das Fahren auf Eis nahezu unmöglich."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Robuste Winterstiefel sind ideal für Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Es gibt nur eine Regel,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Sie müssen den Knöchel stützen."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Je höher und steifer die Stiefel sind,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "desto besser."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Jetzt schalte ich Combo Ski in den Schneeschuhmodus."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "Ich drücke den Knopf,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "und löse die hintere Befestigungsöffnung."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "Dasselbe mache ich auf der anderen Seite."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "Und jetzt, wie ich bereits erwähnt habe,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "Wichtig ist,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "dass die Metallspikes vorne sind."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Ich befestige nur den mittleren Stift"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "und drücke die Verbindung fest."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Wenn drinnen Schnee liegt,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "blase ich ihn einfach heraus."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "Dasselbe mache ich auf der anderen Seite."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "So wird der Schneeschuhmodus eingestellt."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Wie Sie sehen können,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Jetzt setze ich den rechten Fuß ein."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Ich schiebe meinen Fuß ganz nach hinten und überprüfe"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "dass der textile Fersenriemen sicher sitzt."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Ich ziehe den vorderen Riemen über den Zehen fest,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "dann den hinteren Riemen über die Oberseite des Fußes,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "und zuletzt das obere Klettband."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Wie Sie sehen können,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "Die Schuhspitze liegt auf Höhe der Spitze von Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Das bedeutet, dass der Combo Ski richtig montiert ist."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Ich kann bequem bergauf laufen."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "In sehr steilem Gelände,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "drücken Sie Combo Ski fest in den Schnee."
+      }
+    ]
+  ]
+}

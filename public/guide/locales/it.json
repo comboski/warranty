@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · CAMBIO MODALITÀ",
+      "title": "Ciaspole o minisci?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Qui vediamo come passare dalla modalità ciaspole per salire alla modalità minisci per scendere. L’attacco ha asole di fissaggio a forma di buco della serratura. In entrambe le modalità, l’asola anteriore è vicino alla punta dello scarponcino e quella posteriore vicino al tallone.",
+      "points": [
+        {
+          "text": "Nella modalità racchette da neve, il lato con il bordo in metallo e le punte in metallo è sempre rivolto in avanti. La punta in plastica non deve mai trovarsi nella parte anteriore.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Questo non è corretto: in modalità racchette da neve la punta in plastica non deve puntare in avanti.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "In modalità ciaspole, aggancia l’asola anteriore a forma di buco della serratura, vicino alla punta dello scarponcino, al perno centrale su entrambi i lati. Il perno anteriore resta libero, così il tallone può muoversi leggermente.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>In modalità mini-sci, l'attacco è fissato sia davanti che dietro.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Per prima cosa fissa la fessura di montaggio posteriore, sul tallone dello stivale.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Quindi collegare la fessura di montaggio anteriore con il pulsante di rilascio, sulla punta dello stivale.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Quale lato punta in avanti in modalità racchette da neve?",
+          "answers": [
+            "Il lato con la punta in plastica",
+            "Il lato con il bordo in metallo e le punte",
+            "La direzione non conta"
+          ],
+          "correct": 1,
+          "hint": "Il lato con il bordo in metallo e le punte in metallo è sempre rivolto in avanti."
+        },
+        {
+          "question": "Cosa è fissato sul perno centrale in modalità racchette da neve?",
+          "answers": [
+            "Solo l’asola anteriore, vicino alla punta dello scarponcino, così il tallone può muoversi leggermente",
+            "Solo l’asola posteriore, vicino al tallone",
+            "Entrambe le asole di fissaggio"
+          ],
+          "correct": 0,
+          "hint": "Collegare solo la fessura di montaggio anteriore al perno centrale su ciascun lato, in modo che il tallone possa muoversi leggermente."
+        },
+        {
+          "question": "In quale ordine vengono montati gli attacchi in modalità mini-sci?",
+          "answers": [
+            "Prima fessura di montaggio anteriore, poi posteriore",
+            "Prima lo slot di montaggio posteriore, poi lo slot anteriore con il pulsante di rilascio",
+            "L'ordine non ha importanza"
+          ],
+          "correct": 1,
+          "hint": "Collegare prima lo slot di montaggio posteriore, quindi lo slot anteriore con il pulsante di rilascio."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · VESTIBILITÀ CORRETTA",
+      "title": "Regolazione e vestibilità corretta",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Imposta la taglia e controlla i segni L e R prima di indossare Combo Ski. Il cinturino in tessuto sul tallone regola la misura e la posizione dello stivale. La cinghia a cricchetto anteriore va sopra le dita dei piedi. La cinghia a cricchetto posteriore passa sopra la parte superiore del piede. Il cinturino superiore in velcro circonda lo stinco.",
+      "points": [
+        {
+          "text": "Controlla sempre che la attacco sinistro sia sul piede sinistro e la attacco destro sul piede destro. I contrassegni L e R si trovano sul cinturino in velcro.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Utilizzare la cinghia in tessuto del tallone per posizionare lo stivale in modo che il tallone si allinei con le posizioni contrassegnate S, M o L in base alla tabella delle taglie.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Ripeti il procedimento sull'altro lato dell’attacco.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Stringere saldamente entrambe le cinghie, come se Combo Ski fosse una parte solida dello scarpone.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Come identificare la sinistra e la destra?",
+          "answers": [
+            "Per colore",
+            "Dalle marcature L e R sul cinturino in velcro",
+            "Sono intercambiabili"
+          ],
+          "correct": 1,
+          "hint": "I contrassegni L e R si trovano sul cinturino in velcro."
+        },
+        {
+          "question": "Cosa deve essere regolato correttamente per la misura dello stivale?",
+          "answers": [
+            "Il cinturino in tessuto sul tallone",
+            "Solo la cinghia a cricchetto anteriore",
+            "Niente ha bisogno di aggiustamenti"
+          ],
+          "correct": 0,
+          "hint": "Regolare il cinturino in tessuto del tallone in modo che il tallone corrisponda alla misura contrassegnata."
+        },
+        {
+          "question": "Come dovresti stringere le cinghie a cricchetto anteriore e posteriore prima di guidare?",
+          "answers": [
+            "Lasciali liberi entrambi",
+            "Stringili entrambi saldamente, come se Combo Ski fosse una parte solida dello scarpone",
+            "È sufficiente stringere solo la cinghia anteriore"
+          ],
+          "correct": 1,
+          "hint": "Stringere saldamente entrambe le cinghie."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · PRIMA MANCHE",
+      "title": "Posizione, svolta e frenata",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Inizia su un terreno pianeggiante, quindi spostati su una leggera pendenza. Per prima cosa impara una posizione stabile, una svolta e una frenata sicura.",
+      "points": [
+        {
+          "text": "Si consiglia di indossare il casco da sci.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Tieni i piedi vicini e le ginocchia piegate. Mantieni l’equilibrio avanti e indietro come sui pattini da ghiaccio o in linea. Non inclinarti all’indietro.",
+          "image": ""
+        },
+        {
+          "text": "Girare come sugli sci normali, oppure spostare un piede leggermente davanti all'altro.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Per frenare, gira entrambi i minisci trasversalmente alla direzione di marcia e derapa sulle lamine, come sui pattini da ghiaccio. In caso di emergenza, scegli una caduta controllata.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Da dove dovresti iniziare?",
+          "answers": [
+            "Su qualsiasi pista da sci",
+            "In piano, poi in leggera pendenza",
+            "Sulla neve ghiacciata"
+          ],
+          "correct": 1,
+          "hint": "Inizia su un terreno pianeggiante, quindi spostati su una leggera pendenza."
+        },
+        {
+          "question": "Qual è la posizione di base?",
+          "answers": [
+            "Piedi uniti e ginocchia piegate",
+            "Piedi larghi e ginocchia dritte",
+            "Peso molto indietro"
+          ],
+          "correct": 0,
+          "hint": "Tieni i piedi uniti e le ginocchia piegate. Non appoggiarti all'indietro."
+        },
+        {
+          "question": "Come dovresti frenare?",
+          "answers": [
+            "Per frenare, gira entrambi i minisci trasversalmente alla direzione di marcia e derapa sulle lamine, come sui pattini da ghiaccio",
+            "Frenare a spazzaneve",
+            "Sposta il peso all'indietro"
+          ],
+          "correct": 0,
+          "hint": "Girare lateralmente entrambi i mini-sci e farli scivolare sui bordi."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRATICA",
+      "title": "Superficie, calzature e controllo",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Il comportamento cambia con la superficie. Esercitati gradualmente e adatta le condizioni alle tue capacità.",
+      "points": [
+        {
+          "text": "Evita la neve ghiacciata o gelata e i sassi.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "I robusti stivali invernali alla caviglia alta migliorano il supporto e il controllo.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Pratica prima l'equilibrio, poi passa al pattinaggio e alle discese dolci.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Quale superficie dovresti evitare?",
+          "answers": [
+            "Neve soffice e normale",
+            "Neve ghiacciata o gelata",
+            "Una dolce pendenza"
+          ],
+          "correct": 1,
+          "hint": "Evita la neve ghiacciata o gelata e i sassi."
+        },
+        {
+          "question": "Quali calzature sono adatte?",
+          "answers": [
+            "Robusti stivali invernali alla caviglia alta",
+            "Scarpe basse da trekking",
+            "Scarpe da ginnastica"
+          ],
+          "correct": 0,
+          "hint": "Usa robusti stivali invernali alla caviglia alta."
+        },
+        {
+          "question": "Cosa dovresti praticare prima?",
+          "answers": [
+            "Velocità massima",
+            "Discese",
+            "Equilibrio e posizione di base"
+          ],
+          "correct": 2,
+          "hint": "Esercitati prima con l'equilibrio e la posizione di base."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · IN SALITA",
+      "title": "Ritorno alle ciaspole e alla salita",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Cambiare modalità su un terreno pianeggiante e assicurarsi che il tallone rimanga libero.",
+      "points": [
+        {
+          "text": "Rimuovi neve e ghiaccio dalle asole e dai perni di fissaggio, ad esempio soffiando.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Per sganciare l’attacco, premi il pulsante e fai scorrere l’asola verso il basso per sfilarla dal perno.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Gira Combo Ski con la soletta verso l’alto e posiziona l’attacco sul perno centrale.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Aggancia l’asola anteriore a forma di buco della serratura, vicino alla punta dello scarponcino, al perno centrale su entrambi i lati.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Mantieni il tallone libero per un passo più naturale.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Utilizzare la cinghia in tessuto del tallone per allineare la punta dello scarpone con la punta del Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Stringere le cinghie in questo ordine: prima la cinghia anteriore sulle dita dei piedi, poi la cinghia posteriore sulla parte superiore del piede e infine la cinghia in velcro superiore attorno allo stinco.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Cosa devi fare se neve o ghiaccio bloccano le asole o i perni di fissaggio?",
+          "answers": [
+            "Rimuovere neve e ghiaccio, ad esempio soffiando",
+            "Forza l’attacco in posizione",
+            "Lasciali bloccati"
+          ],
+          "correct": 0,
+          "hint": "Rimuovi neve e ghiaccio dalle asole e dai perni di fissaggio, ad esempio soffiando."
+        },
+        {
+          "question": "In quale ordine stringere le cinghie in modalità racchette da neve?",
+          "answers": [
+            "Prima la cinghia posteriore, poi quella anteriore",
+            "Cinghia anteriore sulle dita, cinghia posteriore sulla parte superiore del piede, quindi cinghia superiore in velcro",
+            "L'ordine non ha importanza"
+          ],
+          "correct": 1,
+          "hint": "Cinghia anteriore sulle dita, cinghia posteriore sulla parte superiore del piede, quindi cinghia superiore in velcro."
+        },
+        {
+          "question": "Dove dovrebbe trovarsi la punta dello scarpone in modalità racchette da neve?",
+          "answers": [
+            "Allineato con la punta del Combo Ski",
+            "Molto indietro rispetto alla punta del Combo Ski",
+            "Fuori dalla linea centrale del Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Allineare la punta dello scarpone con la punta del Combo Ski."
+        },
+        {
+          "question": "Cosa è fissato sul perno centrale in modalità racchette da neve?",
+          "answers": [
+            "Solo l’asola anteriore, vicino alla punta dello scarponcino, così il tallone può muoversi leggermente",
+            "Solo l’asola posteriore, vicino al tallone",
+            "Entrambe le asole di fissaggio"
+          ],
+          "correct": 0,
+          "hint": "Collegare solo la fessura di montaggio anteriore al perno centrale su ciascun lato, in modo che il tallone possa muoversi leggermente."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · CURA",
+      "title": "Asciugare e ispezionare dopo l'uso",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Asciugare, controllare e riporre correttamente Combo Ski protegge la soletta e prolunga la durata del prodotto.",
+      "points": [
+        {
+          "text": "Lascia asciugare completamente Combo Ski dopo ogni utilizzo. Non conservarli bagnati.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Quando si trasportano o si imballano i Combo Ski in uno zaino, posizionarli in modo che i denti metallici non possano danneggiare la superficie scorrevole.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Controllare regolarmente i collegamenti a vite.",
+          "image": ""
+        },
+        {
+          "text": "Smettere di utilizzare parti danneggiate e contattare l'assistenza.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Cosa dovresti fare dopo l'uso?",
+          "answers": [
+            "Lasciarli bagnati",
+            "Lasciarli asciugare completamente",
+            "Utilizzare il massimo calore diretto"
+          ],
+          "correct": 1,
+          "hint": "Lasciarli asciugare completamente."
+        },
+        {
+          "question": "Come dovrebbero essere imballati?",
+          "answers": [
+            "In modo che i denti metallici non danneggino la soletta",
+            "Superfici scorrevoli verso l'esterno",
+            "Non importa come"
+          ],
+          "correct": 0,
+          "hint": "Posizionare Combo Ski in modo che i denti metallici non possano danneggiare la superficie di scorrimento."
+        },
+        {
+          "question": "Cosa succede se una parte è danneggiata?",
+          "answers": [
+            "Continua a guidare",
+            "Ripararlo con del nastro e continuare",
+            "Smetti di usarlo e contatta il servizio a info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Non utilizzare un prodotto danneggiato; contattare il servizio a info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "VERIFICA GARANZIA SCI COMBO",
+    "welcomeTitle": "Prima di uscire nella neve",
+    "welcomeLead": "<strong>Completa questa breve guida per rispettare le regole della garanzia.</strong> Ti mostreremo la corretta configurazione, l'uso sicuro e la cura di Combo Ski.",
+    "welcomeRequired": "<strong>La guida deve essere completata.</strong><br>Alla fine, inserisci la tua email per registrare il completamento del controllo della garanzia.",
+    "welcomeReward": "<strong>Puoi ricevere una garanzia di 3 anni</strong><br><small>Dopo aver completato la guida, potresti ricevere un terzo anno di garanzia.</small>",
+    "chooseLanguage": "Scegli la tua lingua",
+    "durationNote": "Richiede circa 4 minuti",
+    "startGuide": "Avvia il controllo della garanzia",
+    "testSkip": "TEST: Vai alla registrazione",
+    "prototype": "Controllo garanzia Combo Ski",
+    "videoHeading": "Per prima cosa, guarda il video",
+    "manualLink": "Apri il manuale illustrato originale",
+    "quizTitle": "Controlla le domande",
+    "quizCount": "3 domande",
+    "completeEyebrow": "CONTROLLO COMPLETATO",
+    "completeTitle": "Conosci le basi per un utilizzo sicuro",
+    "completeLead": "Ora puoi registrare il tuo prodotto. Utilizziamo la tua email per registrare la registrazione.",
+    "chooseRegistration": "Scegli il tipo di registrazione",
+    "standardTitle": "Registrazione della garanzia standard di 2 anni",
+    "standardText": "Registrare il completamento del controllo di garanzia per la garanzia standard di 2 anni.",
+    "extendedTitle": "Garanzia estesa a 3 anni",
+    "extendedText": "Mostra Combo Ski ai tuoi amici e ricevi una garanzia di 3 anni.",
+    "socialProofLabel": "Il nome del tuo account Instagram o Facebook <b aria-label=required>*</b>",
+    "socialProofHelp": "Utilizziamo il nome dell'account per abbinare il tag alla tua registrazione.",
+    "socialTagCallout": "<strong>Ricordati di taggare il nostro profilo nel post:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>o</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Sono iscritto alle novità, ai consigli pratici e alle offerte di Combo Ski. Posso revocare il mio consenso in qualsiasi momento.",
+    "socialPostConsent": "Confermo di aver pubblicato <strong>o mi impegno a pubblicare</strong> un <strong>post o una storia</strong> in cui il prodotto è ben visibile, taggando <strong>@combo_ski</strong> su Instagram o <strong>@Comboski</strong> su Facebook.",
+    "legalNote": "La registrazione e questo controllo non limitano i diritti legali relativi alla merce difettosa. Inviando, confermi che i dettagli possono essere utilizzati per registrare la garanzia. Leggi la nostra <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>informativa sulla privacy</a>.",
+    "submit": "Completa la registrazione",
+    "certificate": "Conferma della registrazione",
+    "restart": "Ricominciare",
+    "back": "Indietro",
+    "check": "Controlla le risposte",
+    "next": "Continua",
+    "step": "Passo",
+    "of": "di",
+    "correct": "Tutte le risposte sono corrette. Puoi continuare.",
+    "answerRequired": "Rispondi a tutte e tre le domande.",
+    "formEmail": "Inserisci un indirizzo email valido.",
+    "formChoice": "Scegli un tipo di registrazione.",
+    "formConsents": "Per la garanzia di tre anni, inserisci il collegamento al post o il nome dell'account, conferma di aver pubblicato il post e dai il consenso al marketing.",
+    "formSaving": "Salvataggio della registrazione...",
+    "formSaveError": "Non è stato possibile salvare la registrazione. Per favore riprova.",
+    "successTitle": "Registrazione salvata",
+    "standardSuccess": "Hai completato la registrazione del prodotto standard.",
+    "extendedSuccess": "Ora aspettiamo il tuo <strong>post o la tua storia</strong> con il tag <strong>@combo_ski</strong> su Instagram o <strong>@Comboski</strong> su Facebook. Se hai già pubblicato, ti chiediamo di attendere mentre abbiniamo il contenuto alla tua registrazione.",
+    "standardCertificate": "Registrazione standard",
+    "extendedCertificate": "Registrazione per l'estensione della garanzia di 3 anni",
+    "socialOfferEyebrow": "COME RICEVERE IL TERZO ANNO DI GARANZIA",
+    "socialOfferTitle": "Mostra Combo Ski in azione",
+    "socialOfferLead": "Pubblica un tuo post in cui sia ben visibile il prodotto e tagga uno dei nostri profili ufficiali.",
+    "socialStepOne": "Fotografa o filma Combo Ski",
+    "socialStepTwo": "Pubblica il post",
+    "socialStepThree": "Tagga il nostro profilo",
+    "officialProfiles": "Aggiungi un post o una storia",
+    "openProfile": "Apri il profilo ↗",
+    "newsletterRequired": "Per estendere la garanzia a 3 anni selezionare il consenso per ricevere novità.",
+    "formSocialProof": "Inserisci il nome del tuo account IG o FB.",
+    "formSocialPost": "Conferma di aver pubblicato o pubblicherai un post o una storia e taggherai il nostro profilo.",
+    "successEyebrow": "GRAZIE",
+    "communityEyebrow": "COMUNITÀ DI SCI COMBO",
+    "communityTitle": "Unisciti ad altri appassionati di Combo Ski",
+    "communityText": "Condividi le tue avventure, trova ispirazione, ottieni consigli pratici e sii il primo a conoscere le novità nel gruppo Facebook <strong>Combo Ski Users</strong>.",
+    "communityButton": "Unisciti al gruppo Facebook ↗",
+    "newsletterOfferTitle": "Rimani un passo avanti",
+    "newsletterOfferLead": "Consigli pratici per discese più sicure e divertenti, guide pratiche, novità e offerte speciali Combo Ski direttamente nella tua casella di posta.",
+    "standardNewsletterConsent": "Desidero ricevere consigli, guide, novità e offerte di Combo Ski. Posso revocare il mio consenso in qualsiasi momento.",
+    "pairingNote": "<strong>Cosa succede dopo?</strong> Quando compare il <strong>post o la storia</strong> con il nostro tag, lo verifichiamo, <strong>lo abbiniamo alla tua registrazione</strong> tramite il nome dell’account e <strong>attiviamo la garanzia estesa a 3 anni totali</strong>.",
+    "programEyebrow": "GARANZIA ESTESA SCI COMBO",
+    "programTitle": "Condividi Combo Ski su Instagram o Facebook e ottieni una garanzia di 3 anni.",
+    "programLead": "Completa i dettagli di seguito. Utilizziamo la tua email per registrare la registrazione e abbinarla al <strong>post o alla storia</strong>.",
+    "programTiming": "<strong>Non è necessario aspettare per una gita in montagna.</strong> Fotografa i Combo Ski mentre li scarti dalla confezione o mostrali in azione.",
+    "programExampleCaption": "<strong>Esempio di post o storia:</strong> il prodotto è chiaramente visibile e il profilo di Combo Ski è taggato.",
+    "programTermsTitle": "Termini di garanzia estesa",
+    "programTermProduct": "Il prodotto Combo Ski deve essere chiaramente visibile nella foto o nel video.",
+    "programTermTag": "Tagga <strong>@combo_ski</strong> su Instagram o <strong>@Comboski</strong> su Facebook nel <strong>post o nella storia</strong>.",
+    "openInstagram": "Apri Instagram ↗",
+    "openFacebook": "Apri Facebook ↗",
+    "socialComposeHelp": "Nell'app o nel sito web, scegli <strong>+ / Crea post</strong>, aggiungi la tua foto e tagga <strong>@combo_ski</strong> su Instagram o <strong>@Comboski</strong> su Facebook. Poi torna qui per completare la registrazione.",
+    "actionRulesTitle": "Regole della promozione",
+    "actionRuleDeadline": "Richiedi l'estensione della garanzia <strong>entro un anno dall'acquisto del prodotto</strong>.",
+    "actionRuleOnce": "La garanzia può essere estesa <strong>solo una volta per prodotto</strong>.",
+    "actionRuleRegistration": "Completa la guida e inserisci la tua email e il nome dell'account Instagram o Facebook.",
+    "actionRulePost": "Pubblica il tuo <strong>post o storia</strong> che mostra Combo Ski e tagga il nostro profilo: <strong>@combo_ski</strong> o <strong>@Comboski</strong>.",
+    "actionRuleConsent": "La promozione prevede il <strong>consenso a ricevere notizie</strong>. Puoi revocare il consenso in qualsiasi momento.",
+    "actionRuleActivation": "L'invio del modulo registra la tua candidatura. <strong>Attiviamo la garanzia estesa dopo aver verificato e abbinato il post o la storia</strong>.",
+    "warrantyCoverageTitle": "Cosa copre il terzo anno di garanzia?",
+    "warrantyCoverage": "Il terzo anno di garanzia copre <strong>difetti di fabbricazione e materiali</strong> quando il prodotto viene utilizzato secondo le istruzioni.",
+    "warrantyExclusions": "Non copre <strong>normale usura, graffi estetici, danni derivanti da impatti con rocce, uso improprio o modifiche non autorizzate</strong>.",
+    "warrantyRemedy": "I difetti accettati vengono risolti <strong>riparando o sostituendo la parte difettosa</strong>.",
+    "warrantyDuration": "Il periodo totale di garanzia dopo l'estensione è di <strong>36 mesi dal ricevimento del prodotto</strong>, non dalla registrazione.",
+    "actionRuleRights": "I tuoi diritti legali non vengono influenzati dalla partecipazione o dalla mancata partecipazione a questa promozione. Le coperture e le esclusioni indicate si applicano al terzo anno di garanzia fornito volontariamente. Contatta <a href=mailto:info@comboski.cz>info@comboski.cz</a> per domande o richieste di servizi di garanzia.",
+    "retailerLabel": "Dove hai acquistato Combo Ski? *",
+    "retailerPlaceholder": "Seleziona un rivenditore",
+    "retailerCombo": "Negozio online di sci combinato",
+    "retailerOther": "Altro rivenditore",
+    "retailerNameLabel": "Nome del rivenditore *",
+    "retailerError": "Seleziona dove hai acquistato Combo Ski.",
+    "retailerNameError": "Inserisci il nome del rivenditore.",
+    "selected": "Selezionato",
+    "select": "Seleziona",
+    "backToLanguages": "Torna alla selezione della lingua",
+    "snowshoeMode": "Modalità racchette da neve",
+    "miniSkiMode": "Modalità mini-sci",
+    "questionCount": "{n} domande",
+    "chooseAnswer": "Scegli una risposta.",
+    "tryAgain": "Riprova.",
+    "correctAnswer": "Corretto.",
+    "allQuestions": "Rispondi a tutte le {n} domande.",
+    "fixAnswers": "Correggi le risposte evidenziate.",
+    "videoUnsupported": "Il tuo browser non supporta la riproduzione video.",
+    "yearBadge": "3 ANNI",
+    "tagInstagram": "Tagga @combo_ski",
+    "tagFacebook": "Tagga @Comboski",
+    "socialExampleAlt": "Esempio di post o storia che mostra Combo Ski e tagga il nostro profilo",
+    "formEmailLabel": "E-mail *",
+    "accountPlaceholder": "@tuo_account",
+    "emailPlaceholder": "tu@esempio.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Ciao, sono Vojta e oggi ti mostrerò,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "come utilizzare in sicurezza Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "e i nostri bastoncini Sever Gear."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski può essere utilizzato in due modalità."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Modalità racchette da neve o modalità mini-sci."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "In modalità ciaspole uso solo il perno centrale"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "per l’asola anteriore a forma di buco della serratura."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "Le punte metalliche devono sempre essere davanti."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "L'estremità in plastica rimane"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "dietro, mai davanti."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Come ho già detto,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Fisso un solo perno."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Il perno anteriore rimane inutilizzato."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Passiamo ora alla modalità mini-sci."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Sgancio l’attacco,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "poi libero l’asola anche sull’altro lato."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Ora fisso entrambi i perni."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Prima l’asola posteriore, poi quella anteriore."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "Lo stesso dall'altra parte."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Ora devo regolare il cinturino in tessuto sul tallone"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "in modo che la taglia sia adatta a me."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "Ad esempio,"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Ho impostato il mio Combo Ski tra la taglia S e M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Quindi allento la fibbia di plastica,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "e regolo la cinghia in modo che calzi bene."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Faccio lo stesso sull'altro Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Adesso metto il Combo Ski sul piede destro,"
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Il segno R si trova"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "sul cinturino in velcro superiore."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Stringo forte le cinghie,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "utilizzando la fibbia."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "La cinghia anteriore sopra le dita dei piedi,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "poi il cinturino in velcro superiore."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "Faccio lo stesso con il piede sinistro."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Stando in piedi, stringo le cinghie,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "così Combo Ski diventa come una parte dello scarponcino."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Controllo il cinturino sul tallone utilizzato per regolare la taglia."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "La cinghia superiore"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "può stare sopra lo scarponcino"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "o attorno alla gamba, più in alto. Vanno bene entrambi."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Ora vediamo come scendere con Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Non iniziare mai"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "su pendii ripidi o piste rosse."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "È sempre meglio iniziare su terreno pianeggiante o su pendii dolci."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Assicurati sempre"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "di non essere rigido."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Resta rilassato e tieni le ginocchia piegate."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Tengo le ginocchia piegate,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "faccio curve brevi"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "Per un migliore equilibrio, tengo un piede"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "leggermente davanti all'altro."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "All'inizio potrebbe sembrare imbarazzante,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "ma col tempo ti abitui"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "acquisti sicurezza e freni con una derapata laterale."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Come ho già detto,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Tieni un piede leggermente davanti all'altro per un migliore equilibrio."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Errori comuni."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Non sciare a gambe dritte e non frenare a spazzaneve."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Non funziona e potresti cadere."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "La chiave è rimanere rilassati,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "soprattutto alle ginocchia."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Dopo una breve pratica, è possibile aumentare la velocità e l'angolo di pendenza,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "e goderti di più la discesa."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Come puoi vedere,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "grazie alle lamine e alla cinghia superiore,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "la discesa è comoda e sicura."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Uno dei movimenti più divertenti su Combo Ski è il pattinaggio."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Allo stesso tempo, è uno dei modi più semplici,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "per imparare il Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Ti aiuta a mantenere l’equilibrio avanti e indietro."
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "pattini proprio come faresti sui pattini in linea."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "puoi pattinare in discesa,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "o su terreno pianeggiante,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "o anche,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "leggermente in salita."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "In discesa le condizioni della neve sono molto importanti."
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "le condizioni migliori sono neve normale e soffice."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Le superfici ghiacciate sono pericolose e difficili."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Per i principianti sciare sul ghiaccio è quasi impossibile."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Gli scarponi invernali robusti sono ideali per il Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "C'è solo una regola,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Devono sostenere la caviglia."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Più gli stivali sono alti e rigidi,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "meglio è."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Ora passo Combo Ski alla modalità racchette da neve."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "Premo il pulsante,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "e sgancio l’asola posteriore."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "Faccio lo stesso dall’altra parte."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "E ora, come ho detto prima,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "la cosa più importante è,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "che le punte di metallo siano nella parte anteriore."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Quindi fisso solo il perno centrale"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "e premo per agganciarlo."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Se c'è neve dentro,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "la rimuovo soffiando."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "Faccio lo stesso dall’altra parte."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Ecco come viene impostata la modalità racchette da neve."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Come puoi vedere,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Ora sto inserendo il piede destro."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Faccio scorrere il piede completamente indietro e controllo"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "che il cinturino in tessuto sul tallone sia posizionato saldamente."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Stringo la cinghia anteriore sopra le dita dei piedi,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "poi la cinghia posteriore sopra la parte superiore del piede,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "ed infine il cinturino superiore in velcro."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Come puoi vedere,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "la punta dello scarpone è allineata con la punta del Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Ciò significa che Combo Ski è montato correttamente."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Posso camminare comodamente in salita."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Su terreni molto ripidi,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "non esitare a piantare Combo Ski nella neve."
+      }
+    ]
+  ]
+}

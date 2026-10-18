@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · PREKLOP NAČINOV",
+      "title": "Krplje ali mini smuči?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Tukaj pokažemo preklop iz načina krpelj za vzpon v način mini smuči za spust. Vez ima pritrdilne odprtine v obliki ključavnice. V obeh načinih je sprednja odprtina pri konici čevlja, zadnja pa pri peti.",
+      "points": [
+        {
+          "text": "V načinu s krpljami je stran s kovinskim robom in kovinskimi konicami vedno obrnjena naprej. Plastična konica nikoli ne sme biti spredaj.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "To ni pravilno: plastična konica ne sme biti obrnjena naprej v načinu krpljanja.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "V načinu krpelj pritrdite sprednjo odprtino v obliki ključavnice pri konici čevlja na srednji zatič na obeh straneh. Sprednji zatič ostane prost, zato se lahko peta rahlo premika.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>V načinu mini smuči so vezi pritrjene tako spredaj kot zadaj.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Najprej pritrdite zadnjo pritrdilno režo, pri peti čevlja.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Nato pritrdite sprednjo pritrdilno režo z gumbom za sprostitev na prst čevlja.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Katera stran kaže naprej v načinu krpljanja?",
+          "answers": [
+            "Stran s plastično konico",
+            "Stran s kovinskim robom in konicami",
+            "Smer ni pomembna"
+          ],
+          "correct": 1,
+          "hint": "Stran s kovinskim robom in kovinskimi konicami je vedno obrnjena naprej."
+        },
+        {
+          "question": "Kaj je zavarovano na srednjem zatiču v načinu krpljanja?",
+          "answers": [
+            "Samo sprednja odprtina pri konici čevlja, da se lahko peta rahlo premika",
+            "Samo zadnja odprtina pri peti",
+            "Obe pritrdilni odprtini"
+          ],
+          "correct": 0,
+          "hint": "Pritrdite samo sprednjo pritrdilno režo na srednji zatič na vsaki strani, da se lahko peta rahlo premika."
+        },
+        {
+          "question": "V katerem vrstnem redu je vez pritrjena v načinu mini smuči?",
+          "answers": [
+            "Najprej sprednja montažna reža, nato zadnja",
+            "Najprej zadnja montažna reža, nato sprednja reža z gumbom za sprostitev",
+            "Vrstni red ni pomemben"
+          ],
+          "correct": 1,
+          "hint": "Najprej pritrdite zadnjo montažno režo, nato sprednjo režo z gumbom za sprostitev."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · PRAVILNO PRILAGANJE",
+      "title": "Prilagoditev in pravilno prileganje",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Nastavite velikost in preverite oznaki L in R, preden nadenete Combo Ski. Petni trak iz blaga prilagaja velikost in položaj čevlja. Sprednji zaskočni trak gre čez prste. Zadnji zaskočni trak gre preko zgornjega dela stopala. Zgornji trak ježka poteka okoli goleni.",
+      "points": [
+        {
+          "text": "Vedno preverite, ali je leva vez na levi nogi in desna vez na desni nogi. Oznaki L in R sta na ježku.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "S petnim tekstilnim trakom namestite škorenj tako, da bo peta poravnana z označenimi položaji S, M ali L glede na tabelo velikosti.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Ponovite postopek na drugi strani vezi.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Trdno zategnite oba jermena, kot da bi bil Combo Ski trden del čevlja.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Kako prepoznati levo in desno?",
+          "answers": [
+            "Po barvi",
+            "Z oznakama L in R na traku Velcro",
+            "So zamenljivi"
+          ],
+          "correct": 1,
+          "hint": "Oznaki L in R sta na ježku."
+        },
+        {
+          "question": "Kaj mora biti pravilno prilagojeno velikosti čevlja?",
+          "answers": [
+            "Petni tekstilni trak",
+            "Samo sprednji zaskočni trak",
+            "Ničesar ni treba prilagajati"
+          ],
+          "correct": 0,
+          "hint": "Petni tekstilni trak prilagodite tako, da se peta ujema z označeno velikostjo."
+        },
+        {
+          "question": "Kako naj zategnete sprednje in zadnje zaskočne jermene pred vožnjo?",
+          "answers": [
+            "Oba pustite ohlapna",
+            "Oba močno zategnite, kot da bi bil Combo Ski trden del čevlja",
+            "Dovolj je, da zategnete samo sprednji trak"
+          ],
+          "correct": 1,
+          "hint": "Močno zategnite oba jermena."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · PRVI TEK",
+      "title": "Stoja, obračanje in zaviranje",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Začnite na ravnem terenu, nato se premaknite na rahel klanec. Najprej se naučite stabilne drže, zavijanja in varnega zaviranja.",
+      "points": [
+        {
+          "text": "Priporočamo uporabo smučarske čelade.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Stopala držite blizu skupaj, kolena pa pokrčena. Ohranjajte ravnotežje naprej in nazaj kot na drsalkah ali rolerjih. Ne nagibajte se nazaj.",
+          "image": ""
+        },
+        {
+          "text": "Zavijajte kot na običajnih smučeh ali pa eno nogo premaknite rahlo pred drugo.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Za zaviranje obrnite obe mini smuči prečno na smer vožnje in zdrsnite po robnikih, kot na drsalkah. V sili izberite nadzorovan padec.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Kje bi morali začeti?",
+          "answers": [
+            "Na katerem koli smučišču",
+            "Po ravnem, nato pa v blagem klancu",
+            "Na ledenem snegu"
+          ],
+          "correct": 1,
+          "hint": "Začnite na ravnem terenu, nato se premaknite na rahel klanec."
+        },
+        {
+          "question": "Kakšna je osnovna drža?",
+          "answers": [
+            "Stopala skupaj in pokrčena kolena",
+            "Stopala široka in kolena ravna",
+            "Teža daleč nazaj"
+          ],
+          "correct": 0,
+          "hint": "Stopala držite skupaj, kolena pa pokrčena. Ne naslanjajte se nazaj."
+        },
+        {
+          "question": "Kako morate zavirati?",
+          "answers": [
+            "Za zaviranje obrnite obe mini smuči prečno na smer vožnje in zdrsnite po robnikih, kot na drsalkah",
+            "Zaviranje v plugu",
+            "Premaknite težo nazaj"
+          ],
+          "correct": 0,
+          "hint": "Obe mini smučki obrnite na stran in drsite po robovih."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · VADBA",
+      "title": "Podlaga, obutev in kontrola",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Vedenje se spreminja s površino. Vadite postopoma in pogoje prilagodite svojim sposobnostim.",
+      "points": [
+        {
+          "text": "Izogibajte se poledenelemu ali zmrznjenemu snegu in kamenju.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Čvrsti zimski čevlji, ki segajo nad gleženj, izboljšajo oporo in nadzor.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Najprej vadite ravnotežje, nato pa preidite na drsanje in nežne spuste.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Katere površine se morate izogibati?",
+          "answers": [
+            "Normalno mehak sneg",
+            "Ledeni ali zamrznjeni sneg",
+            "Rahlo pobočje"
+          ],
+          "correct": 1,
+          "hint": "Izogibajte se poledenelemu ali zmrznjenemu snegu in kamenju."
+        },
+        {
+          "question": "Kakšna obutev je primerna?",
+          "answers": [
+            "Čvrsti zimski čevlji, ki segajo nad gleženj",
+            "Nizki pohodni čevlji",
+            "Športni copati"
+          ],
+          "correct": 0,
+          "hint": "Uporabite čvrste zimske čevlje z visokimi gležnjami."
+        },
+        {
+          "question": "Kaj morate najprej vaditi?",
+          "answers": [
+            "Največja hitrost",
+            "Spusti",
+            "Ravnotežje in osnovna drža"
+          ],
+          "correct": 2,
+          "hint": "Najprej vadite ravnotežje in osnovno držo."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · NAVZGOR",
+      "title": "Nazaj na krplje in navzgor",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Spremenite način na ravni podlagi in poskrbite, da bo peta ostala prosta.",
+      "points": [
+        {
+          "text": "Iz pritrdilnih odprtin in z zatičev odstranite sneg in led, na primer z izpihovanjem.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Za sprostitev vezi pritisnite gumb in potisnite pritrdilno odprtino navzdol z zatiča.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Obrnite Combo Ski z drsno ploskvijo navzgor in namestite vez na srednji zatič.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Sprednjo odprtino v obliki ključavnice pri konici čevlja pritrdite na srednji zatič na obeh straneh.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Naj bo peta prosta za bolj naraven korak.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "S petnim tekstilnim trakom poravnajte konico čevlja s konico Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Zategnite trakove v tem vrstnem redu: najprej sprednji trak čez prste, nato zadnji trak čez zgornji del stopala in nazadnje zgornji trak ježka okoli golenice.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Kaj storite, če je v pritrdilnih odprtinah ali na zatičih sneg ali led?",
+          "answers": [
+            "Odstranim sneg in led, na primer z izpihovanjem",
+            "Prisilite vezavo na svoje mesto",
+            "Pustite jih blokirane"
+          ],
+          "correct": 0,
+          "hint": "Iz pritrdilnih odprtin in z zatičev odstranite sneg in led, na primer z izpihovanjem."
+        },
+        {
+          "question": "V kakšnem vrstnem redu morate zategniti trakove v načinu krpljanja?",
+          "answers": [
+            "Najprej zadnji trak, nato sprednji trak",
+            "Sprednji trak čez prste, zadnji trak čez zgornji del stopala, nato zgornji trak na ježka",
+            "Vrstni red ni pomemben"
+          ],
+          "correct": 1,
+          "hint": "Sprednji trak čez prste, zadnji trak čez zgornji del stopala, nato zgornji trak na ježka."
+        },
+        {
+          "question": "Kje mora biti konica čevlja v načinu krpelj?",
+          "answers": [
+            "Poravnana s konico Combo Ski",
+            "Daleč za vrhom Combo Ski",
+            "Zunaj središčne črte Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Poravnajte konico čevlja s konico Combo Ski."
+        },
+        {
+          "question": "Kaj je zavarovano na srednjem zatiču v načinu krpljanja?",
+          "answers": [
+            "Samo sprednja odprtina pri konici čevlja, da se lahko peta rahlo premika",
+            "Samo zadnja odprtina pri peti",
+            "Obe pritrdilni odprtini"
+          ],
+          "correct": 0,
+          "hint": "Pritrdite samo sprednjo pritrdilno režo na srednji zatič na vsaki strani, da se lahko peta rahlo premika."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · NEGA",
+      "title": "Po uporabi posušite in preglejte",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Sušenje, pregled in pravilno shranjevanje ščitijo drsne ploskve in podaljšujejo življenjsko dobo izdelka.",
+      "points": [
+        {
+          "text": "Pustite Combo Ski popolnoma posušiti po vsaki uporabi. Ne shranjujte jih mokrih.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Ko nosite ali pakirate Combo Ski v nahrbtnik, jih postavite tako, da kovinski zobje ne morejo poškodovati drsne površine.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Redno preverjajte vijačne povezi.",
+          "image": ""
+        },
+        {
+          "text": "Prenehajte uporabljati poškodovane dele in se obrnite na servis.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Kaj storiti po uporabi?",
+          "answers": [
+            "Pustite jih mokre",
+            "Pustite, da se popolnoma posušijo",
+            "Uporabite maksimalno neposredno toploto"
+          ],
+          "correct": 1,
+          "hint": "Pustite, da se popolnoma posušijo."
+        },
+        {
+          "question": "Kako naj bodo zapakirani?",
+          "answers": [
+            "Tako, da kovinski zobje ne poškodujejo drsne ploskve",
+            "Drsne površine navzven",
+            "Način shranjevanja ni pomemben"
+          ],
+          "correct": 0,
+          "hint": "Postavite Combo Ski tako, da kovinski zobje ne morejo poškodovati drsne površine."
+        },
+        {
+          "question": "Kaj pa, če je del poškodovan?",
+          "answers": [
+            "Nadaljuj z vožnjo",
+            "Zalepite in se peljite",
+            "Nehajte ga uporabljati in kontaktirajte servis na info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Ne uporabljajte poškodovanega izdelka; kontaktirajte službo na info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "PREVERJANJE GARANCIJE SMUČI COMBO",
+    "welcomeTitle": "Preden se odpravite v sneg",
+    "welcomeLead": "<strong>Izpolnite ta kratek vodnik, da izpolnite pravila garancije.</strong> Pokazali vam bomo pravilno nastavitev, varno uporabo in nego Combo Ski.",
+    "welcomeRequired": "<strong>Vodnik je treba izpolniti.</strong><br>Na koncu vnesite svoj e-poštni naslov, da zabeležite dokončanje preverjanja garancije.",
+    "welcomeReward": "<strong>Lahko prejmete 3-letno garancijo</strong><br><small>Ko izpolnite vodnik, lahko prejmete še tretje leto garancije.</small>",
+    "chooseLanguage": "Izberite svoj jezik",
+    "durationNote": "Traja približno 4 minute",
+    "startGuide": "Začni preverjanje garancije",
+    "testSkip": "TEST: Preskoči na registracijo",
+    "prototype": "Preverjanje garancije Combo Ski",
+    "videoHeading": "Najprej si oglejte video",
+    "manualLink": "Odprite originalni ilustriran priročnik",
+    "quizTitle": "Preverite vprašanja",
+    "quizCount": "3 vprašanja",
+    "completeEyebrow": "PREVERJANJE KONČANO",
+    "completeTitle": "Poznaš osnove varne uporabe",
+    "completeLead": "Zdaj lahko registrirate svoj izdelek. Vašo e-pošto uporabljamo za beleženje registracije.",
+    "chooseRegistration": "Izberite vrsto registracije",
+    "standardTitle": "Standardna registracija 2-letne garancije",
+    "standardText": "Registrirajte zaključek preverjanja garancije za standardno 2-letno garancijo.",
+    "extendedTitle": "Podaljšana 3-letna garancija",
+    "extendedText": "Pokažite Combo Ski svojim prijateljem in prejmite 3-letno garancijo.",
+    "socialProofLabel": "Ime vašega računa za Instagram ali Facebook <b aria-label=required>*</b>",
+    "socialProofHelp": "Ime računa uporabljamo za ujemanje oznake z vašo registracijo.",
+    "socialTagCallout": "<strong>Ne pozabite označiti našega profila v objavi:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>ali</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Naročen sem na Combo Ski novice, praktične nasvete in ponudbe. Svoje soglasje lahko kadar koli prekličem.",
+    "socialPostConsent": "Potrjujem, da sem objavil/a <strong>ali bom objavil/a</strong> <strong>objavo ali zgodbo</strong> z jasno vidnim izdelkom in označil/a <strong>@combo_ski</strong> na Instagramu ali <strong>@Comboski</strong> na Facebooku.",
+    "legalNote": "Registracija in ta pregled ne omejujeta zakonskih pravic v zvezi z blagom z napako. Z oddajo potrjujete, da se lahko podrobnosti uporabijo za beleženje garancije. Preberite naš <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>pravilnik o zasebnosti</a>.",
+    "submit": "Popolna registracija",
+    "certificate": "Potrditev registracije",
+    "restart": "Začni znova",
+    "back": "Nazaj",
+    "check": "Preverite odgovore",
+    "next": "Nadaljuj",
+    "step": "korak",
+    "of": "od",
+    "correct": "Vsi odgovori so pravilni. Lahko nadaljujete.",
+    "answerRequired": "Odgovorite na vsa tri vprašanja.",
+    "formEmail": "Vnesite veljaven e-poštni naslov.",
+    "formChoice": "Izberite vrsto registracije.",
+    "formConsents": "Za triletno garancijo vnesite povezavo do objave ali ime računa, potrdite, da ste objavili objavo, in dajte soglasje za trženje.",
+    "formSaving": "Shranjevanje registracije …",
+    "formSaveError": "Registracije nismo mogli shraniti. prosim poskusite ponovno",
+    "successTitle": "Registracija shranjena",
+    "standardSuccess": "Opravili ste standardno registracijo izdelka.",
+    "extendedSuccess": "Zdaj čakamo na vašo <strong>objavo ali zgodbo</strong> z oznako <strong>@combo_ski</strong> na Instagramu ali <strong>@Comboski</strong> na Facebooku. Če ste jo že objavili, vas prosimo za potrpljenje, dokler je ne povežemo z vašo registracijo.",
+    "standardCertificate": "Standardna registracija",
+    "extendedCertificate": "Registracija za podaljšano 3-letno garancijo",
+    "socialOfferEyebrow": "KAKO DO TRETJEGARANCIJSKEGA LETA",
+    "socialOfferTitle": "Pokažite Combo Ski v akciji",
+    "socialOfferLead": "Objavite svojo objavo, v kateri je izdelek jasno viden in označite enega od naših uradnih profilov.",
+    "socialStepOne": "Fotografija ali film Combo Ski",
+    "socialStepTwo": "Objavi objavo",
+    "socialStepThree": "Označite naš profil",
+    "officialProfiles": "Dodajte objavo ali zgodbo",
+    "openProfile": "Odpri profil ↗",
+    "newsletterRequired": "Za podaljšanje garancije na 3 leta izberite soglasje za prejemanje novic.",
+    "formSocialProof": "Vnesite ime vašega IG ali FB računa.",
+    "formSocialPost": "Potrdite, da ste ali boste objavili objavo ali zgodbo in označili naš profil.",
+    "successEyebrow": "HVALA VAM",
+    "communityEyebrow": "COMBO SKI SKUPNOST",
+    "communityTitle": "Pridružite se drugim ljubiteljem Combo Ski",
+    "communityText": "Delite svoje dogodivščine, poiščite navdih, pridobite praktične nasvete in bodite prvi, ki boste izvedeli novice v Facebook skupini <strong>Combo Ski Users</strong>.",
+    "communityButton": "Pridružite se Facebook skupini ↗",
+    "newsletterOfferTitle": "Ostanite korak naprej",
+    "newsletterOfferLead": "Praktični nasveti za varnejše in prijetnejše vožnje, vodniki z navodili, novice in posebne ponudbe Combo Ski, dostavljeni v vaš nabiralnik.",
+    "standardNewsletterConsent": "Rad bi prejemal nasvete, vodnike, novice in ponudbe za Combo Ski. Svoje soglasje lahko kadarkoli prekličem.",
+    "pairingNote": "<strong>Kaj se zgodi potem?</strong> Ko se prikaže označena <strong>objava ali zgodba</strong>, jo bomo preverili, <strong>povezali z vašo registracijo</strong> z uporabo imena računa in <strong>aktivirali vašo podaljšano 3-letno garancijo</strong>.",
+    "programEyebrow": "COMBO SKI PODALJŠANA GARANCIJA",
+    "programTitle": "Delite Combo Ski na Instagramu ali Facebooku in pridobite 3-letno garancijo.",
+    "programLead": "Izpolnite spodnje podrobnosti. Vaš e-poštni naslov uporabimo za beleženje registracije in povezavo z <strong>objavo ali zgodbo</strong>.",
+    "programTiming": "<strong>Ni vam treba čakati na gorski izlet.</strong> Fotografirajte Combo Ski, medtem ko jih razpakirate, ali jih pokažite v akciji.",
+    "programExampleCaption": "<strong>Primer objave ali zgodbe:</strong> izdelek je jasno viden in profil Combo Ski je označen.",
+    "programTermsTitle": "Podaljšani garancijski pogoji",
+    "programTermProduct": "Izdelek Combo Ski mora biti jasno viden na fotografiji ali videu.",
+    "programTermTag": "Označite <strong>@combo_ski</strong> na Instagramu ali <strong>@Comboski</strong> na Facebooku v <strong>objavi ali zgodbi</strong>.",
+    "openInstagram": "Odprite Instagram ↗",
+    "openFacebook": "Odprite Facebook ↗",
+    "socialComposeHelp": "V aplikaciji ali na spletnem mestu izberite <strong>+ / Ustvari objavo</strong>, dodajte svojo fotografijo in označite <strong>@combo_ski</strong> na Instagramu ali <strong>@Comboski</strong> na Facebooku. Nato se vrnite sem, da dokončate registracijo.",
+    "actionRulesTitle": "Pravila napredovanja",
+    "actionRuleDeadline": "Prijavite se za podaljšanje garancije <strong>v enem letu od nakupa izdelka</strong>.",
+    "actionRuleOnce": "Garancijo je mogoče podaljšati <strong>samo enkrat na izdelek</strong>.",
+    "actionRuleRegistration": "Izpolnite vodnik in vnesite svoj e-poštni naslov in ime računa za Instagram ali Facebook.",
+    "actionRulePost": "Objavite svojo <strong>objavo ali zgodbo</strong>, ki prikazuje Combo Ski, in označite naš profil: <strong>@combo_ski</strong> ali <strong>@Comboski</strong>.",
+    "actionRuleConsent": "Promocija vključuje <strong>soglasje za prejemanje novic</strong>. Soglasje lahko kadarkoli prekličete.",
+    "actionRuleActivation": "Z oddajo obrazca shranimo vašo prijavo. <strong>Podaljšano garancijo aktiviramo po preverjanju objave ali zgodbe in povezavi z registracijo</strong>.",
+    "warrantyCoverageTitle": "Kaj zajema tretje leto garancije?",
+    "warrantyCoverage": "Tretje leto garancije pokriva <strong>napake v izdelavi in ​​materialu</strong>, ko se izdelek uporablja v skladu z navodili.",
+    "warrantyExclusions": "Ne krije <strong>normalne obrabe, kozmetičnih prask, poškodb zaradi udarcev s kamenjem, napačne uporabe ali nepooblaščenih sprememb</strong>.",
+    "warrantyRemedy": "Sprejete napake se odpravijo s <strong>popravilom ali zamenjavo okvarjenega dela</strong>.",
+    "warrantyDuration": "Skupna garancijska doba po podaljšanju je <strong>36 mesecev od prejema izdelka</strong>, ne od registracije.",
+    "actionRuleRights": "Sodelovanje ali nesodelovanje v tej promociji ne vpliva na vaše zakonske pravice. Navedeno kritje in izjeme veljajo za prostovoljno dano tretje leto garancije. Z vprašanji ali zahtevami za garancijski servis se obrnite na <a href=mailto:info@comboski.cz>info@comboski.cz</a>.",
+    "retailerLabel": "Kje si kupil Combo Ski? *",
+    "retailerPlaceholder": "Izberite trgovca",
+    "retailerCombo": "Spletna trgovina Combo Ski",
+    "retailerOther": "Drugi trgovec na drobno",
+    "retailerNameLabel": "Ime prodajalca *",
+    "retailerError": "Izberite, kje ste kupili Combo Ski.",
+    "retailerNameError": "Vnesite ime prodajalca.",
+    "selected": "Izbrano",
+    "select": "Izberite",
+    "backToLanguages": "Nazaj na izbiro jezika",
+    "snowshoeMode": "Način s krpljami",
+    "miniSkiMode": "Mini smučarski način",
+    "questionCount": "Število vprašanj: {n}",
+    "chooseAnswer": "Izberite odgovor.",
+    "tryAgain": "Poskusite znova.",
+    "correctAnswer": "Pravilno.",
+    "allQuestions": "Odgovori na vseh {n} vprašanj.",
+    "fixAnswers": "Prosim, popravite označene odgovore.",
+    "videoUnsupported": "Vaš brskalnik ne podpira predvajanja videa.",
+    "yearBadge": "3 LETA",
+    "tagInstagram": "Označi @combo_ski",
+    "tagFacebook": "Označi @Comboski",
+    "socialExampleAlt": "Primer objave ali zgodbe, ki prikazuje Combo Ski in označuje naš profil",
+    "formEmailLabel": "E-pošta *",
+    "accountPlaceholder": "@vaš_račun",
+    "emailPlaceholder": "vi@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Živjo, jaz sem Vojta in danes ti bom pokazal,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "kako varno uporabljati Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "in naše palice Sever Gear."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski se lahko uporablja v dveh načinih."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Način s krpljami ali mini smuči."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "V načinu krpelj uporabim samo srednji zatič"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "za sprednjo odprtino v obliki ključavnice."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "Kovinske konice morajo biti vedno spredaj."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Plastični konec ostane"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "zadaj, nikoli spredaj."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "Kot sem omenil,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Pritrdim samo en zatič."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Sprednji zatič ostane neuporabljen."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Zdaj pa preklopimo na način mini smuči."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Sprostim pritrditev,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "in sprostim odprtino tudi na drugi strani."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Zdaj pritrdim oba zatiča."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Najprej zadnjo pritrdilno odprtino, nato sprednjo."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "Enako na drugi strani."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Zdaj nastavim tekstilni petni trak,"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "tako da mi velikost ustreza."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "na primer"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Combo Ski sem nastavil med velikostma S in M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Zato sem sprostil plastično zaponko,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "in nastavim trak na ustrezno velikost."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Enako naredim na drugi Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Zdaj sem Combo Ski postavil na desno nogo,"
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Oznaka R je"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "na zgornjem ježku."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Trdno zategnem trakove,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "z uporabo zaponke."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Sprednji trak čez prste,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "nato zgornji trak ježka."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "Enako naredim na levi nogi."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "Stoje zategnem trakove,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "tako da je Combo Ski kot del čevlja."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Preverjam petni trak, ki se uporablja za prilagajanje velikosti."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "Zgornji pas"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "je lahko na čevlju"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "ali okoli noge nad čevljem. Oboje je pravilno."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Zdaj pa pokažimo, kako voziti navzdol na Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Nikoli ne začnite"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "na strmih pobočjih ali rdečih smučiščih."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Vedno je bolje začeti na ravnem terenu ali položnih pobočjih."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Vedno pazite,"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "da niste zakrčeni."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Ostanite sproščeni in imejte kolena pokrčena."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Kolena držim pokrčena,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "delam kratke zavoje"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "Za boljše ravnotežje držim eno nogo"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "rahlo pred drugo."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "Sprva se lahko počuti nerodno,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "a sčasoma se navadiš,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "pridobite samozavest in se naučite zavirati z bočnim zdrsom."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "Kot sem omenil,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Držite eno nogo rahlo pred drugo za boljše ravnotežje."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Pogoste napake."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Ne smučajte z iztegnjenimi koleni in ne zavirajte v plugu."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Ne deluje in verjetno boste padli."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "Ključno je ostati sproščen,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "predvsem v kolenih."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "Po kratki vaji lahko povečate hitrost in kot naklona,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "in še bolj uživate v vožnji."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "Kot vidite,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "zahvaljujoč robnikom in zgornjemu traku,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "vožnja je udobna in varna."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Eden najbolj zabavnih gibov na Combo Skiju je drsanje."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "Hkrati je to eden najlažjih načinov,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "da se naučite uporabljati Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Pomaga vam pri ravnotežju naprej in nazaj:"
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "drsaš tako kot na rolerjih."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "lahko drsaš navzdol,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "ali na ravnem terenu,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "ali celo,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "rahlo navkreber."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Pri vožnji navzdol so snežne razmere zelo pomembne,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "najboljše razmere so normalen, mehak sneg."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Ledene površine so nevarne in težavne."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Vožnja po ledu je za začetnike skoraj nemogoča."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Čvrsti zimski čevlji so idealni za Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Samo eno pravilo je,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Morajo podpirati gleženj."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Višji in trši kot so škornji,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "tem bolje."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Zdaj preklopim Combo Ski na način krpljanja."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "pritisnem na gumb,"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "in sprostim zadnjo pritrdilno odprtino."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "Enako naredim na drugi strani."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "In zdaj, kot sem že omenil,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "najbolj pomembna stvar je,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "da so kovinske konice spredaj."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Zato pritrdim samo srednji zatič"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "in pritisnem, da se zaskoči."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Če je notri sneg,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "ga preprosto izpiham."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "Enako naredim na drugi strani."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Tako je nastavljen način krpljanja."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "Kot vidite,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Zdaj vstavljam desno nogo."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Nogo potisnem popolnoma nazaj in preverim"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "da je tekstilni petni pas varno nameščen."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Sprednji trak zategnem čez prste,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "nato zadnji trak čez vrh stopala,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "in končno zgornji trak ježka."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "Kot vidite,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "konica čevlja je poravnana s konico Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "To pomeni, da je Combo Ski pravilno nameščen."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Lahko udobno hodim navzgor."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Na zelo strmem terenu,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "ne oklevajte in zarijte Combo Ski v sneg."
+      }
+    ]
+  ]
+}

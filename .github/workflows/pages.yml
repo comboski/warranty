@@ -17,6 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Validate languages, subtitles and registration
+        run: |
+          node --check public/guide/app.js
+          node scripts/build-locales.mjs
+          node scripts/test-registration-locales.mjs
+          git diff --exit-code -- public/guide/locales.js public/guide/assets/videos
       - name: Require configured registration service
         run: |
           test -f public/guide/registration-config.js

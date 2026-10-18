@@ -1,0 +1,944 @@
+{
+  "lessons": [
+    {
+      "eyebrow": "01 · COMUTARE MODURI",
+      "title": "Rachete de zăpadă sau mini-schiuri?",
+      "duration": "0:00–0:56:21",
+      "visual": "video-snowshoe",
+      "intro": "Aici vezi trecerea de la modul rachete de zăpadă pentru urcare la modul mini-schiuri pentru coborâre. Legătura are fante de fixare în formă de gaură de cheie. În ambele moduri, fanta din față este lângă vârful bocancului, iar cea din spate lângă călcâi.",
+      "points": [
+        {
+          "text": "În modul cu rachete de zăpadă, partea cu margine metalică și vârfuri metalice este întotdeauna îndreptată înainte. Vârful din plastic nu trebuie să fie niciodată în față.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Acest lucru este incorect: vârful de plastic nu trebuie să fie îndreptat înainte în modul cu rachete de zăpadă.",
+          "image": "supplied-diagram snowshoe-wrong"
+        },
+        {
+          "text": "În modul rachete de zăpadă, fixează fanta din față, în formă de gaură de cheie, de lângă vârful bocancului, pe știftul din mijloc de pe ambele părți. Știftul din față rămâne liber, astfel încât călcâiul se poate mișca ușor.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "<strong>În modul mini-ski, legătura este asigurată atât în față, cât și în spate.</strong>",
+          "image": "supplied-diagram mini-ski-secured"
+        },
+        {
+          "text": "Mai întâi atașați fanta de montare din spate, la călcâiul bocancului.",
+          "image": "supplied-diagram mini-ski-step-one"
+        },
+        {
+          "text": "Apoi atașați fanta de montare frontală cu butonul de eliberare, la vârful bocancului.",
+          "image": "supplied-diagram mini-ski-step-two"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Care parte este orientată înainte în modul cu rachete de zăpadă?",
+          "answers": [
+            "Partea cu vârf de plastic",
+            "Partea cu margine metalică și vârfuri",
+            "Direcția nu contează"
+          ],
+          "correct": 1,
+          "hint": "Partea cu marginea metalică și vârfurile metalice este întotdeauna îndreptată înainte."
+        },
+        {
+          "question": "Ce este asigurat pe știftul din mijloc în modul cu rachete de zăpadă?",
+          "answers": [
+            "Doar fanta din față, de lângă vârful bocancului, astfel încât călcâiul se poate mișca ușor",
+            "Doar fanta din spate, de lângă călcâi",
+            "Ambele fante de fixare"
+          ],
+          "correct": 0,
+          "hint": "Atașați doar fanta de montare frontală la știftul din mijloc de pe fiecare parte, astfel încât călcâiul să se poată mișca ușor."
+        },
+        {
+          "question": "În ce ordine este atașată legătura în modul mini-ski?",
+          "answers": [
+            "Mai întâi fanta de montare frontală, apoi spate",
+            "Mai întâi fanta de montare din spate, apoi fanta frontală cu butonul de eliberare",
+            "Ordinea nu contează"
+          ],
+          "correct": 1,
+          "hint": "Atașați mai întâi fanta de montare din spate, apoi fanta frontală cu butonul de eliberare."
+        }
+      ]
+    },
+    {
+      "eyebrow": "02 · FIRMARE CORECTĂ",
+      "title": "Ajustare și potrivire corectă",
+      "duration": "1:27",
+      "visual": "video-fit",
+      "intro": "Setați dimensiunea și verificați marcajele L și R înainte de a pune Combo Ski. Cureaua din material pentru călcâi reglează dimensiunea și poziția ghetei. Cureaua cu clichet din față trece peste degetele de la picioare. Cureaua cu clichet din spate trece peste partea de sus a labei piciorului. Cureaua superioară Velcro merge în jurul tibiei.",
+      "points": [
+        {
+          "text": "Verificați întotdeauna dacă legătura stângă este pe piciorul stâng și legătura dreaptă pe piciorul drept. Marcajele L și R sunt pe cureaua Velcro.",
+          "image": "supplied-diagram setup-one"
+        },
+        {
+          "text": "Utilizați cureaua textilă pentru călcâi pentru a poziționa bocancul astfel încât călcâiul să se alinieze cu pozițiile marcate S, M sau L conform tabelului cu mărimi.",
+          "image": "supplied-diagram setup-two"
+        },
+        {
+          "text": "Repetați procesul pe cealaltă parte a legăturii.",
+          "image": "supplied-diagram setup-three"
+        },
+        {
+          "text": "Strângeți bine ambele curele, ca și cum Combo Ski ar fi o parte solidă a cizmei.",
+          "image": "supplied-diagram setup-four"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Cum identifici stânga și dreapta?",
+          "answers": [
+            "După culoare",
+            "După marcajele L și R de pe cureaua Velcro",
+            "Sunt interschimbabile"
+          ],
+          "correct": 1,
+          "hint": "Marcajele L și R sunt pe cureaua Velcro."
+        },
+        {
+          "question": "Ce trebuie ajustat corect pentru dimensiunea cizmei?",
+          "answers": [
+            "Curea textilă pentru călcâi",
+            "Doar cureaua cu clichet din față",
+            "Nimic nu are nevoie de ajustare"
+          ],
+          "correct": 0,
+          "hint": "Reglați cureaua textilă pentru călcâi astfel încât călcâiul să se potrivească cu mărimea marcată."
+        },
+        {
+          "question": "Cum ar trebui să strângeți curelele cu clichet din față și din spate înainte de a merge?",
+          "answers": [
+            "Lăsați pe amândouă libere",
+            "Strângeți ferm pe ambele, ca și cum Combo Ski ar fi o parte solidă a cizmei",
+            "Strângerea numai a curelei din față este suficientă"
+          ],
+          "correct": 1,
+          "hint": "Strângeți ferm ambele curele."
+        }
+      ]
+    },
+    {
+      "eyebrow": "03 · PRIMA RELARE",
+      "title": "Poziția, virajele și frânarea",
+      "duration": "01:31",
+      "visual": "video-ski",
+      "intro": "Începeți pe un teren plat, apoi treceți pe o pantă ușoară. Învață mai întâi o poziție stabilă, viraj și frânare sigură.",
+      "points": [
+        {
+          "text": "Vă recomandăm să purtați o cască de schi.",
+          "image": "supplied-diagram downhill-helmet"
+        },
+        {
+          "text": "Ține picioarele apropiate și genunchii îndoiți. Păstrează echilibrul înainte și înapoi, ca pe patine de gheață sau role. Nu te lăsa pe spate.",
+          "image": ""
+        },
+        {
+          "text": "Întoarceți-vă ca pe schiurile normale sau mișcați ușor un picior în fața celuilalt.",
+          "image": "supplied-diagram downhill-turn"
+        },
+        {
+          "text": "Pentru a frâna, întoarce ambele mini-schiuri transversal față de direcția de mers și derapează pe canturi, ca pe patinele de gheață. În caz de urgență, alege o cădere controlată.",
+          "image": "supplied-diagram downhill-brake"
+        }
+      ],
+      "questions": [
+        {
+          "question": "De unde ar trebui să începi?",
+          "answers": [
+            "Pe orice pârtie de schi",
+            "Pe teren plat, apoi pe o pantă uşoară",
+            "Pe zăpada înghețată"
+          ],
+          "correct": 1,
+          "hint": "Începeți pe un teren plat, apoi treceți pe o pantă ușoară."
+        },
+        {
+          "question": "Care este poziția de bază?",
+          "answers": [
+            "Picioarele împreună și genunchii îndoiți",
+            "Picioare late și genunchi drepti",
+            "Greutatea mult prea în spate"
+          ],
+          "correct": 0,
+          "hint": "Ține-ți picioarele împreună și genunchii îndoiți. Nu te lăsa pe spate."
+        },
+        {
+          "question": "Cum ar trebui să frânezi?",
+          "answers": [
+            "Pentru a frâna, întoarce ambele mini-schiuri transversal față de direcția de mers și derapează pe canturi, ca pe patinele de gheață",
+            "Frânare în plug",
+            "Mutați-vă greutatea înapoi"
+          ],
+          "correct": 0,
+          "hint": "Întoarceți ambele mini-schiuri în lateral și glisați pe marginile lor."
+        }
+      ]
+    },
+    {
+      "eyebrow": "04 · PRACTICA",
+      "title": "Suprafață, încălțăminte și control",
+      "duration": "00:48",
+      "visual": "video-safety",
+      "intro": "Comportamentul se schimbă cu suprafața. Practicați treptat și potriviți condițiile în funcție de abilitățile dvs.",
+      "points": [
+        {
+          "text": "Evită zăpada înghețată sau acoperită cu gheață și pietrele.",
+          "image": "supplied-diagram conditions-surface"
+        },
+        {
+          "text": "Cizmele de iarnă robuste cu glezne înalte îmbunătățesc suportul și controlul.",
+          "image": "supplied-diagram conditions-boot"
+        },
+        {
+          "text": "Practicați mai întâi echilibrul, apoi treceți la patinaj și coborâri blânde.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Ce suprafață ar trebui să evitați?",
+          "answers": [
+            "Zăpadă normală moale",
+            "Zăpadă înghețată sau acoperită cu gheață",
+            "O pantă uşoară"
+          ],
+          "correct": 1,
+          "hint": "Evită zăpada înghețată sau acoperită cu gheață și pietrele."
+        },
+        {
+          "question": "Ce încălțăminte este potrivită?",
+          "answers": [
+            "Cizme de iarnă robuste cu glezne înalte",
+            "Pantofi jos pentru drumeții",
+            "Pantofi sport"
+          ],
+          "correct": 0,
+          "hint": "Folosește cizme de iarnă rezistente, cu glezne înalte."
+        },
+        {
+          "question": "Ce ar trebui să exersezi mai întâi?",
+          "answers": [
+            "Viteza maxima",
+            "Coborâri",
+            "Echilibru și poziție de bază"
+          ],
+          "correct": 2,
+          "hint": "Practicați mai întâi echilibrul și poziția de bază."
+        }
+      ]
+    },
+    {
+      "eyebrow": "05 · PALĂ",
+      "title": "Înapoi la rachete de zăpadă și în sus",
+      "duration": "01:27",
+      "visual": "video-snowshoe",
+      "intro": "Schimbați modul pe teren plan și asigurați-vă că călcâiul rămâne liber.",
+      "points": [
+        {
+          "text": "Îndepărtează zăpada și gheața din fantele de fixare și de pe știfturi, de exemplu suflând.",
+          "image": "supplied-diagram snowshoe-clear"
+        },
+        {
+          "text": "Pentru a desprinde legătura, apasă butonul și glisează fanta în jos, scoțând-o de pe știft.",
+          "image": "supplied-diagram snowshoe-release"
+        },
+        {
+          "text": "Întoarce Combo Ski cu talpa de alunecare în sus și așază legătura pe știftul din mijloc.",
+          "image": "supplied-diagram snowshoe-base"
+        },
+        {
+          "text": "Fixează fanta din față, în formă de gaură de cheie, de lângă vârful bocancului, pe știftul din mijloc de pe ambele părți.",
+          "image": "supplied-diagram snowshoe-pin"
+        },
+        {
+          "text": "Păstrați călcâiul liber pentru un pas mai natural.",
+          "image": "supplied-diagram snowshoe-correct"
+        },
+        {
+          "text": "Utilizați cureaua textilă pentru călcâi pentru a alinia vârful bocancului cu vârful Combo Ski.",
+          "image": "supplied-diagram snowshoe-align"
+        },
+        {
+          "text": "Strângeți curelele în această ordine: mai întâi cureaua din față peste degetele de la picioare, apoi cureaua din spate peste partea de sus a labei piciorului și, în final, cureaua superioară cu velcro din jurul tibiei.",
+          "image": "supplied-diagram snowshoe-tighten"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Ce faci dacă există zăpadă sau gheață în fantele de fixare sau pe știfturi?",
+          "answers": [
+            "Îndepărtez zăpada și gheața, de exemplu suflând",
+            "Forțați legătura la loc",
+            "Lasă-le blocate"
+          ],
+          "correct": 0,
+          "hint": "Îndepărtează zăpada și gheața din fantele de fixare și de pe știfturi, de exemplu suflând."
+        },
+        {
+          "question": "În ce ordine ar trebui să strângeți curelele în modul cu rachete de zăpadă?",
+          "answers": [
+            "Curea din spate mai întâi, apoi curea din față",
+            "Curea din față peste degetele de la picioare, curea din spate peste partea de sus a labei piciorului, apoi curea superioară Velcro",
+            "Ordinea nu contează"
+          ],
+          "correct": 1,
+          "hint": "Curea din față peste degetele de la picioare, curea din spate peste partea de sus a labei piciorului, apoi curea superioară Velcro."
+        },
+        {
+          "question": "Unde ar trebui să fie vârful cizmei în modul rachete de zăpadă?",
+          "answers": [
+            "Aliniat cu vârful Combo Ski",
+            "Mult în spatele vârfului Combo Ski",
+            "În afara liniei centrale de Combo Ski"
+          ],
+          "correct": 0,
+          "hint": "Aliniați vârful bocancului cu vârful Combo Ski."
+        },
+        {
+          "question": "Ce este asigurat pe știftul din mijloc în modul cu rachete de zăpadă?",
+          "answers": [
+            "Doar fanta din față, de lângă vârful bocancului, astfel încât călcâiul se poate mișca ușor",
+            "Doar fanta din spate, de lângă călcâi",
+            "Ambele fante de fixare"
+          ],
+          "correct": 0,
+          "hint": "Atașați doar fanta de montare frontală la știftul din mijloc de pe fiecare parte, astfel încât călcâiul să se poată mișca ușor."
+        }
+      ]
+    },
+    {
+      "eyebrow": "06 · ÎNGRIJIRE",
+      "title": "Uscați și inspectați după utilizare",
+      "duration": "00:25",
+      "visual": "video-care",
+      "intro": "Uscarea, verificarea și depozitarea corectă protejează tălpile de alunecare și prelungesc durata de viață a produsului.",
+      "points": [
+        {
+          "text": "Lăsați Combo Ski să se usuce complet după fiecare utilizare. Nu le depozitați umede.",
+          "image": "supplied-diagram care-dry"
+        },
+        {
+          "text": "Când transportați sau împachetați Combo Ski într-un rucsac, poziționați-le astfel încât dinții metalici să nu afecteze suprafața de alunecare.",
+          "image": "supplied-diagram care-pack"
+        },
+        {
+          "text": "Verificați în mod regulat conexiunile cu șuruburi.",
+          "image": ""
+        },
+        {
+          "text": "Nu mai folosiți piesele deteriorate și contactați service-ul.",
+          "image": ""
+        }
+      ],
+      "questions": [
+        {
+          "question": "Ce ar trebui să faci după utilizare?",
+          "answers": [
+            "Lasă-le umede",
+            "Lăsați-le să se usuce complet",
+            "Utilizați căldură directă maximă"
+          ],
+          "correct": 1,
+          "hint": "Lăsați-le să se usuce complet."
+        },
+        {
+          "question": "Cum ar trebui să fie ambalate?",
+          "answers": [
+            "Astfel încât dinții metalici să nu deterioreze talpa de alunecare",
+            "Suprafețele de alunecare spre exterior",
+            "Nu contează"
+          ],
+          "correct": 0,
+          "hint": "Poziționați Combo Ski astfel încât dinții metalici să nu deterioreze suprafața de alunecare."
+        },
+        {
+          "question": "Ce se întâmplă dacă o piesă este deteriorată?",
+          "answers": [
+            "Continui să folosesc produsul",
+            "Lipesc cu bandă adezivă și continui",
+            "Nu mai folosiți-l și contactați serviciul la info@comboski.cz"
+          ],
+          "correct": 2,
+          "hint": "Nu utilizați un produs deteriorat; contactați serviciul la info@comboski.cz."
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "welcomeEyebrow": "VERIFICAREA GARANȚIEI SKI COMBO",
+    "welcomeTitle": "Înainte să pleci în zăpadă",
+    "welcomeLead": "<strong>Completați acest scurt ghid pentru a respecta regulile de garanție.</strong> Vă vom arăta configurarea corectă, utilizarea în siguranță și îngrijirea Combo Ski.",
+    "welcomeRequired": "<strong>Ghidul trebuie completat.</strong><br>La sfârșit, introduceți adresa de e-mail pentru a înregistra finalizarea verificării garanției.",
+    "welcomeReward": "<strong>Puteți primi o garanție de 3 ani</strong><br><small>După finalizarea ghidului, este posibil să primiți un al treilea an de garanție.</small>",
+    "chooseLanguage": "Alegeți limba dvs",
+    "durationNote": "Durează aproximativ 4 minute",
+    "startGuide": "Începeți verificarea garanției",
+    "testSkip": "TEST: Treci la înregistrare",
+    "prototype": "Verificare garanție Combo Ski",
+    "videoHeading": "În primul rând, urmăriți videoclipul",
+    "manualLink": "Deschideți manualul original ilustrat",
+    "quizTitle": "Verificați întrebările",
+    "quizCount": "3 intrebari",
+    "completeEyebrow": "VERIFICAREA TERMINATĂ",
+    "completeTitle": "Cunoașteți elementele de bază ale utilizării în siguranță",
+    "completeLead": "Acum vă puteți înregistra produsul. Utilizăm e-mailul dumneavoastră pentru a înregistra înregistrarea.",
+    "chooseRegistration": "Alegeți tipul de înregistrare",
+    "standardTitle": "Înregistrare standard de garanție de 2 ani",
+    "standardText": "Înregistrați finalizarea verificării garanției pentru garanția standard de 2 ani.",
+    "extendedTitle": "Garanție extinsă de 3 ani",
+    "extendedText": "Arată Combo Ski prietenilor tăi și primește o garanție de 3 ani.",
+    "socialProofLabel": "Numele contului dvs. de Instagram sau Facebook <b aria-label=required>*</b>",
+    "socialProofHelp": "Folosim numele contului pentru a potrivi eticheta cu înregistrarea dvs.",
+    "socialTagCallout": "<strong>Nu uitați să ne etichetați profilul în postare:</strong><a href=https://www.instagram.com/combo_ski/ target=_blank rel=noopener>Instagram @combo_ski</a><span>sau</span><a href=https://www.facebook.com/Comboski/ target=_blank rel=noopener>Facebook @Comboski</a>",
+    "newsletterConsent": "Mă abonez la știri Combo Ski, sfaturi practice și oferte. Îmi pot retrage consimțământul în orice moment.",
+    "socialPostConsent": "Confirm că am publicat <strong>sau voi publica</strong> o <strong>postare sau un story</strong> cu produsul clar vizibil și voi eticheta <strong>@combo_ski</strong> pe Instagram sau <strong>@Comboski</strong> pe Facebook.",
+    "legalNote": "Înregistrarea și această verificare nu limitează drepturile legale referitoare la bunurile defecte. Prin trimitere, confirmați că detaliile pot fi utilizate pentru înregistrarea garanției. Citiți <a href=https://www.comboski.cz/podminky-ochrany-osobnich-udaju/ target=_blank rel=noopener>politica de confidențialitate</a>.",
+    "submit": "Înregistrare completă",
+    "certificate": "Confirmare înregistrare",
+    "restart": "Începe din nou",
+    "back": "Înapoi",
+    "check": "Verificați răspunsurile",
+    "next": "Continuă",
+    "step": "Pasul",
+    "of": "de",
+    "correct": "Toate răspunsurile sunt corecte. Puteți continua.",
+    "answerRequired": "Răspunde la toate cele trei întrebări.",
+    "formEmail": "Introduceți o adresă de e-mail validă.",
+    "formChoice": "Alegeți un tip de înregistrare.",
+    "formConsents": "Pentru garanția de trei ani, introduceți linkul postării sau numele contului, confirmați că ați publicat postarea și acordați acordul de marketing.",
+    "formSaving": "Se salvează înregistrarea…",
+    "formSaveError": "Nu am putut salva înregistrarea. Vă rugăm să încercați din nou.",
+    "successTitle": "Înregistrarea a fost salvată",
+    "standardSuccess": "Ați finalizat înregistrarea standard a produsului.",
+    "extendedSuccess": "Acum așteptăm <strong>postarea sau story-ul</strong> cu eticheta <strong>@combo_ski</strong> pe Instagram sau <strong>@Comboski</strong> pe Facebook. Dacă ai publicat deja, te rugăm să ai răbdare până asociem conținutul cu înregistrarea ta.",
+    "standardCertificate": "Înregistrare standard",
+    "extendedCertificate": "Înregistrare pentru garanția extinsă de 3 ani",
+    "socialOfferEyebrow": "CUM SĂ PRIMIȚI AL TREILEA AN DE GARANȚIE",
+    "socialOfferTitle": "Arată Combo Ski în acțiune",
+    "socialOfferLead": "Publicați-vă propria postare în care produsul să fie clar vizibil și etichetați unul dintre profilurile noastre oficiale.",
+    "socialStepOne": "Fotografie sau film Combo Ski",
+    "socialStepTwo": "Publicați postarea",
+    "socialStepThree": "Etichetează-ne profilul",
+    "officialProfiles": "Adăugați o postare sau o poveste",
+    "openProfile": "Deschide profilul ↗",
+    "newsletterRequired": "Pentru a extinde garanția la 3 ani, vă rugăm să selectați consimțământul pentru a primi noutăți.",
+    "formSocialProof": "Introduceți numele contului dvs. IG sau FB.",
+    "formSocialPost": "Confirmați că ați publicat sau veți publica o postare sau o poveste și veți eticheta profilul nostru.",
+    "successEyebrow": "MULȚUMESC",
+    "communityEyebrow": "COMUNITATEA DE SCHI COMBO",
+    "communityTitle": "Alăturați-vă altor pasionați de Combo Ski",
+    "communityText": "Împărtășește-ți aventurile, găsește inspirație, obține sfaturi practice și fii primul care află știrile în grupul de Facebook <strong>Combo Ski Users</strong>.",
+    "communityButton": "Alăturați-vă grupului de Facebook ↗",
+    "newsletterOfferTitle": "Rămâneți cu un pas înainte",
+    "newsletterOfferLead": "Sfaturi practice pentru plimbări mai sigure și mai plăcute, ghiduri instructive, știri și oferte speciale Combo Ski livrate în căsuța dvs. de e-mail.",
+    "standardNewsletterConsent": "Aș dori să primesc sfaturi, ghiduri, știri și oferte Combo Ski. Îmi pot retrage consimțământul în orice moment.",
+    "pairingNote": "<strong>Ce urmează?</strong> Când apare <strong>postarea sau story-ul</strong> cu eticheta noastră, îl verificăm, <strong>îl asociem înregistrării tale</strong> pe baza numelui contului și <strong>activăm garanția extinsă la 3 ani în total</strong>.",
+    "programEyebrow": "GARANȚIE EXTINSĂ DE SKI COMBO",
+    "programTitle": "Distribuiți Combo Ski pe Instagram sau Facebook și obțineți o garanție de 3 ani.",
+    "programLead": "Completați detaliile de mai jos. Utilizăm e-mailul dvs. pentru a înregistra înregistrarea și pentru a o potrivi cu <strong>postarea sau povestea</strong>.",
+    "programTiming": "<strong>Nu trebuie să așteptați o excursie la munte.</strong> Fotografiați Combo Ski în timp ce le despachetați sau arătați-le în acțiune.",
+    "programExampleCaption": "<strong>Exemplu de postare sau poveste:</strong> produsul este vizibil clar și profilul Combo Ski este etichetat.",
+    "programTermsTitle": "Termenii de garanție extinsă",
+    "programTermProduct": "Produsul Combo Ski trebuie să fie clar vizibil în fotografie sau video.",
+    "programTermTag": "În <strong>postare sau story</strong>, etichetează <strong>@combo_ski</strong> pe Instagram sau <strong>@Comboski</strong> pe Facebook.",
+    "openInstagram": "Deschide Instagram ↗",
+    "openFacebook": "Deschide Facebook ↗",
+    "socialComposeHelp": "În aplicație sau site, alege <strong>+ / Creare postare</strong>, adaugă propria ta fotografie și etichetează <strong>@combo_ski</strong> pe Instagram sau <strong>@Comboski</strong> pe Facebook. Apoi reveniți aici pentru a vă finaliza înregistrarea.",
+    "actionRulesTitle": "Reguli de promovare",
+    "actionRuleDeadline": "Solicitați extinderea garanției <strong>în termen de un an de la achiziționarea produsului</strong>.",
+    "actionRuleOnce": "Garanția poate fi extinsă <strong>o singură dată pe produs</strong>.",
+    "actionRuleRegistration": "Completați ghidul și introduceți e-mailul și numele contului Instagram sau Facebook.",
+    "actionRulePost": "Publicați-vă propria <strong>postare sau poveste</strong> care arată Combo Ski și etichetați profilul nostru: <strong>@combo_ski</strong> sau <strong>@Comboski</strong>.",
+    "actionRuleConsent": "Promoția include <strong>consimțământul de a primi știri</strong>. Vă puteți retrage consimțământul în orice moment.",
+    "actionRuleActivation": "Trimiterea formularului înregistrează cererea. <strong>Activăm garanția extinsă după verificarea postării sau a story-ului și asocierea cu înregistrarea</strong>.",
+    "warrantyCoverageTitle": "Ce acoperă al treilea an de garanție?",
+    "warrantyCoverage": "Al treilea an de garanție acoperă <strong>defecte de fabricație și de material</strong> atunci când produsul este utilizat conform instrucțiunilor.",
+    "warrantyExclusions": "Nu acoperă <strong>uzura normală, zgârieturile cosmetice, daunele cauzate de impactul cu pietre, utilizarea greșită sau modificările neautorizate</strong>.",
+    "warrantyRemedy": "Defectele acceptate sunt rezolvate prin <strong>repararea sau înlocuirea piesei defecte</strong>.",
+    "warrantyDuration": "Perioada totală de garanție după extindere este de <strong>36 de luni de la primirea produsului</strong>, nu de la înregistrare.",
+    "actionRuleRights": "Drepturile dumneavoastră statutare nu sunt afectate de participarea sau neparticiparea la această promoție. Acoperirea și excluderile menționate se aplică celui de-al treilea an de garanție oferit voluntar. Contactați <a href=mailto:info@comboski.cz>info@comboski.cz</a> pentru întrebări sau solicitări de service în garanție.",
+    "retailerLabel": "De unde ai cumparat Combo Ski? *",
+    "retailerPlaceholder": "Selectați un comerciant cu amănuntul",
+    "retailerCombo": "Magazin online Combo Ski",
+    "retailerOther": "Alt comerciant cu amănuntul",
+    "retailerNameLabel": "Numele comerciantului *",
+    "retailerError": "Selectați de unde ați cumpărat Combo Ski.",
+    "retailerNameError": "Introduceți numele comerciantului.",
+    "selected": "Selectat",
+    "select": "Selectați",
+    "backToLanguages": "Înapoi la selecția limbii",
+    "snowshoeMode": "Modul cu rachete de zăpadă",
+    "miniSkiMode": "Mod mini-ski",
+    "questionCount": "{n} întrebări",
+    "chooseAnswer": "Alegeți un răspuns.",
+    "tryAgain": "Încearcă din nou.",
+    "correctAnswer": "Corecta.",
+    "allQuestions": "Răspundeți la toate cele {n} întrebări.",
+    "fixAnswers": "Vă rugăm să corectați răspunsurile evidențiate.",
+    "videoUnsupported": "Browserul dvs. nu acceptă redarea video.",
+    "yearBadge": "3 ANI",
+    "tagInstagram": "Etichetați @combo_ski",
+    "tagFacebook": "Etichetați @Comboski",
+    "socialExampleAlt": "Exemplu de postare sau poveste care arată Combo Ski și etichetează profilul nostru",
+    "formEmailLabel": "Email *",
+    "accountPlaceholder": "@contul_dvs",
+    "emailPlaceholder": "tu@example.com"
+  },
+  "subtitles": [
+    [
+      {
+        "timing": "00:00:00.200 --> 00:00:02.966",
+        "text": "Bună, sunt Vojta și astăzi îți voi arăta,"
+      },
+      {
+        "timing": "00:00:03.000 --> 00:00:04.633",
+        "text": "cum să folosești în siguranță Combo Ski"
+      },
+      {
+        "timing": "00:00:04.633 --> 00:00:06.100",
+        "text": "și bețele noastre Sever Gear."
+      },
+      {
+        "timing": "00:00:06.300 --> 00:00:08.633",
+        "text": "Combo Ski poate fi folosit în două moduri."
+      },
+      {
+        "timing": "00:00:08.733 --> 00:00:12.166",
+        "text": "Modul rachete de zăpadă sau modul mini-ski."
+      },
+      {
+        "timing": "00:00:12.466 --> 00:00:16.033",
+        "text": "În modul rachete de zăpadă folosesc doar știftul din mijloc"
+      },
+      {
+        "timing": "00:00:16.233 --> 00:00:18.333",
+        "text": "pentru fanta din față, în formă de gaură de cheie."
+      },
+      {
+        "timing": "00:00:20.500 --> 00:00:23.466",
+        "text": "Vârfurile metalice trebuie să fie mereu în față."
+      },
+      {
+        "timing": "00:00:23.466 --> 00:00:25.133",
+        "text": "Capătul din plastic rămâne"
+      },
+      {
+        "timing": "00:00:25.233 --> 00:00:26.833",
+        "text": "în spate, niciodată în față."
+      },
+      {
+        "timing": "00:00:26.933 --> 00:00:27.733",
+        "text": "După cum am menționat,"
+      },
+      {
+        "timing": "00:00:27.900 --> 00:00:29.566",
+        "text": "Fixez un singur știft."
+      },
+      {
+        "timing": "00:00:30.166 --> 00:00:32.166",
+        "text": "Știftul din față rămâne liber."
+      },
+      {
+        "timing": "00:00:32.333 --> 00:00:34.533",
+        "text": "Acum să trecem la modul mini-ski."
+      },
+      {
+        "timing": "00:00:37.700 --> 00:00:38.966",
+        "text": "Desfac prinderea,"
+      },
+      {
+        "timing": "00:00:40.733 --> 00:00:43.333",
+        "text": "și eliberez fanta și pe cealaltă parte."
+      },
+      {
+        "timing": "00:00:44.266 --> 00:00:46.533",
+        "text": "Acum fixez ambele știfturi."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:51.300",
+        "text": "Mai întâi fanta de montare din spate, apoi cea din față."
+      },
+      {
+        "timing": "00:00:52.633 --> 00:00:54.233",
+        "text": "La fel pe cealaltă parte."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.566",
+        "text": "Acum trebuie să reglez cureaua textilă pentru călcâi"
+      },
+      {
+        "timing": "00:00:02.766 --> 00:00:04.533",
+        "text": "ca să se potrivească mărimea."
+      },
+      {
+        "timing": "00:00:05.333 --> 00:00:06.200",
+        "text": "De exemplu,"
+      },
+      {
+        "timing": "00:00:06.366 --> 00:00:09.966",
+        "text": "Am reglat Combo Ski între mărimile S și M."
+      },
+      {
+        "timing": "00:00:11.000 --> 00:00:13.566",
+        "text": "Așa că slăbesc catarama de plastic,"
+      },
+      {
+        "timing": "00:00:17.900 --> 00:00:21.133",
+        "text": "și reglez cureaua să se potrivească bine."
+      },
+      {
+        "timing": "00:00:27.300 --> 00:00:29.366",
+        "text": "Eu fac același lucru pe celălalt Combo Ski."
+      },
+      {
+        "timing": "00:00:29.566 --> 00:00:31.933",
+        "text": "Acum am pus Combo Ski pe piciorul drept,"
+      },
+      {
+        "timing": "00:00:32.400 --> 00:00:33.933",
+        "text": "Semnul R este"
+      },
+      {
+        "timing": "00:00:33.933 --> 00:00:35.566",
+        "text": "pe cureaua velcro superioară."
+      },
+      {
+        "timing": "00:00:47.300 --> 00:00:48.700",
+        "text": "Strâng bine curelele,"
+      },
+      {
+        "timing": "00:00:49.166 --> 00:00:50.566",
+        "text": "folosind catarama."
+      },
+      {
+        "timing": "00:00:53.700 --> 00:00:55.200",
+        "text": "Cureaua din față peste degetele de la picioare,"
+      },
+      {
+        "timing": "00:00:58.733 --> 00:01:00.133",
+        "text": "apoi cureaua superioară Velcro."
+      },
+      {
+        "timing": "00:01:07.366 --> 00:01:09.333",
+        "text": "La fel fac și pe piciorul stâng."
+      },
+      {
+        "timing": "00:01:09.333 --> 00:01:11.183",
+        "text": "În timp ce stau în picioare, strâng curelele,"
+      },
+      {
+        "timing": "00:01:11.233 --> 00:01:14.500",
+        "text": "astfel încât Combo Ski să fie ca o parte a bocancului."
+      },
+      {
+        "timing": "00:01:16.933 --> 00:01:20.800",
+        "text": "Verific cureaua pentru călcâi folosită pentru a regla mărimea."
+      },
+      {
+        "timing": "00:01:21.033 --> 00:01:22.166",
+        "text": "Cureaua superioară"
+      },
+      {
+        "timing": "00:01:22.933 --> 00:01:24.500",
+        "text": "poate sta peste bocanc"
+      },
+      {
+        "timing": "00:01:24.700 --> 00:01:26.966",
+        "text": "sau în jurul gambei, deasupra lui. Ambele variante sunt corecte."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:03.033",
+        "text": "Acum să arătăm cum să coborâm la vale pe Combo Ski."
+      },
+      {
+        "timing": "00:00:03.433 --> 00:00:04.100",
+        "text": "Nu începe niciodată,"
+      },
+      {
+        "timing": "00:00:04.100 --> 00:00:07.800",
+        "text": "pe pante abrupte sau pe pârtii de schi roșii."
+      },
+      {
+        "timing": "00:00:07.800 --> 00:00:10.933",
+        "text": "Este întotdeauna mai bine să începeți pe teren plat sau pante ușoare."
+      },
+      {
+        "timing": "00:00:11.866 --> 00:00:13.100",
+        "text": "Ai grijă mereu"
+      },
+      {
+        "timing": "00:00:13.133 --> 00:00:14.466",
+        "text": "să nu fii încordat."
+      },
+      {
+        "timing": "00:00:14.533 --> 00:00:17.333",
+        "text": "Rămâi relaxat și ține genunchii îndoiți."
+      },
+      {
+        "timing": "00:00:18.066 --> 00:00:19.700",
+        "text": "Îmi țin genunchii îndoiți,"
+      },
+      {
+        "timing": "00:00:20.533 --> 00:00:22.266",
+        "text": "fac viraje scurte"
+      },
+      {
+        "timing": "00:00:24.300 --> 00:00:26.800",
+        "text": "Pentru un echilibru mai bun, țin un picior"
+      },
+      {
+        "timing": "00:00:26.800 --> 00:00:28.350",
+        "text": "ușor în fața celuilalt."
+      },
+      {
+        "timing": "00:00:30.733 --> 00:00:32.900",
+        "text": "La început, poate fi incomod,"
+      },
+      {
+        "timing": "00:00:33.433 --> 00:00:35.366",
+        "text": "dar cu timpul te obișnuiești cu asta,"
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:41.966",
+        "text": "prinzi încredere și frânezi prin derapaj lateral."
+      },
+      {
+        "timing": "00:00:42.500 --> 00:00:43.250",
+        "text": "După cum am menționat,"
+      },
+      {
+        "timing": "00:00:43.266 --> 00:00:46.800",
+        "text": "Țineți un picior ușor în fața celuilalt pentru un echilibru mai bun."
+      },
+      {
+        "timing": "00:00:50.966 --> 00:00:52.133",
+        "text": "Greșeli comune."
+      },
+      {
+        "timing": "00:00:52.600 --> 00:00:55.366",
+        "text": "Nu schia cu picioarele rigide și nu frâna în plug."
+      },
+      {
+        "timing": "00:00:55.433 --> 00:00:58.433",
+        "text": "Nu funcționează și este posibil să cazi."
+      },
+      {
+        "timing": "00:00:58.766 --> 00:01:00.866",
+        "text": "Cheia este să fii relaxat,"
+      },
+      {
+        "timing": "00:01:01.800 --> 00:01:03.050",
+        "text": "mai ales în genunchi."
+      },
+      {
+        "timing": "00:01:03.200 --> 00:01:07.433",
+        "text": "După o scurtă practică, puteți crește viteza și unghiul de pantă,"
+      },
+      {
+        "timing": "00:01:08.066 --> 00:01:10.100",
+        "text": "și te poți bucura mai mult de coborâre."
+      },
+      {
+        "timing": "00:01:11.800 --> 00:01:12.633",
+        "text": "După cum puteți vedea,"
+      },
+      {
+        "timing": "00:01:12.766 --> 00:01:15.500",
+        "text": "datorită canturilor și curelei superioare,"
+      },
+      {
+        "timing": "00:01:16.266 --> 00:01:17.700",
+        "text": "coborârea este confortabilă și sigură."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.166 --> 00:00:02.900",
+        "text": "Una dintre cele mai distractive mișcări de pe Combo Ski este patinajul."
+      },
+      {
+        "timing": "00:00:03.266 --> 00:00:05.500",
+        "text": "În același timp, este una dintre cele mai ușoare modalități,"
+      },
+      {
+        "timing": "00:00:05.500 --> 00:00:06.900",
+        "text": "pentru a învăța Combo Ski."
+      },
+      {
+        "timing": "00:00:09.466 --> 00:00:11.966",
+        "text": "Te ajută să păstrezi echilibrul înainte și înapoi."
+      },
+      {
+        "timing": "00:00:12.166 --> 00:00:14.433",
+        "text": "patinezi la fel ca pe patine inline."
+      },
+      {
+        "timing": "00:00:15.433 --> 00:00:17.166",
+        "text": "poți patina la vale,"
+      },
+      {
+        "timing": "00:00:18.166 --> 00:00:19.266",
+        "text": "sau pe teren plat,"
+      },
+      {
+        "timing": "00:00:20.000 --> 00:00:20.800",
+        "text": "sau chiar,"
+      },
+      {
+        "timing": "00:00:21.400 --> 00:00:22.766",
+        "text": "ușor la deal."
+      },
+      {
+        "timing": "00:00:29.166 --> 00:00:32.000",
+        "text": "Când mergeți în vale, condițiile de zăpadă sunt foarte importante,"
+      },
+      {
+        "timing": "00:00:32.000 --> 00:00:34.100",
+        "text": "cel mai bine este pe zăpadă normală, moale."
+      },
+      {
+        "timing": "00:00:34.500 --> 00:00:36.966",
+        "text": "Suprafețele înghețate sunt periculoase și dificile."
+      },
+      {
+        "timing": "00:00:37.033 --> 00:00:39.833",
+        "text": "Pentru începători, alunecarea pe gheață este aproape imposibilă."
+      },
+      {
+        "timing": "00:00:39.833 --> 00:00:42.033",
+        "text": "Cizmele de iarnă robuste sunt ideale pentru Combo Ski."
+      },
+      {
+        "timing": "00:00:42.233 --> 00:00:43.100",
+        "text": "Există o singură regulă,"
+      },
+      {
+        "timing": "00:00:43.100 --> 00:00:44.500",
+        "text": "Trebuie să susțină glezna."
+      },
+      {
+        "timing": "00:00:44.600 --> 00:00:46.600",
+        "text": "Cu cât cizmele sunt mai înalte și mai rigide,"
+      },
+      {
+        "timing": "00:00:46.666 --> 00:00:47.466",
+        "text": "cu atât mai bine."
+      }
+    ],
+    [
+      {
+        "timing": "00:00:00.000 --> 00:00:02.433",
+        "text": "Acum trec Combo Ski în modul cu rachete de zăpadă."
+      },
+      {
+        "timing": "00:00:03.100 --> 00:00:04.433",
+        "text": "Apăs butonul"
+      },
+      {
+        "timing": "00:00:04.800 --> 00:00:06.100",
+        "text": "și eliberez fanta din spate."
+      },
+      {
+        "timing": "00:00:06.633 --> 00:00:08.333",
+        "text": "Fac la fel și pe cealaltă parte."
+      },
+      {
+        "timing": "00:00:11.366 --> 00:00:13.200",
+        "text": "Și acum, așa cum am menționat mai devreme,"
+      },
+      {
+        "timing": "00:00:13.333 --> 00:00:14.733",
+        "text": "cel mai important lucru este,"
+      },
+      {
+        "timing": "00:00:14.933 --> 00:00:17.033",
+        "text": "că vârfurile metalice sunt în față."
+      },
+      {
+        "timing": "00:00:17.800 --> 00:00:21.000",
+        "text": "Așa că atașez doar știftul din mijloc"
+      },
+      {
+        "timing": "00:00:23.566 --> 00:00:24.200",
+        "text": "și apăs pentru a-l fixa."
+      },
+      {
+        "timing": "00:00:24.200 --> 00:00:25.300",
+        "text": "Dacă este zăpadă înăuntru,"
+      },
+      {
+        "timing": "00:00:25.300 --> 00:00:27.400",
+        "text": "o îndepărtez pur și simplu suflând."
+      },
+      {
+        "timing": "00:00:28.233 --> 00:00:29.933",
+        "text": "Fac la fel și pe cealaltă parte."
+      },
+      {
+        "timing": "00:00:30.533 --> 00:00:32.566",
+        "text": "Așa este setat modul rachete de zăpadă."
+      },
+      {
+        "timing": "00:00:32.566 --> 00:00:33.333",
+        "text": "După cum puteți vedea,"
+      },
+      {
+        "timing": "00:00:33.500 --> 00:00:36.166",
+        "text": "Acum introduc piciorul drept."
+      },
+      {
+        "timing": "00:00:42.133 --> 00:00:44.933",
+        "text": "Îmi alunec piciorul complet înapoi și verific"
+      },
+      {
+        "timing": "00:00:44.966 --> 00:00:47.333",
+        "text": "că cureaua textilă pentru călcâi este bine așezată."
+      },
+      {
+        "timing": "00:00:49.966 --> 00:00:52.633",
+        "text": "Strâng cureaua din față peste degetele de la picioare,"
+      },
+      {
+        "timing": "00:00:55.766 --> 00:00:58.016",
+        "text": "apoi cureaua din spate peste partea superioară a piciorului,"
+      },
+      {
+        "timing": "00:01:01.200 --> 00:01:03.333",
+        "text": "și la final cureaua superioară cu arici."
+      },
+      {
+        "timing": "00:01:06.200 --> 00:01:07.000",
+        "text": "După cum puteți vedea,"
+      },
+      {
+        "timing": "00:01:07.533 --> 00:01:10.600",
+        "text": "vârful bocancului este aliniat cu vârful Combo Ski."
+      },
+      {
+        "timing": "00:01:10.933 --> 00:01:12.983",
+        "text": "Aceasta înseamnă că Combo Ski este montat corect."
+      },
+      {
+        "timing": "00:01:13.400 --> 00:01:16.033",
+        "text": "Pot merge confortabil în sus."
+      },
+      {
+        "timing": "00:01:21.333 --> 00:01:22.933",
+        "text": "Pe teren foarte abrupt,"
+      },
+      {
+        "timing": "00:01:23.033 --> 00:01:25.400",
+        "text": "înfige ferm Combo Ski în zăpadă."
+      }
+    ]
+  ]
+}

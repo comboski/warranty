@@ -38,7 +38,7 @@ function doPost(e) {
     sheet.getRange(Math.max(6, last + 1), 1, 1, 13).setValues([[
       p.id, now, safe(email), extended ? '3 roky – příspěvek + marketingový souhlas' : '2 roky – standardní',
       p.marketingConsent === true ? 'ANO' : 'NE', p.marketingConsent === true ? now : '',
-      extended ? 'ANO' : 'NE', p.language === 'en' ? 'en' : 'cs',
+      extended ? 'ANO' : 'NE', ['cs','en','de','fr','it','es','pl','nl','ro','hu','sk','sl'].includes(p.language) ? p.language : 'cs',
       safe(String(p.source || 'direct').slice(0,60)), '1.2', '', extended ? safe(social) : '', safe(retailer)
     ]]);
     SpreadsheetApp.flush();
