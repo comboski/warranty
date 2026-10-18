@@ -223,7 +223,17 @@ function renderLesson(){
   }
   $("quizCount").textContent=lang==="cs"?`${lesson.questions.length} ${lesson.questions.length===1?"otázka":lesson.questions.length<5?"otázky":"otázek"}`:`${lesson.questions.length} ${lesson.questions.length===1?"question":"questions"}`;
   $("quizQuestions").innerHTML=lesson.questions.map((item,i)=>`<fieldset class="quiz-item"><legend><span class="question-number">${i+1}.</span>${item.question}</legend>${item.answers.map((answer,j)=>`<label class="answer"><input type="radio" name="quiz-${i}" value="${j}"><span>${answer}</span></label>`).join("")}<p class="question-feedback" id="questionFeedback-${i}"></p></fieldset>`).join("");
-  $("feedback").textContent=""; $("feedback").className="feedback"; $("backButton").textContent=step===0?(lang==="cs"?"Výběr jazyka":"Language selection"):copy[lang].back; $("backButton").disabled=false; $("continueButton").textContent=copy[lang].check;
+  $("feedback").textContent=""; $("feedback").className="feedback";
+  const back=$("backButton");
+  back.classList.toggle("back-icon-only",step===0);
+  if(step===0){
+    back.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h15"/></svg>';
+    back.setAttribute("aria-label",lang==="cs"?"Zpět na výběr jazyka":"Back to language selection");
+  }else{
+    back.textContent=copy[lang].back;
+    back.removeAttribute("aria-label");
+  }
+  back.disabled=false; $("continueButton").textContent=copy[lang].check;
   $("progressLabel").textContent=`${copy[lang].step} ${step+1} ${copy[lang].of} ${total}`; const percent=Math.round((step+1)/total*100); $("progressPercent").textContent=`${percent} %`; $("progressFill").style.width=`${percent}%`;
 }
 

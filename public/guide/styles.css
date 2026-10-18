@@ -162,6 +162,8 @@ button { cursor: pointer; }
 .feedback.error { color: var(--red); }
 .feedback.correct { color: var(--green); }
 .lesson-actions { display: flex; gap: 12px; justify-content: space-between; margin-top: 18px; }
+.lesson-actions .back-icon-only { display: grid; place-items: center; min-width: 52px; min-height: 52px; padding: 12px; }
+.back-icon-only svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .button { min-height: 52px; padding: 0 22px; border-radius: 14px; border: 1px solid transparent; font-weight: 850; }
 .button-primary { color: var(--ink); background: var(--lime); box-shadow: 0 9px 20px rgba(79,207,37,.22); }
 .button-primary:hover { background: #72e84a; }
