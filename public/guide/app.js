@@ -284,7 +284,7 @@ $("registrationForm").addEventListener("submit",async event=>{
     const result=await response.json();
     if(!response.ok||result.ok!==true)throw new Error(result.error||copy[lang].formSaveError);
     try{sessionStorage.removeItem("combo-pending-registration");}catch{}
-    $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").textContent=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;$("certificateType").textContent=type==="extended"?copy[lang].extendedCertificate:copy[lang].standardCertificate;$("certificateEmail").textContent=email;window.scrollTo({top:0,behavior:"smooth"});
+    $("registration").classList.add("hidden");$("success").classList.remove("hidden");$("successTitle").textContent=copy[lang].successTitle;$("successMessage").textContent=type==="extended"?copy[lang].extendedSuccess:copy[lang].standardSuccess;window.scrollTo({top:0,behavior:"smooth"});
   }catch(error){$("formError").textContent=error.message||copy[lang].formSaveError;}
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
