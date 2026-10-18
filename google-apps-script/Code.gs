@@ -11,6 +11,11 @@ function doPost(e) {
     const email = String(p.email || '').trim().toLowerCase();
     const extended = p.warrantyType === 'extended';
     const social = String(p.socialProof || '').trim();
+    const retailers = {'combo-ski':'E-shop Combo Ski',decathlon:'Decathlon',amazon:'Amazon',kaufland:'Kaufland'};
+    const otherRetailer = String(p.otherRetailer || '').trim();
+    if (p.retailer && !Object.prototype.hasOwnProperty.call(retailers,p.retailer) && p.retailer !== 'other') throw new Error('Neplatný prodejce.');
+    if (p.retailer === 'other' && (!otherRetailer || otherRetailer.length > 150)) throw new Error('Vyplňte název prodejce.');
+    const retailer = p.retailer === 'other' ? 'Jiný prodejce: ' + otherRetailer : (retailers[p.retailer] || '');
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254) throw new Error('Zadejte platný e-mail.');
     if (!['standard', 'extended'].includes(p.warrantyType)) throw new Error('Vyberte typ registrace.');
     if (extended && (social.length < 2 || social.length > 300 || p.marketingConsent !== true || p.warrantyTermsConsent !== true)) throw new Error('Potvrďte podmínky prodloužené záruky.');
@@ -25,11 +30,16 @@ function doPost(e) {
     if (cache.get(cacheKey)) throw new Error('Please wait');
     const now = new Date().toISOString();
     const safe = value => /^[=+@\-\t\r]/.test(String(value)) ? "'" + value : String(value);
-    sheet.getRange(Math.max(6, last + 1), 1, 1, 12).setValues([[
+    if (!sheet.getRange(5,13).getValue()) {
+      sheet.getRange(5,12).copyTo(sheet.getRange(5,13), {formatOnly:true});
+      sheet.getRange(5,13).setValue('Místo nákupu');
+      sheet.setColumnWidth(13,240);
+    }
+    sheet.getRange(Math.max(6, last + 1), 1, 1, 13).setValues([[
       p.id, now, safe(email), extended ? '3 roky – příspěvek + marketingový souhlas' : '2 roky – standardní',
       p.marketingConsent === true ? 'ANO' : 'NE', p.marketingConsent === true ? now : '',
       extended ? 'ANO' : 'NE', p.language === 'en' ? 'en' : 'cs',
-      safe(String(p.source || 'direct').slice(0,60)), '1.2', '', extended ? safe(social) : ''
+      safe(String(p.source || 'direct').slice(0,60)), '1.2', '', extended ? safe(social) : '', safe(retailer)
     ]]);
     SpreadsheetApp.flush();
     cache.put(cacheKey, '1', 60);

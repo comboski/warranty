@@ -106,6 +106,17 @@
         <label class="honeypot" aria-hidden="true">Web<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></label>
         <div class="form-grid">
           <label class="field"><span>E-mail <b aria-label="povinné">*</b></span><input id="email" name="email" type="email" autocomplete="email" required placeholder="vas@email.cz"></label>
+          <label class="field"><span data-i18n="retailerLabel">Kde jste Combo Ski koupili? *</span>
+            <select id="retailer" name="retailer" required>
+              <option value="" data-i18n="retailerPlaceholder">Vyberte prodejce</option>
+              <option value="combo-ski" data-i18n="retailerCombo">E-shop Combo Ski</option>
+              <option value="decathlon">Decathlon</option>
+              <option value="amazon">Amazon</option>
+              <option value="kaufland">Kaufland</option>
+              <option value="other" data-i18n="retailerOther">Jiný prodejce</option>
+            </select>
+          </label>
+          <label class="field hidden" id="otherRetailerField"><span data-i18n="retailerNameLabel">Název prodejce *</span><input id="otherRetailer" name="otherRetailer" type="text" maxlength="150" autocomplete="off" disabled></label>
         </div>
 
         <fieldset class="warranty-choice">

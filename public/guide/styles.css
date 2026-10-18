@@ -172,7 +172,7 @@ button { cursor: pointer; }
 .form-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
 .field { display: grid; gap: 7px; font-weight: 780; }
 .field em { color: var(--muted); font-size: .78rem; font-style: normal; font-weight: 600; }
-.field input { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid #bec7d4; border-radius: 12px; background: white; }
+.field input, .field select { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid #bec7d4; border-radius: 12px; color: var(--ink); background: white; font: inherit; }
 .warranty-choice { display: grid; gap: 12px; margin: 28px 0 18px; padding: 0; border: 0; }
 .warranty-choice legend { margin-bottom: 10px; font-weight: 900; }
 .choice-card { position: relative; display: flex; align-items: center; gap: 14px; min-height: 92px; padding: 18px; border: 1px solid var(--line); border-radius: 16px; cursor: pointer; }

@@ -158,6 +158,9 @@ Object.assign(copy.en, {
   actionRuleRights:"Your statutory rights are unaffected by participating or not participating in this promotion. The stated coverage and exclusions apply to the voluntarily provided third warranty year. Contact <a href=mailto:info@comboski.cz>info@comboski.cz</a> with questions or warranty service requests."
 });
 
+Object.assign(copy.cs,{retailerLabel:"Kde jste Combo Ski koupili? *",retailerPlaceholder:"Vyberte prodejce",retailerCombo:"E-shop Combo Ski",retailerOther:"Jiný prodejce",retailerNameLabel:"Název prodejce *",retailerError:"Vyberte, kde jste Combo Ski koupili.",retailerNameError:"Napište název prodejce."});
+Object.assign(copy.en,{retailerLabel:"Where did you buy Combo Ski? *",retailerPlaceholder:"Select a retailer",retailerCombo:"Combo Ski online store",retailerOther:"Other retailer",retailerNameLabel:"Retailer name *",retailerError:"Select where you bought Combo Ski.",retailerNameError:"Enter the retailer name."});
+
 const $ = id => document.getElementById(id);
 let lang = "cs", step = 0, verified = false;
 
@@ -247,12 +250,15 @@ $("newsletterConsent").addEventListener("change",()=>{if($("newsletterConsent").
 $("registrationForm").addEventListener("submit",async event=>{
   event.preventDefault();
   const email=$("email").value.trim();
+  const retailer=$("retailer").value, otherRetailer=$("otherRetailer").value.trim();
   const type=document.querySelector('input[name="warranty"]:checked')?.value;
   const socialProof=$("socialProof").value.trim();
   const marketingConsent=type==="extended"?$("newsletterConsent").checked:$("standardNewsletterConsent").checked;
   const submit=$("submitButton");
   $("newsletterError").classList.add("hidden");
   if(!/^\S+@\S+\.\S+$/.test(email)){$("formError").textContent=copy[lang].formEmail;return;}
+  if(!retailer){$("formError").textContent=copy[lang].retailerError;$("retailer").focus();return;}
+  if(retailer==="other"&&!otherRetailer){$("formError").textContent=copy[lang].retailerNameError;$("otherRetailer").focus();return;}
   if(!type){$("formError").textContent=copy[lang].formChoice;return;}
   if(type==="extended"&&socialProof.length<2){$("formError").textContent=copy[lang].formSocialProof;return;}
   if(type==="extended"&&!$("warrantyTerms").checked){$("formError").textContent=copy[lang].formSocialPost;return;}
@@ -262,7 +268,7 @@ $("registrationForm").addEventListener("submit",async event=>{
   try{const parentUrl=new URL(document.referrer);source=parentUrl.searchParams.get("source")||"direct";}catch{}
   try{
     source=new URLSearchParams(location.search).get("source")||source;
-    const payload={email,warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value};
+    const payload={email,retailer,otherRetailer:retailer==="other"?otherRetailer:"",warrantyType:type,socialProof:type==="extended"?socialProof:"",marketingConsent,warrantyTermsConsent:type==="extended"&&$("warrantyTerms").checked,language:lang,source,website:$("website").value};
     const signature=JSON.stringify(payload);
     let pending;
     try{pending=JSON.parse(sessionStorage.getItem("combo-pending-registration")||"null");}catch{}
@@ -277,4 +283,12 @@ $("registrationForm").addEventListener("submit",async event=>{
   finally{submit.disabled=false;submit.textContent=copy[lang].submit;}
 });
 $("restartButton").addEventListener("click",()=>{$("registrationForm").reset();$("extendedConsents").classList.add("hidden");$("standardNewsletterOffer").classList.add("hidden");$("newsletterError").classList.add("hidden");startCourse(lang);});
+function syncRetailerField(){
+  const other=$("retailer").value==="other";
+  $("otherRetailerField").classList.toggle("hidden",!other);
+  $("otherRetailer").disabled=!other;
+  $("otherRetailer").required=other;
+}
+$("retailer").addEventListener("change",syncRetailerField);
+$("registrationForm").addEventListener("reset",()=>queueMicrotask(syncRetailerField));
 setLanguage("cs");
