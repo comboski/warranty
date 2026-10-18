@@ -5,7 +5,7 @@
       "title": "Hótalp vagy minisí?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Itt bemutatjuk, hogyan válthat az emelkedőn használt hótalpas mód és a lejtmeneti minisí mód között. A kötésen kulcslyuk alakú rögzítőnyílások vannak. Az első nyílás mindig a bakancs orránál, a hátsó a saroknál van, mindkét módban.",
+      "intro": "Itt bemutatjuk, hogyan válthat az emelkedőn használt hótalpas mód és a lejtmeneti minisí mód között. A kötésen kulcslyuk alakú rögzítőnyílások vannak. Az első nyílás mindig a kötés elején, a hátsó a kötés hátulján van, mindkét módban.",
       "points": [
         {
           "text": "Hótalpas módban a fém peremmel és fém tüskékkel ellátott oldal mindig előre mutat. A műanyag hegy soha nem lehet elöl.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "Hótalpas módban a bakancs orránál lévő első, kulcslyuk alakú rögzítőnyílást rögzítse a középső csapra mindkét oldalon. Az első csap szabadon marad, így a sarok kissé mozoghat.",
+          "text": "Hótalpas módban a kötés elején lévő első, kulcslyuk alakú rögzítőnyílást rögzítse a középső csapra mindkét oldalon. Az első csap szabadon marad, így a sarok kissé mozoghat.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Először a saroknál lévő hátsó nyílást rögzítse.",
+          "text": "Először a kötés hátulján lévő hátsó nyílást rögzítse.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Ezután rögzítse a bakancs orránál lévő első nyílást a kioldógombbal.",
+          "text": "Ezután rögzítse a kötés elején lévő első nyílást a kioldógombbal.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Mi van rögzítve a középső csapn hótalpas módban?",
           "answers": [
-            "Csak a bakancs orránál lévő első nyílás, hogy a sarok kissé mozoghasson",
-            "Csak a saroknál lévő hátsó nyílás",
+            "Csak a kötés elején lévő első nyílás, hogy a sarok kissé mozoghasson",
+            "Csak a kötés hátulján lévő hátsó nyílás",
             "Mindkét rögzítőnyílás"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Rögzítse a bakancs orránál lévő első, kulcslyuk alakú nyílást a középső csapra mindkét oldalon.",
+          "text": "Rögzítse a kötés elején lévő első, kulcslyuk alakú nyílást a középső csapra mindkét oldalon.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Mi van rögzítve a középső csapn hótalpas módban?",
           "answers": [
-            "Csak a bakancs orránál lévő első nyílás, hogy a sarok kissé mozoghasson",
-            "Csak a saroknál lévő hátsó nyílás",
+            "Csak a kötés elején lévő első nyílás, hogy a sarok kissé mozoghasson",
+            "Csak a kötés hátulján lévő hátsó nyílás",
             "Mindkét rögzítőnyílás"
           ],
           "correct": 0,

@@ -5,7 +5,7 @@
       "title": "Ciaspole o minisci?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Qui vediamo come passare dalla modalità ciaspole per salire alla modalità minisci per scendere. L’attacco ha asole di fissaggio a forma di buco della serratura. In entrambe le modalità, l’asola anteriore è vicino alla punta dello scarponcino e quella posteriore vicino al tallone.",
+      "intro": "Qui vediamo come passare dalla modalità ciaspole per salire alla modalità minisci per scendere. L’attacco ha asole di fissaggio a forma di buco della serratura. In entrambe le modalità, l’asola anteriore è nella parte anteriore dell’attacco e quella posteriore nella parte posteriore dell’attacco.",
       "points": [
         {
           "text": "Nella modalità racchette da neve, il lato con il bordo in metallo e le punte in metallo è sempre rivolto in avanti. La punta in plastica non deve mai trovarsi nella parte anteriore.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "In modalità ciaspole, aggancia l’asola anteriore a forma di buco della serratura, vicino alla punta dello scarponcino, al perno centrale su entrambi i lati. Il perno anteriore resta libero, così il tallone può muoversi leggermente.",
+          "text": "In modalità ciaspole, aggancia l’asola anteriore a forma di buco della serratura, nella parte anteriore dell’attacco, al perno centrale su entrambi i lati. Il perno anteriore resta libero, così il tallone può muoversi leggermente.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Aggancia prima l’asola posteriore, vicino al tallone.",
+          "text": "Aggancia prima l’asola posteriore, nella parte posteriore dell’attacco.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Poi aggancia l’asola anteriore con il pulsante di sgancio, vicino alla punta dello scarponcino.",
+          "text": "Poi aggancia l’asola anteriore con il pulsante di sgancio, nella parte anteriore dell’attacco.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Cosa è fissato sul perno centrale in modalità racchette da neve?",
           "answers": [
-            "Solo l’asola anteriore, vicino alla punta dello scarponcino, così il tallone può muoversi leggermente",
-            "Solo l’asola posteriore, vicino al tallone",
+            "Solo l’asola anteriore, nella parte anteriore dell’attacco, così il tallone può muoversi leggermente",
+            "Solo l’asola posteriore, nella parte posteriore dell’attacco",
             "Entrambe le asole di fissaggio"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Aggancia l’asola anteriore a forma di buco della serratura, vicino alla punta dello scarponcino, al perno centrale su entrambi i lati.",
+          "text": "Aggancia l’asola anteriore a forma di buco della serratura, nella parte anteriore dell’attacco, al perno centrale su entrambi i lati.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Cosa è fissato sul perno centrale in modalità racchette da neve?",
           "answers": [
-            "Solo l’asola anteriore, vicino alla punta dello scarponcino, così il tallone può muoversi leggermente",
-            "Solo l’asola posteriore, vicino al tallone",
+            "Solo l’asola anteriore, nella parte anteriore dell’attacco, così il tallone può muoversi leggermente",
+            "Solo l’asola posteriore, nella parte posteriore dell’attacco",
             "Entrambe le asole di fissaggio"
           ],
           "correct": 0,

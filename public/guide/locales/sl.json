@@ -5,7 +5,7 @@
       "title": "Krplje ali mini smuči?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Tukaj pokažemo preklop iz načina krpelj za vzpon v način mini smuči za spust. Vez ima pritrdilne odprtine v obliki ključavnice. V obeh načinih je sprednja odprtina pri konici čevlja, zadnja pa pri peti.",
+      "intro": "Tukaj pokažemo preklop iz načina krpelj za vzpon v način mini smuči za spust. Vez ima pritrdilne odprtine v obliki ključavnice. V obeh načinih je sprednja odprtina na sprednjem delu vezi, zadnja pa na zadnjem delu vezi.",
       "points": [
         {
           "text": "V načinu s krpljami je stran s kovinskim robom in kovinskimi konicami vedno obrnjena naprej. Plastična konica nikoli ne sme biti spredaj.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "V načinu krpelj pritrdite sprednjo odprtino v obliki ključavnice pri konici čevlja na srednji zatič na obeh straneh. Sprednji zatič ostane prost, zato se lahko peta rahlo premika.",
+          "text": "V načinu krpelj pritrdite sprednjo odprtino v obliki ključavnice na sprednjem delu vezi na srednji zatič na obeh straneh. Sprednji zatič ostane prost, zato se lahko peta rahlo premika.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najprej pritrdite zadnjo odprtino pri peti čevlja.",
+          "text": "Najprej pritrdite zadnjo odprtino na zadnjem delu vezi.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Nato pritrdite sprednjo odprtino z gumbom za sprostitev pri konici čevlja.",
+          "text": "Nato pritrdite sprednjo odprtino z gumbom za sprostitev na sprednjem delu vezi.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Kaj je zavarovano na srednjem zatiču v načinu krpljanja?",
           "answers": [
-            "Samo sprednja odprtina pri konici čevlja, da se lahko peta rahlo premika",
-            "Samo zadnja odprtina pri peti",
+            "Samo sprednja odprtina na sprednjem delu vezi, da se lahko peta rahlo premika",
+            "Samo zadnja odprtina na zadnjem delu vezi",
             "Obe pritrdilni odprtini"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Sprednjo odprtino v obliki ključavnice pri konici čevlja pritrdite na srednji zatič na obeh straneh.",
+          "text": "Sprednjo odprtino v obliki ključavnice na sprednjem delu vezi pritrdite na srednji zatič na obeh straneh.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Kaj je zavarovano na srednjem zatiču v načinu krpljanja?",
           "answers": [
-            "Samo sprednja odprtina pri konici čevlja, da se lahko peta rahlo premika",
-            "Samo zadnja odprtina pri peti",
+            "Samo sprednja odprtina na sprednjem delu vezi, da se lahko peta rahlo premika",
+            "Samo zadnja odprtina na zadnjem delu vezi",
             "Obe pritrdilni odprtini"
           ],
           "correct": 0,

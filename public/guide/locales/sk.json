@@ -5,7 +5,7 @@
       "title": "Snežnice alebo minilyže?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Ukážeme si prepnutie z režimu snežnice na chôdzu do kopca do režimu minilyže na jazdu dolu. Upevňovacie otvory vo viazaní majú tvar kľúčovej dierky. Predný otvor je pri špičke topánky a zadný pri päte – v oboch režimoch.",
+      "intro": "Ukážeme si prepnutie z režimu snežnice na chôdzu do kopca do režimu minilyže na jazdu dolu. Upevňovacie otvory vo viazaní majú tvar kľúčovej dierky. Predný otvor je v prednej časti viazania a zadný v zadnej časti viazania – v oboch režimoch.",
       "points": [
         {
           "text": "V režime snežnice strana s kovovým lemom a kovovými hrotmi vždy smeruje dopredu. Plastová špička Combo Ski nesmie byť nikdy vpredu.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "V režime snežnice upevnite predný otvor v tvare kľúčovej dierky pri špičke topánky na prostredný čap na oboch stranách. Predný čap zostáva voľný, takže sa päta môže mierne pohybovať.",
+          "text": "V režime snežnice upevnite predný otvor v tvare kľúčovej dierky v prednej časti viazania na prostredný čap na oboch stranách. Predný čap zostáva voľný, takže sa päta môže mierne pohybovať.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najprv nasaďte zadný upevňovací otvor pri päte topánky.",
+          "text": "Najprv nasaďte zadný upevňovací otvor v zadnej časti viazania.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Potom nasaďte predný upevňovací otvor s tlačidlom pri špičke topánky.",
+          "text": "Potom nasaďte predný upevňovací otvor s tlačidlom v prednej časti viazania.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Čo je zaistené na strednom kolíku v režime snežnice?",
           "answers": [
-            "Iba predný otvor pri špičke topánky, aby sa päta mohla mierne pohybovať",
-            "Iba zadný otvor pri päte",
+            "Iba predný otvor v prednej časti viazania, aby sa päta mohla mierne pohybovať",
+            "Iba zadný otvor v zadnej časti viazania",
             "Oba upevňovacie otvory"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Predný otvor v tvare kľúčovej dierky pri špičke topánky upevnite na prostredný čap na oboch stranách.",
+          "text": "Predný otvor v tvare kľúčovej dierky v prednej časti viazania upevnite na prostredný čap na oboch stranách.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Čo je zaistené na strednom kolíku v režime snežnice?",
           "answers": [
-            "Iba predný otvor pri špičke topánky, aby sa päta mohla mierne pohybovať",
-            "Iba zadný otvor pri päte",
+            "Iba predný otvor v prednej časti viazania, aby sa päta mohla mierne pohybovať",
+            "Iba zadný otvor v zadnej časti viazania",
             "Oba upevňovacie otvory"
           ],
           "correct": 0,

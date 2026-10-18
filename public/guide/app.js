@@ -85,17 +85,17 @@ for (const language of ["cs", "en"]) {
     : "Position Combo Ski so the metal teeth cannot damage the sliding surface.";
 }
 
-lessons.cs[0].intro += " Upevňovací otvory ve vázání mají tvar klíčové dírky. Přední otvor je u špičky boty, zadní u paty — v obou režimech.";
+lessons.cs[0].intro += " Upevňovací otvory ve vázání mají tvar klíčové dírky. Přední otvor je v přední části vázání, zadní v zadní části vázání — v obou režimech.";
 lessons.en[0].title = "Snowshoes or mini-skis?";
-lessons.en[0].intro += " The binding has keyhole-shaped mounting slots. The front slot is at the boot toe and the rear slot at the boot heel, in both modes.";
-lessons.cs[0].points[2].text = "V režimu sněžnice upevněte přední otvor ve tvaru klíčové dírky (u špičky boty) na prostřední čep na obou stranách. Přední čep zůstává volný, takže se pata může mírně pohybovat.";
-lessons.en[0].points[2].text = "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.";
-lessons.en[0].points[4].text = "First attach the rear mounting slot, at the boot heel.";
-lessons.en[0].points[5].text = "Then attach the front mounting slot with the release button, at the boot toe.";
-lessons.cs[0].points[4].text = "Nejprve nasaďte zadní otvor ve tvaru klíčové dírky, u paty boty.";
-lessons.cs[0].points[5].text = "Poté nasaďte přední otvor ve tvaru klíčové dírky s tlačítkem, u špičky boty.";
-lessons.cs[0].questions[1].answers[0] = "Pouze přední otvor ve tvaru klíčové dírky (u špičky boty), aby se pata mohla mírně pohybovat";
-lessons.en[0].questions[1].answers = ["Only the front mounting slot (at the boot toe), so the heel can move slightly", "Only the rear mounting slot (at the boot heel)", "Both mounting slots"];
+lessons.en[0].intro += " The binding has keyhole-shaped mounting slots. The front slot is at the front of the binding and the rear slot at the back of the binding, in both modes.";
+lessons.cs[0].points[2].text = "V režimu sněžnice upevněte přední otvor ve tvaru klíčové dírky (v přední části vázání) na prostřední čep na obou stranách. Přední čep zůstává volný, takže se pata může mírně pohybovat.";
+lessons.en[0].points[2].text = "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the front of the binding) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.";
+lessons.en[0].points[4].text = "First attach the rear mounting slot, at the back of the binding.";
+lessons.en[0].points[5].text = "Then attach the front mounting slot with the release button, at the front of the binding.";
+lessons.cs[0].points[4].text = "Nejprve nasaďte zadní otvor ve tvaru klíčové dírky, v zadní části vázání.";
+lessons.cs[0].points[5].text = "Poté nasaďte přední otvor ve tvaru klíčové dírky s tlačítkem, v přední části vázání.";
+lessons.cs[0].questions[1].answers[0] = "Pouze přední otvor ve tvaru klíčové dírky (v přední části vázání), aby se pata mohla mírně pohybovat";
+lessons.en[0].questions[1].answers = ["Only the front mounting slot (at the front of the binding), so the heel can move slightly", "Only the rear mounting slot (at the back of the binding)", "Both mounting slots"];
 lessons.en[0].questions[2].answers = ["Front mounting slot first, then rear", "Rear mounting slot first, then the front slot with the release button", "The order does not matter"];
 for(const language of ["cs","en"]){
   const cs=language==="cs", chapters=lessons[language];
@@ -104,7 +104,7 @@ for(const language of ["cs","en"]){
     : " The textile heel strap sets the boot size and position. The front ratchet strap goes over the boot toe and the rear ratchet strap over the instep. The upper hook-and-loop strap wraps around the shin.";
   chapters[1].questions[2].question=cs?"Jak dotáhnete přední a zadní ráčnový pásek před jízdou?":"How should you tighten the front and rear ratchet straps before riding?";
   chapters[1].questions[2].answers=cs?["Oba nechám volné","Oba pevně, jako by Combo Ski byla pevnou součástí boty","Stačí dotáhnout pouze přední pásek"]:["Leave both loose","Tighten both firmly, as if Combo Ski were a solid part of the boot","Tightening only the front strap is enough"];
-  chapters[4].points[3].text=cs?"Přední otvor ve tvaru klíčové dírky (u špičky boty) upevněte na prostřední čep na obou stranách.":"Attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side.";
+  chapters[4].points[3].text=cs?"Přední otvor ve tvaru klíčové dírky (v přední části vázání) upevněte na prostřední čep na obou stranách.":"Attach the front keyhole-shaped mounting slot (at the front of the binding) to the middle pin on each side.";
   chapters[4].points[6].text=cs?"Nejprve dotáhněte přední ráčnový pásek přes špičku boty, potom zadní ráčnový pásek přes nárt a nakonec horní pásek se suchým zipem kolem holeně.":"First tighten the front ratchet strap over the boot toe, then the rear ratchet strap over the instep, and finally the upper hook-and-loop strap around the shin.";
   chapters[4].questions[1].question=cs?"V jakém pořadí dotahujete pásky v režimu sněžnice?":"In what order should you tighten the straps in snowshoe mode?";
   chapters[4].questions[1].answers=cs?["Nejprve zadní ráčnový přes nárt, pak přední přes špičku","Přední ráčnový přes špičku, zadní přes nárt a nakonec horní se suchým zipem","Na pořadí nezáleží"]:["Rear ratchet strap over the instep first, then front over the toe","Front ratchet strap over the toe, rear over the instep, then the upper hook-and-loop strap","The order does not matter"];

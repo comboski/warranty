@@ -5,7 +5,7 @@
       "title": "Sneeuwschoenen of miniski's?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Hier zie je hoe je wisselt tussen de sneeuwschoenstand voor omhoog lopen en de miniskistand voor afdalen. De binding heeft sleutelgatvormige bevestigingssleuven. In beide standen zit de voorste sleuf bij de neus van de schoen en de achterste bij de hiel.",
+      "intro": "Hier zie je hoe je wisselt tussen de sneeuwschoenstand voor omhoog lopen en de miniskistand voor afdalen. De binding heeft sleutelgatvormige bevestigingssleuven. In beide standen zit de voorste sleuf aan de voorkant van de binding en de achterste aan de achterkant van de binding.",
       "points": [
         {
           "text": "In de sneeuwschoenmodus wijst de kant met de metalen rand en metalen punten altijd naar voren. De plastic punt mag nooit aan de voorkant zitten.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "Bevestig in de sneeuwschoenstand de voorste sleutelgatvormige sleuf bij de neus van de schoen aan de middelste pen, aan beide kanten. De voorste pen blijft vrij, zodat de hiel een beetje kan bewegen.",
+          "text": "Bevestig in de sneeuwschoenstand de voorste sleutelgatvormige sleuf aan de voorkant van de binding aan de middelste pen, aan beide kanten. De voorste pen blijft vrij, zodat de hiel een beetje kan bewegen.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Bevestig eerst de achterste sleuf bij de hiel.",
+          "text": "Bevestig eerst de achterste sleuf aan de achterkant van de binding.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Bevestig daarna de voorste sleuf met de ontgrendelingsknop bij de neus van de schoen.",
+          "text": "Bevestig daarna de voorste sleuf met de ontgrendelingsknop aan de voorkant van de binding.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Wat wordt er in de sneeuwschoenmodus op de middelste pin vastgezet?",
           "answers": [
-            "Alleen de voorste sleuf bij de neus van de schoen, zodat de hiel een beetje kan bewegen",
-            "Alleen de achterste sleuf bij de hiel",
+            "Alleen de voorste sleuf aan de voorkant van de binding, zodat de hiel een beetje kan bewegen",
+            "Alleen de achterste sleuf aan de achterkant van de binding",
             "Beide bevestigingssleuven"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Bevestig de voorste sleutelgatvormige sleuf bij de neus van de schoen aan de middelste pen, aan beide kanten.",
+          "text": "Bevestig de voorste sleutelgatvormige sleuf aan de voorkant van de binding aan de middelste pen, aan beide kanten.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Wat wordt er in de sneeuwschoenmodus op de middelste pin vastgezet?",
           "answers": [
-            "Alleen de voorste sleuf bij de neus van de schoen, zodat de hiel een beetje kan bewegen",
-            "Alleen de achterste sleuf bij de hiel",
+            "Alleen de voorste sleuf aan de voorkant van de binding, zodat de hiel een beetje kan bewegen",
+            "Alleen de achterste sleuf aan de achterkant van de binding",
             "Beide bevestigingssleuven"
           ],
           "correct": 0,

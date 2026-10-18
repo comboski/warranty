@@ -5,7 +5,7 @@
       "title": "Snowshoes or mini-skis?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "This chapter shows the complete switch between snowshoe mode for walking uphill and mini-ski mode for riding down. The binding has keyhole-shaped mounting slots. The front slot is at the boot toe and the rear slot at the boot heel, in both modes.",
+      "intro": "This chapter shows the complete switch between snowshoe mode for walking uphill and mini-ski mode for riding down. The binding has keyhole-shaped mounting slots. The front slot is at the front of the binding and the rear slot at the back of the binding, in both modes.",
       "points": [
         {
           "text": "In snowshoe mode, the side with the metal rim and metal spikes always points forward. The plastic tip must never be at the front.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.",
+          "text": "In snowshoe mode, attach the front keyhole-shaped mounting slot (at the front of the binding) to the middle pin on each side. The front pin remains unused, allowing the heel to move slightly.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "First attach the rear mounting slot, at the boot heel.",
+          "text": "First attach the rear mounting slot, at the back of the binding.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Then attach the front mounting slot with the release button, at the boot toe.",
+          "text": "Then attach the front mounting slot with the release button, at the front of the binding.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "What is secured on the middle pin in snowshoe mode?",
           "answers": [
-            "Only the front mounting slot (at the boot toe), so the heel can move slightly",
-            "Only the rear mounting slot (at the boot heel)",
+            "Only the front mounting slot (at the front of the binding), so the heel can move slightly",
+            "Only the rear mounting slot (at the back of the binding)",
             "Both mounting slots"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Attach the front keyhole-shaped mounting slot (at the boot toe) to the middle pin on each side.",
+          "text": "Attach the front keyhole-shaped mounting slot (at the front of the binding) to the middle pin on each side.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "What is secured on the middle pin in snowshoe mode?",
           "answers": [
-            "Only the front mounting slot (at the boot toe), so the heel can move slightly",
-            "Only the rear mounting slot (at the boot heel)",
+            "Only the front mounting slot (at the front of the binding), so the heel can move slightly",
+            "Only the rear mounting slot (at the back of the binding)",
             "Both mounting slots"
           ],
           "correct": 0,

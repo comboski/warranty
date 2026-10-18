@@ -5,7 +5,7 @@
       "title": "Schneeschuhe oder Miniski?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Hier sehen Sie den Wechsel zwischen Schneeschuhmodus zum Bergaufgehen und Miniski-Modus zum Abfahren. Die Bindung hat schlüssellochförmige Befestigungsöffnungen. Vorne bedeutet immer an der Schuhspitze, hinten an der Ferse – in beiden Modi.",
+      "intro": "Hier sehen Sie den Wechsel zwischen Schneeschuhmodus zum Bergaufgehen und Miniski-Modus zum Abfahren. Die Bindung hat schlüssellochförmige Befestigungsöffnungen. Vorne bedeutet immer vorne an der Bindung, hinten hinten an der Bindung – in beiden Modi.",
       "points": [
         {
           "text": "Im Schneeschuhmodus zeigt die Seite mit dem Metallrand und den Metallspikes immer nach vorne. Die Kunststoffspitze darf niemals vorne sein.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "Im Schneeschuhmodus befestigen Sie die vordere schlüssellochförmige Öffnung an der Schuhspitze auf beiden Seiten am mittleren Stift. Der vordere Stift bleibt frei, damit sich die Ferse leicht bewegen kann.",
+          "text": "Im Schneeschuhmodus befestigen Sie die vordere schlüssellochförmige Öffnung vorne an der Bindung auf beiden Seiten am mittleren Stift. Der vordere Stift bleibt frei, damit sich die Ferse leicht bewegen kann.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Zuerst befestigen Sie die hintere Öffnung an der Ferse.",
+          "text": "Zuerst befestigen Sie die hintere Öffnung hinten an der Bindung.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Danach befestigen Sie die vordere Öffnung mit dem Entriegelungsknopf an der Schuhspitze.",
+          "text": "Danach befestigen Sie die vordere Öffnung mit dem Entriegelungsknopf vorne an der Bindung.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Was wird im Schneeschuhmodus am Mittelstift befestigt?",
           "answers": [
-            "Nur die vordere Befestigungsöffnung an der Schuhspitze, damit sich die Ferse leicht bewegen kann",
-            "Nur die hintere Befestigungsöffnung an der Ferse",
+            "Nur die vordere Befestigungsöffnung vorne an der Bindung, damit sich die Ferse leicht bewegen kann",
+            "Nur die hintere Befestigungsöffnung hinten an der Bindung",
             "Beide Befestigungsöffnungen"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Befestigen Sie die vordere schlüssellochförmige Öffnung an der Schuhspitze auf beiden Seiten am mittleren Stift.",
+          "text": "Befestigen Sie die vordere schlüssellochförmige Öffnung vorne an der Bindung auf beiden Seiten am mittleren Stift.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Was wird im Schneeschuhmodus am Mittelstift befestigt?",
           "answers": [
-            "Nur die vordere Befestigungsöffnung an der Schuhspitze, damit sich die Ferse leicht bewegen kann",
-            "Nur die hintere Befestigungsöffnung an der Ferse",
+            "Nur die vordere Befestigungsöffnung vorne an der Bindung, damit sich die Ferse leicht bewegen kann",
+            "Nur die hintere Befestigungsöffnung hinten an der Bindung",
             "Beide Befestigungsöffnungen"
           ],
           "correct": 0,

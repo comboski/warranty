@@ -5,7 +5,7 @@
       "title": "Rakiety śnieżne czy mini narty?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Tutaj pokazujemy zmianę trybu rakiet śnieżnych do podchodzenia na tryb mininart do zjazdu. Wiązanie ma otwory montażowe w kształcie dziurki od klucza. W obu trybach przedni otwór jest przy czubku buta, a tylny przy pięcie.",
+      "intro": "Tutaj pokazujemy zmianę trybu rakiet śnieżnych do podchodzenia na tryb mininart do zjazdu. Wiązanie ma otwory montażowe w kształcie dziurki od klucza. W obu trybach przedni otwór jest z przodu wiązania, a tylny z tyłu wiązania.",
       "points": [
         {
           "text": "W trybie rakiet śnieżnych strona z metalowym obrzeżem i metalowymi kolcami jest zawsze skierowana do przodu. Plastikowa końcówka nigdy nie może znajdować się z przodu.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "W trybie rakiet śnieżnych załóż przedni otwór montażowy w kształcie dziurki od klucza, przy czubku buta, na środkowy sworzeń po obu stronach. Przedni sworzeń pozostaje wolny, dzięki czemu pięta może się lekko poruszać.",
+          "text": "W trybie rakiet śnieżnych załóż przedni otwór montażowy w kształcie dziurki od klucza, z przodu wiązania, na środkowy sworzeń po obu stronach. Przedni sworzeń pozostaje wolny, dzięki czemu pięta może się lekko poruszać.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Najpierw załóż tylny otwór montażowy przy pięcie.",
+          "text": "Najpierw załóż tylny otwór montażowy z tyłu wiązania.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Następnie załóż przedni otwór z przyciskiem zwalniającym, przy czubku buta.",
+          "text": "Następnie załóż przedni otwór z przyciskiem zwalniającym, z przodu wiązania.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Co jest zabezpieczone na środkowym sworzniu w trybie rakiety śnieżnej?",
           "answers": [
-            "Tylko przedni otwór przy czubku buta, aby pięta mogła się lekko poruszać",
-            "Tylko tylny otwór przy pięcie",
+            "Tylko przedni otwór z przodu wiązania, aby pięta mogła się lekko poruszać",
+            "Tylko tylny otwór z tyłu wiązania",
             "Oba otwory montażowe"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Załóż przedni otwór w kształcie dziurki od klucza, przy czubku buta, na środkowy sworzeń po obu stronach.",
+          "text": "Załóż przedni otwór w kształcie dziurki od klucza, z przodu wiązania, na środkowy sworzeń po obu stronach.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Co jest zabezpieczone na środkowym sworzniu w trybie rakiety śnieżnej?",
           "answers": [
-            "Tylko przedni otwór przy czubku buta, aby pięta mogła się lekko poruszać",
-            "Tylko tylny otwór przy pięcie",
+            "Tylko przedni otwór z przodu wiązania, aby pięta mogła się lekko poruszać",
+            "Tylko tylny otwór z tyłu wiązania",
             "Oba otwory montażowe"
           ],
           "correct": 0,

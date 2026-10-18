@@ -5,7 +5,7 @@
       "title": "Raquettes ou mini-skis ?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Cette partie explique le passage du mode raquettes pour monter au mode mini-skis pour descendre. La fixation comporte des ouvertures en forme de trou de serrure. Dans les deux modes, l’ouverture avant est du côté de la pointe de la chaussure et l’ouverture arrière du côté du talon.",
+      "intro": "Cette partie explique le passage du mode raquettes pour monter au mode mini-skis pour descendre. La fixation comporte des ouvertures en forme de trou de serrure. Dans les deux modes, l’ouverture avant est à l’avant de la fixation et l’ouverture arrière à l’arrière de la fixation.",
       "points": [
         {
           "text": "En mode raquettes, le côté avec le bord en métal et les pointes en métal pointe toujours vers l'avant. L'embout en plastique ne doit jamais être à l'avant.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "En mode raquettes, fixez l’ouverture avant en forme de trou de serrure, près de la pointe de la chaussure, sur l’ergot central de chaque côté. L’ergot avant reste libre pour que le talon puisse bouger légèrement.",
+          "text": "En mode raquettes, fixez l’ouverture avant en forme de trou de serrure, à l’avant de la fixation, sur l’ergot central de chaque côté. L’ergot avant reste libre pour que le talon puisse bouger légèrement.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Fixez d’abord l’ouverture arrière, près du talon.",
+          "text": "Fixez d’abord l’ouverture arrière, à l’arrière de la fixation.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Fixez ensuite l’ouverture avant avec le bouton de déverrouillage, près de la pointe de la chaussure.",
+          "text": "Fixez ensuite l’ouverture avant avec le bouton de déverrouillage, à l’avant de la fixation.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Qu'est-ce qui est sécurisé sur l'axe central en mode raquette ?",
           "answers": [
-            "Uniquement l’ouverture avant, près de la pointe de la chaussure, pour que le talon puisse bouger légèrement",
-            "Uniquement l’ouverture arrière, près du talon",
+            "Uniquement l’ouverture avant, à l’avant de la fixation, pour que le talon puisse bouger légèrement",
+            "Uniquement l’ouverture arrière, à l’arrière de la fixation",
             "Les deux ouvertures de fixation"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Fixez l’ouverture avant en forme de trou de serrure, près de la pointe de la chaussure, sur l’ergot central de chaque côté.",
+          "text": "Fixez l’ouverture avant en forme de trou de serrure, à l’avant de la fixation, sur l’ergot central de chaque côté.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Qu'est-ce qui est sécurisé sur l'axe central en mode raquette ?",
           "answers": [
-            "Uniquement l’ouverture avant, près de la pointe de la chaussure, pour que le talon puisse bouger légèrement",
-            "Uniquement l’ouverture arrière, près du talon",
+            "Uniquement l’ouverture avant, à l’avant de la fixation, pour que le talon puisse bouger légèrement",
+            "Uniquement l’ouverture arrière, à l’arrière de la fixation",
             "Les deux ouvertures de fixation"
           ],
           "correct": 0,

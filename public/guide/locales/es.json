@@ -5,7 +5,7 @@
       "title": "¿Raquetas de nieve o miniesquís?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Aquí verás cómo pasar del modo raquetas de nieve para subir al modo miniesquís para bajar. La fijación tiene ranuras con forma de ojo de cerradura. En ambos modos, la ranura delantera está junto a la puntera de la bota y la trasera junto al talón.",
+      "intro": "Aquí verás cómo pasar del modo raquetas de nieve para subir al modo miniesquís para bajar. La fijación tiene ranuras con forma de ojo de cerradura. En ambos modos, la ranura delantera está en la parte delantera de la fijación y la trasera en la parte trasera de la fijación.",
       "points": [
         {
           "text": "En el modo raquetas de nieve, el lado con el borde metálico y los clavos metálicos siempre apunta hacia adelante. La punta de plástico nunca debe quedar hacia delante.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "En modo raquetas de nieve, fija la ranura delantera con forma de ojo de cerradura, junto a la puntera de la bota, al pasador central de ambos lados. El pasador delantero queda libre para que el talón pueda moverse ligeramente.",
+          "text": "En modo raquetas de nieve, fija la ranura delantera con forma de ojo de cerradura, en la parte delantera de la fijación, al pasador central de ambos lados. El pasador delantero queda libre para que el talón pueda moverse ligeramente.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Fija primero la ranura trasera, junto al talón.",
+          "text": "Fija primero la ranura trasera, en la parte trasera de la fijación.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Después fija la ranura delantera con el botón de desbloqueo, junto a la puntera de la bota.",
+          "text": "Después fija la ranura delantera con el botón de desbloqueo, en la parte delantera de la fijación.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "¿Qué se fija en el pasador central en modo raquetas de nieve?",
           "answers": [
-            "Solo la ranura delantera, junto a la puntera de la bota, para que el talón pueda moverse ligeramente",
-            "Solo la ranura trasera, junto al talón",
+            "Solo la ranura delantera, en la parte delantera de la fijación, para que el talón pueda moverse ligeramente",
+            "Solo la ranura trasera, en la parte trasera de la fijación",
             "Las dos ranuras de fijación"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Fija la ranura delantera con forma de ojo de cerradura, junto a la puntera de la bota, al pasador central de ambos lados.",
+          "text": "Fija la ranura delantera con forma de ojo de cerradura, en la parte delantera de la fijación, al pasador central de ambos lados.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "¿Qué se fija en el pasador central en modo raquetas de nieve?",
           "answers": [
-            "Solo la ranura delantera, junto a la puntera de la bota, para que el talón pueda moverse ligeramente",
-            "Solo la ranura trasera, junto al talón",
+            "Solo la ranura delantera, en la parte delantera de la fijación, para que el talón pueda moverse ligeramente",
+            "Solo la ranura trasera, en la parte trasera de la fijación",
             "Las dos ranuras de fijación"
           ],
           "correct": 0,

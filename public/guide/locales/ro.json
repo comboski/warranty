@@ -5,7 +5,7 @@
       "title": "Rachete de zăpadă sau mini-schiuri?",
       "duration": "0:00–0:56:21",
       "visual": "video-snowshoe",
-      "intro": "Aici vezi trecerea de la modul rachete de zăpadă pentru urcare la modul mini-schiuri pentru coborâre. Legătura are fante de fixare în formă de gaură de cheie. În ambele moduri, fanta din față este lângă vârful bocancului, iar cea din spate lângă călcâi.",
+      "intro": "Aici vezi trecerea de la modul rachete de zăpadă pentru urcare la modul mini-schiuri pentru coborâre. Legătura are fante de fixare în formă de gaură de cheie. În ambele moduri, fanta din față este în partea din față a legăturii, iar cea din spate în partea din spate a legăturii.",
       "points": [
         {
           "text": "În modul cu rachete de zăpadă, partea cu margine metalică și vârfuri metalice este întotdeauna îndreptată înainte. Vârful din plastic nu trebuie să fie niciodată în față.",
@@ -16,7 +16,7 @@
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
-          "text": "În modul rachete de zăpadă, fixează fanta din față, în formă de gaură de cheie, de lângă vârful bocancului, pe știftul din mijloc de pe ambele părți. Știftul din față rămâne liber, astfel încât călcâiul se poate mișca ușor.",
+          "text": "În modul rachete de zăpadă, fixează fanta din față, în formă de gaură de cheie, din partea din față a legăturii, pe știftul din mijloc de pe ambele părți. Știftul din față rămâne liber, astfel încât călcâiul se poate mișca ușor.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -24,11 +24,11 @@
           "image": "supplied-diagram mini-ski-secured"
         },
         {
-          "text": "Fixează mai întâi fanta din spate, de lângă călcâi.",
+          "text": "Fixează mai întâi fanta din spate, din partea din spate a legăturii.",
           "image": "supplied-diagram mini-ski-step-one"
         },
         {
-          "text": "Apoi fixează fanta din față cu butonul de eliberare, de lângă vârful bocancului.",
+          "text": "Apoi fixează fanta din față cu butonul de eliberare, din partea din față a legăturii.",
           "image": "supplied-diagram mini-ski-step-two"
         }
       ],
@@ -46,8 +46,8 @@
         {
           "question": "Ce este asigurat pe știftul din mijloc în modul cu rachete de zăpadă?",
           "answers": [
-            "Doar fanta din față, de lângă vârful bocancului, astfel încât călcâiul se poate mișca ușor",
-            "Doar fanta din spate, de lângă călcâi",
+            "Doar fanta din față, din partea din față a legăturii, astfel încât călcâiul se poate mișca ușor",
+            "Doar fanta din spate, din partea din spate a legăturii",
             "Ambele fante de fixare"
           ],
           "correct": 0,
@@ -252,7 +252,7 @@
           "image": "supplied-diagram snowshoe-base"
         },
         {
-          "text": "Fixează fanta din față, în formă de gaură de cheie, de lângă vârful bocancului, pe știftul din mijloc de pe ambele părți.",
+          "text": "Fixează fanta din față, în formă de gaură de cheie, din partea din față a legăturii, pe știftul din mijloc de pe ambele părți.",
           "image": "supplied-diagram snowshoe-pin"
         },
         {
@@ -302,8 +302,8 @@
         {
           "question": "Ce este asigurat pe știftul din mijloc în modul cu rachete de zăpadă?",
           "answers": [
-            "Doar fanta din față, de lângă vârful bocancului, astfel încât călcâiul se poate mișca ușor",
-            "Doar fanta din spate, de lângă călcâi",
+            "Doar fanta din față, din partea din față a legăturii, astfel încât călcâiul se poate mișca ușor",
+            "Doar fanta din spate, din partea din spate a legăturii",
             "Ambele fante de fixare"
           ],
           "correct": 0,
