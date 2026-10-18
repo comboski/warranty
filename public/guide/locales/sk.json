@@ -8,11 +8,11 @@
       "intro": "Ukážeme si prepnutie z režimu snežnice na chôdzu do kopca do režimu minilyže na jazdu dolu. Upevňovacie otvory vo viazaní majú tvar kľúčovej dierky. Predný otvor je pri špičke topánky a zadný pri päte – v oboch režimoch.",
       "points": [
         {
-          "text": "V režime snežnice strana s kovovým lemom a kovovými hrotmi vždy smeruje dopredu. Plastový hrot nesmie byť nikdy vpredu.",
+          "text": "V režime snežnice strana s kovovým lemom a kovovými hrotmi vždy smeruje dopredu. Plastová špička Combo Ski nesmie byť nikdy vpredu.",
           "image": "supplied-diagram snowshoe-correct"
         },
         {
-          "text": "Toto je nesprávne: plastový hrot nesmie smerovať dopredu v režime snežnice.",
+          "text": "Toto je nesprávne: plastová špička Combo Ski nesmie smerovať dopredu v režime snežnice.",
           "image": "supplied-diagram snowshoe-wrong"
         },
         {
@@ -36,7 +36,7 @@
         {
           "question": "Ktorá strana smeruje dopredu v režime snežnice?",
           "answers": [
-            "Strana s plastovým hrotom",
+            "Strana s plastovou špičkou Combo Ski",
             "Strana s kovovým lemom a hrotmi",
             "Na smere nezáleží"
           ],
@@ -297,7 +297,7 @@
             "Mimo stredovú líniu Combo Ski"
           ],
           "correct": 0,
-          "hint": "Zarovnajte špičku topánky so špičkou kombinovanej lyže."
+          "hint": "Zarovnajte špičku topánky so špičkou Combo Ski."
         },
         {
           "question": "Čo je zaistené na strednom kolíku v režime snežnice?",
